@@ -1,0 +1,3 @@
+Flask>=3.0,<4
+pytest>=8,<10
+# gunicorn se usa en Linux/Render; no hace falta para ejecutar en Windows local

@@ -1,0 +1,20 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.env
+.env.*
+!.env.example
+.ipynb_checkpoints/
+*.log
+# Los datos originales y procesados no se suben al repositorio
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+# Modelos entrenados/pesados: almacenamiento compartido fuera de Git
+models/*
+!models/.gitkeep
+# Temporales
+.DS_Store
+Thumbs.db
