@@ -1,0 +1,44 @@
+{
+  "linkedin_job_postings.csv": {
+    "filas_totales": 1348454,
+    "job_link_unicos": 1348454,
+    "job_link_duplicados": 0,
+    "nulos_por_columna": {
+      "job_link": 0,
+      "last_processed_time": 0,
+      "got_summary": 0,
+      "got_ner": 0,
+      "is_being_worked": 0,
+      "job_title": 0,
+      "company": 11,
+      "job_location": 19,
+      "first_seen": 0,
+      "search_city": 0,
+      "search_country": 0,
+      "search_position": 0,
+      "job_level": 0,
+      "job_type": 0
+    },
+    "segundos_de_lectura": 6.6
+  },
+  "job_skills.csv": {
+    "filas_totales": 1296381,
+    "job_link_unicos": 1296381,
+    "job_link_duplicados": 0,
+    "nulos_por_columna": {
+      "job_link": 0,
+      "job_skills": 2085
+    },
+    "segundos_de_lectura": 7.3
+  },
+  "job_summary.csv": {
+    "filas_totales": 1297332,
+    "job_link_unicos": 1297332,
+    "job_link_duplicados": 0,
+    "nulos_por_columna": {
+      "job_link": 0,
+      "job_summary": 0
+    },
+    "segundos_de_lectura": 44.3
+  }
+}
