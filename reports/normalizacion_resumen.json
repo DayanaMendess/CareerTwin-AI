@@ -2,12 +2,12 @@
   "ofertas_con_habilidades": 1294296,
   "ofertas_sin_habilidades": 2085,
   "habilidades_distintas_originales": 3301428,
-  "habilidades_distintas_normalizadas": 2755949,
+  "habilidades_distintas_normalizadas": 2755946,
   "reduccion_porcentaje": 16.5,
   "habilidades_con_parentesis_desbalanceados": 224,
   "en_1_sola_oferta": 1939938,
-  "en_100_o_mas_ofertas": 21333,
-  "en_1000_o_mas_ofertas": 2580,
+  "en_100_o_mas_ofertas": 21330,
+  "en_1000_o_mas_ofertas": 2577,
   "verificacion_terminos_tecnicos": {
     "c++": 6634,
     "c#": 4707,
@@ -38,6 +38,7 @@
     "excel": 72150,
     "inventory management": 71622,
     "high school diploma": 67316,
+    "budgeting": 65458,
     "scheduling": 63873,
     "decision making": 63554,
     "bachelor's degree": 63527,
@@ -46,8 +47,7 @@
     "adaptability": 58699,
     "critical thinking": 57425,
     "flexibility": 56632,
-    "documentation": 51540,
-    "written communication": 47349
+    "documentation": 51540
   },
-  "minutos": 3.8
+  "minutos": 4.5
 }

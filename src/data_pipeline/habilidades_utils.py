@@ -52,6 +52,9 @@ SINONIMOS = {
     "team work": "teamwork",
     "health care": "healthcare",
     # Herramientas
+    "word": "microsoft word",
+    "ms word": "microsoft word",
+    "budget management": "budgeting",
     "python programming": "python",
     "python scripting": "python",
     "python3": "python",
