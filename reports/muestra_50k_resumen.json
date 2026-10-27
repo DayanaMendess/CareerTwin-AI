@@ -1,0 +1,37 @@
+{
+  "semilla": 42,
+  "universo": {
+    "ofertas_con_las_3_tablas_y_skills": 1294296,
+    "descartadas_menos_de_50_palabras": 3649,
+    "ofertas_tras_filtros": 1290647,
+    "duplicados_exactos": 341251,
+    "duplicados_finos": 356087,
+    "duplicados_solo_por_formato": 14836,
+    "textos_unicos": 934560,
+    "grupos_con_texto_repetido": 93706,
+    "grupos_repetidos_con_habilidades_distintas": 93565
+  },
+  "muestra": {
+    "filas": 50000,
+    "textos_unicos": 50000,
+    "con_[EMAIL]": 6239,
+    "con_[URL]": 7446,
+    "terminos_tecnicos_antes_y_despues": [
+      1868,
+      1548
+    ],
+    "con_al_menos_1_habilidad_piloto": 41803,
+    "habilidades_piloto_por_oferta_promedio": 4.1,
+    "job_level": {
+      "Mid senior": 44530,
+      "Associate": 5470
+    },
+    "paises": {
+      "United States": 41372,
+      "United Kingdom": 4957,
+      "Canada": 2319,
+      "Australia": 1352
+    }
+  },
+  "minutos": 23.6
+}

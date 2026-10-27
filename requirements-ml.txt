@@ -4,3 +4,4 @@ scikit-learn>=1.5,<2
 numpy>=1.26,<3
 matplotlib>=3.8,<4
 # TensorFlow / PyTorch: escoger uno y fijar versión compatible con Colab antes de entrenar.
+pyarrow>=15,<27
