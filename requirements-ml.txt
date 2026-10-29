@@ -8,3 +8,4 @@ matplotlib>=3.8,<4
 tensorflow==2.19.1
 sentence-transformers
 psutil
+pyarrow>=15,<27
