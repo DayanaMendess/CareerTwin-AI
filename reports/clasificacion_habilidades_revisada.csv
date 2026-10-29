@@ -1,0 +1,301 @@
+﻿posicion,habilidad,ofertas,porcentaje_ofertas,categoria_sugerida,categoria_final,nota,variantes_ejemplo
+1,communication,556928,43.029,blanda,blanda,,Communication | Communication skills | Communication Skills | communication
+2,problem solving,315983,24.414,blanda,blanda,,Problem Solving | Problemsolving | Problem solving | ProblemSolving
+3,customer service,290420,22.438,tecnica,tecnica,Se deja tecnica: funcion concreta con practicas propias,Customer service | Customer Service | Customer service skills | Customer Service Skills
+4,teamwork,252080,19.476,blanda,blanda,,Teamwork | Team work | Teamwork skills | Team Work
+5,leadership,205375,15.868,blanda,blanda,,Leadership | Leadership skills | Leadership Skills | leadership
+6,time management,154460,11.934,blanda,blanda,,Time management | Time Management | Time management skills | Time Management Skills
+7,microsoft office,146942,11.353,tecnica,tecnica,,Microsoft Office Suite | Microsoft Office | MS Office | Microsoft Office suite
+8,attention to detail,132826,10.262,blanda,blanda,,Attention to detail | Attention to Detail | attention to detail | Attention To Detail
+9,project management,122373,9.455,tecnica,tecnica,,Project Management | Project management | Project management skills | Project Management Skills
+10,interpersonal skills,99987,7.725,blanda,blanda,,Interpersonal skills | Interpersonal Skills | interpersonal skills | * Interpersonal skills
+11,patient care,99461,7.685,tecnica,tecnica,,Patient Care | Patient care | patient care | * Patient care
+12,sales,97888,7.563,tecnica,tecnica,,Sales | Sales skills | Sales Skills | sales
+13,collaboration,89762,6.935,blanda,blanda,,Collaboration | Collaboration skills | Collaboration Skills | collaboration
+14,nursing,87835,6.786,tecnica,tecnica,,Nursing | nursing | * Nursing | Nursing:
+15,training,82771,6.395,tecnica,tecnica,,Training | training | * Training | TRAINING
+16,data analysis,80936,6.253,tecnica,tecnica,,Data Analysis | Data analysis | data analysis | * Data Analysis
+17,organizational skills,80553,6.224,blanda,blanda,,Organizational skills | Organizational Skills | Organization skills | Organization Skills
+18,excel,72150,5.574,tecnica,tecnica,,Excel | Microsoft Excel | MS Excel | EXCEL
+19,inventory management,71622,5.534,tecnica,tecnica,,Inventory management | Inventory Management | inventory management | * Inventory management
+20,high school diploma,67316,5.201,requisito,requisito,,High school diploma | High School Diploma | High School diploma | high school diploma
+21,scheduling,63873,4.935,tecnica,tecnica,,Scheduling | scheduling | * Scheduling | Scheduling.
+22,decision making,63554,4.91,blanda,blanda,,Decision Making | Decisionmaking | Decision making | DecisionMaking
+23,bachelor's degree,63527,4.908,requisito,requisito,,Bachelor's Degree | Bachelor's degree | bachelor's degree | * Bachelor's Degree
+24,multitasking,61777,4.773,blanda,blanda,,Multitasking | MultiTasking | multitasking | * Multitasking
+25,analytical skills,60214,4.652,blanda,blanda,,Analytical Skills | Analytical skills | analytical skills | * Analytical Skills
+26,adaptability,58699,4.535,blanda,blanda,,Adaptability | adaptability | * Adaptability | Adaptability.
+27,critical thinking,57425,4.437,blanda,blanda,,Critical Thinking | Critical thinking | Critical thinking skills | Critical Thinking Skills
+28,flexibility,56632,4.376,blanda,blanda,,Flexibility | flexibility | * Flexibility | * flexibility
+29,documentation,51540,3.982,tecnica,tecnica,,Documentation | documentation | * Documentation | DOCUMENTATION
+30,written communication,47349,3.658,blanda,blanda,,Written Communication | Written communication | Written communication skills | Written Communication Skills
+31,organization,46894,3.623,tecnica,blanda,Cualidad personal; sirve en cualquier trabajo,Organization | organization | * Organization | Organization.
+32,safety,45574,3.521,tecnica,tecnica,,Safety | safety | * Safety | SAFETY
+33,budgeting,44761,3.458,tecnica,tecnica,,Budgeting | budgeting | * Budgeting | Budgeting.
+34,troubleshooting,43491,3.36,tecnica,tecnica,,Troubleshooting | troubleshooting | * Troubleshooting | TroubleShooting
+35,verbal communication,41991,3.244,blanda,blanda,,Verbal communication | Verbal Communication | Verbal communication skills | Verbal Communication Skills
+36,conflict resolution,40072,3.096,blanda,blanda,,Conflict Resolution | Conflict resolution | conflict resolution | * Conflict resolution
+37,negotiation,39634,3.062,blanda,blanda,,Negotiation | Negotiation skills | Negotiation Skills | negotiation
+38,supervision,38806,2.998,tecnica,tecnica,,Supervision | supervision | * Supervision | SUPERVISION
+39,computer skills,38487,2.974,tecnica,tecnica,,Computer skills | Computer Skills | Computer | computer skills
+40,coaching,38125,2.946,tecnica,blanda,Habilidad interpersonal,Coaching | coaching | * Coaching | Coaching.
+41,research,37719,2.914,tecnica,tecnica,,Research | Research skills | Research Skills | research
+42,quality control,37716,2.914,tecnica,tecnica,,Quality Control | Quality control | quality control | * Quality Control
+43,presentation skills,37454,2.894,tecnica,blanda,Habilidad interpersonal,Presentation Skills | Presentation skills | Presentation | presentation skills
+44,merchandising,37364,2.887,tecnica,tecnica,,Merchandising | merchandising | * Merchandising | * merchandising
+45,paid time off,37235,2.877,descartar,descartar,,Paid Time Off | Paid time off | paid time off | Paid Time off
+46,life insurance,36586,2.827,descartar,descartar,,Life Insurance | Life insurance | life insurance | * Life Insurance
+47,reporting,36248,2.801,tecnica,tecnica,,Reporting | reporting | * Reporting | REPORTING
+48,quality assurance,36149,2.793,tecnica,tecnica,,Quality Assurance | Quality assurance | quality assurance | * Quality Assurance
+49,team management,34952,2.7,tecnica,tecnica,,Team Management | Team management | team management | * Team Management
+50,travel,34930,2.699,tecnica,descartar,"Requisito fisico o condicion del puesto, no habilidad",Travel | travel | * Travel | TRAVEL
+51,accounting,34375,2.656,tecnica,tecnica,,Accounting | accounting | * Accounting | ACCOUNTING
+52,healthcare,33877,2.617,tecnica,tecnica,,Healthcare | Health Care | Health care | healthcare
+53,lifting,33472,2.586,tecnica,descartar,"Requisito fisico o condicion del puesto, no habilidad",Lifting | lifting | * Lifting | * lifting
+54,registered nurse,33280,2.571,tecnica,requisito,"Cargo o licencia profesional, no habilidad",Registered Nurse | Registered nurse | registered nurse | * Registered Nurse
+55,management,33006,2.55,tecnica,tecnica,,Management | Management skills | Management Skills | management
+56,team leadership,32998,2.549,blanda,blanda,,Team Leadership | Team leadership | team leadership | * Team Leadership
+57,driver's license,32173,2.486,requisito,requisito,,Driver's License | Driver's license | driver's license | * Driver's license
+58,dental insurance,31840,2.46,descartar,descartar,,Dental Insurance | Dental insurance | dental insurance | * Dental insurance
+59,food safety,31743,2.453,tecnica,tecnica,,Food Safety | Food safety | food safety | * Food Safety
+60,cash handling,31671,2.447,tecnica,tecnica,,Cash handling | Cash Handling | cash handling | * Cash handling
+61,planning,30565,2.362,tecnica,blanda,Cualidad personal; sirve en cualquier trabajo,Planning | planning | * Planning | * Planning.
+62,risk management,30230,2.336,tecnica,tecnica,,Risk Management | Risk management | risk management | * Risk Management
+63,mentoring,30133,2.328,tecnica,blanda,Habilidad interpersonal,Mentoring | mentoring | * Mentoring | Mentoring.
+64,marketing,29323,2.266,tecnica,tecnica,,Marketing | marketing | * Marketing | MARKETING
+65,health insurance,28695,2.217,descartar,descartar,,Health Insurance | Health insurance | health insurance | * Health Insurance
+66,supervisory experience,28510,2.203,tecnica,requisito,Experiencia exigida,Supervisory experience | Supervisory Experience | supervisory experience | * Supervisory experience
+67,engineering,28287,2.186,tecnica,tecnica,,Engineering | engineering | * Engineering | Engineering.
+68,vision insurance,28252,2.183,descartar,descartar,,Vision Insurance | Vision insurance | vision insurance | * Vision Insurance
+69,compliance,28084,2.17,tecnica,tecnica,,Compliance | compliance | * Compliance | Compliance.
+70,bls,27993,2.163,requisito,requisito,,BLS | * BLS | BLs | bls
+71,valid driver's license,27699,2.14,requisito,requisito,,Valid driver's license | Valid Driver's License | Valid Driver's license | valid driver's license
+72,retail experience,27188,2.101,tecnica,requisito,Experiencia exigida,Retail experience | Retail Experience | retail experience | * Retail experience
+73,equal opportunity employer,27091,2.093,tecnica,descartar,"Texto institucional del empleador, no habilidad",Equal Opportunity Employer | Equal opportunity employer | Equal Opportunity employer | equal opportunity employer
+74,patient education,26469,2.045,tecnica,tecnica,,Patient Education | Patient education | patient education | * Patient Education
+75,confidentiality,26419,2.041,tecnica,blanda,Cualidad personal; sirve en cualquier trabajo,Confidentiality | confidentiality | * Confidentiality | Confidentiality.
+76,prioritization,26308,2.033,blanda,blanda,,Prioritization | prioritization | * Prioritization | * Prioritization.
+77,python,25533,1.973,tecnica,tecnica,,Python | Python scripting | Python Programming | Python programming
+78,professionalism,25292,1.954,blanda,blanda,,Professionalism | professionalism | * Professionalism | Professionalism.
+79,business development,25108,1.94,tecnica,tecnica,,Business Development | Business development | business development | * Business Development
+80,data entry,24792,1.915,tecnica,tecnica,,Data entry | Data Entry | data entry | * Data Entry
+81,cpr,24330,1.88,requisito,requisito,,CPR | * CPR | CPR. | cpr
+82,fastpaced environment,24171,1.868,tecnica,descartar,"Requisito fisico o condicion del puesto, no habilidad",Fastpaced environment | FastPaced Environment | Fastpaced Environment | fastpaced environment
+83,high school diploma or equivalent,23889,1.846,requisito,requisito,,High school diploma or equivalent | High School Diploma or Equivalent | High School Diploma or equivalent | High School diploma or equivalent
+84,acls,23682,1.83,requisito,requisito,,ACLS | ACLs | * ACLS | ACls
+85,professional development,23443,1.811,tecnica,descartar,"Beneficio laboral, no habilidad",Professional Development | Professional development | professional development | * Professional Development
+86,education,23412,1.809,tecnica,requisito,Requisito formal de contratacion,Education | education | Education: | * Education
+87,motivation,23128,1.787,tecnica,blanda,Cualidad personal; sirve en cualquier trabajo,Motivation | motivation | * Motivation | Motivation.
+88,high school diploma or ged,23072,1.783,requisito,requisito,,High school diploma or GED | High School Diploma or GED | High School diploma or GED | high school diploma or GED
+89,initiative,22575,1.744,blanda,blanda,,Initiative | initiative | * Initiative | Initiative.
+90,retail,22067,1.705,tecnica,tecnica,,Retail | retail | * Retail | RETAIL
+91,bls certification,21930,1.694,requisito,requisito,,BLS certification | BLS Certification | BLS CERTIFICATION | * BLS certification
+92,physical stamina,21915,1.693,tecnica,descartar,"Requisito fisico o condicion del puesto, no habilidad",Physical stamina | Physical Stamina | physical stamina | * Physical stamina
+93,sql,21711,1.677,tecnica,tecnica,,SQL | * SQL | sql | SQl
+94,relationship building,21623,1.671,tecnica,blanda,Habilidad interpersonal,Relationship Building | Relationship building | relationship building | * Relationship building
+95,budget management,21507,1.662,tecnica,tecnica,Posible sinonimo de budgeting,Budget Management | Budget management | budget management | * Budget Management
+96,diversity,21503,1.661,tecnica,descartar,"Texto institucional del empleador, no habilidad",Diversity | diversity | * Diversity | DIVERSITY
+97,product knowledge,21288,1.645,tecnica,tecnica,,Product knowledge | Product Knowledge | product knowledge | * Product knowledge
+98,standing,21112,1.631,tecnica,descartar,"Requisito fisico o condicion del puesto, no habilidad",Standing | standing | * Standing | STANDING
+99,case management,20866,1.612,tecnica,tecnica,,Case Management | Case management | case management | * Case Management
+100,performance management,20859,1.612,tecnica,tecnica,,Performance Management | Performance management | performance management | * Performance Management
+101,medication administration,20778,1.605,tecnica,tecnica,,Medication Administration | Medication administration | medication administration | * Medication Administration
+102,microsoft word,20480,1.582,tecnica,tecnica,,Microsoft Word | Microsoft word | * Microsoft Word | Microsoft WORD
+103,teaching,20024,1.547,tecnica,tecnica,,Teaching | teaching | * Teaching | Teaching:
+104,maintenance,19983,1.544,tecnica,tecnica,,Maintenance | maintenance | * Maintenance | MAINTENANCE
+105,food preparation,19707,1.523,tecnica,tecnica,,Food preparation | Food Preparation | food preparation | * Food preparation
+106,physical strength,19507,1.507,tecnica,descartar,"Requisito fisico o condicion del puesto, no habilidad",Physical strength | Physical Strength | physical strength | * Physical strength
+107,hiring,19434,1.502,tecnica,tecnica,,Hiring | hiring | * Hiring | * hiring
+108,team player,19416,1.5,blanda,blanda,,Team player | Team Player | team player | * Team Player
+109,medical,18815,1.454,tecnica,descartar,Probablemente beneficio (seguro dental/visual/medico); ambiguo sin contexto,Medical | MediCal | medical | * Medical
+110,cpr certification,18730,1.447,requisito,requisito,,CPR certification | CPR Certification | * CPR certification | * CPR Certification
+111,vision,18722,1.447,tecnica,descartar,Probablemente beneficio (seguro dental/visual/medico); ambiguo sin contexto,Vision | vision | * Vision | VISION
+112,bending,18669,1.442,tecnica,descartar,"Requisito fisico o condicion del puesto, no habilidad",Bending | bending | * Bending
+113,integrity,18482,1.428,blanda,blanda,,Integrity | integrity | INTEGRITY | * Integrity
+114,ability to work in a fastpaced environment,18049,1.395,tecnica,blanda,Forma de trabajar (no es conocimiento de un oficio),Ability to work in a fastpaced environment | Ability to Work in a FastPaced Environment | Ability to Work in a Fastpaced Environment | ability to work in a fastpaced environment
+115,regulatory compliance,17915,1.384,tecnica,tecnica,,Regulatory Compliance | Regulatory compliance | regulatory compliance | * Regulatory Compliance
+116,flexible schedule,17896,1.383,tecnica,descartar,"Requisito fisico o condicion del puesto, no habilidad",Flexible schedule | Flexible Schedule | flexible schedule | * Flexible Schedule
+117,financial analysis,17872,1.381,tecnica,tecnica,,Financial Analysis | Financial analysis | financial analysis | * Financial Analysis
+118,walking,17660,1.364,tecnica,descartar,"Requisito fisico o condicion del puesto, no habilidad",Walking | walking | * Walking | WALKING
+119,tuition reimbursement,17647,1.363,tecnica,descartar,"Beneficio laboral, no habilidad",Tuition Reimbursement | Tuition reimbursement | tuition reimbursement | * Tuition Reimbursement
+120,finance,17605,1.36,tecnica,tecnica,,Finance | finance | * Finance | FINANCE
+121,autocad,17563,1.357,tecnica,tecnica,,AutoCAD | AutoCad | Autocad | AUTOCAD
+122,continuing education,17386,1.343,tecnica,descartar,"Beneficio laboral, no habilidad",Continuing Education | Continuing education | continuing education | * Continuing education
+123,empathy,17305,1.337,blanda,blanda,,Empathy | empathy | * Empathy | Empathy.
+124,ability to work independently,17289,1.336,tecnica,blanda,Forma de trabajar (no es conocimiento de un oficio),Ability to work independently | Ability to Work Independently | Ability to work Independently | ability to work independently
+125,compassion,17272,1.334,tecnica,blanda,Cualidad personal; sirve en cualquier trabajo,Compassion | compassion | * Compassion | COMPASSION
+126,cleaning,17238,1.332,tecnica,tecnica,,Cleaning | cleaning | * Cleaning | * cleaning
+127,word,17041,1.317,tecnica,tecnica,Posible sinonimo de microsoft word,Word | WORD | * Word | word
+128,networking,16956,1.31,tecnica,blanda,Habilidad interpersonal,Networking | networking | * Networking | Networking.
+129,401k,16860,1.303,descartar,descartar,,401k | 401K | * 401k | * 401K
+130,writing,16738,1.293,tecnica,blanda,Habilidad interpersonal,Writing | Writing skills | Writing Skills | writing
+131,master's degree,16683,1.289,requisito,requisito,,Master's Degree | Master's degree | master's degree | * Master's Degree
+132,electrical engineering,16659,1.287,tecnica,tecnica,,Electrical Engineering | Electrical engineering | electrical engineering | * Electrical Engineering
+133,assessment,16541,1.278,tecnica,tecnica,,Assessment | assessment | * Assessment | ASSESSMENT
+134,innovation,16498,1.275,tecnica,blanda,Cualidad personal; sirve en cualquier trabajo,Innovation | innovation | * Innovation | INNOVATION
+135,paid holidays,16329,1.262,tecnica,descartar,"Beneficio laboral, no habilidad",Paid Holidays | Paid holidays | paid holidays | * Paid holidays
+136,employee assistance program,16300,1.259,tecnica,descartar,"Beneficio laboral, no habilidad",Employee Assistance Program | Employee assistance program | Employee Assistance program | employee assistance program
+137,quality improvement,16298,1.259,tecnica,tecnica,,Quality Improvement | Quality improvement | quality improvement | * Quality improvement
+138,medical terminology,16251,1.256,tecnica,tecnica,,Medical Terminology | Medical terminology | medical terminology | * Medical Terminology
+139,dental,16182,1.25,tecnica,descartar,Probablemente beneficio (seguro dental/visual/medico); ambiguo sin contexto,Dental | dental | * Dental | Dental.
+140,manufacturing,16149,1.248,tecnica,tecnica,,Manufacturing | manufacturing | * Manufacturing
+141,financial reporting,16085,1.243,tecnica,tecnica,,Financial Reporting | Financial reporting | financial reporting | * Financial Reporting
+142,counseling,16045,1.24,tecnica,tecnica,,Counseling | counseling | * Counseling | Counseling.
+143,continuous improvement,16043,1.24,tecnica,tecnica,,Continuous Improvement | Continuous improvement | continuous improvement | * Continuous Improvement
+144,account management,15981,1.235,tecnica,tecnica,,Account Management | Account management | account management | * Account Management
+145,forecasting,15910,1.229,tecnica,tecnica,,Forecasting | forecasting | * Forecasting | FORECASTING
+146,strategic planning,15830,1.223,tecnica,tecnica,,Strategic Planning | Strategic planning | strategic planning | * Strategic Planning
+147,powerpoint,15785,1.22,tecnica,tecnica,,PowerPoint | Powerpoint | * PowerPoint | POWERPOINT
+148,selfmotivation,15769,1.218,tecnica,blanda,Cualidad personal; sirve en cualquier trabajo,Selfmotivation | SelfMotivation | selfmotivation | * Selfmotivation
+149,401(k),15740,1.216,tecnica,descartar,Beneficio laboral (variante de 401k),401(k) | 401(K) | * 401(k) | * 401(K)
+150,inventory control,15706,1.213,tecnica,tecnica,Cercano a inventory management (revisar),Inventory control | Inventory Control | inventory control | * Inventory control
+151,sanitation,15694,1.213,tecnica,tecnica,,Sanitation | sanitation | * Sanitation
+152,civil engineering,15614,1.206,tecnica,tecnica,,Civil Engineering | Civil engineering | civil engineering | * Civil Engineering
+153,change management,15489,1.197,tecnica,tecnica,,Change Management | Change management | change management | * Change Management
+154,detail oriented,15473,1.195,blanda,blanda,,Detailoriented | DetailOriented | Detail oriented | Detail Oriented
+155,process improvement,15327,1.184,tecnica,tecnica,,Process Improvement | Process improvement | process improvement | * Process Improvement
+156,construction management,15280,1.181,tecnica,tecnica,,Construction Management | Construction management | construction management | * Construction Management
+157,mechanical engineering,15271,1.18,tecnica,tecnica,,Mechanical Engineering | Mechanical engineering | mechanical engineering | * Mechanical Engineering
+158,diversity and inclusion,15234,1.177,tecnica,descartar,"Texto institucional del empleador, no habilidad",Diversity and Inclusion | Diversity and inclusion | diversity and inclusion | * Diversity and Inclusion
+159,weekly pay,15207,1.175,tecnica,descartar,"Beneficio laboral, no habilidad",Weekly pay | Weekly Pay | weekly pay | WEEKLY pay
+160,background check,15171,1.172,tecnica,requisito,Requisito formal de contratacion,Background check | Background Check | background check | * Background check
+161,medical benefits,15134,1.169,tecnica,descartar,"Beneficio laboral, no habilidad",Medical benefits | Medical Benefits | medical benefits | * Medical Benefits
+162,team collaboration,15089,1.166,blanda,blanda,Posible sinonimo de collaboration,Team Collaboration | Team collaboration | team collaboration | * Team Collaboration
+163,team building,14959,1.156,tecnica,blanda,Habilidad interpersonal,Team Building | Team building | team building | * Team Building
+164,positive attitude,14846,1.147,blanda,blanda,,Positive attitude | Positive Attitude | positive attitude | * Positive attitude
+165,training and development,14774,1.141,tecnica,tecnica,,Training and Development | Training and development | training and development | * Training and Development
+166,evaluation,14679,1.134,tecnica,tecnica,,Evaluation | evaluation | * Evaluation | EVALUATION
+167,inclusion,14646,1.132,tecnica,descartar,"Texto institucional del empleador, no habilidad",Inclusion | inclusion | * Inclusion | INCLUSION
+168,accuracy,14614,1.129,tecnica,blanda,Cualidad personal; sirve en cualquier trabajo,Accuracy | accuracy | * Accuracy
+169,construction,14489,1.119,tecnica,tecnica,,Construction | construction | * Construction
+170,development,14356,1.109,tecnica,descartar,Demasiado generico para ser habilidad,Development | development | * Development | DEVELOPMENT
+171,infection control,14223,1.099,tecnica,tecnica,,Infection Control | Infection control | infection control | * Infection control
+172,dental benefits,13861,1.071,tecnica,descartar,"Beneficio laboral, no habilidad",Dental benefits | Dental Benefits | dental benefits | * Dental benefits
+173,retail management,13848,1.07,tecnica,tecnica,,Retail management | Retail Management | retail management | * Retail management
+174,sap,13837,1.069,tecnica,tecnica,,SAP | * SAP | Sap | SAP.
+175,java,13756,1.063,tecnica,tecnica,,Java | JAVA | java | * Java
+176,rn,13671,1.056,tecnica,requisito,"Cargo o licencia profesional, no habilidad",RN | * RN
+177,social work,13529,1.045,tecnica,tecnica,,Social Work | Social work | social work | * Social Work
+178,technical writing,13437,1.038,tecnica,tecnica,,Technical Writing | Technical writing | technical writing | * Technical Writing
+179,english,13388,1.034,tecnica,tecnica,,English | * English | ENGLISH | english
+180,rn license,13378,1.034,requisito,requisito,,RN License | RN license | * RN license | RN LICENSE
+181,financial management,13359,1.032,tecnica,tecnica,,Financial Management | Financial management | financial management | * Financial Management
+182,hospitality,13261,1.025,tecnica,tecnica,,Hospitality | hospitality | * Hospitality
+183,ethics,13110,1.013,tecnica,blanda,Cualidad personal; sirve en cualquier trabajo,Ethics | ethics | * Ethics | Ethics.
+184,travel nursing,13008,1.005,tecnica,tecnica,,Travel Nursing | Travel nursing | travel nursing | * Travel Nursing
+185,medical insurance,12793,0.988,tecnica,descartar,"Beneficio laboral, no habilidad",Medical Insurance | Medical insurance | medical insurance | * Medical insurance
+186,report writing,12746,0.985,tecnica,tecnica,,Report Writing | Report writing | report writing | * Report writing
+187,vision benefits,12664,0.978,tecnica,descartar,"Beneficio laboral, no habilidad",Vision benefits | Vision Benefits | vision benefits | * Vision Benefits
+188,outlook,12643,0.977,tecnica,tecnica,,Outlook | * Outlook | OUTLOOK | outlook
+189,security,12593,0.973,tecnica,tecnica,,Security | security | * Security | * security
+190,aws,12547,0.969,tecnica,tecnica,,AWS | * AWS | Aws
+191,ability to work under pressure,12259,0.947,tecnica,blanda,Forma de trabajar (no es conocimiento de un oficio),Ability to work under pressure | Ability to Work Under Pressure | ability to work under pressure | Ability to work under Pressure
+192,delegation,12178,0.941,tecnica,blanda,Habilidad interpersonal,Delegation | delegation | * Delegation | Delegation.
+193,radiology,12048,0.931,tecnica,tecnica,,Radiology | radiology | * Radiology | RADIOLOGY
+194,patient assessment,11938,0.922,tecnica,tecnica,,Patient assessment | Patient Assessment | patient assessment | * Patient assessment
+195,computer science,11899,0.919,tecnica,tecnica,,Computer Science | Computer science | computer science | * Computer Science
+196,risk assessment,11793,0.911,tecnica,tecnica,,Risk Assessment | Risk assessment | risk assessment | * Risk Assessment
+197,human resources,11709,0.905,tecnica,tecnica,,Human Resources | Human resources | human resources | * Human Resources
+198,reaching,11686,0.903,tecnica,descartar,"Requisito fisico o condicion del puesto, no habilidad",Reaching | reaching | * Reaching | * reaching
+199,independent work,11668,0.901,tecnica,blanda,Forma de trabajar (no es conocimiento de un oficio),Independent work | Independent Work | independent work | * Independent work
+200,creativity,11623,0.898,blanda,blanda,,Creativity | creativity | * Creativity
+201,english proficiency,11583,0.895,tecnica,tecnica,,English proficiency | English Proficiency | * English proficiency | English proficiency.
+202,recruitment,11561,0.893,tecnica,tecnica,,Recruitment | recruitment | * Recruitment | * Recruitment.
+203,physical fitness,11491,0.888,tecnica,descartar,"Requisito fisico o condicion del puesto, no habilidad",Physical fitness | Physical Fitness | physical fitness | * Physical Fitness
+204,stooping,11452,0.885,tecnica,descartar,"Requisito fisico o condicion del puesto, no habilidad",Stooping | stooping | * Stooping
+205,agile,11447,0.884,tecnica,tecnica,,Agile | AGILE | * Agile | agile
+206,coordination,11342,0.876,tecnica,blanda,Cualidad personal; sirve en cualquier trabajo,Coordination | coordination | * Coordination | COORDINATION
+207,stress management,11318,0.874,tecnica,blanda,Cualidad personal; sirve en cualquier trabajo,Stress management | Stress Management | stress management | * Stress Management
+208,data collection,11277,0.871,tecnica,tecnica,,Data Collection | Data collection | data collection | * Data collection
+209,mathematical calculations,11249,0.869,tecnica,tecnica,,Mathematical calculations | Mathematical Calculations | mathematical calculations | * Mathematical calculations
+210,first aid,11208,0.866,requisito,requisito,,First Aid | First aid | first aid | First AID
+211,treatment planning,11163,0.862,tecnica,tecnica,,Treatment Planning | Treatment planning | treatment planning | * Treatment planning
+212,equipment maintenance,11140,0.861,tecnica,tecnica,,Equipment maintenance | Equipment Maintenance | equipment maintenance | * Equipment Maintenance
+213,driving,11137,0.86,tecnica,tecnica,Se deja tecnica: es oficio en empleos de conduccion,Driving | driving | * Driving | * driving
+214,computer literacy,11135,0.86,tecnica,tecnica,Posible sinonimo de computer skills,Computer literacy | Computer Literacy | computer literacy | * Computer literacy
+215,disability insurance,10972,0.848,tecnica,descartar,"Beneficio laboral, no habilidad",Disability Insurance | Disability insurance | disability insurance | * Disability insurance
+216,pals,10894,0.842,tecnica,requisito,Certificacion (Pediatric Advanced Life Support),PALS | PALs | * PALS | Pals
+217,oral communication,10861,0.839,blanda,blanda,,Oral communication | Oral Communication | oral communication | * Oral Communication
+218,referral bonus,10777,0.833,tecnica,descartar,"Beneficio laboral, no habilidad",Referral Bonus | Referral bonus | referral bonus | Referral Bonus'
+219,ability to work independently and as part of a team,10769,0.832,tecnica,blanda,Forma de trabajar (no es conocimiento de un oficio),Ability to work independently and as part of a team | Ability to Work Independently and as Part of a Team | ability to work independently and as part of a team | * Ability to work independently and as part of a team
+220,physical demands,10764,0.832,tecnica,descartar,"Requisito fisico o condicion del puesto, no habilidad",Physical demands | Physical Demands | physical demands | Physical demands:
+221,design,10755,0.831,tecnica,tecnica,,Design | design | * Design | Design.
+222,public speaking,10641,0.822,tecnica,blanda,Habilidad interpersonal,Public Speaking | Public speaking | public speaking | * Public Speaking
+223,psychology,10532,0.814,tecnica,tecnica,,Psychology | psychology | * Psychology
+224,math,10470,0.809,tecnica,tecnica,,Math skills | Math | Math Skills | math skills
+225,analytical thinking,10446,0.807,tecnica,blanda,Cualidad personal; sirve en cualquier trabajo,Analytical Thinking | Analytical thinking | analytical thinking | * Analytical Thinking
+226,401(k) plan,10437,0.806,tecnica,descartar,Beneficio laboral (variante de 401k),401(k) Plan | 401(k) plan | 401(K) Plan | 401(K) plan
+227,software development,10371,0.801,tecnica,tecnica,,Software Development | Software development | software development | * Software Development
+228,record keeping,10360,0.8,tecnica,tecnica,,Record Keeping | Record keeping | record keeping | * Record keeping
+229,registered nurse (rn),10218,0.789,tecnica,requisito,"Cargo o licencia profesional, no habilidad",Registered Nurse (RN) | Registered nurse (RN) | * Registered Nurse (RN) | registered nurse (RN)
+230,client relations,10212,0.789,tecnica,tecnica,,Client Relations | Client relations | client relations | * Client Relations
+231,data management,10200,0.788,tecnica,tecnica,,Data Management | Data management | data management | * Data Management
+232,retail operations,10166,0.785,tecnica,tecnica,,Retail operations | Retail Operations | retail operations | * Retail operations
+233,loss prevention,10138,0.783,tecnica,tecnica,,Loss prevention | Loss Prevention | loss prevention | * Loss prevention
+234,customer relationship management,10117,0.782,tecnica,tecnica,,Customer Relationship Management | Customer relationship management | customer relationship management | * Customer relationship management
+235,kneeling,10068,0.778,tecnica,descartar,"Requisito fisico o condicion del puesto, no habilidad",Kneeling | kneeling | * Kneeling
+236,mental health,10053,0.777,tecnica,tecnica,,Mental Health | Mental health | mental health | * Mental Health
+237,remote work,9991,0.772,tecnica,descartar,"Requisito fisico o condicion del puesto, no habilidad",Remote Work | Remote work | remote work | * Remote Work
+238,safety procedures,9947,0.769,tecnica,tecnica,,Safety procedures | Safety Procedures | safety procedures | * Safety procedures
+239,technical skills,9931,0.767,tecnica,descartar,Demasiado generico para ser habilidad,Technical skills | Technical Skills | Technical Skills: | technical skills
+240,testing,9871,0.763,tecnica,tecnica,,Testing | testing | * Testing
+241,basic computer skills,9832,0.76,tecnica,tecnica,Posible sinonimo de computer skills,Basic computer skills | Basic Computer Skills | Basic Computer skills | basic computer skills
+242,climbing,9724,0.751,tecnica,descartar,"Requisito fisico o condicion del puesto, no habilidad",Climbing | climbing | * Climbing | Climbing.
+243,contract management,9706,0.75,tecnica,tecnica,,Contract Management | Contract management | contract management | * Contract Management
+244,interpersonal communication,9700,0.749,blanda,blanda,,Interpersonal communication | Interpersonal Communication | interpersonal communication | * Interpersonal communication
+245,procurement,9679,0.748,tecnica,tecnica,,Procurement | procurement | * Procurement | Procurement.
+246,machine learning,9612,0.743,tecnica,tecnica,,Machine Learning | Machine learning | machine learning | * Machine Learning
+247,payroll,9566,0.739,tecnica,tecnica,,Payroll | payroll | * Payroll | * Payroll.
+248,accountability,9556,0.738,tecnica,blanda,Cualidad personal; sirve en cualquier trabajo,Accountability | accountability | * Accountability | ACCOUNTABILITY
+249,root cause analysis,9523,0.736,tecnica,tecnica,,Root Cause Analysis | Root cause analysis | root cause analysis | Root Cause analysis
+250,business administration,9441,0.729,tecnica,tecnica,,Business Administration | Business administration | business administration | * Business Administration
+251,crm,9407,0.727,tecnica,tecnica,Posible sinonimo de customer relationship management,CRM | * CRM | CRM.
+252,javascript,9372,0.724,tecnica,tecnica,,JavaScript | Javascript | * JavaScript | JAVASCRIPT
+253,pto,9337,0.721,descartar,descartar,,PTO | * PTO | * PTO.
+254,ability to meet deadlines,9323,0.72,tecnica,blanda,Forma de trabajar (no es conocimiento de un oficio),Ability to meet deadlines | Ability to Meet Deadlines | ability to meet deadlines | Ability to meet Deadlines
+255,salesforce,9296,0.718,tecnica,tecnica,,Salesforce | SalesForce | * Salesforce | * Salesforce.
+256,covid19 vaccination,9256,0.715,tecnica,requisito,Requisito formal de contratacion,COVID19 Vaccination | COVID19 vaccination | Covid19 Vaccination | Covid19 vaccination
+257,hipaa,9249,0.715,tecnica,tecnica,,HIPAA | * HIPAA | Hipaa
+258,insurance,9242,0.714,tecnica,descartar,Probablemente beneficio (seguro dental/visual/medico); ambiguo sin contexto,Insurance | insurance | * Insurance
+259,reliable transportation,9209,0.712,tecnica,descartar,"Requisito fisico o condicion del puesto, no habilidad",Reliable transportation | Reliable Transportation | reliable transportation | * Reliable Transportation
+260,implementation,9201,0.711,tecnica,tecnica,,Implementation | implementation | * Implementation
+261,automation,9189,0.71,tecnica,tecnica,,Automation | automation | * Automation
+262,paid vacation,9183,0.709,tecnica,descartar,"Beneficio laboral, no habilidad",Paid vacation | Paid Vacation | paid vacation | * Paid vacation
+263,active listening,9147,0.707,blanda,blanda,,Active listening | Active Listening | active listening | * Active listening
+264,stakeholder management,9132,0.706,tecnica,tecnica,,Stakeholder Management | Stakeholder management | stakeholder management | * Stakeholder Management
+265,supply chain management,9082,0.702,tecnica,tecnica,,Supply Chain Management | Supply chain management | supply chain management | Supply Chain management
+266,cost control,9078,0.701,tecnica,tecnica,,Cost Control | Cost control | cost control | * Cost Control
+267,reliability,9067,0.701,blanda,blanda,,Reliability | reliability | * Reliability
+268,physical requirements,9013,0.696,tecnica,descartar,"Requisito fisico o condicion del puesto, no habilidad",Physical Requirements | Physical requirements | Physical Requirements: | Physical requirements:
+269,restaurant management,8991,0.695,tecnica,tecnica,,Restaurant Management | Restaurant management | restaurant management | * Restaurant Management
+270,internal medicine,8985,0.694,tecnica,tecnica,,Internal Medicine | Internal medicine | internal medicine | * Internal Medicine
+271,business acumen,8938,0.691,tecnica,tecnica,,Business Acumen | Business acumen | business acumen | * Business Acumen
+272,auditing,8933,0.69,tecnica,tecnica,,Auditing | auditing | * Auditing | Auditing.
+273,vendor management,8869,0.685,tecnica,tecnica,,Vendor Management | Vendor management | vendor management | * Vendor Management
+274,crisis intervention,8857,0.684,tecnica,tecnica,,Crisis Intervention | Crisis intervention | crisis intervention | * Crisis intervention
+275,strategic thinking,8847,0.684,tecnica,blanda,Cualidad personal; sirve en cualquier trabajo,Strategic Thinking | Strategic thinking | strategic thinking | * Strategic Thinking
+276,analysis,8830,0.682,tecnica,tecnica,,Analysis | analysis | * Analysis
+277,physician assistant,8772,0.678,tecnica,requisito,"Cargo o licencia profesional, no habilidad",Physician Assistant | Physician assistant | physician assistant | * Physician Assistant
+278,event planning,8674,0.67,tecnica,tecnica,,Event planning | Event Planning | event planning | * Event Planning
+279,retail sales,8670,0.67,tecnica,tecnica,,Retail sales | Retail Sales | retail sales | * Retail sales
+280,operations,8667,0.67,tecnica,tecnica,,Operations | operations | * Operations | Operations.
+281,food handling,8663,0.669,tecnica,tecnica,,Food handling | Food Handling | food handling | * Food handling
+282,basic math,8641,0.668,tecnica,tecnica,,Basic math skills | Basic math | Basic Math Skills | Basic Math
+283,procedures,8632,0.667,tecnica,descartar,Demasiado generico para ser habilidad,Procedures | procedures | * Procedures | PROCEDURES
+284,strong work ethic,8632,0.667,blanda,blanda,,Strong work ethic | Strong Work Ethic | strong work ethic | * Strong work ethic
+285,data analytics,8588,0.664,tecnica,tecnica,Posible sinonimo de data analysis,Data Analytics | Data analytics | data analytics | * Data Analytics
+286,ability to lift heavy objects,8581,0.663,tecnica,descartar,"Requisito fisico o condicion del puesto, no habilidad",Ability to lift heavy objects | Ability to Lift Heavy Objects | ability to lift heavy objects | * Ability to lift heavy objects
+287,client relationship management,8567,0.662,tecnica,tecnica,Posible sinonimo de customer relationship management,Client Relationship Management | Client relationship management | client relationship management | * Client Relationship Management
+288,sales management,8553,0.661,tecnica,tecnica,,Sales Management | Sales management | sales management | * Sales management
+289,patient safety,8531,0.659,tecnica,tecnica,,Patient Safety | Patient safety | patient safety | * Patient safety
+290,recruiting,8519,0.658,tecnica,tecnica,Posible sinonimo de recruitment,Recruiting | recruiting | * Recruiting | Recruiting.
+291,windows,8513,0.658,tecnica,tecnica,,Windows | * Windows | WINDOWS | windows
+292,nurse practitioner,8510,0.658,tecnica,requisito,"Cargo o licencia profesional, no habilidad",Nurse Practitioner | Nurse practitioner | * Nurse Practitioner | nurse practitioner
+293,technology,8465,0.654,tecnica,descartar,Demasiado generico para ser habilidad,Technology | technology | * Technology | * technology
+294,critical care,8455,0.653,tecnica,tecnica,,Critical Care | Critical care | critical care | * Critical Care
+295,physician,8426,0.651,tecnica,requisito,"Cargo o licencia profesional, no habilidad",Physician | physician | * Physician
+296,clinical experience,8385,0.648,tecnica,requisito,Experiencia exigida,Clinical Experience | Clinical experience | clinical experience | * Clinical experience
+297,evidencebased practice,8372,0.647,tecnica,tecnica,,EvidenceBased Practice | Evidencebased practice | Evidencebased Practice | evidencebased practice
+298,benefits,8368,0.647,tecnica,descartar,"Beneficio laboral, no habilidad",Benefits | benefits | Benefits: | * Benefits
+299,discharge planning,8330,0.644,tecnica,tecnica,,Discharge Planning | Discharge planning | discharge planning | * Discharge planning
+300,pediatrics,8303,0.642,tecnica,tecnica,,Pediatrics | pediatrics | * Pediatrics | PEDIATRICS

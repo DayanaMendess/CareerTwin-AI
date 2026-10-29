@@ -1,0 +1,101 @@
+﻿indice,habilidad,categoria_final,nota,ofertas,porcentaje_ofertas
+0,communication,blanda,,556928,43.029
+1,problem solving,blanda,,315983,24.414
+2,customer service,tecnica,Se deja tecnica: funcion concreta con practicas propias,290420,22.438
+3,teamwork,blanda,,252080,19.476
+4,leadership,blanda,,205375,15.868
+5,time management,blanda,,154460,11.934
+6,microsoft office,tecnica,,146942,11.353
+7,attention to detail,blanda,,132826,10.262
+8,project management,tecnica,,122373,9.455
+9,interpersonal skills,blanda,,99987,7.725
+10,patient care,tecnica,,99461,7.685
+11,sales,tecnica,,97888,7.563
+12,collaboration,blanda,,89762,6.935
+13,nursing,tecnica,,87835,6.786
+14,training,tecnica,,82771,6.395
+15,data analysis,tecnica,,80936,6.253
+16,organizational skills,blanda,,80553,6.224
+17,excel,tecnica,,72150,5.574
+18,inventory management,tecnica,,71622,5.534
+19,budgeting,tecnica,,65458,5.057
+20,scheduling,tecnica,,63873,4.935
+21,decision making,blanda,,63554,4.91
+22,multitasking,blanda,,61777,4.773
+23,analytical skills,blanda,,60214,4.652
+24,adaptability,blanda,,58699,4.535
+25,critical thinking,blanda,,57425,4.437
+26,flexibility,blanda,,56632,4.376
+27,documentation,tecnica,,51540,3.982
+28,written communication,blanda,,47349,3.658
+29,organization,blanda,Cualidad personal; sirve en cualquier trabajo,46894,3.623
+30,safety,tecnica,,45574,3.521
+31,troubleshooting,tecnica,,43491,3.36
+32,verbal communication,blanda,,41991,3.244
+33,microsoft word,tecnica,,41952,3.241
+34,conflict resolution,blanda,,40072,3.096
+35,negotiation,blanda,,39634,3.062
+36,supervision,tecnica,,38806,2.998
+37,computer skills,tecnica,,38487,2.974
+38,coaching,blanda,Habilidad interpersonal,38125,2.946
+39,research,tecnica,,37719,2.914
+40,quality control,tecnica,,37716,2.914
+41,presentation skills,blanda,Habilidad interpersonal,37454,2.894
+42,merchandising,tecnica,,37364,2.887
+43,reporting,tecnica,,36248,2.801
+44,quality assurance,tecnica,,36149,2.793
+45,team management,tecnica,,34952,2.7
+46,accounting,tecnica,,34375,2.656
+47,healthcare,tecnica,,33877,2.617
+48,management,tecnica,,33006,2.55
+49,team leadership,blanda,,32998,2.549
+50,food safety,tecnica,,31743,2.453
+51,cash handling,tecnica,,31671,2.447
+52,planning,blanda,Cualidad personal; sirve en cualquier trabajo,30565,2.362
+53,risk management,tecnica,,30230,2.336
+54,mentoring,blanda,Habilidad interpersonal,30133,2.328
+55,marketing,tecnica,,29323,2.266
+56,engineering,tecnica,,28287,2.186
+57,compliance,tecnica,,28084,2.17
+58,patient education,tecnica,,26469,2.045
+59,confidentiality,blanda,Cualidad personal; sirve en cualquier trabajo,26419,2.041
+60,prioritization,blanda,,26308,2.033
+61,python,tecnica,,25533,1.973
+62,professionalism,blanda,,25292,1.954
+63,business development,tecnica,,25108,1.94
+64,data entry,tecnica,,24792,1.915
+65,motivation,blanda,Cualidad personal; sirve en cualquier trabajo,23128,1.787
+66,initiative,blanda,,22575,1.744
+67,retail,tecnica,,22067,1.705
+68,sql,tecnica,,21711,1.677
+69,relationship building,blanda,Habilidad interpersonal,21623,1.671
+70,product knowledge,tecnica,,21288,1.645
+71,case management,tecnica,,20866,1.612
+72,performance management,tecnica,,20859,1.612
+73,medication administration,tecnica,,20778,1.605
+74,teaching,tecnica,,20024,1.547
+75,maintenance,tecnica,,19983,1.544
+76,food preparation,tecnica,,19707,1.523
+77,hiring,tecnica,,19434,1.502
+78,team player,blanda,,19416,1.5
+79,integrity,blanda,,18482,1.428
+80,ability to work in a fastpaced environment,blanda,Forma de trabajar (no es conocimiento de un oficio),18049,1.395
+81,regulatory compliance,tecnica,,17915,1.384
+82,financial analysis,tecnica,,17872,1.381
+83,finance,tecnica,,17605,1.36
+84,autocad,tecnica,,17563,1.357
+85,empathy,blanda,,17305,1.337
+86,ability to work independently,blanda,Forma de trabajar (no es conocimiento de un oficio),17289,1.336
+87,compassion,blanda,Cualidad personal; sirve en cualquier trabajo,17272,1.334
+88,cleaning,tecnica,,17238,1.332
+89,networking,blanda,Habilidad interpersonal,16956,1.31
+90,writing,blanda,Habilidad interpersonal,16738,1.293
+91,electrical engineering,tecnica,,16659,1.287
+92,assessment,tecnica,,16541,1.278
+93,innovation,blanda,Cualidad personal; sirve en cualquier trabajo,16498,1.275
+94,quality improvement,tecnica,,16298,1.259
+95,medical terminology,tecnica,,16251,1.256
+96,manufacturing,tecnica,,16149,1.248
+97,financial reporting,tecnica,,16085,1.243
+98,counseling,tecnica,,16045,1.24
+99,continuous improvement,tecnica,,16043,1.24
