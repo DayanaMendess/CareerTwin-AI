@@ -5,33 +5,33 @@
     "descartadas_menos_de_50_palabras": 3649,
     "ofertas_tras_filtros": 1290647,
     "duplicados_exactos": 341251,
-    "duplicados_finos": 356087,
-    "duplicados_solo_por_formato": 14836,
-    "textos_unicos": 934560,
-    "grupos_con_texto_repetido": 93706,
-    "grupos_repetidos_con_habilidades_distintas": 93565
+    "duplicados_finos": 356084,
+    "duplicados_solo_por_formato": 14833,
+    "textos_unicos": 934563,
+    "grupos_con_texto_repetido": 93705,
+    "grupos_repetidos_con_habilidades_distintas": 93564
   },
   "muestra": {
     "filas": 50000,
     "textos_unicos": 50000,
-    "con_[EMAIL]": 6239,
-    "con_[URL]": 7446,
+    "con_[EMAIL]": 6159,
+    "con_[URL]": 7411,
     "terminos_tecnicos_antes_y_despues": [
-      1868,
-      1548
+      1797,
+      1501
     ],
-    "con_al_menos_1_habilidad_piloto": 41803,
+    "con_al_menos_1_habilidad_piloto": 41819,
     "habilidades_piloto_por_oferta_promedio": 4.1,
     "job_level": {
-      "Mid senior": 44530,
-      "Associate": 5470
+      "Mid senior": 44350,
+      "Associate": 5650
     },
     "paises": {
-      "United States": 41372,
-      "United Kingdom": 4957,
-      "Canada": 2319,
-      "Australia": 1352
+      "United States": 41335,
+      "United Kingdom": 5002,
+      "Canada": 2314,
+      "Australia": 1349
     }
   },
-  "minutos": 23.6
+  "minutos": 36.4
 }

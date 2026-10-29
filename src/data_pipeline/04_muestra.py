@@ -5,6 +5,8 @@
 2. Se queda con las ofertas que tienen habilidades y una descripción de al menos 50 palabras.
 3. Agrupa las descripciones repetidas, incluso las que solo cambian en
    mayúsculas, espacios, puntuación, correos o enlaces ("duplicados finos").
+   Los términos técnicos (C++, C#, F#, .NET, Node.js) se protegen antes de quitar
+   la puntuación, para que "C++ developer" y "C# developer" NO queden como iguales.
 4. Elige 50.000 textos ÚNICOS al azar, con semilla fija (reproducible).
 5. Limpia el texto: quita etiquetas HTML y reemplaza correos y enlaces por
    [EMAIL] y [URL]. No toca C++, C#, .NET, Node.js ni las mayúsculas.
@@ -54,6 +56,28 @@ def limpiar_texto(s: pd.Series) -> pd.Series:
     return s.str.strip()
 
 
+# Se reemplazan por palabras antes de quitar la puntuación (solo para la huella)
+TERMINOS_PROTEGIDOS = [
+    (r"(?i)(?<![\w])c\+\+", " cplusplus "),
+    (r"(?i)(?<![\w])c#", " csharp "),
+    (r"(?i)(?<![\w])f#", " fsharp "),
+    (r"(?i)\.net\b", " dotnet "),
+    (r"(?i)node\.js\b", " nodejs "),
+]
+
+
+def proteger_tecnicos(s: pd.Series) -> pd.Series:
+    for patron, reemplazo in TERMINOS_PROTEGIDOS:
+        s = s.str.replace(patron, reemplazo, regex=True)
+    return s
+
+
+def clave_fina(texto: pd.Series) -> pd.Series:
+    """Texto comparable: limpio, técnicos protegidos, minúsculas y sin puntuación."""
+    s = proteger_tecnicos(limpiar_texto(texto)).str.lower()
+    return s.str.replace(r"[^a-z0-9]+", " ", regex=True).str.strip()
+
+
 def huella(s: pd.Series):
     return pd.util.hash_pandas_object(s, index=False).to_numpy()
 
@@ -70,8 +94,7 @@ partes = []
 for i, b in enumerate(leer("job_summary.csv")):
     texto = b["job_summary"]
     exacto = texto.str.lower().str.replace(r"\s+", " ", regex=True).str.strip()
-    fino = (limpiar_texto(texto).str.lower()
-            .str.replace(r"[^a-z0-9]+", " ", regex=True).str.strip())
+    fino = clave_fina(texto)
     partes.append(pd.DataFrame({
         "job_link": b["job_link"].to_numpy(),
         "h_exacto": huella(exacto),
