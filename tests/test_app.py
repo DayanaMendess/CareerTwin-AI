@@ -13,3 +13,32 @@ def test_health():
     assert result.status_code == 200
     assert result.json["status"] == "ok"
     assert result.json["models_loaded"] is False
+
+    
+def test_api_health():
+    response = app.test_client().get("/api/health")
+
+    assert response.status_code == 200
+    assert response.json["status"] == "ok"
+
+
+def test_analyze_profile_invalid():
+    response = app.test_client().post(
+        "/api/analyze-profile",
+        json={"profile_text": ""}
+    )
+
+    assert response.status_code == 400
+
+
+def test_analyze_profile_without_model():
+    response = app.test_client().post(
+        "/api/analyze-profile",
+        json={
+            "profile_text": "I have experience with Python and SQL"
+        }
+    )
+
+    assert response.status_code == 503
+    assert response.json["models_loaded"] is False
+
