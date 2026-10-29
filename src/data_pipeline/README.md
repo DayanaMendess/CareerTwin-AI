@@ -21,6 +21,7 @@ Ejecutar desde la carpeta raíz del proyecto:
 | 9 | `03b_vocabulario_piloto.py` | Elige las 100 habilidades válidas más frecuentes | `reports/skills_vocab_piloto.json` |
 | 10 | `04_muestra.py` | Muestra de 50.000 textos únicos (semilla 42), limpieza y duplicados finos | `data/processed/muestra_50k.parquet` |
 | 11 | `04b_verificar_muestra.py` | Verifica los términos técnicos y la consistencia de las etiquetas | `reports/verificacion_muestra.json` |
+| 12 | `05_particiones.py` | Une las habilidades de las copias de cada grupo (con soporte), divide 70/15/15 por grupo y crea la matriz multietiqueta | `data/processed/datos_entrenamiento.parquet`, `reports/particiones_resumen.json`, `reports/verificacion_grupos_manual.csv` |
 
 El script `01d` tarda unos 15 minutos con el dataset completo.
 
