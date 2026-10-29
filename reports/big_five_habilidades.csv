@@ -1,0 +1,65 @@
+﻿habilidad,ofertas,rasgo,rasgo_en,en_vocabulario_piloto
+teamwork,252080,Amabilidad,Agreeableness,True
+interpersonal skills,99987,Amabilidad,Agreeableness,True
+collaboration,89762,Amabilidad,Agreeableness,True
+conflict resolution,40072,Amabilidad,Agreeableness,True
+coaching,38125,Amabilidad,Agreeableness,True
+mentoring,30133,Amabilidad,Agreeableness,True
+relationship building,21623,Amabilidad,Agreeableness,True
+team player,19416,Amabilidad,Agreeableness,True
+empathy,17305,Amabilidad,Agreeableness,True
+compassion,17272,Amabilidad,Agreeableness,True
+team collaboration,15089,Amabilidad,Agreeableness,False
+coordination,11342,Amabilidad,Agreeableness,False
+ability to work independently and as part of a team,10769,Amabilidad,Agreeableness,False
+active listening,9147,Amabilidad,Agreeableness,False
+problem solving,315983,Apertura,Openness,True
+analytical skills,60214,Apertura,Openness,True
+adaptability,58699,Apertura,Openness,True
+critical thinking,57425,Apertura,Openness,True
+flexibility,56632,Apertura,Openness,True
+written communication,47349,Apertura,Openness,True
+writing,16738,Apertura,Openness,True
+innovation,16498,Apertura,Openness,True
+creativity,11623,Apertura,Openness,False
+analytical thinking,10446,Apertura,Openness,False
+strategic thinking,8847,Apertura,Openness,False
+ability to work in a fastpaced environment,18049,Estabilidad emocional,Emotional stability (low Neuroticism),True
+ability to work under pressure,12259,Estabilidad emocional,Emotional stability (low Neuroticism),False
+stress management,11318,Estabilidad emocional,Emotional stability (low Neuroticism),False
+communication,556928,Extraversión,Extraversion,True
+leadership,205375,Extraversión,Extraversion,True
+verbal communication,41991,Extraversión,Extraversion,True
+negotiation,39634,Extraversión,Extraversion,True
+presentation skills,37454,Extraversión,Extraversion,True
+team leadership,32998,Extraversión,Extraversion,True
+networking,16956,Extraversión,Extraversion,True
+team building,14959,Extraversión,Extraversion,False
+positive attitude,14846,Extraversión,Extraversion,False
+delegation,12178,Extraversión,Extraversion,False
+oral communication,10861,Extraversión,Extraversion,False
+public speaking,10641,Extraversión,Extraversion,False
+interpersonal communication,9700,Extraversión,Extraversion,False
+time management,154460,Responsabilidad,Conscientiousness,True
+attention to detail,132826,Responsabilidad,Conscientiousness,True
+organizational skills,80553,Responsabilidad,Conscientiousness,True
+decision making,63554,Responsabilidad,Conscientiousness,True
+multitasking,61777,Responsabilidad,Conscientiousness,True
+organization,46894,Responsabilidad,Conscientiousness,True
+planning,30565,Responsabilidad,Conscientiousness,True
+confidentiality,26419,Responsabilidad,Conscientiousness,True
+prioritization,26308,Responsabilidad,Conscientiousness,True
+professionalism,25292,Responsabilidad,Conscientiousness,True
+motivation,23128,Responsabilidad,Conscientiousness,True
+initiative,22575,Responsabilidad,Conscientiousness,True
+integrity,18482,Responsabilidad,Conscientiousness,True
+ability to work independently,17289,Responsabilidad,Conscientiousness,True
+selfmotivation,15769,Responsabilidad,Conscientiousness,False
+detail oriented,15473,Responsabilidad,Conscientiousness,False
+accuracy,14614,Responsabilidad,Conscientiousness,False
+ethics,13110,Responsabilidad,Conscientiousness,False
+independent work,11668,Responsabilidad,Conscientiousness,False
+accountability,9556,Responsabilidad,Conscientiousness,False
+ability to meet deadlines,9323,Responsabilidad,Conscientiousness,False
+reliability,9067,Responsabilidad,Conscientiousness,False
+strong work ethic,8632,Responsabilidad,Conscientiousness,False

@@ -1,0 +1,102 @@
+{
+  "modelo": "Big Five (OCEAN)",
+  "advertencia": "Asignación aproximada de habilidades blandas a rasgos; no mide la personalidad de nadie.",
+  "habilidades_blandas_revisadas": 64,
+  "habilidades_por_rasgo": {
+    "Responsabilidad": 23,
+    "Amabilidad": 14,
+    "Extraversión": 13,
+    "Apertura": 11,
+    "Estabilidad emocional": 3
+  },
+  "habilidades_por_rasgo_en_vocabulario_piloto": {
+    "Responsabilidad": 14,
+    "Amabilidad": 10,
+    "Apertura": 8,
+    "Extraversión": 7,
+    "Estabilidad emocional": 1
+  },
+  "pct_ofertas_de_la_muestra_que_piden_el_rasgo": {
+    "Apertura": 35.17,
+    "Responsabilidad": 33.48,
+    "Extraversión": 51.71,
+    "Amabilidad": 36.63,
+    "Estabilidad emocional": 1.25
+  },
+  "rasgos": {
+    "Apertura": [
+      "adaptability",
+      "analytical skills",
+      "analytical thinking",
+      "creativity",
+      "critical thinking",
+      "flexibility",
+      "innovation",
+      "problem solving",
+      "strategic thinking",
+      "writing",
+      "written communication"
+    ],
+    "Responsabilidad": [
+      "ability to meet deadlines",
+      "ability to work independently",
+      "accountability",
+      "accuracy",
+      "attention to detail",
+      "confidentiality",
+      "decision making",
+      "detail oriented",
+      "ethics",
+      "independent work",
+      "initiative",
+      "integrity",
+      "motivation",
+      "multitasking",
+      "organization",
+      "organizational skills",
+      "planning",
+      "prioritization",
+      "professionalism",
+      "reliability",
+      "selfmotivation",
+      "strong work ethic",
+      "time management"
+    ],
+    "Extraversión": [
+      "communication",
+      "delegation",
+      "interpersonal communication",
+      "leadership",
+      "negotiation",
+      "networking",
+      "oral communication",
+      "positive attitude",
+      "presentation skills",
+      "public speaking",
+      "team building",
+      "team leadership",
+      "verbal communication"
+    ],
+    "Amabilidad": [
+      "ability to work independently and as part of a team",
+      "active listening",
+      "coaching",
+      "collaboration",
+      "compassion",
+      "conflict resolution",
+      "coordination",
+      "empathy",
+      "interpersonal skills",
+      "mentoring",
+      "relationship building",
+      "team collaboration",
+      "team player",
+      "teamwork"
+    ],
+    "Estabilidad emocional": [
+      "ability to work in a fastpaced environment",
+      "ability to work under pressure",
+      "stress management"
+    ]
+  }
+}
