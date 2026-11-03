@@ -1,3 +1,4 @@
+
 from app.main import app
 
 
@@ -14,7 +15,7 @@ def test_health():
     assert result.json["status"] == "ok"
     assert result.json["models_loaded"] is False
 
-    
+
 def test_api_health():
     response = app.test_client().get("/api/health")
 
@@ -41,4 +42,3 @@ def test_analyze_profile_without_model():
 
     assert response.status_code == 503
     assert response.json["models_loaded"] is False
-
