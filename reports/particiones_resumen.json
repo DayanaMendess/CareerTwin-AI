@@ -1,0 +1,53 @@
+{
+  "estrategia_etiquetas": "union de copias del grupo (decision de Sofia)",
+  "semilla": 42,
+  "division": "70/15/15 por grupo de descripcion",
+  "registros_totales": 50000,
+  "grupos_en_mas_de_una_particion": 0,
+  "particiones": {
+    "train": {
+      "registros": 35000,
+      "porcentaje": 70.0,
+      "grupos_de_descripcion": 35000,
+      "registros_sin_etiquetas": 5437,
+      "etiquetas_por_registro_promedio": 4.44,
+      "total_etiquetas_positivas": 155463,
+      "habilidades_con_al_menos_1_ejemplo": 100,
+      "habilidad_mas_frecuente": "communication",
+      "habilidad_menos_frecuente": "cleaning"
+    },
+    "val": {
+      "registros": 7500,
+      "porcentaje": 15.0,
+      "grupos_de_descripcion": 7500,
+      "registros_sin_etiquetas": 1166,
+      "etiquetas_por_registro_promedio": 4.46,
+      "total_etiquetas_positivas": 33447,
+      "habilidades_con_al_menos_1_ejemplo": 100,
+      "habilidad_mas_frecuente": "communication",
+      "habilidad_menos_frecuente": "cash handling"
+    },
+    "test": {
+      "registros": 7500,
+      "porcentaje": 15.0,
+      "grupos_de_descripcion": 7500,
+      "registros_sin_etiquetas": 1157,
+      "etiquetas_por_registro_promedio": 4.44,
+      "total_etiquetas_positivas": 33333,
+      "habilidades_con_al_menos_1_ejemplo": 100,
+      "habilidad_mas_frecuente": "communication",
+      "habilidad_menos_frecuente": "cash handling"
+    }
+  },
+  "efecto_de_la_union": {
+    "registros_con_copias": 5009,
+    "etiquetas_por_registro_una_copia": 4.1,
+    "etiquetas_por_registro_union": 4.44,
+    "solo_con_copias_una_copia": 4.33,
+    "solo_con_copias_union": 7.75,
+    "etiquetas_respaldadas_por_1_sola_copia": 203741,
+    "etiquetas_respaldadas_por_2_o_mas_copias": 18502
+  },
+  "diferencia_maxima_frecuencia_train_vs_test_puntos": 0.73,
+  "habilidades_con_menos_de_30_ejemplos_en_test": []
+}

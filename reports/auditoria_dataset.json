@@ -1,0 +1,104 @@
+{
+  "creado_utc": "2026-10-22T16:41:37.920823+00:00",
+  "fuente": "1.3M Linkedin Jobs & Skills (2024) Kaggle",
+  "limite_por_archivo": 0,
+  "advertencia": "Este reporte no mide filas post-merge ni la calidad de etiquetas NLP.",
+  "archivos": {
+    "linkedin_job_postings.csv": {
+      "filas_analizadas": 1348454,
+      "auditoria_parcial": false,
+      "columnas": [
+        "job_link",
+        "last_processed_time",
+        "got_summary",
+        "got_ner",
+        "is_being_worked",
+        "job_title",
+        "company",
+        "job_location",
+        "first_seen",
+        "search_city",
+        "search_country",
+        "search_position",
+        "job_level",
+        "job_type"
+      ],
+      "total_columnas": 14,
+      "nulos_o_vacios_por_columna": {
+        "job_link": 0,
+        "last_processed_time": 0,
+        "got_summary": 0,
+        "got_ner": 0,
+        "is_being_worked": 0,
+        "job_title": 0,
+        "company": 11,
+        "job_location": 19,
+        "first_seen": 0,
+        "search_city": 0,
+        "search_country": 0,
+        "search_position": 0,
+        "job_level": 0,
+        "job_type": 0
+      },
+      "porcentaje_vacios_por_columna": {
+        "job_link": 0.0,
+        "last_processed_time": 0.0,
+        "got_summary": 0.0,
+        "got_ner": 0.0,
+        "is_being_worked": 0.0,
+        "job_title": 0.0,
+        "company": 0.001,
+        "job_location": 0.001,
+        "first_seen": 0.0,
+        "search_city": 0.0,
+        "search_country": 0.0,
+        "search_position": 0.0,
+        "job_level": 0.0,
+        "job_type": 0.0
+      },
+      "job_link_vacio": 0,
+      "job_link_duplicado": 0,
+      "job_link_unicos_no_vacios": 1348454
+    },
+    "job_skills.csv": {
+      "filas_analizadas": 1296381,
+      "auditoria_parcial": false,
+      "columnas": [
+        "job_link",
+        "job_skills"
+      ],
+      "total_columnas": 2,
+      "nulos_o_vacios_por_columna": {
+        "job_link": 0,
+        "job_skills": 2007
+      },
+      "porcentaje_vacios_por_columna": {
+        "job_link": 0.0,
+        "job_skills": 0.155
+      },
+      "job_link_vacio": 0,
+      "job_link_duplicado": 0,
+      "job_link_unicos_no_vacios": 1296381
+    },
+    "job_summary.csv": {
+      "filas_analizadas": 1297332,
+      "auditoria_parcial": false,
+      "columnas": [
+        "job_link",
+        "job_summary"
+      ],
+      "total_columnas": 2,
+      "nulos_o_vacios_por_columna": {
+        "job_link": 0,
+        "job_summary": 0
+      },
+      "porcentaje_vacios_por_columna": {
+        "job_link": 0.0,
+        "job_summary": 0.0
+      },
+      "job_link_vacio": 0,
+      "job_link_duplicado": 0,
+      "job_link_unicos_no_vacios": 1297332
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "cruces": {
+    "ofertas_en_postings": 1348454,
+    "con_postings_skills_y_summary": 1296381,
+    "skills_sin_posting": 0,
+    "summary_sin_posting": 0
+  },
+  "verificacion_banderas": {
+    "got_summary -> tiene_summary": {
+      "f -> False": 50577,
+      "t -> False": 545,
+      "t -> True": 1297332
+    },
+    "got_ner -> tiene_skills": {
+      "f -> False": 52053,
+      "t -> False": 20,
+      "t -> True": 1296381
+    }
+  },
+  "distribuciones": {
+    "job_level": {
+      "Mid senior": 1204445,
+      "Associate": 144009
+    },
+    "job_type": {
+      "Onsite": 1337633,
+      "Hybrid": 6562,
+      "Remote": 4259
+    },
+    "search_country_top10": {
+      "United States": 1149342,
+      "United Kingdom": 113421,
+      "Canada": 55972,
+      "Australia": 29719
+    },
+    "first_seen_rango": {
+      "desde": "2024-01-12",
+      "hasta": "2024-01-17"
+    }
+  }
+}

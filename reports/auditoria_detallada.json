@@ -1,0 +1,233 @@
+{
+  "dataset": "1.3M LinkedIn Jobs & Skills (2024) - Kaggle (asaniczka)",
+  "fecha_auditoria": "2026-10-22 12:24",
+  "responsable": "Catalina",
+  "1_conteos_por_archivo": {
+    "linkedin_job_postings.csv": {
+      "filas_totales": 1348454,
+      "job_link_unicos": 1348454,
+      "job_link_duplicados": 0,
+      "nulos_por_columna": {
+        "job_link": 0,
+        "last_processed_time": 0,
+        "got_summary": 0,
+        "got_ner": 0,
+        "is_being_worked": 0,
+        "job_title": 0,
+        "company": 11,
+        "job_location": 19,
+        "first_seen": 0,
+        "search_city": 0,
+        "search_country": 0,
+        "search_position": 0,
+        "job_level": 0,
+        "job_type": 0
+      },
+      "segundos_de_lectura": 6.6
+    },
+    "job_skills.csv": {
+      "filas_totales": 1296381,
+      "job_link_unicos": 1296381,
+      "job_link_duplicados": 0,
+      "nulos_por_columna": {
+        "job_link": 0,
+        "job_skills": 2085
+      },
+      "segundos_de_lectura": 7.3
+    },
+    "job_summary.csv": {
+      "filas_totales": 1297332,
+      "job_link_unicos": 1297332,
+      "job_link_duplicados": 0,
+      "nulos_por_columna": {
+        "job_link": 0,
+        "job_summary": 0
+      },
+      "segundos_de_lectura": 44.3
+    }
+  },
+  "2_relaciones_entre_archivos": {
+    "cruces": {
+      "ofertas_en_postings": 1348454,
+      "con_postings_skills_y_summary": 1296381,
+      "skills_sin_posting": 0,
+      "summary_sin_posting": 0
+    },
+    "verificacion_banderas": {
+      "got_summary -> tiene_summary": {
+        "f -> False": 50577,
+        "t -> False": 545,
+        "t -> True": 1297332
+      },
+      "got_ner -> tiene_skills": {
+        "f -> False": 52053,
+        "t -> False": 20,
+        "t -> True": 1296381
+      }
+    },
+    "distribuciones": {
+      "job_level": {
+        "Mid senior": 1204445,
+        "Associate": 144009
+      },
+      "job_type": {
+        "Onsite": 1337633,
+        "Hybrid": 6562,
+        "Remote": 4259
+      },
+      "search_country_top10": {
+        "United States": 1149342,
+        "United Kingdom": 113421,
+        "Canada": 55972,
+        "Australia": 29719
+      },
+      "first_seen_rango": {
+        "desde": "2024-01-12",
+        "hasta": "2024-01-17"
+      }
+    }
+  },
+  "3_calidad": {
+    "descripciones": {
+      "filas_analizadas": 1297332,
+      "caracteres": {
+        "minimo": 21,
+        "percentil_1": 535,
+        "percentil_25": 2211,
+        "mediana": 3382,
+        "promedio": 3818.6,
+        "percentil_75": 4927,
+        "percentil_99": 11777,
+        "maximo": 23748
+      },
+      "palabras": {
+        "minimo": 5,
+        "percentil_1": 80,
+        "percentil_25": 325,
+        "mediana": 490,
+        "promedio": 550.7,
+        "percentil_75": 708,
+        "percentil_99": 1653,
+        "maximo": 3448
+      },
+      "menos_de_20_palabras": 397,
+      "menos_de_50_palabras": 3667,
+      "menos_de_100_palabras": 21354,
+      "mas_de_2000_palabras": 5381,
+      "con_etiquetas_html": 344,
+      "con_entidades_html": 127,
+      "con_correos_electronicos": 144341,
+      "con_enlaces_web": 202915,
+      "con_mas_de_20pct_caracteres_no_ascii": 117,
+      "descripciones_repetidas_exactas": 342559
+    },
+    "habilidades": {
+      "ofertas_con_habilidades": 1294296,
+      "habilidades_por_oferta": {
+        "minimo": 1,
+        "percentil_1": 4,
+        "percentil_25": 13,
+        "mediana": 19,
+        "promedio": 20.8,
+        "percentil_75": 25,
+        "percentil_99": 61,
+        "maximo": 463
+      },
+      "total_menciones": 26925240,
+      "habilidades_distintas_originales": 3301512,
+      "habilidades_distintas_en_minusculas": 2772107,
+      "aparecen_solo_1_vez": 1950157,
+      "aparecen_10_o_mas_veces": 156624,
+      "aparecen_100_o_mas_veces": 21447,
+      "aparecen_1000_o_mas_veces": 2619,
+      "top_30": {
+        "communication": 370143,
+        "customer service": 278104,
+        "teamwork": 227609,
+        "communication skills": 195954,
+        "leadership": 185187,
+        "problem solving": 149036,
+        "time management": 142912,
+        "attention to detail": 133975,
+        "problemsolving": 129329,
+        "project management": 121564,
+        "interpersonal skills": 100270,
+        "patient care": 99929,
+        "sales": 93031,
+        "nursing": 88015,
+        "collaboration": 87116,
+        "training": 83656,
+        "data analysis": 81964,
+        "microsoft office suite": 75532,
+        "organizational skills": 75276,
+        "inventory management": 71911,
+        "high school diploma": 67267,
+        "scheduling": 64461,
+        "bachelor's degree": 63490,
+        "multitasking": 62044,
+        "analytical skills": 60769,
+        "microsoft office": 60604,
+        "adaptability": 59121,
+        "flexibility": 56896,
+        "critical thinking": 53081,
+        "documentation": 51875
+      },
+      "variantes_python": {
+        "Python": 25099,
+        "Python scripting": 153,
+        "Python programming": 116,
+        "Python Programming": 116,
+        "Python Scripting": 91,
+        "Python3": 64,
+        "python": 46,
+        "Python (programming language)": 41
+      },
+      "variantes_communication": {
+        "Communication": 368293,
+        "Communication skills": 116260,
+        "Communication Skills": 78721,
+        "Written Communication": 20676,
+        "Written communication": 20268,
+        "Verbal communication": 18644,
+        "Verbal Communication": 18320,
+        "Interpersonal communication": 6037
+      },
+      "variantes_excel": {
+        "Excel": 41353,
+        "Microsoft Excel": 25741,
+        "MS Excel": 5267,
+        "Excellent communication skills": 3440,
+        "Excellence": 2916,
+        "Service excellence": 2541,
+        "Excellent Communication Skills": 1955,
+        "Clinical Excellence": 1511
+      }
+    },
+    "titulos": {
+      "titulos_distintos_en_minusculas": 579066,
+      "repetidas_mismo_titulo_empresa_y_lugar": 152123,
+      "top_20_titulos": {
+        "customer service representative": 9436,
+        "lead sales associate-ft": 7325,
+        "shift manager": 5849,
+        "store manager": 5748,
+        "assistant manager": 5540,
+        "first year tax professional": 5356,
+        "lead sales associate-pt": 4924,
+        "registered nurse": 4336,
+        "hourly supervisor & training": 2955,
+        "travel allied health professional - ct technologist": 2933,
+        "host": 2924,
+        "account executive": 2638,
+        "senior accountant": 2562,
+        "restaurant manager": 2346,
+        "hourly supervisor and training": 2230,
+        "veterinarian": 2201,
+        "assistant general manager": 2078,
+        "executive assistant": 2078,
+        "operations assistant manager": 2066,
+        "maintenance supervisor": 1874
+      }
+    }
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "A_terminos_tecnicos": {
+    "c++": {
+      "antes": 461,
+      "despues": 461,
+      "diferencia": 0,
+      "estaban_dentro_de_correos_o_enlaces": 0,
+      "perdidos_de_verdad": 0
+    },
+    "c#": {
+      "antes": 386,
+      "despues": 385,
+      "diferencia": 1,
+      "estaban_dentro_de_correos_o_enlaces": 1,
+      "perdidos_de_verdad": 0
+    },
+    ".net": {
+      "antes": 931,
+      "despues": 612,
+      "diferencia": 319,
+      "estaban_dentro_de_correos_o_enlaces": 319,
+      "perdidos_de_verdad": 0
+    },
+    "node.js": {
+      "antes": 90,
+      "despues": 90,
+      "diferencia": 0,
+      "estaban_dentro_de_correos_o_enlaces": 0,
+      "perdidos_de_verdad": 0
+    }
+  },
+  "B_habilidades_en_textos_repetidos": {
+    "grupos_comparados": 1000,
+    "jaccard_promedio": 0.265,
+    "jaccard_mediana": 0.242,
+    "pares_identicos (jaccard=1)": 1,
+    "pares_muy_parecidos (>=0.8)": 5,
+    "pares_poco_parecidos (<0.5)": 906,
+    "ejemplos": [
+      {
+        "oferta_1": [
+          "basic computer skills",
+          "call handling",
+          "computer skills",
+          "customer service",
+          "data entry",
+          "financial responsibilities",
+          "healthcare experience",
+          "high school diploma or ged",
+          "medical interpretation certification (for bilingual/multilingual interpreters)",
+          "medical terminology",
+          "patient communication",
+          "training and orientation"
+        ],
+        "oferta_2": [
+          "communication",
+          "computer skills",
+          "customer service",
+          "data entry",
+          "health insurance",
+          "interpretation",
+          "medical interpretation",
+          "medical terminology",
+          "office management",
+          "patient registration",
+          "typing"
+        ],
+        "jaccard": 0.19
+      },
+      {
+        "oferta_1": [
+          "401k",
+          "alcohol screening",
+          "billing",
+          "charting",
+          "cme allowance",
+          "crouching",
+          "dental insurance",
+          "diagnosis",
+          "drug screening",
+          "health insurance",
+          "hearing tests",
+          "kneeling"
+        ],
+        "oferta_2": [
+          "401k/profit sharing",
+          "accreditated nurse practioner program",
+          "accreditated physician assistant program",
+          "administrative work",
+          "billing",
+          "charting",
+          "correspondence",
+          "dental",
+          "drug and/or alcohol screening",
+          "health",
+          "hearing tests",
+          "national certification"
+        ],
+        "jaccard": 0.26
+      },
+      {
+        "oferta_1": [
+          "ability to communicate effectively with patients families and other healthcare professionals",
+          "ability to handle confidential information",
+          "ability to meet deadlines",
+          "ability to use electronic health records (ehr) systems",
+          "ability to work independently and as part of a team",
+          "ability to work under pressure",
+          "adaptability",
+          "attention to detail",
+          "communication",
+          "compassion",
+          "critical thinking",
+          "decision making"
+        ],
+        "oferta_2": [
+          "acls",
+          "bls",
+          "communication",
+          "conflict resolution",
+          "cpr",
+          "critical thinking",
+          "dosage calculations",
+          "electronic health records",
+          "emr",
+          "ethics",
+          "healthcare",
+          "hipaa"
+        ],
+        "jaccard": 0.21
+      }
+    ]
+  }
+}
