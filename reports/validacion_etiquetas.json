@@ -1,0 +1,183 @@
+{
+  "registros": 50000,
+  "etiquetas": 100,
+  "1_frecuencia": {
+    "muy_frecuentes (>20%)": [
+      [
+        "communication",
+        42.78
+      ],
+      [
+        "problem solving",
+        25.08
+      ]
+    ],
+    "poco_frecuentes (<1%)": [
+      [
+        "cash handling",
+        0.94
+      ],
+      [
+        "cleaning",
+        0.97
+      ]
+    ],
+    "mas_frecuente": [
+      "communication",
+      42.78
+    ],
+    "menos_frecuente": [
+      "cash handling",
+      0.94
+    ],
+    "etiquetas_por_registro": {
+      "0": 7760,
+      "1_a_3": 17422,
+      "4_a_10": 20601,
+      "mas_de_10": 4217
+    }
+  },
+  "2_nombres_y_sinonimos": {
+    "nombres_con_formato_raro": [
+      "ability to work in a fastpaced environment",
+      "ability to work independently"
+    ],
+    "una_etiqueta_contiene_a_otra": [
+      [
+        "communication",
+        "written communication"
+      ],
+      [
+        "communication",
+        "verbal communication"
+      ],
+      [
+        "leadership",
+        "team leadership"
+      ],
+      [
+        "time management",
+        "management"
+      ],
+      [
+        "project management",
+        "management"
+      ],
+      [
+        "inventory management",
+        "management"
+      ],
+      [
+        "safety",
+        "food safety"
+      ],
+      [
+        "reporting",
+        "financial reporting"
+      ],
+      [
+        "team management",
+        "management"
+      ],
+      [
+        "management",
+        "risk management"
+      ],
+      [
+        "management",
+        "case management"
+      ],
+      [
+        "management",
+        "performance management"
+      ],
+      [
+        "engineering",
+        "electrical engineering"
+      ],
+      [
+        "compliance",
+        "regulatory compliance"
+      ]
+    ],
+    "posibles_sinonimos_en_el_vocabulario": [
+      [
+        "organization",
+        "organizational skills"
+      ],
+      [
+        "teamwork",
+        "team player"
+      ],
+      [
+        "adaptability",
+        "flexibility"
+      ],
+      [
+        "communication",
+        "verbal communication"
+      ],
+      [
+        "quality control",
+        "quality assurance"
+      ],
+      [
+        "nursing",
+        "patient care"
+      ]
+    ],
+    "aparecen_juntas_jaccard_>=_0.3": [
+      [
+        "written communication",
+        "verbal communication",
+        0.655
+      ],
+      [
+        "excel",
+        "microsoft word",
+        0.506
+      ],
+      [
+        "communication",
+        "problem solving",
+        0.429
+      ],
+      [
+        "problem solving",
+        "teamwork",
+        0.353
+      ],
+      [
+        "communication",
+        "teamwork",
+        0.337
+      ],
+      [
+        "patient care",
+        "nursing",
+        0.319
+      ]
+    ]
+  },
+  "3_duplicados_entre_particiones": {
+    "grupos_en_mas_de_una_particion": 0,
+    "textos_identicos_en_mas_de_una_particion": 0,
+    "job_id_repetidos": 0
+  },
+  "4_cobertura": {
+    "registros_con_al_menos_1_etiqueta_pct": 84.48,
+    "etiquetas_por_registro_promedio": 4.44,
+    "menciones_cubiertas_por_las_100_pct": 20.57,
+    "habilidades_validas_revisadas": 217,
+    "menciones_cubiertas_por_todas_las_validas_revisadas_pct": 25.49,
+    "nota": "Menciones = suma de ofertas por habilidad en todo el dataset normalizado."
+  },
+  "recomendaciones": [
+    "Etiquetas muy frecuentes (communication, problem solving): pueden hacer que la red las prediga casi siempre. Recomiendo usar pesos por clase o medir Macro-F1 además de Micro-F1.",
+    "Hay etiquetas con menos del 1% de registros: su F1 puede salir bajo por falta de ejemplos.",
+    "Revisar 6 pares que podrían ser la misma habilidad antes de ampliar a 300.",
+    "6 pares aparecen casi siempre juntos (Jaccard >= 0.3). No es un error, pero conviene tenerlo en cuenta al leer los resultados.",
+    "Las particiones no comparten descripciones: no hay fuga de datos.",
+    "7760 registros no tienen ninguna etiqueta: ampliar el vocabulario a ~300 habilidades podría cubrirlos."
+  ]
+}
