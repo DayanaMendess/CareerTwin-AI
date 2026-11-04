@@ -1,5 +1,21 @@
+"""
+Reglas compartidas para separar y normalizar habilidades.
 
-import pandas as pd
+Las usan los scripts 02 a 05, el detector de habilidades y la aplicación web,
+para que TODO el proyecto normalice exactamente igual.
+
+Respeta docs/CONTRATO_DATOS.md:
+- No borra signos que forman parte de nombres técnicos (C++, C#, .NET, Node.js).
+- No separa por comas que están dentro de paréntesis.
+"""
+from __future__ import annotations
+
+import re
+
+try:
+    import pandas as pd  # solo lo usan las funciones que reciben columnas (Series)
+except ImportError:      # la app puede usar normalizar_una() sin tener pandas
+    pd = None
 
 # Textos que significan "sin habilidades".
 # Decisión explícita (ver docs/INFORME_CALIDAD_DATOS.md, sección 4).
@@ -8,6 +24,10 @@ VALORES_VACIOS = {"", "none", "n/a", "na", "null", "nan"}
 # Una coma separa habilidades SOLO si no está dentro de paréntesis:
 # "Microsoft Office (Word, Excel), SQL" -> ["Microsoft Office (Word, Excel)", "SQL"]
 SEPARADOR = r",(?![^()]*\))"
+
+# Guiones tipográficos (‐ ‑ ‒ – — ―). Se escriben como caracteres reales (sin "r")
+# para que funcione igual con re, con pandas 2 y con pandas 3 + pyarrow.
+GUIONES_RAROS = "[\u2010-\u2015]"
 
 # Sinónimos: variante -> forma canónica.
 # Empieza pequeño a propósito; se amplía después de la revisión manual.
@@ -76,7 +96,7 @@ def normalizar_habilidades(serie: pd.Series) -> pd.Series:
     """Convierte cada habilidad a su forma canónica."""
     s = serie.astype(str).str.lower()
     # Unificar los guiones "raros" de Unicode (–, —) en un guion normal (-)
-    s = s.str.replace(r"[\u2010-\u2015]", "-", regex=True)
+    s = s.str.replace(GUIONES_RAROS, "-", regex=True)
     # Varios espacios seguidos -> uno solo
     s = s.str.replace(r"\s+", " ", regex=True)
     # Quitar espacios, comas, comillas y asteriscos sobrantes al inicio y al final.
@@ -86,6 +106,17 @@ def normalizar_habilidades(serie: pd.Series) -> pd.Series:
     s = s.str.replace(r"\.+$", "", regex=True)
     # Aplicar sinónimos (si no está en el diccionario, se deja igual)
     return s.map(SINONIMOS).fillna(s)
+
+
+def normalizar_una(habilidad: str) -> str:
+    """Igual que normalizar_habilidades(), pero para un solo texto y sin pandas.
+    Aplica exactamente las mismas reglas, en el mismo orden."""
+    s = str(habilidad).lower()
+    s = re.sub(GUIONES_RAROS, "-", s)
+    s = re.sub(r"\s+", " ", s)
+    s = s.strip(" ,;:'\"*")
+    s = re.sub(r"\.+$", "", s)
+    return SINONIMOS.get(s, s)
 
 
 # ---------------------------------------------------------------------
