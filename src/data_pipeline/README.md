@@ -22,6 +22,8 @@ Ejecutar desde la carpeta raíz del proyecto:
 | 10 | `04_muestra.py` | Muestra de 50.000 textos únicos (semilla 42), limpieza y duplicados finos | `data/processed/muestra_50k.parquet` |
 | 11 | `04b_verificar_muestra.py` | Verifica los términos técnicos y la consistencia de las etiquetas | `reports/verificacion_muestra.json` |
 | 12 | `05_particiones.py` | Une las habilidades de las copias de cada grupo (con soporte), divide 70/15/15 por grupo y crea la matriz multietiqueta | `data/processed/datos_entrenamiento.parquet`, `reports/particiones_resumen.json`, `reports/verificacion_grupos_manual.csv` |
+| 13 | `06_validacion_etiquetas.py` | Frecuencia, sinónimos, duplicados entre particiones y cobertura del vocabulario | `reports/validacion_etiquetas.json`, `reports/validacion_etiquetas_por_habilidad.csv` |
+| 14 | `06b_big_five.py` | Organiza las habilidades blandas según el modelo Big Five | `reports/big_five_habilidades.csv`, `reports/big_five_resumen.json` |
 
 El script `01d` tarda unos 15 minutos con el dataset completo.
 
