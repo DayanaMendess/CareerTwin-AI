@@ -1,0 +1,101 @@
+﻿habilidad,categoria,precision,recall,f1,ejemplos_test,predicciones_positivas,verdaderos_positivos,falsos_positivos,falsos_negativos,frecuencia_test_pct
+communication,blanda,0.4746,0.9587,0.6349,3170,6403,3039,3364,131,42.27
+problem solving,blanda,0.3454,0.7663,0.4761,1861,4129,1426,2703,435,24.81
+customer service,tecnica,0.5102,0.7674,0.6129,1277,1921,980,941,297,17.03
+teamwork,blanda,0.2678,0.6493,0.3792,1420,3443,922,2521,498,18.93
+leadership,blanda,0.3015,0.6314,0.4081,1199,2511,757,1754,442,15.99
+time management,blanda,0.2122,0.396,0.2763,904,1687,358,1329,546,12.05
+microsoft office,tecnica,0.2312,0.5791,0.3304,955,2392,553,1839,402,12.73
+attention to detail,blanda,0.1925,0.312,0.2381,827,1340,258,1082,569,11.03
+project management,tecnica,0.3759,0.6421,0.4742,802,1370,515,855,287,10.69
+interpersonal skills,blanda,0.1671,0.1069,0.1304,655,419,70,349,585,8.73
+patient care,tecnica,0.353,0.6631,0.4607,659,1238,437,801,222,8.79
+sales,tecnica,0.458,0.7365,0.5648,444,714,327,387,117,5.92
+collaboration,blanda,0.1533,0.0755,0.1011,583,287,44,243,539,7.77
+nursing,tecnica,0.4662,0.809,0.5915,597,1036,483,553,114,7.96
+training,tecnica,0.2675,0.1389,0.1828,468,243,65,178,403,6.24
+data analysis,tecnica,0.2272,0.2059,0.216,544,493,112,381,432,7.25
+organizational skills,blanda,0.107,0.0564,0.0739,514,271,29,242,485,6.85
+excel,tecnica,0.2436,0.2901,0.2648,493,587,143,444,350,6.57
+inventory management,tecnica,0.2627,0.2794,0.2708,315,335,88,247,227,4.2
+budgeting,tecnica,0.2456,0.2955,0.2682,467,562,138,424,329,6.23
+scheduling,tecnica,0.2418,0.1164,0.1571,378,182,44,138,334,5.04
+decision making,blanda,0.1576,0.0882,0.1131,363,203,32,171,331,4.84
+multitasking,blanda,0.1574,0.0856,0.1109,397,216,34,182,363,5.29
+analytical skills,blanda,0.2524,0.1275,0.1694,408,206,52,154,356,5.44
+adaptability,blanda,0.125,0.0082,0.0153,368,24,3,21,365,4.91
+critical thinking,blanda,0.2681,0.3043,0.2851,414,470,126,344,288,5.52
+flexibility,blanda,0.1944,0.0623,0.0944,337,108,21,87,316,4.49
+documentation,tecnica,0.2125,0.1574,0.1809,324,240,51,189,273,4.32
+written communication,blanda,0.5,0.0029,0.0057,350,2,1,1,349,4.67
+organization,blanda,0.0,0.0,0.0,301,10,0,10,301,4.01
+safety,tecnica,0.3571,0.0219,0.0413,228,14,5,9,223,3.04
+troubleshooting,tecnica,0.3014,0.0746,0.1196,295,73,22,51,273,3.93
+verbal communication,blanda,0.0,0.0,0.0,304,0,0,0,304,4.05
+microsoft word,tecnica,0.0,0.0,0.0,289,7,0,7,289,3.85
+conflict resolution,blanda,0.175,0.0547,0.0833,256,80,14,66,242,3.41
+negotiation,blanda,0.2655,0.1103,0.1558,272,113,30,83,242,3.63
+supervision,tecnica,0.0588,0.0039,0.0073,257,17,1,16,256,3.43
+computer skills,tecnica,0.0,0.0,0.0,231,0,0,0,231,3.08
+coaching,blanda,0.2394,0.0776,0.1172,219,71,17,54,202,2.92
+research,tecnica,0.0,0.0,0.0,276,1,0,1,276,3.68
+quality control,tecnica,0.0,0.0,0.0,270,10,0,10,270,3.6
+presentation skills,blanda,0.2069,0.0219,0.0396,274,29,6,23,268,3.65
+merchandising,tecnica,0.314,0.3034,0.3086,89,86,27,59,62,1.19
+reporting,tecnica,0.0,0.0,0.0,275,1,0,1,275,3.67
+quality assurance,tecnica,0.0,0.0,0.0,276,0,0,0,276,3.68
+team management,tecnica,0.1266,0.0495,0.0712,202,79,10,69,192,2.69
+accounting,tecnica,0.5772,0.5941,0.5856,239,246,142,104,97,3.19
+healthcare,tecnica,0.7273,0.125,0.2133,192,33,24,9,168,2.56
+management,tecnica,0.0,0.0,0.0,201,5,0,5,201,2.68
+team leadership,blanda,0.25,0.0046,0.009,218,4,1,3,217,2.91
+food safety,tecnica,0.45,0.1622,0.2384,111,40,18,22,93,1.48
+cash handling,tecnica,0.0,0.0,0.0,63,3,0,3,63,0.84
+planning,blanda,0.0,0.0,0.0,194,0,0,0,194,2.59
+risk management,tecnica,0.0806,0.0246,0.0377,203,62,5,57,198,2.71
+mentoring,blanda,0.0,0.0,0.0,201,0,0,0,201,2.68
+marketing,tecnica,1.0,0.0055,0.0109,182,1,1,0,181,2.43
+engineering,tecnica,0.1972,0.0733,0.1069,191,71,14,57,177,2.55
+compliance,tecnica,0.0,0.0,0.0,199,0,0,0,199,2.65
+patient education,tecnica,0.1984,0.4205,0.2696,176,373,74,299,102,2.35
+confidentiality,blanda,0.8125,0.152,0.2562,171,32,26,6,145,2.28
+prioritization,blanda,0.0,0.0,0.0,186,1,0,1,186,2.48
+python,tecnica,0.4421,0.25,0.3194,168,95,42,53,126,2.24
+professionalism,blanda,0.0,0.0,0.0,181,0,0,0,181,2.41
+business development,tecnica,0.2653,0.0778,0.1204,167,49,13,36,154,2.23
+data entry,tecnica,0.0,0.0,0.0,179,0,0,0,179,2.39
+motivation,blanda,0.0909,0.0078,0.0144,128,11,1,10,127,1.71
+initiative,blanda,0.0,0.0,0.0,152,0,0,0,152,2.03
+retail,tecnica,0.2979,0.2887,0.2932,97,94,28,66,69,1.29
+sql,tecnica,0.2955,0.0985,0.1477,132,44,13,31,119,1.76
+relationship building,blanda,0.0,0.0,0.0,132,3,0,3,132,1.76
+product knowledge,tecnica,0.3125,0.0625,0.1042,80,16,5,11,75,1.07
+case management,tecnica,0.25,0.0074,0.0143,136,4,1,3,135,1.81
+performance management,tecnica,0.0,0.0,0.0,134,0,0,0,134,1.79
+medication administration,tecnica,0.2581,0.2909,0.2735,165,186,48,138,117,2.2
+teaching,tecnica,0.0,0.0,0.0,156,0,0,0,156,2.08
+maintenance,tecnica,0.0,0.0,0.0,118,0,0,0,118,1.57
+food preparation,tecnica,0.5417,0.1529,0.2385,85,24,13,11,72,1.13
+hiring,tecnica,0.0,0.0,0.0,104,8,0,8,104,1.39
+team player,blanda,0.0,0.0,0.0,128,0,0,0,128,1.71
+integrity,blanda,0.0,0.0,0.0,101,0,0,0,101,1.35
+ability to work in a fastpaced environment,blanda,0.0,0.0,0.0,107,4,0,4,107,1.43
+regulatory compliance,tecnica,0.0,0.0,0.0,121,0,0,0,121,1.61
+financial analysis,tecnica,0.3146,0.2,0.2445,140,89,28,61,112,1.87
+finance,tecnica,0.3913,0.075,0.1259,120,23,9,14,111,1.6
+autocad,tecnica,0.3333,0.036,0.065,111,12,4,8,107,1.48
+empathy,blanda,0.0,0.0,0.0,109,0,0,0,109,1.45
+ability to work independently,blanda,0.0,0.0,0.0,104,0,0,0,104,1.39
+compassion,blanda,0.0,0.0,0.0,124,1,0,1,124,1.65
+cleaning,tecnica,0.0,0.0,0.0,82,0,0,0,82,1.09
+networking,blanda,0.0,0.0,0.0,127,0,0,0,127,1.69
+writing,blanda,0.0,0.0,0.0,123,0,0,0,123,1.64
+electrical engineering,tecnica,0.0,0.0,0.0,100,2,0,2,100,1.33
+assessment,tecnica,0.5,0.0328,0.0615,122,8,4,4,118,1.63
+innovation,blanda,0.0,0.0,0.0,108,0,0,0,108,1.44
+quality improvement,tecnica,0.2571,0.1565,0.1946,115,70,18,52,97,1.53
+medical terminology,tecnica,0.0,0.0,0.0,120,0,0,0,120,1.6
+manufacturing,tecnica,0.0,0.0,0.0,126,0,0,0,126,1.68
+financial reporting,tecnica,0.3758,0.5619,0.4504,105,157,59,98,46,1.4
+counseling,tecnica,0.0,0.0,0.0,85,0,0,0,85,1.13
+continuous improvement,tecnica,0.0,0.0,0.0,107,0,0,0,107,1.43
