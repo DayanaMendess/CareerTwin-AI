@@ -1,0 +1,1349 @@
+{
+  "fuente": "1.3M LinkedIn Jobs & Skills (2024), Kaggle — ofertas de enero de 2024 (EE. UU., UK, Canadá, Australia)",
+  "criterio": "solo transiciones con similitud >= 0.2",
+  "nota": "Patrones observados en las ofertas; no garantizan que el cambio de carrera sea posible.",
+  "transiciones": [
+    {
+      "origen": "Administración y oficina",
+      "destino": "Atención al cliente",
+      "similitud": 0.73,
+      "compartidas": [
+        "customer service",
+        "communication",
+        "problem solving",
+        "teamwork",
+        "sales",
+        "microsoft office"
+      ],
+      "a_aprender": [
+        "retail operations",
+        "retail",
+        "data entry",
+        "cash handling",
+        "merchandising",
+        "computer skills"
+      ]
+    },
+    {
+      "origen": "Administración y oficina",
+      "destino": "Gerencia y dirección",
+      "similitud": 0.669,
+      "compartidas": [
+        "communication",
+        "leadership",
+        "problem solving",
+        "customer service",
+        "project management",
+        "teamwork"
+      ],
+      "a_aprender": [
+        "team management",
+        "team leadership",
+        "coaching",
+        "analytical skills",
+        "collaboration"
+      ]
+    },
+    {
+      "origen": "Administración y oficina",
+      "destino": "Comercio y tiendas",
+      "similitud": 0.611,
+      "compartidas": [
+        "customer service",
+        "communication",
+        "problem solving",
+        "leadership",
+        "teamwork",
+        "inventory management"
+      ],
+      "a_aprender": [
+        "mathematical calculations",
+        "loss prevention",
+        "retail management",
+        "merchandising",
+        "cash handling",
+        "inventory control"
+      ]
+    },
+    {
+      "origen": "Administración y oficina",
+      "destino": "Restaurantes y alimentos",
+      "similitud": 0.526,
+      "compartidas": [
+        "communication",
+        "customer service",
+        "teamwork",
+        "problem solving",
+        "leadership",
+        "attention to detail"
+      ],
+      "a_aprender": [
+        "food preparation",
+        "sanitation",
+        "food handling",
+        "restaurant management",
+        "hospitality",
+        "food safety"
+      ]
+    },
+    {
+      "origen": "Administración y oficina",
+      "destino": "Ventas",
+      "similitud": 0.42,
+      "compartidas": [
+        "communication",
+        "sales",
+        "customer service",
+        "problem solving",
+        "microsoft office",
+        "teamwork"
+      ],
+      "a_aprender": [
+        "account management",
+        "customer relationship management",
+        "crm",
+        "business development",
+        "negotiation",
+        "relationship building"
+      ]
+    },
+    {
+      "origen": "Atención al cliente",
+      "destino": "Comercio y tiendas",
+      "similitud": 0.778,
+      "compartidas": [
+        "customer service",
+        "communication",
+        "problem solving",
+        "leadership",
+        "teamwork",
+        "inventory management"
+      ],
+      "a_aprender": [
+        "mathematical calculations",
+        "loss prevention",
+        "retail management",
+        "inventory control",
+        "cleaning",
+        "food safety"
+      ]
+    },
+    {
+      "origen": "Atención al cliente",
+      "destino": "Administración y oficina",
+      "similitud": 0.73,
+      "compartidas": [
+        "communication",
+        "customer service",
+        "problem solving",
+        "teamwork",
+        "leadership",
+        "microsoft office"
+      ],
+      "a_aprender": [
+        "scheduling",
+        "microsoft word",
+        "training",
+        "budgeting",
+        "project management",
+        "data analysis"
+      ]
+    },
+    {
+      "origen": "Atención al cliente",
+      "destino": "Restaurantes y alimentos",
+      "similitud": 0.574,
+      "compartidas": [
+        "communication",
+        "customer service",
+        "teamwork",
+        "problem solving",
+        "leadership",
+        "attention to detail"
+      ],
+      "a_aprender": [
+        "food preparation",
+        "sanitation",
+        "food handling",
+        "restaurant management",
+        "hospitality",
+        "food safety"
+      ]
+    },
+    {
+      "origen": "Atención al cliente",
+      "destino": "Ventas",
+      "similitud": 0.512,
+      "compartidas": [
+        "communication",
+        "sales",
+        "customer service",
+        "problem solving",
+        "microsoft office",
+        "teamwork"
+      ],
+      "a_aprender": [
+        "account management",
+        "customer relationship management",
+        "crm",
+        "business development",
+        "negotiation",
+        "relationship building"
+      ]
+    },
+    {
+      "origen": "Atención al cliente",
+      "destino": "Gerencia y dirección",
+      "similitud": 0.504,
+      "compartidas": [
+        "communication",
+        "leadership",
+        "problem solving",
+        "customer service",
+        "teamwork",
+        "microsoft office"
+      ],
+      "a_aprender": [
+        "team management",
+        "team leadership",
+        "coaching",
+        "budgeting",
+        "training",
+        "project management"
+      ]
+    },
+    {
+      "origen": "Comercio y tiendas",
+      "destino": "Atención al cliente",
+      "similitud": 0.778,
+      "compartidas": [
+        "customer service",
+        "communication",
+        "problem solving",
+        "teamwork",
+        "sales",
+        "time management"
+      ],
+      "a_aprender": [
+        "retail operations",
+        "data entry",
+        "multitasking",
+        "computer skills",
+        "organization",
+        "conflict resolution"
+      ]
+    },
+    {
+      "origen": "Comercio y tiendas",
+      "destino": "Administración y oficina",
+      "similitud": 0.611,
+      "compartidas": [
+        "communication",
+        "customer service",
+        "problem solving",
+        "teamwork",
+        "leadership",
+        "time management"
+      ],
+      "a_aprender": [
+        "organization",
+        "conflict resolution",
+        "organizational skills",
+        "multitasking",
+        "microsoft word",
+        "microsoft office"
+      ]
+    },
+    {
+      "origen": "Comercio y tiendas",
+      "destino": "Restaurantes y alimentos",
+      "similitud": 0.581,
+      "compartidas": [
+        "communication",
+        "customer service",
+        "teamwork",
+        "problem solving",
+        "food safety",
+        "leadership"
+      ],
+      "a_aprender": [
+        "food preparation",
+        "sanitation",
+        "food handling",
+        "restaurant management",
+        "hospitality",
+        "multitasking"
+      ]
+    },
+    {
+      "origen": "Comercio y tiendas",
+      "destino": "Gerencia y dirección",
+      "similitud": 0.529,
+      "compartidas": [
+        "communication",
+        "leadership",
+        "problem solving",
+        "customer service",
+        "teamwork",
+        "time management"
+      ],
+      "a_aprender": [
+        "team management",
+        "team leadership",
+        "coaching",
+        "budgeting",
+        "project management",
+        "conflict resolution"
+      ]
+    },
+    {
+      "origen": "Comercio y tiendas",
+      "destino": "Ventas",
+      "similitud": 0.423,
+      "compartidas": [
+        "communication",
+        "sales",
+        "customer service",
+        "problem solving",
+        "teamwork",
+        "time management"
+      ],
+      "a_aprender": [
+        "account management",
+        "customer relationship management",
+        "crm",
+        "business development",
+        "negotiation",
+        "relationship building"
+      ]
+    },
+    {
+      "origen": "Construcción",
+      "destino": "Marketing y comunicación",
+      "similitud": 0.487,
+      "compartidas": [
+        "communication",
+        "project management",
+        "problem solving",
+        "microsoft office",
+        "collaboration",
+        "teamwork"
+      ],
+      "a_aprender": [
+        "technical writing",
+        "writing",
+        "marketing",
+        "presentation skills",
+        "data analysis",
+        "written communication"
+      ]
+    },
+    {
+      "origen": "Construcción",
+      "destino": "Ingeniería",
+      "similitud": 0.487,
+      "compartidas": [
+        "communication",
+        "project management",
+        "problem solving",
+        "civil engineering",
+        "autocad",
+        "microsoft office"
+      ],
+      "a_aprender": [
+        "electrical engineering",
+        "mechanical engineering",
+        "design",
+        "technical writing",
+        "python",
+        "troubleshooting"
+      ]
+    },
+    {
+      "origen": "Construcción",
+      "destino": "Gerencia y dirección",
+      "similitud": 0.346,
+      "compartidas": [
+        "communication",
+        "leadership",
+        "problem solving",
+        "customer service",
+        "project management",
+        "teamwork"
+      ],
+      "a_aprender": [
+        "team management",
+        "team leadership",
+        "coaching",
+        "inventory management",
+        "training",
+        "conflict resolution"
+      ]
+    },
+    {
+      "origen": "Datos y análisis",
+      "destino": "Finanzas y contabilidad",
+      "similitud": 0.39,
+      "compartidas": [
+        "communication",
+        "accounting",
+        "problem solving",
+        "teamwork",
+        "excel",
+        "microsoft office"
+      ],
+      "a_aprender": [
+        "financial reporting",
+        "auditing",
+        "marketing",
+        "risk management",
+        "sales",
+        "customer service"
+      ]
+    },
+    {
+      "origen": "Datos y análisis",
+      "destino": "Marketing y comunicación",
+      "similitud": 0.375,
+      "compartidas": [
+        "communication",
+        "project management",
+        "problem solving",
+        "microsoft office",
+        "collaboration",
+        "teamwork"
+      ],
+      "a_aprender": [
+        "technical writing",
+        "writing",
+        "autocad",
+        "marketing",
+        "microsoft word",
+        "multitasking"
+      ]
+    },
+    {
+      "origen": "Datos y análisis",
+      "destino": "Tecnología e informática",
+      "similitud": 0.323,
+      "compartidas": [
+        "communication",
+        "problem solving",
+        "python",
+        "sql",
+        "project management",
+        "teamwork"
+      ],
+      "a_aprender": [
+        "javascript",
+        "java",
+        "aws",
+        "software development",
+        "agile",
+        "computer science"
+      ]
+    },
+    {
+      "origen": "Datos y análisis",
+      "destino": "Ingeniería",
+      "similitud": 0.207,
+      "compartidas": [
+        "communication",
+        "project management",
+        "problem solving",
+        "microsoft office",
+        "teamwork",
+        "leadership"
+      ],
+      "a_aprender": [
+        "electrical engineering",
+        "mechanical engineering",
+        "civil engineering",
+        "autocad",
+        "design",
+        "technical writing"
+      ]
+    },
+    {
+      "origen": "Enfermería",
+      "destino": "Salud y medicina",
+      "similitud": 0.418,
+      "compartidas": [
+        "communication",
+        "patient care",
+        "teamwork",
+        "problem solving",
+        "customer service",
+        "leadership"
+      ],
+      "a_aprender": [
+        "radiology",
+        "internal medicine",
+        "treatment planning",
+        "medical terminology",
+        "confidentiality",
+        "research"
+      ]
+    },
+    {
+      "origen": "Finanzas y contabilidad",
+      "destino": "Datos y análisis",
+      "similitud": 0.39,
+      "compartidas": [
+        "communication",
+        "data analysis",
+        "problem solving",
+        "excel",
+        "project management",
+        "teamwork"
+      ],
+      "a_aprender": [
+        "machine learning",
+        "sql",
+        "python",
+        "reporting",
+        "presentation skills",
+        "written communication"
+      ]
+    },
+    {
+      "origen": "Finanzas y contabilidad",
+      "destino": "Administración y oficina",
+      "similitud": 0.241,
+      "compartidas": [
+        "communication",
+        "customer service",
+        "problem solving",
+        "teamwork",
+        "leadership",
+        "microsoft office"
+      ],
+      "a_aprender": [
+        "organization",
+        "scheduling",
+        "conflict resolution",
+        "multitasking",
+        "microsoft word",
+        "flexibility"
+      ]
+    },
+    {
+      "origen": "Finanzas y contabilidad",
+      "destino": "Marketing y comunicación",
+      "similitud": 0.217,
+      "compartidas": [
+        "communication",
+        "project management",
+        "problem solving",
+        "microsoft office",
+        "collaboration",
+        "teamwork"
+      ],
+      "a_aprender": [
+        "technical writing",
+        "writing",
+        "autocad",
+        "presentation skills",
+        "microsoft word",
+        "written communication"
+      ]
+    },
+    {
+      "origen": "Gerencia y dirección",
+      "destino": "Administración y oficina",
+      "similitud": 0.669,
+      "compartidas": [
+        "communication",
+        "customer service",
+        "problem solving",
+        "teamwork",
+        "leadership",
+        "microsoft office"
+      ],
+      "a_aprender": [
+        "organization",
+        "multitasking",
+        "flexibility",
+        "microsoft word",
+        "adaptability"
+      ]
+    },
+    {
+      "origen": "Gerencia y dirección",
+      "destino": "Comercio y tiendas",
+      "similitud": 0.529,
+      "compartidas": [
+        "customer service",
+        "communication",
+        "problem solving",
+        "leadership",
+        "teamwork",
+        "inventory management"
+      ],
+      "a_aprender": [
+        "mathematical calculations",
+        "loss prevention",
+        "retail management",
+        "merchandising",
+        "cash handling",
+        "inventory control"
+      ]
+    },
+    {
+      "origen": "Gerencia y dirección",
+      "destino": "Atención al cliente",
+      "similitud": 0.504,
+      "compartidas": [
+        "customer service",
+        "communication",
+        "problem solving",
+        "teamwork",
+        "sales",
+        "microsoft office"
+      ],
+      "a_aprender": [
+        "retail operations",
+        "retail",
+        "data entry",
+        "cash handling",
+        "merchandising",
+        "multitasking"
+      ]
+    },
+    {
+      "origen": "Gerencia y dirección",
+      "destino": "Logística y transporte",
+      "similitud": 0.378,
+      "compartidas": [
+        "communication",
+        "problem solving",
+        "customer service",
+        "inventory management",
+        "leadership",
+        "microsoft office"
+      ],
+      "a_aprender": [
+        "supply chain management",
+        "driving",
+        "inventory control",
+        "product knowledge",
+        "safety",
+        "cash handling"
+      ]
+    },
+    {
+      "origen": "Gerencia y dirección",
+      "destino": "Construcción",
+      "similitud": 0.346,
+      "compartidas": [
+        "communication",
+        "project management",
+        "problem solving",
+        "leadership",
+        "scheduling",
+        "microsoft office"
+      ],
+      "a_aprender": [
+        "construction management",
+        "construction",
+        "cost control",
+        "autocad",
+        "civil engineering",
+        "quality control"
+      ]
+    },
+    {
+      "origen": "Ingeniería",
+      "destino": "Construcción",
+      "similitud": 0.487,
+      "compartidas": [
+        "communication",
+        "project management",
+        "problem solving",
+        "leadership",
+        "microsoft office",
+        "budgeting"
+      ],
+      "a_aprender": [
+        "construction management",
+        "construction",
+        "cost control",
+        "quality control",
+        "scheduling",
+        "safety"
+      ]
+    },
+    {
+      "origen": "Ingeniería",
+      "destino": "Marketing y comunicación",
+      "similitud": 0.454,
+      "compartidas": [
+        "communication",
+        "project management",
+        "problem solving",
+        "microsoft office",
+        "collaboration",
+        "teamwork"
+      ],
+      "a_aprender": [
+        "writing",
+        "marketing",
+        "presentation skills",
+        "microsoft word",
+        "organizational skills",
+        "multitasking"
+      ]
+    },
+    {
+      "origen": "Ingeniería",
+      "destino": "Datos y análisis",
+      "similitud": 0.207,
+      "compartidas": [
+        "communication",
+        "data analysis",
+        "problem solving",
+        "excel",
+        "project management",
+        "teamwork"
+      ],
+      "a_aprender": [
+        "machine learning",
+        "sql",
+        "financial analysis",
+        "finance",
+        "forecasting",
+        "reporting"
+      ]
+    },
+    {
+      "origen": "Legal",
+      "destino": "Servicios sociales",
+      "similitud": 0.263,
+      "compartidas": [
+        "communication",
+        "case management",
+        "problem solving",
+        "teamwork",
+        "microsoft office",
+        "time management"
+      ],
+      "a_aprender": [
+        "social work",
+        "crisis intervention",
+        "counseling",
+        "psychology",
+        "mental health",
+        "treatment planning"
+      ]
+    },
+    {
+      "origen": "Legal",
+      "destino": "Marketing y comunicación",
+      "similitud": 0.237,
+      "compartidas": [
+        "communication",
+        "project management",
+        "problem solving",
+        "microsoft office",
+        "collaboration",
+        "teamwork"
+      ],
+      "a_aprender": [
+        "technical writing",
+        "autocad",
+        "marketing",
+        "presentation skills",
+        "data analysis",
+        "budgeting"
+      ]
+    },
+    {
+      "origen": "Limpieza y servicios generales",
+      "destino": "Comercio y tiendas",
+      "similitud": 0.331,
+      "compartidas": [
+        "customer service",
+        "communication",
+        "problem solving",
+        "leadership",
+        "teamwork",
+        "inventory management"
+      ],
+      "a_aprender": [
+        "mathematical calculations",
+        "loss prevention",
+        "retail management",
+        "merchandising",
+        "cash handling",
+        "inventory control"
+      ]
+    },
+    {
+      "origen": "Limpieza y servicios generales",
+      "destino": "Restaurantes y alimentos",
+      "similitud": 0.322,
+      "compartidas": [
+        "communication",
+        "customer service",
+        "teamwork",
+        "problem solving",
+        "leadership",
+        "attention to detail"
+      ],
+      "a_aprender": [
+        "food preparation",
+        "food handling",
+        "restaurant management",
+        "hospitality",
+        "food safety",
+        "cash handling"
+      ]
+    },
+    {
+      "origen": "Limpieza y servicios generales",
+      "destino": "Administración y oficina",
+      "similitud": 0.318,
+      "compartidas": [
+        "communication",
+        "customer service",
+        "problem solving",
+        "teamwork",
+        "leadership",
+        "microsoft office"
+      ],
+      "a_aprender": [
+        "conflict resolution",
+        "multitasking",
+        "microsoft word",
+        "excel",
+        "adaptability",
+        "decision making"
+      ]
+    },
+    {
+      "origen": "Limpieza y servicios generales",
+      "destino": "Gerencia y dirección",
+      "similitud": 0.262,
+      "compartidas": [
+        "communication",
+        "leadership",
+        "problem solving",
+        "customer service",
+        "teamwork",
+        "microsoft office"
+      ],
+      "a_aprender": [
+        "team management",
+        "team leadership",
+        "coaching",
+        "project management",
+        "conflict resolution",
+        "decision making"
+      ]
+    },
+    {
+      "origen": "Limpieza y servicios generales",
+      "destino": "Atención al cliente",
+      "similitud": 0.202,
+      "compartidas": [
+        "customer service",
+        "communication",
+        "problem solving",
+        "teamwork",
+        "microsoft office",
+        "time management"
+      ],
+      "a_aprender": [
+        "retail operations",
+        "retail",
+        "data entry",
+        "cash handling",
+        "merchandising",
+        "sales"
+      ]
+    },
+    {
+      "origen": "Logística y transporte",
+      "destino": "Gerencia y dirección",
+      "similitud": 0.378,
+      "compartidas": [
+        "communication",
+        "leadership",
+        "problem solving",
+        "customer service",
+        "project management",
+        "teamwork"
+      ],
+      "a_aprender": [
+        "team management",
+        "team leadership",
+        "coaching",
+        "budgeting",
+        "conflict resolution",
+        "sales"
+      ]
+    },
+    {
+      "origen": "Logística y transporte",
+      "destino": "Administración y oficina",
+      "similitud": 0.34,
+      "compartidas": [
+        "communication",
+        "customer service",
+        "problem solving",
+        "teamwork",
+        "leadership",
+        "microsoft office"
+      ],
+      "a_aprender": [
+        "organization",
+        "conflict resolution",
+        "flexibility",
+        "microsoft word",
+        "adaptability",
+        "budgeting"
+      ]
+    },
+    {
+      "origen": "Logística y transporte",
+      "destino": "Comercio y tiendas",
+      "similitud": 0.337,
+      "compartidas": [
+        "customer service",
+        "communication",
+        "problem solving",
+        "leadership",
+        "teamwork",
+        "inventory management"
+      ],
+      "a_aprender": [
+        "mathematical calculations",
+        "loss prevention",
+        "retail management",
+        "merchandising",
+        "cleaning",
+        "retail"
+      ]
+    },
+    {
+      "origen": "Logística y transporte",
+      "destino": "Atención al cliente",
+      "similitud": 0.23,
+      "compartidas": [
+        "customer service",
+        "communication",
+        "problem solving",
+        "teamwork",
+        "microsoft office",
+        "time management"
+      ],
+      "a_aprender": [
+        "retail operations",
+        "retail",
+        "data entry",
+        "merchandising",
+        "sales",
+        "computer skills"
+      ]
+    },
+    {
+      "origen": "Marketing y comunicación",
+      "destino": "Construcción",
+      "similitud": 0.487,
+      "compartidas": [
+        "communication",
+        "project management",
+        "problem solving",
+        "leadership",
+        "microsoft office",
+        "budgeting"
+      ],
+      "a_aprender": [
+        "construction management",
+        "construction",
+        "cost control",
+        "civil engineering",
+        "quality control",
+        "engineering"
+      ]
+    },
+    {
+      "origen": "Marketing y comunicación",
+      "destino": "Ingeniería",
+      "similitud": 0.454,
+      "compartidas": [
+        "communication",
+        "project management",
+        "problem solving",
+        "autocad",
+        "microsoft office",
+        "teamwork"
+      ],
+      "a_aprender": [
+        "electrical engineering",
+        "mechanical engineering",
+        "civil engineering",
+        "design",
+        "engineering",
+        "python"
+      ]
+    },
+    {
+      "origen": "Marketing y comunicación",
+      "destino": "Datos y análisis",
+      "similitud": 0.375,
+      "compartidas": [
+        "communication",
+        "data analysis",
+        "problem solving",
+        "excel",
+        "project management",
+        "teamwork"
+      ],
+      "a_aprender": [
+        "machine learning",
+        "sql",
+        "python",
+        "financial analysis",
+        "finance",
+        "forecasting"
+      ]
+    },
+    {
+      "origen": "Marketing y comunicación",
+      "destino": "Gerencia y dirección",
+      "similitud": 0.279,
+      "compartidas": [
+        "communication",
+        "leadership",
+        "problem solving",
+        "customer service",
+        "project management",
+        "teamwork"
+      ],
+      "a_aprender": [
+        "team management",
+        "team leadership",
+        "coaching",
+        "inventory management",
+        "training",
+        "conflict resolution"
+      ]
+    },
+    {
+      "origen": "Marketing y comunicación",
+      "destino": "Legal",
+      "similitud": 0.237,
+      "compartidas": [
+        "communication",
+        "problem solving",
+        "attention to detail",
+        "teamwork",
+        "time management",
+        "microsoft office"
+      ],
+      "a_aprender": [
+        "case management",
+        "negotiation",
+        "regulatory compliance",
+        "research",
+        "compliance",
+        "risk management"
+      ]
+    },
+    {
+      "origen": "Recursos humanos",
+      "destino": "Administración y oficina",
+      "similitud": 0.259,
+      "compartidas": [
+        "communication",
+        "customer service",
+        "problem solving",
+        "teamwork",
+        "leadership",
+        "microsoft office"
+      ],
+      "a_aprender": [
+        "organization",
+        "scheduling",
+        "multitasking",
+        "flexibility",
+        "microsoft word",
+        "inventory management"
+      ]
+    },
+    {
+      "origen": "Restaurantes y alimentos",
+      "destino": "Comercio y tiendas",
+      "similitud": 0.581,
+      "compartidas": [
+        "customer service",
+        "communication",
+        "problem solving",
+        "leadership",
+        "teamwork",
+        "inventory management"
+      ],
+      "a_aprender": [
+        "mathematical calculations",
+        "loss prevention",
+        "retail management",
+        "merchandising",
+        "inventory control",
+        "retail"
+      ]
+    },
+    {
+      "origen": "Restaurantes y alimentos",
+      "destino": "Atención al cliente",
+      "similitud": 0.574,
+      "compartidas": [
+        "customer service",
+        "communication",
+        "problem solving",
+        "teamwork",
+        "time management",
+        "attention to detail"
+      ],
+      "a_aprender": [
+        "retail operations",
+        "retail",
+        "data entry",
+        "merchandising",
+        "sales",
+        "computer skills"
+      ]
+    },
+    {
+      "origen": "Restaurantes y alimentos",
+      "destino": "Administración y oficina",
+      "similitud": 0.526,
+      "compartidas": [
+        "communication",
+        "customer service",
+        "problem solving",
+        "teamwork",
+        "leadership",
+        "time management"
+      ],
+      "a_aprender": [
+        "organization",
+        "conflict resolution",
+        "microsoft word",
+        "microsoft office",
+        "excel",
+        "project management"
+      ]
+    },
+    {
+      "origen": "Restaurantes y alimentos",
+      "destino": "Gerencia y dirección",
+      "similitud": 0.337,
+      "compartidas": [
+        "communication",
+        "leadership",
+        "problem solving",
+        "customer service",
+        "teamwork",
+        "time management"
+      ],
+      "a_aprender": [
+        "team management",
+        "team leadership",
+        "coaching",
+        "project management",
+        "conflict resolution",
+        "analytical skills"
+      ]
+    },
+    {
+      "origen": "Restaurantes y alimentos",
+      "destino": "Limpieza y servicios generales",
+      "similitud": 0.322,
+      "compartidas": [
+        "communication",
+        "cleaning",
+        "customer service",
+        "attention to detail",
+        "teamwork",
+        "problem solving"
+      ],
+      "a_aprender": [
+        "maintenance",
+        "basic computer skills",
+        "infection control",
+        "safety",
+        "supervision",
+        "reporting"
+      ]
+    },
+    {
+      "origen": "Salud y medicina",
+      "destino": "Enfermería",
+      "similitud": 0.418,
+      "compartidas": [
+        "patient care",
+        "communication",
+        "teamwork",
+        "problem solving",
+        "critical thinking",
+        "leadership"
+      ],
+      "a_aprender": [
+        "nursing",
+        "medication administration",
+        "patient assessment",
+        "travel nursing",
+        "patient education",
+        "infection control"
+      ]
+    },
+    {
+      "origen": "Servicios sociales",
+      "destino": "Legal",
+      "similitud": 0.263,
+      "compartidas": [
+        "communication",
+        "problem solving",
+        "attention to detail",
+        "teamwork",
+        "time management",
+        "microsoft office"
+      ],
+      "a_aprender": [
+        "writing",
+        "negotiation",
+        "regulatory compliance",
+        "research",
+        "analytical skills",
+        "compliance"
+      ]
+    },
+    {
+      "origen": "Tecnología e informática",
+      "destino": "Datos y análisis",
+      "similitud": 0.323,
+      "compartidas": [
+        "communication",
+        "data analysis",
+        "problem solving",
+        "project management",
+        "sql",
+        "teamwork"
+      ],
+      "a_aprender": [
+        "machine learning",
+        "financial analysis",
+        "finance",
+        "forecasting",
+        "excel",
+        "reporting"
+      ]
+    },
+    {
+      "origen": "Ventas",
+      "destino": "Atención al cliente",
+      "similitud": 0.512,
+      "compartidas": [
+        "customer service",
+        "communication",
+        "problem solving",
+        "teamwork",
+        "sales",
+        "microsoft office"
+      ],
+      "a_aprender": [
+        "retail operations",
+        "retail",
+        "data entry",
+        "cash handling",
+        "merchandising",
+        "decision making"
+      ]
+    },
+    {
+      "origen": "Ventas",
+      "destino": "Comercio y tiendas",
+      "similitud": 0.423,
+      "compartidas": [
+        "customer service",
+        "communication",
+        "problem solving",
+        "leadership",
+        "teamwork",
+        "sales"
+      ],
+      "a_aprender": [
+        "mathematical calculations",
+        "loss prevention",
+        "retail management",
+        "merchandising",
+        "cash handling",
+        "inventory control"
+      ]
+    },
+    {
+      "origen": "Ventas",
+      "destino": "Administración y oficina",
+      "similitud": 0.42,
+      "compartidas": [
+        "communication",
+        "customer service",
+        "problem solving",
+        "teamwork",
+        "leadership",
+        "microsoft office"
+      ],
+      "a_aprender": [
+        "organization",
+        "scheduling",
+        "conflict resolution",
+        "microsoft word",
+        "flexibility",
+        "inventory management"
+      ]
+    },
+    {
+      "origen": "Ventas",
+      "destino": "Gerencia y dirección",
+      "similitud": 0.266,
+      "compartidas": [
+        "communication",
+        "leadership",
+        "problem solving",
+        "customer service",
+        "project management",
+        "teamwork"
+      ],
+      "a_aprender": [
+        "team management",
+        "team leadership",
+        "coaching",
+        "budgeting",
+        "inventory management",
+        "training"
+      ]
+    },
+    {
+      "origen": "Ventas",
+      "destino": "Restaurantes y alimentos",
+      "similitud": 0.232,
+      "compartidas": [
+        "communication",
+        "customer service",
+        "teamwork",
+        "problem solving",
+        "leadership",
+        "attention to detail"
+      ],
+      "a_aprender": [
+        "food preparation",
+        "sanitation",
+        "food handling",
+        "restaurant management",
+        "hospitality",
+        "food safety"
+      ]
+    }
+  ]
+}

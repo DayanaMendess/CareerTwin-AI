@@ -1,0 +1,4357 @@
+{
+  "fuente": "1.3M LinkedIn Jobs & Skills (2024), Kaggle — ofertas de enero de 2024 (EE. UU., UK, Canadá, Australia)",
+  "denominadores": {
+    "pct_en_familia": "ofertas de esa familia que tienen al menos una habilidad válida",
+    "pct_mercado": "todas las ofertas con al menos una habilidad válida",
+    "lift": "pct_en_familia / pct_mercado (> 1: la familia la pide más que el mercado)"
+  },
+  "familias": [
+    {
+      "familia": "Salud y medicina",
+      "ofertas": 184695,
+      "ofertas_con_habilidades": 176540,
+      "titulos_frecuentes": [
+        "travel allied health professional ct technologist",
+        "veterinarian",
+        "dentist",
+        "licensed marriage and family therapist",
+        "ct technologist"
+      ],
+      "habilidades": [
+        {
+          "habilidad": "communication",
+          "categoria": "blanda",
+          "pct_en_familia": 26.86,
+          "pct_mercado": 43.03,
+          "lift": 0.62
+        },
+        {
+          "habilidad": "patient care",
+          "categoria": "tecnica",
+          "pct_en_familia": 17.35,
+          "pct_mercado": 7.68,
+          "lift": 2.26
+        },
+        {
+          "habilidad": "teamwork",
+          "categoria": "blanda",
+          "pct_en_familia": 13.43,
+          "pct_mercado": 19.48,
+          "lift": 0.69
+        },
+        {
+          "habilidad": "problem solving",
+          "categoria": "blanda",
+          "pct_en_familia": 12.58,
+          "pct_mercado": 24.41,
+          "lift": 0.52
+        },
+        {
+          "habilidad": "customer service",
+          "categoria": "tecnica",
+          "pct_en_familia": 8.27,
+          "pct_mercado": 22.44,
+          "lift": 0.37
+        },
+        {
+          "habilidad": "leadership",
+          "categoria": "blanda",
+          "pct_en_familia": 7.81,
+          "pct_mercado": 15.87,
+          "lift": 0.49
+        },
+        {
+          "habilidad": "interpersonal skills",
+          "categoria": "blanda",
+          "pct_en_familia": 7.09,
+          "pct_mercado": 7.73,
+          "lift": 0.92
+        },
+        {
+          "habilidad": "healthcare",
+          "categoria": "tecnica",
+          "pct_en_familia": 6.9,
+          "pct_mercado": 2.62,
+          "lift": 2.63
+        },
+        {
+          "habilidad": "time management",
+          "categoria": "blanda",
+          "pct_en_familia": 6.65,
+          "pct_mercado": 11.93,
+          "lift": 0.56
+        },
+        {
+          "habilidad": "radiology",
+          "categoria": "tecnica",
+          "pct_en_familia": 5.75,
+          "pct_mercado": 0.93,
+          "lift": 6.18
+        },
+        {
+          "habilidad": "collaboration",
+          "categoria": "blanda",
+          "pct_en_familia": 5.73,
+          "pct_mercado": 6.94,
+          "lift": 0.83
+        },
+        {
+          "habilidad": "microsoft office",
+          "categoria": "tecnica",
+          "pct_en_familia": 5.28,
+          "pct_mercado": 11.35,
+          "lift": 0.47
+        },
+        {
+          "habilidad": "attention to detail",
+          "categoria": "blanda",
+          "pct_en_familia": 4.91,
+          "pct_mercado": 10.26,
+          "lift": 0.48
+        },
+        {
+          "habilidad": "documentation",
+          "categoria": "tecnica",
+          "pct_en_familia": 4.87,
+          "pct_mercado": 3.98,
+          "lift": 1.22
+        },
+        {
+          "habilidad": "critical thinking",
+          "categoria": "blanda",
+          "pct_en_familia": 4.36,
+          "pct_mercado": 4.44,
+          "lift": 0.98
+        },
+        {
+          "habilidad": "research",
+          "categoria": "tecnica",
+          "pct_en_familia": 4.31,
+          "pct_mercado": 2.91,
+          "lift": 1.48
+        },
+        {
+          "habilidad": "organizational skills",
+          "categoria": "blanda",
+          "pct_en_familia": 4.3,
+          "pct_mercado": 6.22,
+          "lift": 0.69
+        },
+        {
+          "habilidad": "confidentiality",
+          "categoria": "blanda",
+          "pct_en_familia": 4.28,
+          "pct_mercado": 2.04,
+          "lift": 2.1
+        },
+        {
+          "habilidad": "medical terminology",
+          "categoria": "tecnica",
+          "pct_en_familia": 3.93,
+          "pct_mercado": 1.26,
+          "lift": 3.12
+        },
+        {
+          "habilidad": "treatment planning",
+          "categoria": "tecnica",
+          "pct_en_familia": 3.78,
+          "pct_mercado": 0.86,
+          "lift": 4.4
+        },
+        {
+          "habilidad": "data analysis",
+          "categoria": "tecnica",
+          "pct_en_familia": 3.64,
+          "pct_mercado": 6.25,
+          "lift": 0.58
+        },
+        {
+          "habilidad": "quality assurance",
+          "categoria": "tecnica",
+          "pct_en_familia": 3.55,
+          "pct_mercado": 2.79,
+          "lift": 1.27
+        },
+        {
+          "habilidad": "internal medicine",
+          "categoria": "tecnica",
+          "pct_en_familia": 3.52,
+          "pct_mercado": 0.69,
+          "lift": 5.1
+        },
+        {
+          "habilidad": "training",
+          "categoria": "tecnica",
+          "pct_en_familia": 3.27,
+          "pct_mercado": 6.4,
+          "lift": 0.51
+        },
+        {
+          "habilidad": "scheduling",
+          "categoria": "tecnica",
+          "pct_en_familia": 3.25,
+          "pct_mercado": 4.93,
+          "lift": 0.66
+        }
+      ]
+    },
+    {
+      "familia": "Enfermería",
+      "ofertas": 172133,
+      "ofertas_con_habilidades": 166859,
+      "titulos_frecuentes": [
+        "registered nurse",
+        "nurse practitioner",
+        "travel rn med surg",
+        "registered nurse rn",
+        "rn"
+      ],
+      "habilidades": [
+        {
+          "habilidad": "nursing",
+          "categoria": "tecnica",
+          "pct_en_familia": 47.65,
+          "pct_mercado": 6.79,
+          "lift": 7.02
+        },
+        {
+          "habilidad": "patient care",
+          "categoria": "tecnica",
+          "pct_en_familia": 34.92,
+          "pct_mercado": 7.68,
+          "lift": 4.55
+        },
+        {
+          "habilidad": "communication",
+          "categoria": "blanda",
+          "pct_en_familia": 33.0,
+          "pct_mercado": 43.03,
+          "lift": 0.77
+        },
+        {
+          "habilidad": "teamwork",
+          "categoria": "blanda",
+          "pct_en_familia": 17.83,
+          "pct_mercado": 19.48,
+          "lift": 0.92
+        },
+        {
+          "habilidad": "problem solving",
+          "categoria": "blanda",
+          "pct_en_familia": 15.42,
+          "pct_mercado": 24.41,
+          "lift": 0.63
+        },
+        {
+          "habilidad": "critical thinking",
+          "categoria": "blanda",
+          "pct_en_familia": 14.61,
+          "pct_mercado": 4.44,
+          "lift": 3.29
+        },
+        {
+          "habilidad": "leadership",
+          "categoria": "blanda",
+          "pct_en_familia": 13.38,
+          "pct_mercado": 15.87,
+          "lift": 0.84
+        },
+        {
+          "habilidad": "documentation",
+          "categoria": "tecnica",
+          "pct_en_familia": 11.9,
+          "pct_mercado": 3.98,
+          "lift": 2.99
+        },
+        {
+          "habilidad": "patient education",
+          "categoria": "tecnica",
+          "pct_en_familia": 11.49,
+          "pct_mercado": 2.05,
+          "lift": 5.6
+        },
+        {
+          "habilidad": "medication administration",
+          "categoria": "tecnica",
+          "pct_en_familia": 10.85,
+          "pct_mercado": 1.61,
+          "lift": 6.74
+        },
+        {
+          "habilidad": "collaboration",
+          "categoria": "blanda",
+          "pct_en_familia": 9.58,
+          "pct_mercado": 6.94,
+          "lift": 1.38
+        },
+        {
+          "habilidad": "time management",
+          "categoria": "blanda",
+          "pct_en_familia": 9.53,
+          "pct_mercado": 11.93,
+          "lift": 0.8
+        },
+        {
+          "habilidad": "healthcare",
+          "categoria": "tecnica",
+          "pct_en_familia": 7.99,
+          "pct_mercado": 2.62,
+          "lift": 3.05
+        },
+        {
+          "habilidad": "travel nursing",
+          "categoria": "tecnica",
+          "pct_en_familia": 6.43,
+          "pct_mercado": 1.01,
+          "lift": 6.37
+        },
+        {
+          "habilidad": "patient assessment",
+          "categoria": "tecnica",
+          "pct_en_familia": 6.03,
+          "pct_mercado": 0.92,
+          "lift": 6.55
+        },
+        {
+          "habilidad": "quality improvement",
+          "categoria": "tecnica",
+          "pct_en_familia": 5.9,
+          "pct_mercado": 1.26,
+          "lift": 4.68
+        },
+        {
+          "habilidad": "assessment",
+          "categoria": "tecnica",
+          "pct_en_familia": 5.89,
+          "pct_mercado": 1.28,
+          "lift": 4.6
+        },
+        {
+          "habilidad": "infection control",
+          "categoria": "tecnica",
+          "pct_en_familia": 5.58,
+          "pct_mercado": 1.1,
+          "lift": 5.07
+        },
+        {
+          "habilidad": "interpersonal skills",
+          "categoria": "blanda",
+          "pct_en_familia": 5.44,
+          "pct_mercado": 7.73,
+          "lift": 0.7
+        },
+        {
+          "habilidad": "evaluation",
+          "categoria": "tecnica",
+          "pct_en_familia": 5.4,
+          "pct_mercado": 1.13,
+          "lift": 4.78
+        },
+        {
+          "habilidad": "compassion",
+          "categoria": "blanda",
+          "pct_en_familia": 4.59,
+          "pct_mercado": 1.33,
+          "lift": 3.45
+        },
+        {
+          "habilidad": "planning",
+          "categoria": "blanda",
+          "pct_en_familia": 4.49,
+          "pct_mercado": 2.36,
+          "lift": 1.9
+        },
+        {
+          "habilidad": "customer service",
+          "categoria": "tecnica",
+          "pct_en_familia": 4.44,
+          "pct_mercado": 22.44,
+          "lift": 0.2
+        },
+        {
+          "habilidad": "case management",
+          "categoria": "tecnica",
+          "pct_en_familia": 4.39,
+          "pct_mercado": 1.61,
+          "lift": 2.73
+        },
+        {
+          "habilidad": "decision making",
+          "categoria": "blanda",
+          "pct_en_familia": 4.32,
+          "pct_mercado": 4.91,
+          "lift": 0.88
+        }
+      ]
+    },
+    {
+      "familia": "Gerencia y dirección",
+      "ofertas": 137594,
+      "ofertas_con_habilidades": 131223,
+      "titulos_frecuentes": [
+        "hourly supervisor and training",
+        "department manager",
+        "department supervisor",
+        "operations manager",
+        "project manager"
+      ],
+      "habilidades": [
+        {
+          "habilidad": "communication",
+          "categoria": "blanda",
+          "pct_en_familia": 55.52,
+          "pct_mercado": 43.03,
+          "lift": 1.29
+        },
+        {
+          "habilidad": "leadership",
+          "categoria": "blanda",
+          "pct_en_familia": 36.98,
+          "pct_mercado": 15.87,
+          "lift": 2.33
+        },
+        {
+          "habilidad": "problem solving",
+          "categoria": "blanda",
+          "pct_en_familia": 34.43,
+          "pct_mercado": 24.41,
+          "lift": 1.41
+        },
+        {
+          "habilidad": "customer service",
+          "categoria": "tecnica",
+          "pct_en_familia": 32.61,
+          "pct_mercado": 22.44,
+          "lift": 1.45
+        },
+        {
+          "habilidad": "project management",
+          "categoria": "tecnica",
+          "pct_en_familia": 20.32,
+          "pct_mercado": 9.45,
+          "lift": 2.15
+        },
+        {
+          "habilidad": "teamwork",
+          "categoria": "blanda",
+          "pct_en_familia": 19.68,
+          "pct_mercado": 19.48,
+          "lift": 1.01
+        },
+        {
+          "habilidad": "microsoft office",
+          "categoria": "tecnica",
+          "pct_en_familia": 16.17,
+          "pct_mercado": 11.35,
+          "lift": 1.42
+        },
+        {
+          "habilidad": "time management",
+          "categoria": "blanda",
+          "pct_en_familia": 14.87,
+          "pct_mercado": 11.93,
+          "lift": 1.25
+        },
+        {
+          "habilidad": "training",
+          "categoria": "tecnica",
+          "pct_en_familia": 14.76,
+          "pct_mercado": 6.4,
+          "lift": 2.31
+        },
+        {
+          "habilidad": "inventory management",
+          "categoria": "tecnica",
+          "pct_en_familia": 12.97,
+          "pct_mercado": 5.53,
+          "lift": 2.35
+        },
+        {
+          "habilidad": "budgeting",
+          "categoria": "tecnica",
+          "pct_en_familia": 12.63,
+          "pct_mercado": 5.06,
+          "lift": 2.5
+        },
+        {
+          "habilidad": "attention to detail",
+          "categoria": "blanda",
+          "pct_en_familia": 11.63,
+          "pct_mercado": 10.26,
+          "lift": 1.13
+        },
+        {
+          "habilidad": "interpersonal skills",
+          "categoria": "blanda",
+          "pct_en_familia": 9.5,
+          "pct_mercado": 7.73,
+          "lift": 1.23
+        },
+        {
+          "habilidad": "scheduling",
+          "categoria": "tecnica",
+          "pct_en_familia": 9.4,
+          "pct_mercado": 4.93,
+          "lift": 1.91
+        },
+        {
+          "habilidad": "decision making",
+          "categoria": "blanda",
+          "pct_en_familia": 9.22,
+          "pct_mercado": 4.91,
+          "lift": 1.88
+        },
+        {
+          "habilidad": "team management",
+          "categoria": "tecnica",
+          "pct_en_familia": 8.82,
+          "pct_mercado": 2.7,
+          "lift": 3.27
+        },
+        {
+          "habilidad": "data analysis",
+          "categoria": "tecnica",
+          "pct_en_familia": 8.71,
+          "pct_mercado": 6.25,
+          "lift": 1.39
+        },
+        {
+          "habilidad": "organizational skills",
+          "categoria": "blanda",
+          "pct_en_familia": 8.23,
+          "pct_mercado": 6.22,
+          "lift": 1.32
+        },
+        {
+          "habilidad": "sales",
+          "categoria": "tecnica",
+          "pct_en_familia": 8.2,
+          "pct_mercado": 7.56,
+          "lift": 1.08
+        },
+        {
+          "habilidad": "coaching",
+          "categoria": "blanda",
+          "pct_en_familia": 7.85,
+          "pct_mercado": 2.95,
+          "lift": 2.66
+        },
+        {
+          "habilidad": "analytical skills",
+          "categoria": "blanda",
+          "pct_en_familia": 7.4,
+          "pct_mercado": 4.65,
+          "lift": 1.59
+        },
+        {
+          "habilidad": "excel",
+          "categoria": "tecnica",
+          "pct_en_familia": 7.13,
+          "pct_mercado": 5.57,
+          "lift": 1.28
+        },
+        {
+          "habilidad": "collaboration",
+          "categoria": "blanda",
+          "pct_en_familia": 6.97,
+          "pct_mercado": 6.94,
+          "lift": 1.0
+        },
+        {
+          "habilidad": "team leadership",
+          "categoria": "blanda",
+          "pct_en_familia": 6.84,
+          "pct_mercado": 2.55,
+          "lift": 2.68
+        },
+        {
+          "habilidad": "conflict resolution",
+          "categoria": "blanda",
+          "pct_en_familia": 6.58,
+          "pct_mercado": 3.1,
+          "lift": 2.12
+        }
+      ]
+    },
+    {
+      "familia": "Otros",
+      "ofertas": 130511,
+      "ofertas_con_habilidades": 122929,
+      "titulos_frecuentes": [
+        "earn up to",
+        "pediatrician",
+        "physiotherapist",
+        "insurance agent",
+        "athletic trainer"
+      ],
+      "habilidades": [
+        {
+          "habilidad": "communication",
+          "categoria": "blanda",
+          "pct_en_familia": 40.9,
+          "pct_mercado": 43.03,
+          "lift": 0.95
+        },
+        {
+          "habilidad": "customer service",
+          "categoria": "tecnica",
+          "pct_en_familia": 22.77,
+          "pct_mercado": 22.44,
+          "lift": 1.01
+        },
+        {
+          "habilidad": "teamwork",
+          "categoria": "blanda",
+          "pct_en_familia": 21.4,
+          "pct_mercado": 19.48,
+          "lift": 1.1
+        },
+        {
+          "habilidad": "problem solving",
+          "categoria": "blanda",
+          "pct_en_familia": 20.6,
+          "pct_mercado": 24.41,
+          "lift": 0.84
+        },
+        {
+          "habilidad": "time management",
+          "categoria": "blanda",
+          "pct_en_familia": 11.79,
+          "pct_mercado": 11.93,
+          "lift": 0.99
+        },
+        {
+          "habilidad": "attention to detail",
+          "categoria": "blanda",
+          "pct_en_familia": 11.09,
+          "pct_mercado": 10.26,
+          "lift": 1.08
+        },
+        {
+          "habilidad": "microsoft office",
+          "categoria": "tecnica",
+          "pct_en_familia": 10.62,
+          "pct_mercado": 11.35,
+          "lift": 0.94
+        },
+        {
+          "habilidad": "leadership",
+          "categoria": "blanda",
+          "pct_en_familia": 8.26,
+          "pct_mercado": 15.87,
+          "lift": 0.52
+        },
+        {
+          "habilidad": "interpersonal skills",
+          "categoria": "blanda",
+          "pct_en_familia": 7.22,
+          "pct_mercado": 7.73,
+          "lift": 0.93
+        },
+        {
+          "habilidad": "sales",
+          "categoria": "tecnica",
+          "pct_en_familia": 7.19,
+          "pct_mercado": 7.56,
+          "lift": 0.95
+        },
+        {
+          "habilidad": "project management",
+          "categoria": "tecnica",
+          "pct_en_familia": 7.02,
+          "pct_mercado": 9.45,
+          "lift": 0.74
+        },
+        {
+          "habilidad": "data analysis",
+          "categoria": "tecnica",
+          "pct_en_familia": 6.36,
+          "pct_mercado": 6.25,
+          "lift": 1.02
+        },
+        {
+          "habilidad": "collaboration",
+          "categoria": "blanda",
+          "pct_en_familia": 6.34,
+          "pct_mercado": 6.94,
+          "lift": 0.91
+        },
+        {
+          "habilidad": "organizational skills",
+          "categoria": "blanda",
+          "pct_en_familia": 5.64,
+          "pct_mercado": 6.22,
+          "lift": 0.91
+        },
+        {
+          "habilidad": "patient care",
+          "categoria": "tecnica",
+          "pct_en_familia": 5.48,
+          "pct_mercado": 7.68,
+          "lift": 0.71
+        },
+        {
+          "habilidad": "flexibility",
+          "categoria": "blanda",
+          "pct_en_familia": 5.03,
+          "pct_mercado": 4.38,
+          "lift": 1.15
+        },
+        {
+          "habilidad": "excel",
+          "categoria": "tecnica",
+          "pct_en_familia": 4.81,
+          "pct_mercado": 5.57,
+          "lift": 0.86
+        },
+        {
+          "habilidad": "adaptability",
+          "categoria": "blanda",
+          "pct_en_familia": 4.57,
+          "pct_mercado": 4.54,
+          "lift": 1.01
+        },
+        {
+          "habilidad": "training",
+          "categoria": "tecnica",
+          "pct_en_familia": 4.56,
+          "pct_mercado": 6.4,
+          "lift": 0.71
+        },
+        {
+          "habilidad": "analytical skills",
+          "categoria": "blanda",
+          "pct_en_familia": 4.01,
+          "pct_mercado": 4.65,
+          "lift": 0.86
+        },
+        {
+          "habilidad": "multitasking",
+          "categoria": "blanda",
+          "pct_en_familia": 3.99,
+          "pct_mercado": 4.77,
+          "lift": 0.84
+        },
+        {
+          "habilidad": "inventory management",
+          "categoria": "tecnica",
+          "pct_en_familia": 3.88,
+          "pct_mercado": 5.53,
+          "lift": 0.7
+        },
+        {
+          "habilidad": "research",
+          "categoria": "tecnica",
+          "pct_en_familia": 3.84,
+          "pct_mercado": 2.91,
+          "lift": 1.32
+        },
+        {
+          "habilidad": "critical thinking",
+          "categoria": "blanda",
+          "pct_en_familia": 3.73,
+          "pct_mercado": 4.44,
+          "lift": 0.84
+        },
+        {
+          "habilidad": "organization",
+          "categoria": "blanda",
+          "pct_en_familia": 3.5,
+          "pct_mercado": 3.62,
+          "lift": 0.97
+        }
+      ]
+    },
+    {
+      "familia": "Comercio y tiendas",
+      "ofertas": 73160,
+      "ofertas_con_habilidades": 71367,
+      "titulos_frecuentes": [
+        "lead sales associate",
+        "shift manager",
+        "store manager",
+        "retail staff",
+        "guest advocate"
+      ],
+      "habilidades": [
+        {
+          "habilidad": "customer service",
+          "categoria": "tecnica",
+          "pct_en_familia": 76.28,
+          "pct_mercado": 22.44,
+          "lift": 3.4
+        },
+        {
+          "habilidad": "communication",
+          "categoria": "blanda",
+          "pct_en_familia": 58.96,
+          "pct_mercado": 43.03,
+          "lift": 1.37
+        },
+        {
+          "habilidad": "problem solving",
+          "categoria": "blanda",
+          "pct_en_familia": 34.36,
+          "pct_mercado": 24.41,
+          "lift": 1.41
+        },
+        {
+          "habilidad": "leadership",
+          "categoria": "blanda",
+          "pct_en_familia": 30.11,
+          "pct_mercado": 15.87,
+          "lift": 1.9
+        },
+        {
+          "habilidad": "teamwork",
+          "categoria": "blanda",
+          "pct_en_familia": 27.44,
+          "pct_mercado": 19.48,
+          "lift": 1.41
+        },
+        {
+          "habilidad": "inventory management",
+          "categoria": "tecnica",
+          "pct_en_familia": 25.53,
+          "pct_mercado": 5.53,
+          "lift": 4.62
+        },
+        {
+          "habilidad": "merchandising",
+          "categoria": "tecnica",
+          "pct_en_familia": 25.1,
+          "pct_mercado": 2.89,
+          "lift": 8.69
+        },
+        {
+          "habilidad": "sales",
+          "categoria": "tecnica",
+          "pct_en_familia": 24.98,
+          "pct_mercado": 7.56,
+          "lift": 3.3
+        },
+        {
+          "habilidad": "cash handling",
+          "categoria": "tecnica",
+          "pct_en_familia": 20.95,
+          "pct_mercado": 2.45,
+          "lift": 8.55
+        },
+        {
+          "habilidad": "training",
+          "categoria": "tecnica",
+          "pct_en_familia": 17.65,
+          "pct_mercado": 6.4,
+          "lift": 2.76
+        },
+        {
+          "habilidad": "attention to detail",
+          "categoria": "blanda",
+          "pct_en_familia": 14.88,
+          "pct_mercado": 10.26,
+          "lift": 1.45
+        },
+        {
+          "habilidad": "time management",
+          "categoria": "blanda",
+          "pct_en_familia": 14.41,
+          "pct_mercado": 11.93,
+          "lift": 1.21
+        },
+        {
+          "habilidad": "mathematical calculations",
+          "categoria": "tecnica",
+          "pct_en_familia": 13.59,
+          "pct_mercado": 0.87,
+          "lift": 15.62
+        },
+        {
+          "habilidad": "scheduling",
+          "categoria": "tecnica",
+          "pct_en_familia": 12.67,
+          "pct_mercado": 4.93,
+          "lift": 2.57
+        },
+        {
+          "habilidad": "food safety",
+          "categoria": "tecnica",
+          "pct_en_familia": 11.5,
+          "pct_mercado": 2.45,
+          "lift": 4.69
+        },
+        {
+          "habilidad": "retail management",
+          "categoria": "tecnica",
+          "pct_en_familia": 10.92,
+          "pct_mercado": 1.07,
+          "lift": 10.21
+        },
+        {
+          "habilidad": "safety",
+          "categoria": "tecnica",
+          "pct_en_familia": 10.61,
+          "pct_mercado": 3.52,
+          "lift": 3.01
+        },
+        {
+          "habilidad": "retail",
+          "categoria": "tecnica",
+          "pct_en_familia": 10.6,
+          "pct_mercado": 1.7,
+          "lift": 6.24
+        },
+        {
+          "habilidad": "interpersonal skills",
+          "categoria": "blanda",
+          "pct_en_familia": 10.35,
+          "pct_mercado": 7.73,
+          "lift": 1.34
+        },
+        {
+          "habilidad": "loss prevention",
+          "categoria": "tecnica",
+          "pct_en_familia": 9.25,
+          "pct_mercado": 0.78,
+          "lift": 11.86
+        },
+        {
+          "habilidad": "adaptability",
+          "categoria": "blanda",
+          "pct_en_familia": 8.7,
+          "pct_mercado": 4.54,
+          "lift": 1.92
+        },
+        {
+          "habilidad": "cleaning",
+          "categoria": "tecnica",
+          "pct_en_familia": 8.43,
+          "pct_mercado": 1.33,
+          "lift": 6.34
+        },
+        {
+          "habilidad": "inventory control",
+          "categoria": "tecnica",
+          "pct_en_familia": 8.16,
+          "pct_mercado": 1.21,
+          "lift": 6.74
+        },
+        {
+          "habilidad": "decision making",
+          "categoria": "blanda",
+          "pct_en_familia": 7.94,
+          "pct_mercado": 4.91,
+          "lift": 1.62
+        },
+        {
+          "habilidad": "flexibility",
+          "categoria": "blanda",
+          "pct_en_familia": 7.67,
+          "pct_mercado": 4.38,
+          "lift": 1.75
+        }
+      ]
+    },
+    {
+      "familia": "Manufactura y mantenimiento",
+      "ofertas": 70060,
+      "ofertas_con_habilidades": 67706,
+      "titulos_frecuentes": [
+        "maintenance supervisor",
+        "production supervisor",
+        "maintenance technician",
+        "maintenance manager",
+        "quality inspector"
+      ],
+      "habilidades": [
+        {
+          "habilidad": "communication",
+          "categoria": "blanda",
+          "pct_en_familia": 39.76,
+          "pct_mercado": 43.03,
+          "lift": 0.92
+        },
+        {
+          "habilidad": "problem solving",
+          "categoria": "blanda",
+          "pct_en_familia": 29.23,
+          "pct_mercado": 24.41,
+          "lift": 1.2
+        },
+        {
+          "habilidad": "troubleshooting",
+          "categoria": "tecnica",
+          "pct_en_familia": 19.4,
+          "pct_mercado": 3.36,
+          "lift": 5.77
+        },
+        {
+          "habilidad": "teamwork",
+          "categoria": "blanda",
+          "pct_en_familia": 18.98,
+          "pct_mercado": 19.48,
+          "lift": 0.97
+        },
+        {
+          "habilidad": "customer service",
+          "categoria": "tecnica",
+          "pct_en_familia": 16.98,
+          "pct_mercado": 22.44,
+          "lift": 0.76
+        },
+        {
+          "habilidad": "leadership",
+          "categoria": "blanda",
+          "pct_en_familia": 14.79,
+          "pct_mercado": 15.87,
+          "lift": 0.93
+        },
+        {
+          "habilidad": "microsoft office",
+          "categoria": "tecnica",
+          "pct_en_familia": 12.37,
+          "pct_mercado": 11.35,
+          "lift": 1.09
+        },
+        {
+          "habilidad": "attention to detail",
+          "categoria": "blanda",
+          "pct_en_familia": 11.94,
+          "pct_mercado": 10.26,
+          "lift": 1.16
+        },
+        {
+          "habilidad": "quality control",
+          "categoria": "tecnica",
+          "pct_en_familia": 11.2,
+          "pct_mercado": 2.91,
+          "lift": 3.85
+        },
+        {
+          "habilidad": "maintenance",
+          "categoria": "tecnica",
+          "pct_en_familia": 10.18,
+          "pct_mercado": 1.54,
+          "lift": 6.61
+        },
+        {
+          "habilidad": "project management",
+          "categoria": "tecnica",
+          "pct_en_familia": 8.95,
+          "pct_mercado": 9.45,
+          "lift": 0.95
+        },
+        {
+          "habilidad": "time management",
+          "categoria": "blanda",
+          "pct_en_familia": 8.72,
+          "pct_mercado": 11.93,
+          "lift": 0.73
+        },
+        {
+          "habilidad": "quality assurance",
+          "categoria": "tecnica",
+          "pct_en_familia": 8.58,
+          "pct_mercado": 2.79,
+          "lift": 3.08
+        },
+        {
+          "habilidad": "manufacturing",
+          "categoria": "tecnica",
+          "pct_en_familia": 8.42,
+          "pct_mercado": 1.25,
+          "lift": 6.74
+        },
+        {
+          "habilidad": "safety",
+          "categoria": "tecnica",
+          "pct_en_familia": 7.67,
+          "pct_mercado": 3.52,
+          "lift": 2.18
+        },
+        {
+          "habilidad": "continuous improvement",
+          "categoria": "tecnica",
+          "pct_en_familia": 6.46,
+          "pct_mercado": 1.24,
+          "lift": 5.21
+        },
+        {
+          "habilidad": "training",
+          "categoria": "tecnica",
+          "pct_en_familia": 6.45,
+          "pct_mercado": 6.4,
+          "lift": 1.01
+        },
+        {
+          "habilidad": "excel",
+          "categoria": "tecnica",
+          "pct_en_familia": 6.44,
+          "pct_mercado": 5.57,
+          "lift": 1.16
+        },
+        {
+          "habilidad": "interpersonal skills",
+          "categoria": "blanda",
+          "pct_en_familia": 6.25,
+          "pct_mercado": 7.73,
+          "lift": 0.81
+        },
+        {
+          "habilidad": "data analysis",
+          "categoria": "tecnica",
+          "pct_en_familia": 5.73,
+          "pct_mercado": 6.25,
+          "lift": 0.92
+        },
+        {
+          "habilidad": "scheduling",
+          "categoria": "tecnica",
+          "pct_en_familia": 5.02,
+          "pct_mercado": 4.93,
+          "lift": 1.02
+        },
+        {
+          "habilidad": "organizational skills",
+          "categoria": "blanda",
+          "pct_en_familia": 4.98,
+          "pct_mercado": 6.22,
+          "lift": 0.8
+        },
+        {
+          "habilidad": "engineering",
+          "categoria": "tecnica",
+          "pct_en_familia": 4.73,
+          "pct_mercado": 2.19,
+          "lift": 2.16
+        },
+        {
+          "habilidad": "root cause analysis",
+          "categoria": "tecnica",
+          "pct_en_familia": 4.68,
+          "pct_mercado": 0.74,
+          "lift": 6.32
+        },
+        {
+          "habilidad": "microsoft word",
+          "categoria": "tecnica",
+          "pct_en_familia": 4.67,
+          "pct_mercado": 3.24,
+          "lift": 1.44
+        }
+      ]
+    },
+    {
+      "familia": "Ventas",
+      "ofertas": 61830,
+      "ofertas_con_habilidades": 58622,
+      "titulos_frecuentes": [
+        "account executive",
+        "sales consultant",
+        "business development manager",
+        "account manager",
+        "sales lead"
+      ],
+      "habilidades": [
+        {
+          "habilidad": "communication",
+          "categoria": "blanda",
+          "pct_en_familia": 61.63,
+          "pct_mercado": 43.03,
+          "lift": 1.43
+        },
+        {
+          "habilidad": "sales",
+          "categoria": "tecnica",
+          "pct_en_familia": 52.89,
+          "pct_mercado": 7.56,
+          "lift": 7.0
+        },
+        {
+          "habilidad": "customer service",
+          "categoria": "tecnica",
+          "pct_en_familia": 39.85,
+          "pct_mercado": 22.44,
+          "lift": 1.78
+        },
+        {
+          "habilidad": "problem solving",
+          "categoria": "blanda",
+          "pct_en_familia": 32.79,
+          "pct_mercado": 24.41,
+          "lift": 1.34
+        },
+        {
+          "habilidad": "microsoft office",
+          "categoria": "tecnica",
+          "pct_en_familia": 25.0,
+          "pct_mercado": 11.35,
+          "lift": 2.2
+        },
+        {
+          "habilidad": "teamwork",
+          "categoria": "blanda",
+          "pct_en_familia": 21.85,
+          "pct_mercado": 19.48,
+          "lift": 1.12
+        },
+        {
+          "habilidad": "negotiation",
+          "categoria": "blanda",
+          "pct_en_familia": 21.37,
+          "pct_mercado": 3.06,
+          "lift": 6.98
+        },
+        {
+          "habilidad": "time management",
+          "categoria": "blanda",
+          "pct_en_familia": 21.17,
+          "pct_mercado": 11.93,
+          "lift": 1.77
+        },
+        {
+          "habilidad": "account management",
+          "categoria": "tecnica",
+          "pct_en_familia": 18.86,
+          "pct_mercado": 1.23,
+          "lift": 15.33
+        },
+        {
+          "habilidad": "business development",
+          "categoria": "tecnica",
+          "pct_en_familia": 17.07,
+          "pct_mercado": 1.94,
+          "lift": 8.8
+        },
+        {
+          "habilidad": "leadership",
+          "categoria": "blanda",
+          "pct_en_familia": 14.58,
+          "pct_mercado": 15.87,
+          "lift": 0.92
+        },
+        {
+          "habilidad": "presentation skills",
+          "categoria": "blanda",
+          "pct_en_familia": 13.77,
+          "pct_mercado": 2.89,
+          "lift": 4.76
+        },
+        {
+          "habilidad": "relationship building",
+          "categoria": "blanda",
+          "pct_en_familia": 10.97,
+          "pct_mercado": 1.67,
+          "lift": 6.57
+        },
+        {
+          "habilidad": "attention to detail",
+          "categoria": "blanda",
+          "pct_en_familia": 10.82,
+          "pct_mercado": 10.26,
+          "lift": 1.05
+        },
+        {
+          "habilidad": "customer relationship management",
+          "categoria": "tecnica",
+          "pct_en_familia": 10.25,
+          "pct_mercado": 0.78,
+          "lift": 13.14
+        },
+        {
+          "habilidad": "data analysis",
+          "categoria": "tecnica",
+          "pct_en_familia": 9.67,
+          "pct_mercado": 6.25,
+          "lift": 1.55
+        },
+        {
+          "habilidad": "interpersonal skills",
+          "categoria": "blanda",
+          "pct_en_familia": 9.01,
+          "pct_mercado": 7.73,
+          "lift": 1.17
+        },
+        {
+          "habilidad": "marketing",
+          "categoria": "tecnica",
+          "pct_en_familia": 8.82,
+          "pct_mercado": 2.27,
+          "lift": 3.89
+        },
+        {
+          "habilidad": "adaptability",
+          "categoria": "blanda",
+          "pct_en_familia": 8.63,
+          "pct_mercado": 4.54,
+          "lift": 1.9
+        },
+        {
+          "habilidad": "crm",
+          "categoria": "tecnica",
+          "pct_en_familia": 8.59,
+          "pct_mercado": 0.73,
+          "lift": 11.77
+        },
+        {
+          "habilidad": "organizational skills",
+          "categoria": "blanda",
+          "pct_en_familia": 8.5,
+          "pct_mercado": 6.22,
+          "lift": 1.37
+        },
+        {
+          "habilidad": "product knowledge",
+          "categoria": "tecnica",
+          "pct_en_familia": 8.18,
+          "pct_mercado": 1.64,
+          "lift": 4.99
+        },
+        {
+          "habilidad": "project management",
+          "categoria": "tecnica",
+          "pct_en_familia": 7.85,
+          "pct_mercado": 9.45,
+          "lift": 0.83
+        },
+        {
+          "habilidad": "multitasking",
+          "categoria": "blanda",
+          "pct_en_familia": 7.49,
+          "pct_mercado": 4.77,
+          "lift": 1.57
+        },
+        {
+          "habilidad": "excel",
+          "categoria": "tecnica",
+          "pct_en_familia": 7.43,
+          "pct_mercado": 5.57,
+          "lift": 1.33
+        }
+      ]
+    },
+    {
+      "familia": "Finanzas y contabilidad",
+      "ofertas": 58550,
+      "ofertas_con_habilidades": 56255,
+      "titulos_frecuentes": [
+        "first year tax professional",
+        "senior accountant",
+        "accounting manager",
+        "accountant",
+        "tax manager"
+      ],
+      "habilidades": [
+        {
+          "habilidad": "communication",
+          "categoria": "blanda",
+          "pct_en_familia": 48.51,
+          "pct_mercado": 43.03,
+          "lift": 1.13
+        },
+        {
+          "habilidad": "accounting",
+          "categoria": "tecnica",
+          "pct_en_familia": 35.28,
+          "pct_mercado": 2.66,
+          "lift": 13.26
+        },
+        {
+          "habilidad": "problem solving",
+          "categoria": "blanda",
+          "pct_en_familia": 27.75,
+          "pct_mercado": 24.41,
+          "lift": 1.14
+        },
+        {
+          "habilidad": "teamwork",
+          "categoria": "blanda",
+          "pct_en_familia": 23.62,
+          "pct_mercado": 19.48,
+          "lift": 1.21
+        },
+        {
+          "habilidad": "customer service",
+          "categoria": "tecnica",
+          "pct_en_familia": 21.9,
+          "pct_mercado": 22.44,
+          "lift": 0.98
+        },
+        {
+          "habilidad": "excel",
+          "categoria": "tecnica",
+          "pct_en_familia": 20.09,
+          "pct_mercado": 5.57,
+          "lift": 3.61
+        },
+        {
+          "habilidad": "microsoft office",
+          "categoria": "tecnica",
+          "pct_en_familia": 18.66,
+          "pct_mercado": 11.35,
+          "lift": 1.64
+        },
+        {
+          "habilidad": "attention to detail",
+          "categoria": "blanda",
+          "pct_en_familia": 18.59,
+          "pct_mercado": 10.26,
+          "lift": 1.81
+        },
+        {
+          "habilidad": "financial reporting",
+          "categoria": "tecnica",
+          "pct_en_familia": 17.55,
+          "pct_mercado": 1.24,
+          "lift": 14.15
+        },
+        {
+          "habilidad": "budgeting",
+          "categoria": "tecnica",
+          "pct_en_familia": 14.97,
+          "pct_mercado": 5.06,
+          "lift": 2.96
+        },
+        {
+          "habilidad": "time management",
+          "categoria": "blanda",
+          "pct_en_familia": 14.87,
+          "pct_mercado": 11.93,
+          "lift": 1.25
+        },
+        {
+          "habilidad": "analytical skills",
+          "categoria": "blanda",
+          "pct_en_familia": 14.01,
+          "pct_mercado": 4.65,
+          "lift": 3.01
+        },
+        {
+          "habilidad": "sales",
+          "categoria": "tecnica",
+          "pct_en_familia": 13.68,
+          "pct_mercado": 7.56,
+          "lift": 1.81
+        },
+        {
+          "habilidad": "leadership",
+          "categoria": "blanda",
+          "pct_en_familia": 12.78,
+          "pct_mercado": 15.87,
+          "lift": 0.81
+        },
+        {
+          "habilidad": "financial analysis",
+          "categoria": "tecnica",
+          "pct_en_familia": 11.58,
+          "pct_mercado": 1.38,
+          "lift": 8.39
+        },
+        {
+          "habilidad": "finance",
+          "categoria": "tecnica",
+          "pct_en_familia": 11.27,
+          "pct_mercado": 1.36,
+          "lift": 8.29
+        },
+        {
+          "habilidad": "collaboration",
+          "categoria": "blanda",
+          "pct_en_familia": 10.42,
+          "pct_mercado": 6.94,
+          "lift": 1.5
+        },
+        {
+          "habilidad": "data analysis",
+          "categoria": "tecnica",
+          "pct_en_familia": 9.61,
+          "pct_mercado": 6.25,
+          "lift": 1.54
+        },
+        {
+          "habilidad": "interpersonal skills",
+          "categoria": "blanda",
+          "pct_en_familia": 8.9,
+          "pct_mercado": 7.73,
+          "lift": 1.15
+        },
+        {
+          "habilidad": "marketing",
+          "categoria": "tecnica",
+          "pct_en_familia": 8.69,
+          "pct_mercado": 2.27,
+          "lift": 3.83
+        },
+        {
+          "habilidad": "project management",
+          "categoria": "tecnica",
+          "pct_en_familia": 8.59,
+          "pct_mercado": 9.45,
+          "lift": 0.91
+        },
+        {
+          "habilidad": "organizational skills",
+          "categoria": "blanda",
+          "pct_en_familia": 8.34,
+          "pct_mercado": 6.22,
+          "lift": 1.34
+        },
+        {
+          "habilidad": "auditing",
+          "categoria": "tecnica",
+          "pct_en_familia": 8.17,
+          "pct_mercado": 0.69,
+          "lift": 11.84
+        },
+        {
+          "habilidad": "forecasting",
+          "categoria": "tecnica",
+          "pct_en_familia": 7.32,
+          "pct_mercado": 1.23,
+          "lift": 5.95
+        },
+        {
+          "habilidad": "risk management",
+          "categoria": "tecnica",
+          "pct_en_familia": 6.79,
+          "pct_mercado": 2.34,
+          "lift": 2.9
+        }
+      ]
+    },
+    {
+      "familia": "Ingeniería",
+      "ofertas": 57735,
+      "ofertas_con_habilidades": 56388,
+      "titulos_frecuentes": [
+        "senior electrical engineer",
+        "senior mechanical engineer",
+        "engineering manager",
+        "electrical engineer",
+        "project engineer"
+      ],
+      "habilidades": [
+        {
+          "habilidad": "communication",
+          "categoria": "blanda",
+          "pct_en_familia": 31.9,
+          "pct_mercado": 43.03,
+          "lift": 0.74
+        },
+        {
+          "habilidad": "project management",
+          "categoria": "tecnica",
+          "pct_en_familia": 30.13,
+          "pct_mercado": 9.45,
+          "lift": 3.19
+        },
+        {
+          "habilidad": "problem solving",
+          "categoria": "blanda",
+          "pct_en_familia": 21.54,
+          "pct_mercado": 24.41,
+          "lift": 0.88
+        },
+        {
+          "habilidad": "electrical engineering",
+          "categoria": "tecnica",
+          "pct_en_familia": 17.1,
+          "pct_mercado": 1.29,
+          "lift": 13.26
+        },
+        {
+          "habilidad": "mechanical engineering",
+          "categoria": "tecnica",
+          "pct_en_familia": 15.06,
+          "pct_mercado": 1.18,
+          "lift": 12.76
+        },
+        {
+          "habilidad": "civil engineering",
+          "categoria": "tecnica",
+          "pct_en_familia": 13.68,
+          "pct_mercado": 1.21,
+          "lift": 11.31
+        },
+        {
+          "habilidad": "autocad",
+          "categoria": "tecnica",
+          "pct_en_familia": 13.42,
+          "pct_mercado": 1.36,
+          "lift": 9.87
+        },
+        {
+          "habilidad": "microsoft office",
+          "categoria": "tecnica",
+          "pct_en_familia": 13.05,
+          "pct_mercado": 11.35,
+          "lift": 1.15
+        },
+        {
+          "habilidad": "teamwork",
+          "categoria": "blanda",
+          "pct_en_familia": 12.88,
+          "pct_mercado": 19.48,
+          "lift": 0.66
+        },
+        {
+          "habilidad": "leadership",
+          "categoria": "blanda",
+          "pct_en_familia": 12.12,
+          "pct_mercado": 15.87,
+          "lift": 0.76
+        },
+        {
+          "habilidad": "troubleshooting",
+          "categoria": "tecnica",
+          "pct_en_familia": 11.24,
+          "pct_mercado": 3.36,
+          "lift": 3.35
+        },
+        {
+          "habilidad": "engineering",
+          "categoria": "tecnica",
+          "pct_en_familia": 9.68,
+          "pct_mercado": 2.19,
+          "lift": 4.42
+        },
+        {
+          "habilidad": "python",
+          "categoria": "tecnica",
+          "pct_en_familia": 8.54,
+          "pct_mercado": 1.97,
+          "lift": 4.34
+        },
+        {
+          "habilidad": "collaboration",
+          "categoria": "blanda",
+          "pct_en_familia": 6.88,
+          "pct_mercado": 6.94,
+          "lift": 0.99
+        },
+        {
+          "habilidad": "attention to detail",
+          "categoria": "blanda",
+          "pct_en_familia": 6.49,
+          "pct_mercado": 10.26,
+          "lift": 0.63
+        },
+        {
+          "habilidad": "design",
+          "categoria": "tecnica",
+          "pct_en_familia": 6.34,
+          "pct_mercado": 0.83,
+          "lift": 7.64
+        },
+        {
+          "habilidad": "budgeting",
+          "categoria": "tecnica",
+          "pct_en_familia": 6.18,
+          "pct_mercado": 5.06,
+          "lift": 1.22
+        },
+        {
+          "habilidad": "analytical skills",
+          "categoria": "blanda",
+          "pct_en_familia": 6.14,
+          "pct_mercado": 4.65,
+          "lift": 1.32
+        },
+        {
+          "habilidad": "time management",
+          "categoria": "blanda",
+          "pct_en_familia": 5.64,
+          "pct_mercado": 11.93,
+          "lift": 0.47
+        },
+        {
+          "habilidad": "data analysis",
+          "categoria": "tecnica",
+          "pct_en_familia": 5.54,
+          "pct_mercado": 6.25,
+          "lift": 0.89
+        },
+        {
+          "habilidad": "mentoring",
+          "categoria": "blanda",
+          "pct_en_familia": 5.54,
+          "pct_mercado": 2.33,
+          "lift": 2.38
+        },
+        {
+          "habilidad": "interpersonal skills",
+          "categoria": "blanda",
+          "pct_en_familia": 5.42,
+          "pct_mercado": 7.73,
+          "lift": 0.7
+        },
+        {
+          "habilidad": "written communication",
+          "categoria": "blanda",
+          "pct_en_familia": 5.08,
+          "pct_mercado": 3.66,
+          "lift": 1.39
+        },
+        {
+          "habilidad": "technical writing",
+          "categoria": "tecnica",
+          "pct_en_familia": 5.06,
+          "pct_mercado": 1.04,
+          "lift": 4.87
+        },
+        {
+          "habilidad": "excel",
+          "categoria": "tecnica",
+          "pct_en_familia": 4.8,
+          "pct_mercado": 5.57,
+          "lift": 0.86
+        }
+      ]
+    },
+    {
+      "familia": "Administración y oficina",
+      "ofertas": 57549,
+      "ofertas_con_habilidades": 55663,
+      "titulos_frecuentes": [
+        "assistant manager",
+        "executive assistant",
+        "assistant general manager",
+        "operations assistant manager",
+        "office manager"
+      ],
+      "habilidades": [
+        {
+          "habilidad": "communication",
+          "categoria": "blanda",
+          "pct_en_familia": 60.09,
+          "pct_mercado": 43.03,
+          "lift": 1.4
+        },
+        {
+          "habilidad": "customer service",
+          "categoria": "tecnica",
+          "pct_en_familia": 40.22,
+          "pct_mercado": 22.44,
+          "lift": 1.79
+        },
+        {
+          "habilidad": "problem solving",
+          "categoria": "blanda",
+          "pct_en_familia": 31.71,
+          "pct_mercado": 24.41,
+          "lift": 1.3
+        },
+        {
+          "habilidad": "teamwork",
+          "categoria": "blanda",
+          "pct_en_familia": 23.04,
+          "pct_mercado": 19.48,
+          "lift": 1.18
+        },
+        {
+          "habilidad": "leadership",
+          "categoria": "blanda",
+          "pct_en_familia": 22.53,
+          "pct_mercado": 15.87,
+          "lift": 1.42
+        },
+        {
+          "habilidad": "microsoft office",
+          "categoria": "tecnica",
+          "pct_en_familia": 22.24,
+          "pct_mercado": 11.35,
+          "lift": 1.96
+        },
+        {
+          "habilidad": "time management",
+          "categoria": "blanda",
+          "pct_en_familia": 21.9,
+          "pct_mercado": 11.93,
+          "lift": 1.84
+        },
+        {
+          "habilidad": "attention to detail",
+          "categoria": "blanda",
+          "pct_en_familia": 18.57,
+          "pct_mercado": 10.26,
+          "lift": 1.81
+        },
+        {
+          "habilidad": "organizational skills",
+          "categoria": "blanda",
+          "pct_en_familia": 14.87,
+          "pct_mercado": 6.22,
+          "lift": 2.39
+        },
+        {
+          "habilidad": "interpersonal skills",
+          "categoria": "blanda",
+          "pct_en_familia": 14.11,
+          "pct_mercado": 7.73,
+          "lift": 1.83
+        },
+        {
+          "habilidad": "scheduling",
+          "categoria": "tecnica",
+          "pct_en_familia": 12.23,
+          "pct_mercado": 4.93,
+          "lift": 2.48
+        },
+        {
+          "habilidad": "inventory management",
+          "categoria": "tecnica",
+          "pct_en_familia": 11.09,
+          "pct_mercado": 5.53,
+          "lift": 2.01
+        },
+        {
+          "habilidad": "project management",
+          "categoria": "tecnica",
+          "pct_en_familia": 10.79,
+          "pct_mercado": 9.45,
+          "lift": 1.14
+        },
+        {
+          "habilidad": "multitasking",
+          "categoria": "blanda",
+          "pct_en_familia": 10.5,
+          "pct_mercado": 4.77,
+          "lift": 2.2
+        },
+        {
+          "habilidad": "excel",
+          "categoria": "tecnica",
+          "pct_en_familia": 10.37,
+          "pct_mercado": 5.57,
+          "lift": 1.86
+        },
+        {
+          "habilidad": "organization",
+          "categoria": "blanda",
+          "pct_en_familia": 10.31,
+          "pct_mercado": 3.62,
+          "lift": 2.85
+        },
+        {
+          "habilidad": "training",
+          "categoria": "tecnica",
+          "pct_en_familia": 10.17,
+          "pct_mercado": 6.4,
+          "lift": 1.59
+        },
+        {
+          "habilidad": "flexibility",
+          "categoria": "blanda",
+          "pct_en_familia": 9.59,
+          "pct_mercado": 4.38,
+          "lift": 2.19
+        },
+        {
+          "habilidad": "sales",
+          "categoria": "tecnica",
+          "pct_en_familia": 8.4,
+          "pct_mercado": 7.56,
+          "lift": 1.11
+        },
+        {
+          "habilidad": "conflict resolution",
+          "categoria": "blanda",
+          "pct_en_familia": 7.49,
+          "pct_mercado": 3.1,
+          "lift": 2.42
+        },
+        {
+          "habilidad": "budgeting",
+          "categoria": "tecnica",
+          "pct_en_familia": 7.48,
+          "pct_mercado": 5.06,
+          "lift": 1.48
+        },
+        {
+          "habilidad": "adaptability",
+          "categoria": "blanda",
+          "pct_en_familia": 7.26,
+          "pct_mercado": 4.54,
+          "lift": 1.6
+        },
+        {
+          "habilidad": "microsoft word",
+          "categoria": "tecnica",
+          "pct_en_familia": 7.11,
+          "pct_mercado": 3.24,
+          "lift": 2.19
+        },
+        {
+          "habilidad": "data analysis",
+          "categoria": "tecnica",
+          "pct_en_familia": 6.73,
+          "pct_mercado": 6.25,
+          "lift": 1.08
+        },
+        {
+          "habilidad": "decision making",
+          "categoria": "blanda",
+          "pct_en_familia": 6.65,
+          "pct_mercado": 4.91,
+          "lift": 1.35
+        }
+      ]
+    },
+    {
+      "familia": "Restaurantes y alimentos",
+      "ofertas": 54813,
+      "ofertas_con_habilidades": 53723,
+      "titulos_frecuentes": [
+        "host",
+        "restaurant manager",
+        "host hostess",
+        "on demand guest advocate general merchandise fulfillment food and beverage style",
+        "sous chef"
+      ],
+      "habilidades": [
+        {
+          "habilidad": "communication",
+          "categoria": "blanda",
+          "pct_en_familia": 53.9,
+          "pct_mercado": 43.03,
+          "lift": 1.25
+        },
+        {
+          "habilidad": "customer service",
+          "categoria": "tecnica",
+          "pct_en_familia": 52.2,
+          "pct_mercado": 22.44,
+          "lift": 2.33
+        },
+        {
+          "habilidad": "teamwork",
+          "categoria": "blanda",
+          "pct_en_familia": 41.72,
+          "pct_mercado": 19.48,
+          "lift": 2.14
+        },
+        {
+          "habilidad": "problem solving",
+          "categoria": "blanda",
+          "pct_en_familia": 28.06,
+          "pct_mercado": 24.41,
+          "lift": 1.15
+        },
+        {
+          "habilidad": "food preparation",
+          "categoria": "tecnica",
+          "pct_en_familia": 26.84,
+          "pct_mercado": 1.52,
+          "lift": 17.66
+        },
+        {
+          "habilidad": "food safety",
+          "categoria": "tecnica",
+          "pct_en_familia": 24.53,
+          "pct_mercado": 2.45,
+          "lift": 10.01
+        },
+        {
+          "habilidad": "leadership",
+          "categoria": "blanda",
+          "pct_en_familia": 20.93,
+          "pct_mercado": 15.87,
+          "lift": 1.32
+        },
+        {
+          "habilidad": "attention to detail",
+          "categoria": "blanda",
+          "pct_en_familia": 20.34,
+          "pct_mercado": 10.26,
+          "lift": 1.98
+        },
+        {
+          "habilidad": "time management",
+          "categoria": "blanda",
+          "pct_en_familia": 20.24,
+          "pct_mercado": 11.93,
+          "lift": 1.7
+        },
+        {
+          "habilidad": "sanitation",
+          "categoria": "tecnica",
+          "pct_en_familia": 17.35,
+          "pct_mercado": 1.21,
+          "lift": 14.34
+        },
+        {
+          "habilidad": "inventory management",
+          "categoria": "tecnica",
+          "pct_en_familia": 12.04,
+          "pct_mercado": 5.53,
+          "lift": 2.18
+        },
+        {
+          "habilidad": "multitasking",
+          "categoria": "blanda",
+          "pct_en_familia": 11.07,
+          "pct_mercado": 4.77,
+          "lift": 2.32
+        },
+        {
+          "habilidad": "hospitality",
+          "categoria": "tecnica",
+          "pct_en_familia": 10.86,
+          "pct_mercado": 1.02,
+          "lift": 10.65
+        },
+        {
+          "habilidad": "flexibility",
+          "categoria": "blanda",
+          "pct_en_familia": 10.06,
+          "pct_mercado": 4.38,
+          "lift": 2.3
+        },
+        {
+          "habilidad": "training",
+          "categoria": "tecnica",
+          "pct_en_familia": 9.77,
+          "pct_mercado": 6.4,
+          "lift": 1.53
+        },
+        {
+          "habilidad": "food handling",
+          "categoria": "tecnica",
+          "pct_en_familia": 9.56,
+          "pct_mercado": 0.67,
+          "lift": 14.27
+        },
+        {
+          "habilidad": "restaurant management",
+          "categoria": "tecnica",
+          "pct_en_familia": 9.25,
+          "pct_mercado": 0.69,
+          "lift": 13.41
+        },
+        {
+          "habilidad": "scheduling",
+          "categoria": "tecnica",
+          "pct_en_familia": 8.07,
+          "pct_mercado": 4.93,
+          "lift": 1.64
+        },
+        {
+          "habilidad": "adaptability",
+          "categoria": "blanda",
+          "pct_en_familia": 7.85,
+          "pct_mercado": 4.54,
+          "lift": 1.73
+        },
+        {
+          "habilidad": "cash handling",
+          "categoria": "tecnica",
+          "pct_en_familia": 6.51,
+          "pct_mercado": 2.45,
+          "lift": 2.66
+        },
+        {
+          "habilidad": "organizational skills",
+          "categoria": "blanda",
+          "pct_en_familia": 6.05,
+          "pct_mercado": 6.22,
+          "lift": 0.97
+        },
+        {
+          "habilidad": "cleaning",
+          "categoria": "tecnica",
+          "pct_en_familia": 5.92,
+          "pct_mercado": 1.33,
+          "lift": 4.45
+        },
+        {
+          "habilidad": "decision making",
+          "categoria": "blanda",
+          "pct_en_familia": 5.67,
+          "pct_mercado": 4.91,
+          "lift": 1.15
+        },
+        {
+          "habilidad": "interpersonal skills",
+          "categoria": "blanda",
+          "pct_en_familia": 5.54,
+          "pct_mercado": 7.73,
+          "lift": 0.72
+        },
+        {
+          "habilidad": "budgeting",
+          "categoria": "tecnica",
+          "pct_en_familia": 5.37,
+          "pct_mercado": 5.06,
+          "lift": 1.06
+        }
+      ]
+    },
+    {
+      "familia": "Datos y análisis",
+      "ofertas": 47667,
+      "ofertas_con_habilidades": 45696,
+      "titulos_frecuentes": [
+        "business analyst",
+        "senior financial analyst",
+        "senior data engineer",
+        "financial analyst",
+        "research scientist model engineer autonomous startup"
+      ],
+      "habilidades": [
+        {
+          "habilidad": "communication",
+          "categoria": "blanda",
+          "pct_en_familia": 40.15,
+          "pct_mercado": 43.03,
+          "lift": 0.93
+        },
+        {
+          "habilidad": "data analysis",
+          "categoria": "tecnica",
+          "pct_en_familia": 30.86,
+          "pct_mercado": 6.25,
+          "lift": 4.94
+        },
+        {
+          "habilidad": "problem solving",
+          "categoria": "blanda",
+          "pct_en_familia": 28.87,
+          "pct_mercado": 24.41,
+          "lift": 1.18
+        },
+        {
+          "habilidad": "excel",
+          "categoria": "tecnica",
+          "pct_en_familia": 19.95,
+          "pct_mercado": 5.57,
+          "lift": 3.58
+        },
+        {
+          "habilidad": "project management",
+          "categoria": "tecnica",
+          "pct_en_familia": 19.73,
+          "pct_mercado": 9.45,
+          "lift": 2.09
+        },
+        {
+          "habilidad": "sql",
+          "categoria": "tecnica",
+          "pct_en_familia": 18.26,
+          "pct_mercado": 1.68,
+          "lift": 10.87
+        },
+        {
+          "habilidad": "teamwork",
+          "categoria": "blanda",
+          "pct_en_familia": 15.77,
+          "pct_mercado": 19.48,
+          "lift": 0.81
+        },
+        {
+          "habilidad": "python",
+          "categoria": "tecnica",
+          "pct_en_familia": 15.32,
+          "pct_mercado": 1.97,
+          "lift": 7.78
+        },
+        {
+          "habilidad": "analytical skills",
+          "categoria": "blanda",
+          "pct_en_familia": 14.44,
+          "pct_mercado": 4.65,
+          "lift": 3.11
+        },
+        {
+          "habilidad": "microsoft office",
+          "categoria": "tecnica",
+          "pct_en_familia": 14.02,
+          "pct_mercado": 11.35,
+          "lift": 1.24
+        },
+        {
+          "habilidad": "attention to detail",
+          "categoria": "blanda",
+          "pct_en_familia": 12.62,
+          "pct_mercado": 10.26,
+          "lift": 1.23
+        },
+        {
+          "habilidad": "collaboration",
+          "categoria": "blanda",
+          "pct_en_familia": 9.95,
+          "pct_mercado": 6.94,
+          "lift": 1.43
+        },
+        {
+          "habilidad": "reporting",
+          "categoria": "tecnica",
+          "pct_en_familia": 9.14,
+          "pct_mercado": 2.8,
+          "lift": 3.26
+        },
+        {
+          "habilidad": "time management",
+          "categoria": "blanda",
+          "pct_en_familia": 8.94,
+          "pct_mercado": 11.93,
+          "lift": 0.75
+        },
+        {
+          "habilidad": "leadership",
+          "categoria": "blanda",
+          "pct_en_familia": 8.31,
+          "pct_mercado": 15.87,
+          "lift": 0.52
+        },
+        {
+          "habilidad": "machine learning",
+          "categoria": "tecnica",
+          "pct_en_familia": 8.18,
+          "pct_mercado": 0.74,
+          "lift": 11.05
+        },
+        {
+          "habilidad": "accounting",
+          "categoria": "tecnica",
+          "pct_en_familia": 7.98,
+          "pct_mercado": 2.66,
+          "lift": 3.0
+        },
+        {
+          "habilidad": "presentation skills",
+          "categoria": "blanda",
+          "pct_en_familia": 7.78,
+          "pct_mercado": 2.89,
+          "lift": 2.69
+        },
+        {
+          "habilidad": "financial analysis",
+          "categoria": "tecnica",
+          "pct_en_familia": 7.62,
+          "pct_mercado": 1.38,
+          "lift": 5.52
+        },
+        {
+          "habilidad": "finance",
+          "categoria": "tecnica",
+          "pct_en_familia": 7.3,
+          "pct_mercado": 1.36,
+          "lift": 5.37
+        },
+        {
+          "habilidad": "interpersonal skills",
+          "categoria": "blanda",
+          "pct_en_familia": 7.11,
+          "pct_mercado": 7.73,
+          "lift": 0.92
+        },
+        {
+          "habilidad": "budgeting",
+          "categoria": "tecnica",
+          "pct_en_familia": 6.98,
+          "pct_mercado": 5.06,
+          "lift": 1.38
+        },
+        {
+          "habilidad": "organizational skills",
+          "categoria": "blanda",
+          "pct_en_familia": 6.51,
+          "pct_mercado": 6.22,
+          "lift": 1.05
+        },
+        {
+          "habilidad": "forecasting",
+          "categoria": "tecnica",
+          "pct_en_familia": 6.04,
+          "pct_mercado": 1.23,
+          "lift": 4.91
+        },
+        {
+          "habilidad": "written communication",
+          "categoria": "blanda",
+          "pct_en_familia": 5.91,
+          "pct_mercado": 3.66,
+          "lift": 1.61
+        }
+      ]
+    },
+    {
+      "familia": "Tecnología e informática",
+      "ofertas": 44675,
+      "ofertas_con_habilidades": 42269,
+      "titulos_frecuentes": [
+        "senior software engineer",
+        "senior network engineer",
+        "network engineer",
+        "retail front end supervisor",
+        "software engineer"
+      ],
+      "habilidades": [
+        {
+          "habilidad": "communication",
+          "categoria": "blanda",
+          "pct_en_familia": 28.56,
+          "pct_mercado": 43.03,
+          "lift": 0.66
+        },
+        {
+          "habilidad": "problem solving",
+          "categoria": "blanda",
+          "pct_en_familia": 22.79,
+          "pct_mercado": 24.41,
+          "lift": 0.93
+        },
+        {
+          "habilidad": "python",
+          "categoria": "tecnica",
+          "pct_en_familia": 21.88,
+          "pct_mercado": 1.97,
+          "lift": 11.11
+        },
+        {
+          "habilidad": "java",
+          "categoria": "tecnica",
+          "pct_en_familia": 18.59,
+          "pct_mercado": 1.06,
+          "lift": 17.54
+        },
+        {
+          "habilidad": "sql",
+          "categoria": "tecnica",
+          "pct_en_familia": 16.6,
+          "pct_mercado": 1.68,
+          "lift": 9.88
+        },
+        {
+          "habilidad": "aws",
+          "categoria": "tecnica",
+          "pct_en_familia": 16.49,
+          "pct_mercado": 0.97,
+          "lift": 17.0
+        },
+        {
+          "habilidad": "javascript",
+          "categoria": "tecnica",
+          "pct_en_familia": 14.5,
+          "pct_mercado": 0.72,
+          "lift": 20.14
+        },
+        {
+          "habilidad": "project management",
+          "categoria": "tecnica",
+          "pct_en_familia": 12.45,
+          "pct_mercado": 9.45,
+          "lift": 1.32
+        },
+        {
+          "habilidad": "software development",
+          "categoria": "tecnica",
+          "pct_en_familia": 11.53,
+          "pct_mercado": 0.8,
+          "lift": 14.41
+        },
+        {
+          "habilidad": "troubleshooting",
+          "categoria": "tecnica",
+          "pct_en_familia": 11.37,
+          "pct_mercado": 3.36,
+          "lift": 3.38
+        },
+        {
+          "habilidad": "agile",
+          "categoria": "tecnica",
+          "pct_en_familia": 10.95,
+          "pct_mercado": 0.88,
+          "lift": 12.44
+        },
+        {
+          "habilidad": "teamwork",
+          "categoria": "blanda",
+          "pct_en_familia": 10.86,
+          "pct_mercado": 19.48,
+          "lift": 0.56
+        },
+        {
+          "habilidad": "computer science",
+          "categoria": "tecnica",
+          "pct_en_familia": 9.76,
+          "pct_mercado": 0.92,
+          "lift": 10.61
+        },
+        {
+          "habilidad": "collaboration",
+          "categoria": "blanda",
+          "pct_en_familia": 9.34,
+          "pct_mercado": 6.94,
+          "lift": 1.35
+        },
+        {
+          "habilidad": "leadership",
+          "categoria": "blanda",
+          "pct_en_familia": 9.18,
+          "pct_mercado": 15.87,
+          "lift": 0.58
+        },
+        {
+          "habilidad": "analytical skills",
+          "categoria": "blanda",
+          "pct_en_familia": 6.91,
+          "pct_mercado": 4.65,
+          "lift": 1.49
+        },
+        {
+          "habilidad": "data analysis",
+          "categoria": "tecnica",
+          "pct_en_familia": 5.61,
+          "pct_mercado": 6.25,
+          "lift": 0.9
+        },
+        {
+          "habilidad": "interpersonal skills",
+          "categoria": "blanda",
+          "pct_en_familia": 5.37,
+          "pct_mercado": 7.73,
+          "lift": 0.69
+        },
+        {
+          "habilidad": "networking",
+          "categoria": "blanda",
+          "pct_en_familia": 5.33,
+          "pct_mercado": 1.31,
+          "lift": 4.07
+        },
+        {
+          "habilidad": "customer service",
+          "categoria": "tecnica",
+          "pct_en_familia": 5.32,
+          "pct_mercado": 22.44,
+          "lift": 0.24
+        },
+        {
+          "habilidad": "security",
+          "categoria": "tecnica",
+          "pct_en_familia": 5.31,
+          "pct_mercado": 0.97,
+          "lift": 5.47
+        },
+        {
+          "habilidad": "documentation",
+          "categoria": "tecnica",
+          "pct_en_familia": 5.26,
+          "pct_mercado": 3.98,
+          "lift": 1.32
+        },
+        {
+          "habilidad": "attention to detail",
+          "categoria": "blanda",
+          "pct_en_familia": 5.13,
+          "pct_mercado": 10.26,
+          "lift": 0.5
+        },
+        {
+          "habilidad": "time management",
+          "categoria": "blanda",
+          "pct_en_familia": 4.84,
+          "pct_mercado": 11.93,
+          "lift": 0.41
+        },
+        {
+          "habilidad": "testing",
+          "categoria": "tecnica",
+          "pct_en_familia": 4.8,
+          "pct_mercado": 0.76,
+          "lift": 6.32
+        }
+      ]
+    },
+    {
+      "familia": "Construcción",
+      "ofertas": 38441,
+      "ofertas_con_habilidades": 36512,
+      "titulos_frecuentes": [
+        "superintendent",
+        "construction project manager",
+        "construction superintendent",
+        "construction manager",
+        "quantity surveyor"
+      ],
+      "habilidades": [
+        {
+          "habilidad": "communication",
+          "categoria": "blanda",
+          "pct_en_familia": 43.65,
+          "pct_mercado": 43.03,
+          "lift": 1.01
+        },
+        {
+          "habilidad": "project management",
+          "categoria": "tecnica",
+          "pct_en_familia": 37.55,
+          "pct_mercado": 9.45,
+          "lift": 3.97
+        },
+        {
+          "habilidad": "problem solving",
+          "categoria": "blanda",
+          "pct_en_familia": 22.55,
+          "pct_mercado": 24.41,
+          "lift": 0.92
+        },
+        {
+          "habilidad": "construction management",
+          "categoria": "tecnica",
+          "pct_en_familia": 20.74,
+          "pct_mercado": 1.18,
+          "lift": 17.58
+        },
+        {
+          "habilidad": "leadership",
+          "categoria": "blanda",
+          "pct_en_familia": 18.96,
+          "pct_mercado": 15.87,
+          "lift": 1.19
+        },
+        {
+          "habilidad": "scheduling",
+          "categoria": "tecnica",
+          "pct_en_familia": 17.41,
+          "pct_mercado": 4.93,
+          "lift": 3.53
+        },
+        {
+          "habilidad": "microsoft office",
+          "categoria": "tecnica",
+          "pct_en_familia": 16.53,
+          "pct_mercado": 11.35,
+          "lift": 1.46
+        },
+        {
+          "habilidad": "budgeting",
+          "categoria": "tecnica",
+          "pct_en_familia": 15.0,
+          "pct_mercado": 5.06,
+          "lift": 2.96
+        },
+        {
+          "habilidad": "teamwork",
+          "categoria": "blanda",
+          "pct_en_familia": 13.41,
+          "pct_mercado": 19.48,
+          "lift": 0.69
+        },
+        {
+          "habilidad": "quality control",
+          "categoria": "tecnica",
+          "pct_en_familia": 13.18,
+          "pct_mercado": 2.91,
+          "lift": 4.53
+        },
+        {
+          "habilidad": "construction",
+          "categoria": "tecnica",
+          "pct_en_familia": 12.66,
+          "pct_mercado": 1.12,
+          "lift": 11.3
+        },
+        {
+          "habilidad": "time management",
+          "categoria": "blanda",
+          "pct_en_familia": 10.57,
+          "pct_mercado": 11.93,
+          "lift": 0.89
+        },
+        {
+          "habilidad": "attention to detail",
+          "categoria": "blanda",
+          "pct_en_familia": 9.39,
+          "pct_mercado": 10.26,
+          "lift": 0.92
+        },
+        {
+          "habilidad": "safety",
+          "categoria": "tecnica",
+          "pct_en_familia": 8.49,
+          "pct_mercado": 3.52,
+          "lift": 2.41
+        },
+        {
+          "habilidad": "engineering",
+          "categoria": "tecnica",
+          "pct_en_familia": 8.11,
+          "pct_mercado": 2.19,
+          "lift": 3.7
+        },
+        {
+          "habilidad": "autocad",
+          "categoria": "tecnica",
+          "pct_en_familia": 8.03,
+          "pct_mercado": 1.36,
+          "lift": 5.9
+        },
+        {
+          "habilidad": "excel",
+          "categoria": "tecnica",
+          "pct_en_familia": 6.64,
+          "pct_mercado": 5.57,
+          "lift": 1.19
+        },
+        {
+          "habilidad": "customer service",
+          "categoria": "tecnica",
+          "pct_en_familia": 6.61,
+          "pct_mercado": 22.44,
+          "lift": 0.29
+        },
+        {
+          "habilidad": "interpersonal skills",
+          "categoria": "blanda",
+          "pct_en_familia": 6.11,
+          "pct_mercado": 7.73,
+          "lift": 0.79
+        },
+        {
+          "habilidad": "civil engineering",
+          "categoria": "tecnica",
+          "pct_en_familia": 5.97,
+          "pct_mercado": 1.21,
+          "lift": 4.93
+        },
+        {
+          "habilidad": "organizational skills",
+          "categoria": "blanda",
+          "pct_en_familia": 5.88,
+          "pct_mercado": 6.22,
+          "lift": 0.95
+        },
+        {
+          "habilidad": "collaboration",
+          "categoria": "blanda",
+          "pct_en_familia": 5.77,
+          "pct_mercado": 6.94,
+          "lift": 0.83
+        },
+        {
+          "habilidad": "quality assurance",
+          "categoria": "tecnica",
+          "pct_en_familia": 5.55,
+          "pct_mercado": 2.79,
+          "lift": 1.99
+        },
+        {
+          "habilidad": "microsoft word",
+          "categoria": "tecnica",
+          "pct_en_familia": 5.25,
+          "pct_mercado": 3.24,
+          "lift": 1.62
+        },
+        {
+          "habilidad": "cost control",
+          "categoria": "tecnica",
+          "pct_en_familia": 4.99,
+          "pct_mercado": 0.7,
+          "lift": 7.13
+        }
+      ]
+    },
+    {
+      "familia": "Educación",
+      "ofertas": 33539,
+      "ofertas_con_habilidades": 32354,
+      "titulos_frecuentes": [
+        "volunteer music teachers for underprivileged children",
+        "lead teacher",
+        "assistant professor",
+        "swim instructor",
+        "instructor"
+      ],
+      "habilidades": [
+        {
+          "habilidad": "communication",
+          "categoria": "blanda",
+          "pct_en_familia": 39.76,
+          "pct_mercado": 43.03,
+          "lift": 0.92
+        },
+        {
+          "habilidad": "teaching",
+          "categoria": "tecnica",
+          "pct_en_familia": 22.75,
+          "pct_mercado": 1.55,
+          "lift": 14.68
+        },
+        {
+          "habilidad": "problem solving",
+          "categoria": "blanda",
+          "pct_en_familia": 15.82,
+          "pct_mercado": 24.41,
+          "lift": 0.65
+        },
+        {
+          "habilidad": "teamwork",
+          "categoria": "blanda",
+          "pct_en_familia": 14.08,
+          "pct_mercado": 19.48,
+          "lift": 0.72
+        },
+        {
+          "habilidad": "collaboration",
+          "categoria": "blanda",
+          "pct_en_familia": 13.41,
+          "pct_mercado": 6.94,
+          "lift": 1.93
+        },
+        {
+          "habilidad": "leadership",
+          "categoria": "blanda",
+          "pct_en_familia": 11.89,
+          "pct_mercado": 15.87,
+          "lift": 0.75
+        },
+        {
+          "habilidad": "research",
+          "categoria": "tecnica",
+          "pct_en_familia": 11.22,
+          "pct_mercado": 2.91,
+          "lift": 3.86
+        },
+        {
+          "habilidad": "interpersonal skills",
+          "categoria": "blanda",
+          "pct_en_familia": 8.31,
+          "pct_mercado": 7.73,
+          "lift": 1.08
+        },
+        {
+          "habilidad": "time management",
+          "categoria": "blanda",
+          "pct_en_familia": 7.67,
+          "pct_mercado": 11.93,
+          "lift": 0.64
+        },
+        {
+          "habilidad": "customer service",
+          "categoria": "tecnica",
+          "pct_en_familia": 7.26,
+          "pct_mercado": 22.44,
+          "lift": 0.32
+        },
+        {
+          "habilidad": "microsoft office",
+          "categoria": "tecnica",
+          "pct_en_familia": 7.12,
+          "pct_mercado": 11.35,
+          "lift": 0.63
+        },
+        {
+          "habilidad": "data analysis",
+          "categoria": "tecnica",
+          "pct_en_familia": 5.91,
+          "pct_mercado": 6.25,
+          "lift": 0.95
+        },
+        {
+          "habilidad": "assessment",
+          "categoria": "tecnica",
+          "pct_en_familia": 5.79,
+          "pct_mercado": 1.28,
+          "lift": 4.52
+        },
+        {
+          "habilidad": "organizational skills",
+          "categoria": "blanda",
+          "pct_en_familia": 5.74,
+          "pct_mercado": 6.22,
+          "lift": 0.92
+        },
+        {
+          "habilidad": "mentoring",
+          "categoria": "blanda",
+          "pct_en_familia": 5.21,
+          "pct_mercado": 2.33,
+          "lift": 2.24
+        },
+        {
+          "habilidad": "flexibility",
+          "categoria": "blanda",
+          "pct_en_familia": 4.94,
+          "pct_mercado": 4.38,
+          "lift": 1.13
+        },
+        {
+          "habilidad": "adaptability",
+          "categoria": "blanda",
+          "pct_en_familia": 4.92,
+          "pct_mercado": 4.54,
+          "lift": 1.08
+        },
+        {
+          "habilidad": "critical thinking",
+          "categoria": "blanda",
+          "pct_en_familia": 4.79,
+          "pct_mercado": 4.44,
+          "lift": 1.08
+        },
+        {
+          "habilidad": "creativity",
+          "categoria": "blanda",
+          "pct_en_familia": 3.61,
+          "pct_mercado": 0.9,
+          "lift": 4.01
+        },
+        {
+          "habilidad": "conflict resolution",
+          "categoria": "blanda",
+          "pct_en_familia": 3.49,
+          "pct_mercado": 3.1,
+          "lift": 1.13
+        },
+        {
+          "habilidad": "supervision",
+          "categoria": "tecnica",
+          "pct_en_familia": 3.49,
+          "pct_mercado": 3.0,
+          "lift": 1.16
+        },
+        {
+          "habilidad": "training",
+          "categoria": "tecnica",
+          "pct_en_familia": 3.29,
+          "pct_mercado": 6.4,
+          "lift": 0.51
+        },
+        {
+          "habilidad": "safety",
+          "categoria": "tecnica",
+          "pct_en_familia": 3.17,
+          "pct_mercado": 3.52,
+          "lift": 0.9
+        },
+        {
+          "habilidad": "organization",
+          "categoria": "blanda",
+          "pct_en_familia": 3.12,
+          "pct_mercado": 3.62,
+          "lift": 0.86
+        },
+        {
+          "habilidad": "attention to detail",
+          "categoria": "blanda",
+          "pct_en_familia": 3.09,
+          "pct_mercado": 10.26,
+          "lift": 0.3
+        }
+      ]
+    },
+    {
+      "familia": "Atención al cliente",
+      "ofertas": 24779,
+      "ofertas_con_habilidades": 24526,
+      "titulos_frecuentes": [
+        "customer service representative",
+        "service advisor",
+        "customer service advisor",
+        "customer service representative state farm agent team member",
+        "customer service rep"
+      ],
+      "habilidades": [
+        {
+          "habilidad": "customer service",
+          "categoria": "tecnica",
+          "pct_en_familia": 88.37,
+          "pct_mercado": 22.44,
+          "lift": 3.94
+        },
+        {
+          "habilidad": "communication",
+          "categoria": "blanda",
+          "pct_en_familia": 76.88,
+          "pct_mercado": 43.03,
+          "lift": 1.79
+        },
+        {
+          "habilidad": "problem solving",
+          "categoria": "blanda",
+          "pct_en_familia": 60.92,
+          "pct_mercado": 24.41,
+          "lift": 2.5
+        },
+        {
+          "habilidad": "teamwork",
+          "categoria": "blanda",
+          "pct_en_familia": 34.98,
+          "pct_mercado": 19.48,
+          "lift": 1.8
+        },
+        {
+          "habilidad": "sales",
+          "categoria": "tecnica",
+          "pct_en_familia": 23.89,
+          "pct_mercado": 7.56,
+          "lift": 3.16
+        },
+        {
+          "habilidad": "microsoft office",
+          "categoria": "tecnica",
+          "pct_en_familia": 17.49,
+          "pct_mercado": 11.35,
+          "lift": 1.54
+        },
+        {
+          "habilidad": "time management",
+          "categoria": "blanda",
+          "pct_en_familia": 16.06,
+          "pct_mercado": 11.93,
+          "lift": 1.35
+        },
+        {
+          "habilidad": "attention to detail",
+          "categoria": "blanda",
+          "pct_en_familia": 15.47,
+          "pct_mercado": 10.26,
+          "lift": 1.51
+        },
+        {
+          "habilidad": "decision making",
+          "categoria": "blanda",
+          "pct_en_familia": 13.92,
+          "pct_mercado": 4.91,
+          "lift": 2.84
+        },
+        {
+          "habilidad": "multitasking",
+          "categoria": "blanda",
+          "pct_en_familia": 13.57,
+          "pct_mercado": 4.77,
+          "lift": 2.84
+        },
+        {
+          "habilidad": "organizational skills",
+          "categoria": "blanda",
+          "pct_en_familia": 10.8,
+          "pct_mercado": 6.22,
+          "lift": 1.74
+        },
+        {
+          "habilidad": "retail operations",
+          "categoria": "tecnica",
+          "pct_en_familia": 10.52,
+          "pct_mercado": 0.79,
+          "lift": 13.32
+        },
+        {
+          "habilidad": "inventory management",
+          "categoria": "tecnica",
+          "pct_en_familia": 9.93,
+          "pct_mercado": 5.53,
+          "lift": 1.8
+        },
+        {
+          "habilidad": "merchandising",
+          "categoria": "tecnica",
+          "pct_en_familia": 9.27,
+          "pct_mercado": 2.89,
+          "lift": 3.21
+        },
+        {
+          "habilidad": "leadership",
+          "categoria": "blanda",
+          "pct_en_familia": 9.25,
+          "pct_mercado": 15.87,
+          "lift": 0.58
+        },
+        {
+          "habilidad": "retail",
+          "categoria": "tecnica",
+          "pct_en_familia": 8.99,
+          "pct_mercado": 1.7,
+          "lift": 5.29
+        },
+        {
+          "habilidad": "interpersonal skills",
+          "categoria": "blanda",
+          "pct_en_familia": 8.51,
+          "pct_mercado": 7.73,
+          "lift": 1.1
+        },
+        {
+          "habilidad": "data entry",
+          "categoria": "tecnica",
+          "pct_en_familia": 8.31,
+          "pct_mercado": 1.92,
+          "lift": 4.33
+        },
+        {
+          "habilidad": "cash handling",
+          "categoria": "tecnica",
+          "pct_en_familia": 8.05,
+          "pct_mercado": 2.45,
+          "lift": 3.29
+        },
+        {
+          "habilidad": "flexibility",
+          "categoria": "blanda",
+          "pct_en_familia": 7.94,
+          "pct_mercado": 4.38,
+          "lift": 1.81
+        },
+        {
+          "habilidad": "organization",
+          "categoria": "blanda",
+          "pct_en_familia": 6.99,
+          "pct_mercado": 3.62,
+          "lift": 1.93
+        },
+        {
+          "habilidad": "adaptability",
+          "categoria": "blanda",
+          "pct_en_familia": 6.57,
+          "pct_mercado": 4.54,
+          "lift": 1.45
+        },
+        {
+          "habilidad": "computer skills",
+          "categoria": "tecnica",
+          "pct_en_familia": 5.99,
+          "pct_mercado": 2.97,
+          "lift": 2.02
+        },
+        {
+          "habilidad": "conflict resolution",
+          "categoria": "blanda",
+          "pct_en_familia": 5.48,
+          "pct_mercado": 3.1,
+          "lift": 1.77
+        },
+        {
+          "habilidad": "excel",
+          "categoria": "tecnica",
+          "pct_en_familia": 5.32,
+          "pct_mercado": 5.57,
+          "lift": 0.96
+        }
+      ]
+    },
+    {
+      "familia": "Logística y transporte",
+      "ofertas": 22626,
+      "ofertas_con_habilidades": 21380,
+      "titulos_frecuentes": [
+        "conductor entrega a domicilio",
+        "warehouse supervisor",
+        "conductor entrega a domicilio mt",
+        "warehouse manager",
+        "92a automated logistical specialist supply chain"
+      ],
+      "habilidades": [
+        {
+          "habilidad": "communication",
+          "categoria": "blanda",
+          "pct_en_familia": 45.9,
+          "pct_mercado": 43.03,
+          "lift": 1.07
+        },
+        {
+          "habilidad": "problem solving",
+          "categoria": "blanda",
+          "pct_en_familia": 27.97,
+          "pct_mercado": 24.41,
+          "lift": 1.15
+        },
+        {
+          "habilidad": "customer service",
+          "categoria": "tecnica",
+          "pct_en_familia": 23.46,
+          "pct_mercado": 22.44,
+          "lift": 1.05
+        },
+        {
+          "habilidad": "inventory management",
+          "categoria": "tecnica",
+          "pct_en_familia": 20.47,
+          "pct_mercado": 5.53,
+          "lift": 3.7
+        },
+        {
+          "habilidad": "leadership",
+          "categoria": "blanda",
+          "pct_en_familia": 17.3,
+          "pct_mercado": 15.87,
+          "lift": 1.09
+        },
+        {
+          "habilidad": "microsoft office",
+          "categoria": "tecnica",
+          "pct_en_familia": 15.75,
+          "pct_mercado": 11.35,
+          "lift": 1.39
+        },
+        {
+          "habilidad": "teamwork",
+          "categoria": "blanda",
+          "pct_en_familia": 15.29,
+          "pct_mercado": 19.48,
+          "lift": 0.78
+        },
+        {
+          "habilidad": "attention to detail",
+          "categoria": "blanda",
+          "pct_en_familia": 12.71,
+          "pct_mercado": 10.26,
+          "lift": 1.24
+        },
+        {
+          "habilidad": "time management",
+          "categoria": "blanda",
+          "pct_en_familia": 11.97,
+          "pct_mercado": 11.93,
+          "lift": 1.0
+        },
+        {
+          "habilidad": "project management",
+          "categoria": "tecnica",
+          "pct_en_familia": 11.73,
+          "pct_mercado": 9.45,
+          "lift": 1.24
+        },
+        {
+          "habilidad": "decision making",
+          "categoria": "blanda",
+          "pct_en_familia": 10.83,
+          "pct_mercado": 4.91,
+          "lift": 2.21
+        },
+        {
+          "habilidad": "supply chain management",
+          "categoria": "tecnica",
+          "pct_en_familia": 10.73,
+          "pct_mercado": 0.7,
+          "lift": 15.33
+        },
+        {
+          "habilidad": "excel",
+          "categoria": "tecnica",
+          "pct_en_familia": 8.42,
+          "pct_mercado": 5.57,
+          "lift": 1.51
+        },
+        {
+          "habilidad": "data analysis",
+          "categoria": "tecnica",
+          "pct_en_familia": 7.74,
+          "pct_mercado": 6.25,
+          "lift": 1.24
+        },
+        {
+          "habilidad": "safety",
+          "categoria": "tecnica",
+          "pct_en_familia": 7.2,
+          "pct_mercado": 3.52,
+          "lift": 2.05
+        },
+        {
+          "habilidad": "driving",
+          "categoria": "tecnica",
+          "pct_en_familia": 7.14,
+          "pct_mercado": 0.86,
+          "lift": 8.3
+        },
+        {
+          "habilidad": "inventory control",
+          "categoria": "tecnica",
+          "pct_en_familia": 7.08,
+          "pct_mercado": 1.21,
+          "lift": 5.85
+        },
+        {
+          "habilidad": "organizational skills",
+          "categoria": "blanda",
+          "pct_en_familia": 6.78,
+          "pct_mercado": 6.22,
+          "lift": 1.09
+        },
+        {
+          "habilidad": "analytical skills",
+          "categoria": "blanda",
+          "pct_en_familia": 6.52,
+          "pct_mercado": 4.65,
+          "lift": 1.4
+        },
+        {
+          "habilidad": "interpersonal skills",
+          "categoria": "blanda",
+          "pct_en_familia": 6.15,
+          "pct_mercado": 7.73,
+          "lift": 0.8
+        },
+        {
+          "habilidad": "training",
+          "categoria": "tecnica",
+          "pct_en_familia": 6.0,
+          "pct_mercado": 6.4,
+          "lift": 0.94
+        },
+        {
+          "habilidad": "product knowledge",
+          "categoria": "tecnica",
+          "pct_en_familia": 5.72,
+          "pct_mercado": 1.64,
+          "lift": 3.49
+        },
+        {
+          "habilidad": "scheduling",
+          "categoria": "tecnica",
+          "pct_en_familia": 5.64,
+          "pct_mercado": 4.93,
+          "lift": 1.14
+        },
+        {
+          "habilidad": "multitasking",
+          "categoria": "blanda",
+          "pct_en_familia": 5.33,
+          "pct_mercado": 4.77,
+          "lift": 1.12
+        },
+        {
+          "habilidad": "cash handling",
+          "categoria": "tecnica",
+          "pct_en_familia": 5.01,
+          "pct_mercado": 2.45,
+          "lift": 2.04
+        }
+      ]
+    },
+    {
+      "familia": "Legal",
+      "ofertas": 19316,
+      "ofertas_con_habilidades": 18250,
+      "titulos_frecuentes": [
+        "attorney",
+        "litigation attorney",
+        "family law attorney",
+        "personal injury attorney",
+        "associate attorney"
+      ],
+      "habilidades": [
+        {
+          "habilidad": "communication",
+          "categoria": "blanda",
+          "pct_en_familia": 36.33,
+          "pct_mercado": 43.03,
+          "lift": 0.84
+        },
+        {
+          "habilidad": "problem solving",
+          "categoria": "blanda",
+          "pct_en_familia": 17.76,
+          "pct_mercado": 24.41,
+          "lift": 0.73
+        },
+        {
+          "habilidad": "attention to detail",
+          "categoria": "blanda",
+          "pct_en_familia": 16.42,
+          "pct_mercado": 10.26,
+          "lift": 1.6
+        },
+        {
+          "habilidad": "teamwork",
+          "categoria": "blanda",
+          "pct_en_familia": 16.21,
+          "pct_mercado": 19.48,
+          "lift": 0.83
+        },
+        {
+          "habilidad": "negotiation",
+          "categoria": "blanda",
+          "pct_en_familia": 15.11,
+          "pct_mercado": 3.06,
+          "lift": 4.94
+        },
+        {
+          "habilidad": "time management",
+          "categoria": "blanda",
+          "pct_en_familia": 14.26,
+          "pct_mercado": 11.93,
+          "lift": 1.2
+        },
+        {
+          "habilidad": "microsoft office",
+          "categoria": "tecnica",
+          "pct_en_familia": 12.96,
+          "pct_mercado": 11.35,
+          "lift": 1.14
+        },
+        {
+          "habilidad": "analytical skills",
+          "categoria": "blanda",
+          "pct_en_familia": 12.73,
+          "pct_mercado": 4.65,
+          "lift": 2.74
+        },
+        {
+          "habilidad": "case management",
+          "categoria": "tecnica",
+          "pct_en_familia": 11.84,
+          "pct_mercado": 1.61,
+          "lift": 7.35
+        },
+        {
+          "habilidad": "interpersonal skills",
+          "categoria": "blanda",
+          "pct_en_familia": 9.8,
+          "pct_mercado": 7.73,
+          "lift": 1.27
+        },
+        {
+          "habilidad": "writing",
+          "categoria": "blanda",
+          "pct_en_familia": 9.56,
+          "pct_mercado": 1.29,
+          "lift": 7.41
+        },
+        {
+          "habilidad": "organizational skills",
+          "categoria": "blanda",
+          "pct_en_familia": 9.43,
+          "pct_mercado": 6.22,
+          "lift": 1.52
+        },
+        {
+          "habilidad": "research",
+          "categoria": "tecnica",
+          "pct_en_familia": 9.29,
+          "pct_mercado": 2.91,
+          "lift": 3.19
+        },
+        {
+          "habilidad": "collaboration",
+          "categoria": "blanda",
+          "pct_en_familia": 8.31,
+          "pct_mercado": 6.94,
+          "lift": 1.2
+        },
+        {
+          "habilidad": "written communication",
+          "categoria": "blanda",
+          "pct_en_familia": 7.45,
+          "pct_mercado": 3.66,
+          "lift": 2.04
+        },
+        {
+          "habilidad": "project management",
+          "categoria": "tecnica",
+          "pct_en_familia": 7.31,
+          "pct_mercado": 9.45,
+          "lift": 0.77
+        },
+        {
+          "habilidad": "verbal communication",
+          "categoria": "blanda",
+          "pct_en_familia": 5.92,
+          "pct_mercado": 3.24,
+          "lift": 1.83
+        },
+        {
+          "habilidad": "compliance",
+          "categoria": "tecnica",
+          "pct_en_familia": 5.86,
+          "pct_mercado": 2.17,
+          "lift": 2.7
+        },
+        {
+          "habilidad": "multitasking",
+          "categoria": "blanda",
+          "pct_en_familia": 5.73,
+          "pct_mercado": 4.77,
+          "lift": 1.2
+        },
+        {
+          "habilidad": "organization",
+          "categoria": "blanda",
+          "pct_en_familia": 5.62,
+          "pct_mercado": 3.62,
+          "lift": 1.55
+        },
+        {
+          "habilidad": "leadership",
+          "categoria": "blanda",
+          "pct_en_familia": 5.39,
+          "pct_mercado": 15.87,
+          "lift": 0.34
+        },
+        {
+          "habilidad": "microsoft word",
+          "categoria": "tecnica",
+          "pct_en_familia": 5.08,
+          "pct_mercado": 3.24,
+          "lift": 1.57
+        },
+        {
+          "habilidad": "regulatory compliance",
+          "categoria": "tecnica",
+          "pct_en_familia": 4.95,
+          "pct_mercado": 1.38,
+          "lift": 3.59
+        },
+        {
+          "habilidad": "excel",
+          "categoria": "tecnica",
+          "pct_en_familia": 4.83,
+          "pct_mercado": 5.57,
+          "lift": 0.87
+        },
+        {
+          "habilidad": "risk management",
+          "categoria": "tecnica",
+          "pct_en_familia": 4.48,
+          "pct_mercado": 2.34,
+          "lift": 1.91
+        }
+      ]
+    },
+    {
+      "familia": "Marketing y comunicación",
+      "ofertas": 19196,
+      "ofertas_con_habilidades": 18368,
+      "titulos_frecuentes": [
+        "technical writer",
+        "marketing manager",
+        "senior designer",
+        "digital marketing manager",
+        "social media manager"
+      ],
+      "habilidades": [
+        {
+          "habilidad": "communication",
+          "categoria": "blanda",
+          "pct_en_familia": 42.21,
+          "pct_mercado": 43.03,
+          "lift": 0.98
+        },
+        {
+          "habilidad": "project management",
+          "categoria": "tecnica",
+          "pct_en_familia": 29.1,
+          "pct_mercado": 9.45,
+          "lift": 3.08
+        },
+        {
+          "habilidad": "problem solving",
+          "categoria": "blanda",
+          "pct_en_familia": 22.33,
+          "pct_mercado": 24.41,
+          "lift": 0.91
+        },
+        {
+          "habilidad": "microsoft office",
+          "categoria": "tecnica",
+          "pct_en_familia": 20.94,
+          "pct_mercado": 11.35,
+          "lift": 1.84
+        },
+        {
+          "habilidad": "collaboration",
+          "categoria": "blanda",
+          "pct_en_familia": 16.46,
+          "pct_mercado": 6.94,
+          "lift": 2.37
+        },
+        {
+          "habilidad": "teamwork",
+          "categoria": "blanda",
+          "pct_en_familia": 16.29,
+          "pct_mercado": 19.48,
+          "lift": 0.84
+        },
+        {
+          "habilidad": "attention to detail",
+          "categoria": "blanda",
+          "pct_en_familia": 16.0,
+          "pct_mercado": 10.26,
+          "lift": 1.56
+        },
+        {
+          "habilidad": "time management",
+          "categoria": "blanda",
+          "pct_en_familia": 15.93,
+          "pct_mercado": 11.93,
+          "lift": 1.34
+        },
+        {
+          "habilidad": "marketing",
+          "categoria": "tecnica",
+          "pct_en_familia": 14.86,
+          "pct_mercado": 2.27,
+          "lift": 6.55
+        },
+        {
+          "habilidad": "data analysis",
+          "categoria": "tecnica",
+          "pct_en_familia": 12.87,
+          "pct_mercado": 6.25,
+          "lift": 2.06
+        },
+        {
+          "habilidad": "leadership",
+          "categoria": "blanda",
+          "pct_en_familia": 11.54,
+          "pct_mercado": 15.87,
+          "lift": 0.73
+        },
+        {
+          "habilidad": "writing",
+          "categoria": "blanda",
+          "pct_en_familia": 9.61,
+          "pct_mercado": 1.29,
+          "lift": 7.45
+        },
+        {
+          "habilidad": "autocad",
+          "categoria": "tecnica",
+          "pct_en_familia": 9.18,
+          "pct_mercado": 1.36,
+          "lift": 6.75
+        },
+        {
+          "habilidad": "organizational skills",
+          "categoria": "blanda",
+          "pct_en_familia": 8.87,
+          "pct_mercado": 6.22,
+          "lift": 1.43
+        },
+        {
+          "habilidad": "technical writing",
+          "categoria": "tecnica",
+          "pct_en_familia": 8.25,
+          "pct_mercado": 1.04,
+          "lift": 7.93
+        },
+        {
+          "habilidad": "presentation skills",
+          "categoria": "blanda",
+          "pct_en_familia": 7.8,
+          "pct_mercado": 2.89,
+          "lift": 2.7
+        },
+        {
+          "habilidad": "excel",
+          "categoria": "tecnica",
+          "pct_en_familia": 7.77,
+          "pct_mercado": 5.57,
+          "lift": 1.39
+        },
+        {
+          "habilidad": "budgeting",
+          "categoria": "tecnica",
+          "pct_en_familia": 7.61,
+          "pct_mercado": 5.06,
+          "lift": 1.5
+        },
+        {
+          "habilidad": "customer service",
+          "categoria": "tecnica",
+          "pct_en_familia": 7.45,
+          "pct_mercado": 22.44,
+          "lift": 0.33
+        },
+        {
+          "habilidad": "interpersonal skills",
+          "categoria": "blanda",
+          "pct_en_familia": 7.27,
+          "pct_mercado": 7.73,
+          "lift": 0.94
+        },
+        {
+          "habilidad": "multitasking",
+          "categoria": "blanda",
+          "pct_en_familia": 6.82,
+          "pct_mercado": 4.77,
+          "lift": 1.43
+        },
+        {
+          "habilidad": "written communication",
+          "categoria": "blanda",
+          "pct_en_familia": 6.48,
+          "pct_mercado": 3.66,
+          "lift": 1.77
+        },
+        {
+          "habilidad": "microsoft word",
+          "categoria": "tecnica",
+          "pct_en_familia": 6.24,
+          "pct_mercado": 3.24,
+          "lift": 1.93
+        },
+        {
+          "habilidad": "analytical skills",
+          "categoria": "blanda",
+          "pct_en_familia": 6.22,
+          "pct_mercado": 4.65,
+          "lift": 1.34
+        },
+        {
+          "habilidad": "adaptability",
+          "categoria": "blanda",
+          "pct_en_familia": 6.18,
+          "pct_mercado": 4.54,
+          "lift": 1.36
+        }
+      ]
+    },
+    {
+      "familia": "Servicios sociales",
+      "ofertas": 17058,
+      "ofertas_con_habilidades": 15826,
+      "titulos_frecuentes": [
+        "case manager",
+        "counselor",
+        "licensed professional counselor",
+        "residential counselor",
+        "community manager"
+      ],
+      "habilidades": [
+        {
+          "habilidad": "communication",
+          "categoria": "blanda",
+          "pct_en_familia": 37.9,
+          "pct_mercado": 43.03,
+          "lift": 0.88
+        },
+        {
+          "habilidad": "case management",
+          "categoria": "tecnica",
+          "pct_en_familia": 26.2,
+          "pct_mercado": 1.61,
+          "lift": 16.27
+        },
+        {
+          "habilidad": "social work",
+          "categoria": "tecnica",
+          "pct_en_familia": 22.91,
+          "pct_mercado": 1.05,
+          "lift": 21.82
+        },
+        {
+          "habilidad": "problem solving",
+          "categoria": "blanda",
+          "pct_en_familia": 22.23,
+          "pct_mercado": 24.41,
+          "lift": 0.91
+        },
+        {
+          "habilidad": "counseling",
+          "categoria": "tecnica",
+          "pct_en_familia": 20.55,
+          "pct_mercado": 1.24,
+          "lift": 16.57
+        },
+        {
+          "habilidad": "teamwork",
+          "categoria": "blanda",
+          "pct_en_familia": 16.9,
+          "pct_mercado": 19.48,
+          "lift": 0.87
+        },
+        {
+          "habilidad": "microsoft office",
+          "categoria": "tecnica",
+          "pct_en_familia": 16.76,
+          "pct_mercado": 11.35,
+          "lift": 1.48
+        },
+        {
+          "habilidad": "crisis intervention",
+          "categoria": "tecnica",
+          "pct_en_familia": 14.07,
+          "pct_mercado": 0.68,
+          "lift": 20.69
+        },
+        {
+          "habilidad": "customer service",
+          "categoria": "tecnica",
+          "pct_en_familia": 14.02,
+          "pct_mercado": 22.44,
+          "lift": 0.62
+        },
+        {
+          "habilidad": "time management",
+          "categoria": "blanda",
+          "pct_en_familia": 12.56,
+          "pct_mercado": 11.93,
+          "lift": 1.05
+        },
+        {
+          "habilidad": "documentation",
+          "categoria": "tecnica",
+          "pct_en_familia": 12.09,
+          "pct_mercado": 3.98,
+          "lift": 3.04
+        },
+        {
+          "habilidad": "collaboration",
+          "categoria": "blanda",
+          "pct_en_familia": 11.06,
+          "pct_mercado": 6.94,
+          "lift": 1.59
+        },
+        {
+          "habilidad": "psychology",
+          "categoria": "tecnica",
+          "pct_en_familia": 10.85,
+          "pct_mercado": 0.81,
+          "lift": 13.4
+        },
+        {
+          "habilidad": "interpersonal skills",
+          "categoria": "blanda",
+          "pct_en_familia": 10.54,
+          "pct_mercado": 7.73,
+          "lift": 1.36
+        },
+        {
+          "habilidad": "leadership",
+          "categoria": "blanda",
+          "pct_en_familia": 9.62,
+          "pct_mercado": 15.87,
+          "lift": 0.61
+        },
+        {
+          "habilidad": "mental health",
+          "categoria": "tecnica",
+          "pct_en_familia": 9.12,
+          "pct_mercado": 0.78,
+          "lift": 11.69
+        },
+        {
+          "habilidad": "treatment planning",
+          "categoria": "tecnica",
+          "pct_en_familia": 7.63,
+          "pct_mercado": 0.86,
+          "lift": 8.87
+        },
+        {
+          "habilidad": "supervision",
+          "categoria": "tecnica",
+          "pct_en_familia": 7.63,
+          "pct_mercado": 3.0,
+          "lift": 2.54
+        },
+        {
+          "habilidad": "organizational skills",
+          "categoria": "blanda",
+          "pct_en_familia": 7.44,
+          "pct_mercado": 6.22,
+          "lift": 1.2
+        },
+        {
+          "habilidad": "conflict resolution",
+          "categoria": "blanda",
+          "pct_en_familia": 7.23,
+          "pct_mercado": 3.1,
+          "lift": 2.33
+        },
+        {
+          "habilidad": "training",
+          "categoria": "tecnica",
+          "pct_en_familia": 6.27,
+          "pct_mercado": 6.4,
+          "lift": 0.98
+        },
+        {
+          "habilidad": "confidentiality",
+          "categoria": "blanda",
+          "pct_en_familia": 6.05,
+          "pct_mercado": 2.04,
+          "lift": 2.97
+        },
+        {
+          "habilidad": "budgeting",
+          "categoria": "tecnica",
+          "pct_en_familia": 5.99,
+          "pct_mercado": 5.06,
+          "lift": 1.18
+        },
+        {
+          "habilidad": "attention to detail",
+          "categoria": "blanda",
+          "pct_en_familia": 5.67,
+          "pct_mercado": 10.26,
+          "lift": 0.55
+        },
+        {
+          "habilidad": "flexibility",
+          "categoria": "blanda",
+          "pct_en_familia": 5.44,
+          "pct_mercado": 4.38,
+          "lift": 1.24
+        }
+      ]
+    },
+    {
+      "familia": "Recursos humanos",
+      "ofertas": 12109,
+      "ofertas_con_habilidades": 11722,
+      "titulos_frecuentes": [
+        "human resources generalist",
+        "human resources manager",
+        "hr generalist",
+        "recruiter",
+        "hr business partner"
+      ],
+      "habilidades": [
+        {
+          "habilidad": "communication",
+          "categoria": "blanda",
+          "pct_en_familia": 47.91,
+          "pct_mercado": 43.03,
+          "lift": 1.11
+        },
+        {
+          "habilidad": "problem solving",
+          "categoria": "blanda",
+          "pct_en_familia": 27.33,
+          "pct_mercado": 24.41,
+          "lift": 1.12
+        },
+        {
+          "habilidad": "recruitment",
+          "categoria": "tecnica",
+          "pct_en_familia": 26.07,
+          "pct_mercado": 0.89,
+          "lift": 29.29
+        },
+        {
+          "habilidad": "microsoft office",
+          "categoria": "tecnica",
+          "pct_en_familia": 26.02,
+          "pct_mercado": 11.35,
+          "lift": 2.29
+        },
+        {
+          "habilidad": "human resources",
+          "categoria": "tecnica",
+          "pct_en_familia": 25.46,
+          "pct_mercado": 0.9,
+          "lift": 28.29
+        },
+        {
+          "habilidad": "performance management",
+          "categoria": "tecnica",
+          "pct_en_familia": 24.19,
+          "pct_mercado": 1.61,
+          "lift": 15.02
+        },
+        {
+          "habilidad": "interpersonal skills",
+          "categoria": "blanda",
+          "pct_en_familia": 16.46,
+          "pct_mercado": 7.73,
+          "lift": 2.13
+        },
+        {
+          "habilidad": "time management",
+          "categoria": "blanda",
+          "pct_en_familia": 15.65,
+          "pct_mercado": 11.93,
+          "lift": 1.31
+        },
+        {
+          "habilidad": "leadership",
+          "categoria": "blanda",
+          "pct_en_familia": 14.58,
+          "pct_mercado": 15.87,
+          "lift": 0.92
+        },
+        {
+          "habilidad": "teamwork",
+          "categoria": "blanda",
+          "pct_en_familia": 14.2,
+          "pct_mercado": 19.48,
+          "lift": 0.73
+        },
+        {
+          "habilidad": "recruiting",
+          "categoria": "tecnica",
+          "pct_en_familia": 13.95,
+          "pct_mercado": 0.66,
+          "lift": 21.14
+        },
+        {
+          "habilidad": "project management",
+          "categoria": "tecnica",
+          "pct_en_familia": 12.97,
+          "pct_mercado": 9.45,
+          "lift": 1.37
+        },
+        {
+          "habilidad": "training",
+          "categoria": "tecnica",
+          "pct_en_familia": 12.24,
+          "pct_mercado": 6.4,
+          "lift": 1.91
+        },
+        {
+          "habilidad": "attention to detail",
+          "categoria": "blanda",
+          "pct_en_familia": 12.11,
+          "pct_mercado": 10.26,
+          "lift": 1.18
+        },
+        {
+          "habilidad": "organizational skills",
+          "categoria": "blanda",
+          "pct_en_familia": 11.96,
+          "pct_mercado": 6.22,
+          "lift": 1.92
+        },
+        {
+          "habilidad": "customer service",
+          "categoria": "tecnica",
+          "pct_en_familia": 11.65,
+          "pct_mercado": 22.44,
+          "lift": 0.52
+        },
+        {
+          "habilidad": "data analysis",
+          "categoria": "tecnica",
+          "pct_en_familia": 10.77,
+          "pct_mercado": 6.25,
+          "lift": 1.72
+        },
+        {
+          "habilidad": "conflict resolution",
+          "categoria": "blanda",
+          "pct_en_familia": 9.89,
+          "pct_mercado": 3.1,
+          "lift": 3.19
+        },
+        {
+          "habilidad": "payroll",
+          "categoria": "tecnica",
+          "pct_en_familia": 9.32,
+          "pct_mercado": 0.74,
+          "lift": 12.59
+        },
+        {
+          "habilidad": "collaboration",
+          "categoria": "blanda",
+          "pct_en_familia": 9.12,
+          "pct_mercado": 6.94,
+          "lift": 1.31
+        },
+        {
+          "habilidad": "sales",
+          "categoria": "tecnica",
+          "pct_en_familia": 8.87,
+          "pct_mercado": 7.56,
+          "lift": 1.17
+        },
+        {
+          "habilidad": "confidentiality",
+          "categoria": "blanda",
+          "pct_en_familia": 8.7,
+          "pct_mercado": 2.04,
+          "lift": 4.26
+        },
+        {
+          "habilidad": "excel",
+          "categoria": "tecnica",
+          "pct_en_familia": 8.59,
+          "pct_mercado": 5.57,
+          "lift": 1.54
+        },
+        {
+          "habilidad": "coaching",
+          "categoria": "blanda",
+          "pct_en_familia": 8.39,
+          "pct_mercado": 2.95,
+          "lift": 2.84
+        },
+        {
+          "habilidad": "training and development",
+          "categoria": "tecnica",
+          "pct_en_familia": 8.35,
+          "pct_mercado": 1.14,
+          "lift": 7.32
+        }
+      ]
+    },
+    {
+      "familia": "Limpieza y servicios generales",
+      "ofertas": 5905,
+      "ofertas_con_habilidades": 5767,
+      "titulos_frecuentes": [
+        "housekeeping supervisor",
+        "housekeeper",
+        "environmental services manager in training",
+        "housekeeping manager",
+        "housekeeper 101020"
+      ],
+      "habilidades": [
+        {
+          "habilidad": "communication",
+          "categoria": "blanda",
+          "pct_en_familia": 50.53,
+          "pct_mercado": 43.03,
+          "lift": 1.17
+        },
+        {
+          "habilidad": "cleaning",
+          "categoria": "tecnica",
+          "pct_en_familia": 42.45,
+          "pct_mercado": 1.33,
+          "lift": 31.92
+        },
+        {
+          "habilidad": "customer service",
+          "categoria": "tecnica",
+          "pct_en_familia": 29.65,
+          "pct_mercado": 22.44,
+          "lift": 1.32
+        },
+        {
+          "habilidad": "attention to detail",
+          "categoria": "blanda",
+          "pct_en_familia": 26.15,
+          "pct_mercado": 10.26,
+          "lift": 2.55
+        },
+        {
+          "habilidad": "teamwork",
+          "categoria": "blanda",
+          "pct_en_familia": 24.64,
+          "pct_mercado": 19.48,
+          "lift": 1.26
+        },
+        {
+          "habilidad": "problem solving",
+          "categoria": "blanda",
+          "pct_en_familia": 24.24,
+          "pct_mercado": 24.41,
+          "lift": 0.99
+        },
+        {
+          "habilidad": "leadership",
+          "categoria": "blanda",
+          "pct_en_familia": 22.78,
+          "pct_mercado": 15.87,
+          "lift": 1.44
+        },
+        {
+          "habilidad": "time management",
+          "categoria": "blanda",
+          "pct_en_familia": 17.27,
+          "pct_mercado": 11.93,
+          "lift": 1.45
+        },
+        {
+          "habilidad": "training",
+          "categoria": "tecnica",
+          "pct_en_familia": 16.18,
+          "pct_mercado": 6.4,
+          "lift": 2.53
+        },
+        {
+          "habilidad": "safety",
+          "categoria": "tecnica",
+          "pct_en_familia": 15.33,
+          "pct_mercado": 3.52,
+          "lift": 4.36
+        },
+        {
+          "habilidad": "maintenance",
+          "categoria": "tecnica",
+          "pct_en_familia": 13.61,
+          "pct_mercado": 1.54,
+          "lift": 8.84
+        },
+        {
+          "habilidad": "supervision",
+          "categoria": "tecnica",
+          "pct_en_familia": 12.1,
+          "pct_mercado": 3.0,
+          "lift": 4.03
+        },
+        {
+          "habilidad": "inventory management",
+          "categoria": "tecnica",
+          "pct_en_familia": 9.9,
+          "pct_mercado": 5.53,
+          "lift": 1.79
+        },
+        {
+          "habilidad": "scheduling",
+          "categoria": "tecnica",
+          "pct_en_familia": 9.4,
+          "pct_mercado": 4.93,
+          "lift": 1.91
+        },
+        {
+          "habilidad": "reporting",
+          "categoria": "tecnica",
+          "pct_en_familia": 7.56,
+          "pct_mercado": 2.8,
+          "lift": 2.7
+        },
+        {
+          "habilidad": "budgeting",
+          "categoria": "tecnica",
+          "pct_en_familia": 6.47,
+          "pct_mercado": 5.06,
+          "lift": 1.28
+        },
+        {
+          "habilidad": "sanitation",
+          "categoria": "tecnica",
+          "pct_en_familia": 6.29,
+          "pct_mercado": 1.21,
+          "lift": 5.2
+        },
+        {
+          "habilidad": "basic computer skills",
+          "categoria": "tecnica",
+          "pct_en_familia": 6.19,
+          "pct_mercado": 0.76,
+          "lift": 8.14
+        },
+        {
+          "habilidad": "flexibility",
+          "categoria": "blanda",
+          "pct_en_familia": 6.02,
+          "pct_mercado": 4.38,
+          "lift": 1.37
+        },
+        {
+          "habilidad": "organization",
+          "categoria": "blanda",
+          "pct_en_familia": 5.93,
+          "pct_mercado": 3.62,
+          "lift": 1.64
+        },
+        {
+          "habilidad": "organizational skills",
+          "categoria": "blanda",
+          "pct_en_familia": 5.88,
+          "pct_mercado": 6.22,
+          "lift": 0.95
+        },
+        {
+          "habilidad": "quality control",
+          "categoria": "tecnica",
+          "pct_en_familia": 5.69,
+          "pct_mercado": 2.91,
+          "lift": 1.96
+        },
+        {
+          "habilidad": "infection control",
+          "categoria": "tecnica",
+          "pct_en_familia": 5.65,
+          "pct_mercado": 1.1,
+          "lift": 5.14
+        },
+        {
+          "habilidad": "interpersonal skills",
+          "categoria": "blanda",
+          "pct_en_familia": 5.13,
+          "pct_mercado": 7.73,
+          "lift": 0.66
+        },
+        {
+          "habilidad": "microsoft office",
+          "categoria": "tecnica",
+          "pct_en_familia": 5.13,
+          "pct_mercado": 11.35,
+          "lift": 0.45
+        }
+      ]
+    },
+    {
+      "familia": "Seguridad",
+      "ofertas": 4513,
+      "ofertas_con_habilidades": 4351,
+      "titulos_frecuentes": [
+        "safety manager",
+        "public safety officer",
+        "security officer",
+        "public safety officer i",
+        "facility security officer"
+      ],
+      "habilidades": [
+        {
+          "habilidad": "communication",
+          "categoria": "blanda",
+          "pct_en_familia": 39.03,
+          "pct_mercado": 43.03,
+          "lift": 0.91
+        },
+        {
+          "habilidad": "problem solving",
+          "categoria": "blanda",
+          "pct_en_familia": 21.97,
+          "pct_mercado": 24.41,
+          "lift": 0.9
+        },
+        {
+          "habilidad": "microsoft office",
+          "categoria": "tecnica",
+          "pct_en_familia": 16.78,
+          "pct_mercado": 11.35,
+          "lift": 1.48
+        },
+        {
+          "habilidad": "leadership",
+          "categoria": "blanda",
+          "pct_en_familia": 15.21,
+          "pct_mercado": 15.87,
+          "lift": 0.96
+        },
+        {
+          "habilidad": "teamwork",
+          "categoria": "blanda",
+          "pct_en_familia": 15.17,
+          "pct_mercado": 19.48,
+          "lift": 0.78
+        },
+        {
+          "habilidad": "security",
+          "categoria": "tecnica",
+          "pct_en_familia": 15.08,
+          "pct_mercado": 0.97,
+          "lift": 15.55
+        },
+        {
+          "habilidad": "customer service",
+          "categoria": "tecnica",
+          "pct_en_familia": 14.69,
+          "pct_mercado": 22.44,
+          "lift": 0.65
+        },
+        {
+          "habilidad": "interpersonal skills",
+          "categoria": "blanda",
+          "pct_en_familia": 9.49,
+          "pct_mercado": 7.73,
+          "lift": 1.23
+        },
+        {
+          "habilidad": "report writing",
+          "categoria": "tecnica",
+          "pct_en_familia": 8.11,
+          "pct_mercado": 0.98,
+          "lift": 8.28
+        },
+        {
+          "habilidad": "attention to detail",
+          "categoria": "blanda",
+          "pct_en_familia": 7.72,
+          "pct_mercado": 10.26,
+          "lift": 0.75
+        },
+        {
+          "habilidad": "project management",
+          "categoria": "tecnica",
+          "pct_en_familia": 7.61,
+          "pct_mercado": 9.45,
+          "lift": 0.81
+        },
+        {
+          "habilidad": "risk assessment",
+          "categoria": "tecnica",
+          "pct_en_familia": 7.38,
+          "pct_mercado": 0.91,
+          "lift": 8.11
+        },
+        {
+          "habilidad": "safety",
+          "categoria": "tecnica",
+          "pct_en_familia": 7.1,
+          "pct_mercado": 3.52,
+          "lift": 2.02
+        },
+        {
+          "habilidad": "decision making",
+          "categoria": "blanda",
+          "pct_en_familia": 7.08,
+          "pct_mercado": 4.91,
+          "lift": 1.44
+        },
+        {
+          "habilidad": "risk management",
+          "categoria": "tecnica",
+          "pct_en_familia": 6.64,
+          "pct_mercado": 2.34,
+          "lift": 2.84
+        },
+        {
+          "habilidad": "training",
+          "categoria": "tecnica",
+          "pct_en_familia": 6.44,
+          "pct_mercado": 6.4,
+          "lift": 1.01
+        },
+        {
+          "habilidad": "time management",
+          "categoria": "blanda",
+          "pct_en_familia": 6.32,
+          "pct_mercado": 11.93,
+          "lift": 0.53
+        },
+        {
+          "habilidad": "conflict resolution",
+          "categoria": "blanda",
+          "pct_en_familia": 6.02,
+          "pct_mercado": 3.1,
+          "lift": 1.94
+        },
+        {
+          "habilidad": "excel",
+          "categoria": "tecnica",
+          "pct_en_familia": 5.93,
+          "pct_mercado": 5.57,
+          "lift": 1.06
+        },
+        {
+          "habilidad": "data analysis",
+          "categoria": "tecnica",
+          "pct_en_familia": 5.88,
+          "pct_mercado": 6.25,
+          "lift": 0.94
+        },
+        {
+          "habilidad": "written communication",
+          "categoria": "blanda",
+          "pct_en_familia": 5.61,
+          "pct_mercado": 3.66,
+          "lift": 1.53
+        },
+        {
+          "habilidad": "organizational skills",
+          "categoria": "blanda",
+          "pct_en_familia": 5.54,
+          "pct_mercado": 6.22,
+          "lift": 0.89
+        },
+        {
+          "habilidad": "computer skills",
+          "categoria": "tecnica",
+          "pct_en_familia": 5.17,
+          "pct_mercado": 2.97,
+          "lift": 1.74
+        },
+        {
+          "habilidad": "microsoft word",
+          "categoria": "tecnica",
+          "pct_en_familia": 5.01,
+          "pct_mercado": 3.24,
+          "lift": 1.55
+        },
+        {
+          "habilidad": "reporting",
+          "categoria": "tecnica",
+          "pct_en_familia": 4.83,
+          "pct_mercado": 2.8,
+          "lift": 1.72
+        }
+      ]
+    }
+  ]
+}

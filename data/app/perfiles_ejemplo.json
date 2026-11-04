@@ -1,0 +1,302 @@
+{
+  "aviso": "PERFILES DE DEMOSTRACIÓN creados para probar las gráficas; no son usuarios reales.",
+  "metodo": "cobertura = suma del peso de las habilidades que el perfil tiene / suma del peso de las 25 habilidades principales de la familia; peso = pct_en_familia x max(lift, 1)",
+  "perfiles": [
+    {
+      "perfil": "Ejemplo 1 - Analista junior",
+      "habilidades": [
+        "communication",
+        "data analysis",
+        "excel",
+        "python",
+        "sql"
+      ],
+      "top_familias": [
+        {
+          "familia": "Datos y análisis",
+          "cobertura_pct": 53.3,
+          "presentes": [
+            "communication",
+            "data analysis",
+            "excel",
+            "sql",
+            "python"
+          ],
+          "faltantes_principales": [
+            "machine learning",
+            "analytical skills",
+            "financial analysis",
+            "project management",
+            "finance"
+          ]
+        },
+        {
+          "familia": "Tecnología e informática",
+          "cobertura_pct": 22.3,
+          "presentes": [
+            "communication",
+            "python",
+            "sql",
+            "data analysis"
+          ],
+          "faltantes_principales": [
+            "java",
+            "javascript",
+            "aws",
+            "software development",
+            "agile"
+          ]
+        },
+        {
+          "familia": "Administración y oficina",
+          "cobertura_pct": 16.0,
+          "presentes": [
+            "communication",
+            "excel",
+            "data analysis"
+          ],
+          "faltantes_principales": [
+            "customer service",
+            "microsoft office",
+            "problem solving",
+            "time management",
+            "organizational skills"
+          ]
+        },
+        {
+          "familia": "Gerencia y dirección",
+          "cobertura_pct": 14.1,
+          "presentes": [
+            "communication",
+            "data analysis",
+            "excel"
+          ],
+          "faltantes_principales": [
+            "leadership",
+            "problem solving",
+            "customer service",
+            "project management",
+            "training"
+          ]
+        },
+        {
+          "familia": "Atención al cliente",
+          "cobertura_pct": 10.8,
+          "presentes": [
+            "communication",
+            "excel"
+          ],
+          "faltantes_principales": [
+            "customer service",
+            "problem solving",
+            "retail operations",
+            "sales",
+            "teamwork"
+          ]
+        }
+      ],
+      "escenario": {
+        "familia": "Datos y análisis",
+        "aprender": "machine learning",
+        "cobertura_antes": 53.3,
+        "cobertura_despues": 61.6
+      }
+    },
+    {
+      "perfil": "Ejemplo 2 - Auxiliar de restaurante",
+      "habilidades": [
+        "cash handling",
+        "customer service",
+        "food preparation",
+        "food safety",
+        "teamwork"
+      ],
+      "top_familias": [
+        {
+          "familia": "Restaurantes y alimentos",
+          "cobertura_pct": 48.8,
+          "presentes": [
+            "customer service",
+            "teamwork",
+            "food preparation",
+            "food safety",
+            "cash handling"
+          ],
+          "faltantes_principales": [
+            "sanitation",
+            "food handling",
+            "restaurant management",
+            "hospitality",
+            "communication"
+          ]
+        },
+        {
+          "familia": "Atención al cliente",
+          "cobertura_pct": 33.0,
+          "presentes": [
+            "customer service",
+            "teamwork",
+            "cash handling"
+          ],
+          "faltantes_principales": [
+            "problem solving",
+            "retail operations",
+            "communication",
+            "sales",
+            "retail"
+          ]
+        },
+        {
+          "familia": "Comercio y tiendas",
+          "cobertura_pct": 27.2,
+          "presentes": [
+            "customer service",
+            "teamwork",
+            "cash handling",
+            "food safety"
+          ],
+          "faltantes_principales": [
+            "merchandising",
+            "mathematical calculations",
+            "inventory management",
+            "retail management",
+            "loss prevention"
+          ]
+        },
+        {
+          "familia": "Administración y oficina",
+          "cobertura_pct": 14.3,
+          "presentes": [
+            "customer service",
+            "teamwork"
+          ],
+          "faltantes_principales": [
+            "communication",
+            "microsoft office",
+            "problem solving",
+            "time management",
+            "organizational skills"
+          ]
+        },
+        {
+          "familia": "Gerencia y dirección",
+          "cobertura_pct": 10.2,
+          "presentes": [
+            "customer service",
+            "teamwork"
+          ],
+          "faltantes_principales": [
+            "leadership",
+            "communication",
+            "problem solving",
+            "project management",
+            "training"
+          ]
+        }
+      ],
+      "escenario": {
+        "familia": "Restaurantes y alimentos",
+        "aprender": "sanitation",
+        "cobertura_antes": 48.8,
+        "cobertura_despues": 61.6
+      }
+    },
+    {
+      "perfil": "Ejemplo 3 - Enfermera",
+      "habilidades": [
+        "communication",
+        "medication administration",
+        "nursing",
+        "patient care",
+        "teamwork"
+      ],
+      "top_familias": [
+        {
+          "familia": "Enfermería",
+          "cobertura_pct": 57.1,
+          "presentes": [
+            "nursing",
+            "patient care",
+            "communication",
+            "teamwork",
+            "medication administration"
+          ],
+          "faltantes_principales": [
+            "patient education",
+            "critical thinking",
+            "travel nursing",
+            "patient assessment",
+            "documentation"
+          ]
+        },
+        {
+          "familia": "Salud y medicina",
+          "cobertura_pct": 28.1,
+          "presentes": [
+            "communication",
+            "patient care",
+            "teamwork"
+          ],
+          "faltantes_principales": [
+            "radiology",
+            "healthcare",
+            "internal medicine",
+            "treatment planning",
+            "problem solving"
+          ]
+        },
+        {
+          "familia": "Administración y oficina",
+          "cobertura_pct": 16.1,
+          "presentes": [
+            "communication",
+            "teamwork"
+          ],
+          "faltantes_principales": [
+            "customer service",
+            "microsoft office",
+            "problem solving",
+            "time management",
+            "organizational skills"
+          ]
+        },
+        {
+          "familia": "Atención al cliente",
+          "cobertura_pct": 15.1,
+          "presentes": [
+            "communication",
+            "teamwork"
+          ],
+          "faltantes_principales": [
+            "customer service",
+            "problem solving",
+            "retail operations",
+            "sales",
+            "retail"
+          ]
+        },
+        {
+          "familia": "Gerencia y dirección",
+          "cobertura_pct": 13.9,
+          "presentes": [
+            "communication",
+            "teamwork"
+          ],
+          "faltantes_principales": [
+            "leadership",
+            "problem solving",
+            "customer service",
+            "project management",
+            "training"
+          ]
+        }
+      ],
+      "escenario": {
+        "familia": "Enfermería",
+        "aprender": "patient education",
+        "cobertura_antes": 57.1,
+        "cobertura_despues": 63.1
+      }
+    }
+  ]
+}
