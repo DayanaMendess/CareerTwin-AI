@@ -2,7 +2,7 @@
 import json
 import re
 
-from predict_skills import predecir_habilidades
+from .predict_skills import predecir_habilidades
 
 
 def normalizar(texto):
