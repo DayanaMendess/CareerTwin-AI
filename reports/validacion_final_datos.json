@@ -1,0 +1,212 @@
+{
+  "todo_correcto": true,
+  "controles": {
+    "ofertas_por_familia_suman_total_postings": true,
+    "recuento_familias_coincide": true,
+    "recalculo_habilidad_por_familia_coincide": true,
+    "particiones_suman_50000": true,
+    "particiones_sin_fuga": true,
+    "simulador_coincide_a_mano": true
+  },
+  "trazabilidad": [
+    {
+      "archivo": "reports/auditoria_dataset.json",
+      "script": "src/audit_data.py",
+      "existe": true,
+      "filas": null
+    },
+    {
+      "archivo": "reports/auditoria_detallada.json",
+      "script": "01a–01d_auditoria_*.py",
+      "existe": true,
+      "filas": null
+    },
+    {
+      "archivo": "reports/catalogo_habilidades_top1000.csv",
+      "script": "02_normalizacion.py",
+      "existe": true,
+      "filas": 1000
+    },
+    {
+      "archivo": "reports/clasificacion_habilidades_revisada.csv",
+      "script": "03a + revisión manual",
+      "existe": true,
+      "filas": 300
+    },
+    {
+      "archivo": "reports/skills_vocab_piloto.json",
+      "script": "03b_vocabulario_piloto.py",
+      "existe": true,
+      "filas": null
+    },
+    {
+      "archivo": "data/processed/muestra_50k.parquet",
+      "script": "04_muestra.py",
+      "existe": true,
+      "filas": 50000
+    },
+    {
+      "archivo": "data/processed/datos_entrenamiento.parquet",
+      "script": "05_particiones.py",
+      "existe": true,
+      "filas": 50000
+    },
+    {
+      "archivo": "data/processed/familias_laborales.parquet",
+      "script": "07_familias_laborales.py",
+      "existe": true,
+      "filas": 23
+    },
+    {
+      "archivo": "data/processed/habilidades_por_familia.parquet",
+      "script": "07_familias_laborales.py",
+      "existe": true,
+      "filas": 575
+    },
+    {
+      "archivo": "data/processed/relaciones_skills.parquet",
+      "script": "07_familias_laborales.py",
+      "existe": true,
+      "filas": 18916
+    },
+    {
+      "archivo": "data/processed/grafo_aristas.parquet",
+      "script": "08_grafo_transiciones.py",
+      "existe": true,
+      "filas": 6993
+    },
+    {
+      "archivo": "data/processed/transiciones_familias.parquet",
+      "script": "08_grafo_transiciones.py",
+      "existe": true,
+      "filas": 110
+    },
+    {
+      "archivo": "data/app/familias.json",
+      "script": "09_datos_graficas.py",
+      "existe": true,
+      "filas": null
+    },
+    {
+      "archivo": "data/app/perfiles_ejemplo.json",
+      "script": "09_datos_graficas.py",
+      "existe": true,
+      "filas": null
+    }
+  ],
+  "recalculo": [
+    {
+      "familia": "Enfermería",
+      "habilidad": "nursing",
+      "ofertas_tabla": 79516,
+      "ofertas_recalculadas": 79516,
+      "coincide": true
+    },
+    {
+      "familia": "Gerencia y dirección",
+      "habilidad": "communication",
+      "ofertas_tabla": 72860,
+      "ofertas_recalculadas": 72860,
+      "coincide": true
+    },
+    {
+      "familia": "Comercio y tiendas",
+      "habilidad": "customer service",
+      "ofertas_tabla": 54440,
+      "ofertas_recalculadas": 54440,
+      "coincide": true
+    }
+  ],
+  "simulador": [
+    {
+      "perfil": "Ejemplo 1 - Analista junior",
+      "familia": "Datos y análisis",
+      "json": 53.3,
+      "a_mano": 53.3,
+      "coincide": true
+    },
+    {
+      "perfil": "Ejemplo 1 - Analista junior",
+      "familia": "Tecnología e informática",
+      "json": 22.3,
+      "a_mano": 22.3,
+      "coincide": true
+    },
+    {
+      "perfil": "Ejemplo 1 - Analista junior",
+      "familia": "Administración y oficina",
+      "json": 16.0,
+      "a_mano": 16.0,
+      "coincide": true
+    },
+    {
+      "perfil": "Ejemplo 1 - Analista junior",
+      "familia": "Datos y análisis (después)",
+      "json": 61.6,
+      "a_mano": 61.6,
+      "coincide": true
+    },
+    {
+      "perfil": "Ejemplo 2 - Auxiliar de restaurante",
+      "familia": "Restaurantes y alimentos",
+      "json": 48.8,
+      "a_mano": 48.8,
+      "coincide": true
+    },
+    {
+      "perfil": "Ejemplo 2 - Auxiliar de restaurante",
+      "familia": "Atención al cliente",
+      "json": 33.0,
+      "a_mano": 33.0,
+      "coincide": true
+    },
+    {
+      "perfil": "Ejemplo 2 - Auxiliar de restaurante",
+      "familia": "Comercio y tiendas",
+      "json": 27.2,
+      "a_mano": 27.2,
+      "coincide": true
+    },
+    {
+      "perfil": "Ejemplo 2 - Auxiliar de restaurante",
+      "familia": "Restaurantes y alimentos (después)",
+      "json": 61.6,
+      "a_mano": 61.6,
+      "coincide": true
+    },
+    {
+      "perfil": "Ejemplo 3 - Enfermera",
+      "familia": "Enfermería",
+      "json": 57.1,
+      "a_mano": 57.1,
+      "coincide": true
+    },
+    {
+      "perfil": "Ejemplo 3 - Enfermera",
+      "familia": "Salud y medicina",
+      "json": 28.1,
+      "a_mano": 28.1,
+      "coincide": true
+    },
+    {
+      "perfil": "Ejemplo 3 - Enfermera",
+      "familia": "Administración y oficina",
+      "json": 16.1,
+      "a_mano": 16.1,
+      "coincide": true
+    },
+    {
+      "perfil": "Ejemplo 3 - Enfermera",
+      "familia": "Enfermería (después)",
+      "json": 63.1,
+      "a_mano": 63.1,
+      "coincide": true
+    }
+  ],
+  "figuras": [
+    "fig_ofertas_por_familia.png",
+    "fig_top_habilidades.png",
+    "fig_etapas_datos.png",
+    "fig_particiones.png"
+  ]
+}
