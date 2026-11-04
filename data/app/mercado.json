@@ -223,6 +223,14 @@
   ],
   "denominadores": {
     "ofertas_por_familia.porcentaje": "total de ofertas del dataset (total_ofertas)",
-    "habilidades_mas_pedidas.porcentaje": "ofertas que tienen al menos una habilidad válida"
+    "habilidades_mas_pedidas.porcentaje": "ofertas que tienen al menos una habilidad válida",
+    "big_five_pct_ofertas": "muestra de 50.000 ofertas (datos_entrenamiento)"
+  },
+  "big_five_pct_ofertas": {
+    "Apertura": 35.17,
+    "Responsabilidad": 33.48,
+    "Extraversión": 51.71,
+    "Amabilidad": 36.63,
+    "Estabilidad emocional": 1.25
   }
 }
