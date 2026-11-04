@@ -87,5 +87,33 @@ def test_catalogo_real_si_existe():
     if not RUTA_CLASIFICACION.exists():
         pytest.skip("falta reports/clasificacion_habilidades_revisada.csv")
     d = DetectorHabilidades()
-    assert 200 <= len(d.catalogo) <= 230
+    assert 200 <= len(d.catalogo) <= 235
     assert set(d.catalogo.values()) == {"tecnica", "blanda"}
+
+
+def test_acepta_formato_de_predict_skills(detector):
+    salida_modelo = [{"habilidad": "sql", "score_modelo": 0.71},
+                     {"habilidad": "Teamwork", "score_modelo": 0.33},
+                     {"habilidad": "java", "score_modelo": 0.08}]
+    r = detector.combinar_habilidades("I use SQL daily", salida_modelo)
+    por_nombre = {d["habilidad"]: d for d in r}
+    assert por_nombre["sql"]["fuente"] == "texto+modelo"
+    assert por_nombre["sql"]["probabilidad"] == 0.71
+    assert por_nombre["teamwork"]["fuente"] == "modelo"
+    assert "java" not in por_nombre                     # 0.08 < 0.20
+
+
+def test_prediccion_sin_habilidad_da_error(detector):
+    with pytest.raises(ValueError):
+        detector.combinar_habilidades("", [{"score_modelo": 0.9}])
+
+
+def test_extras_tecnicos_en_el_catalogo_real():
+    from src.data_pipeline.detector_habilidades import RUTA_CLASIFICACION, HABILIDADES_EXTRA
+    if not RUTA_CLASIFICACION.exists():
+        pytest.skip("falta reports/clasificacion_habilidades_revisada.csv")
+    d = DetectorHabilidades()
+    r = {x["habilidad"]: x for x in d.detectar_en_texto(
+        "Backend with C++, C# and ASP.NET Core; front end with NodeJS.")}
+    assert set(HABILIDADES_EXTRA) <= set(r)
+    assert all(r[h]["solo_detector"] for h in HABILIDADES_EXTRA)   # no son del modelo
