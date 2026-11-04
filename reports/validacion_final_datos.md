@@ -65,6 +65,7 @@ Generado por `src/data_pipeline/10_validacion_final.py`.
 - **Figura 2.** Habilidades más pedidas — `reports/figuras/fig_top_habilidades.png`
 - **Figura 3.** Etapas de preparación de los datos — `reports/figuras/fig_etapas_datos.png`
 - **Figura 4.** Particiones — `reports/figuras/fig_particiones.png`
+- **Figura 5.** Big Five — `reports/figuras/fig_big_five.png`
 
 ## 6. Limitaciones
 
