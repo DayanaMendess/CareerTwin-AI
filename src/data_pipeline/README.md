@@ -25,6 +25,7 @@ Ejecutar desde la carpeta raíz del proyecto:
 | 13 | `06_validacion_etiquetas.py` | Frecuencia, sinónimos, duplicados entre particiones y cobertura del vocabulario | `reports/validacion_etiquetas.json`, `reports/validacion_etiquetas_por_habilidad.csv` |
 | 14 | `06b_big_five.py` | Organiza las habilidades blandas según el modelo Big Five | `reports/big_five_habilidades.csv`, `reports/big_five_resumen.json` |
 | 15 | `07_familias_laborales.py` | Agrupa títulos equivalentes, asigna 22 familias laborales, habilidades top por familia (con lift) y coocurrencia de habilidades | `data/processed/familias_laborales.parquet`, `data/processed/relaciones_skills.parquet`, `reports/familias_resumen.json` |
+| 16 | `08_grafo_transiciones.py` | Grafo de habilidades (lift >= 1,5 y >= 200 ofertas juntas) y transiciones entre familias laborales | `data/processed/grafo_nodos.parquet`, `data/processed/grafo_aristas.parquet`, `data/processed/transiciones_familias.parquet`, `reports/grafo_resumen.json` |
 
 El script `01d` tarda unos 15 minutos con el dataset completo.
 
