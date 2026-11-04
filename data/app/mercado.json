@@ -1,0 +1,228 @@
+{
+  "fuente": "1.3M LinkedIn Jobs & Skills (2024), Kaggle — ofertas de enero de 2024 (EE. UU., UK, Canadá, Australia)",
+  "total_ofertas": 1348454,
+  "ofertas_con_habilidades": 1294296,
+  "ofertas_por_familia": [
+    {
+      "familia": "Salud y medicina",
+      "ofertas": 184695,
+      "porcentaje": 13.7
+    },
+    {
+      "familia": "Enfermería",
+      "ofertas": 172133,
+      "porcentaje": 12.77
+    },
+    {
+      "familia": "Gerencia y dirección",
+      "ofertas": 137594,
+      "porcentaje": 10.2
+    },
+    {
+      "familia": "Otros",
+      "ofertas": 130511,
+      "porcentaje": 9.68
+    },
+    {
+      "familia": "Comercio y tiendas",
+      "ofertas": 73160,
+      "porcentaje": 5.43
+    },
+    {
+      "familia": "Manufactura y mantenimiento",
+      "ofertas": 70060,
+      "porcentaje": 5.2
+    },
+    {
+      "familia": "Ventas",
+      "ofertas": 61830,
+      "porcentaje": 4.59
+    },
+    {
+      "familia": "Finanzas y contabilidad",
+      "ofertas": 58550,
+      "porcentaje": 4.34
+    },
+    {
+      "familia": "Ingeniería",
+      "ofertas": 57735,
+      "porcentaje": 4.28
+    },
+    {
+      "familia": "Administración y oficina",
+      "ofertas": 57549,
+      "porcentaje": 4.27
+    },
+    {
+      "familia": "Restaurantes y alimentos",
+      "ofertas": 54813,
+      "porcentaje": 4.06
+    },
+    {
+      "familia": "Datos y análisis",
+      "ofertas": 47667,
+      "porcentaje": 3.53
+    },
+    {
+      "familia": "Tecnología e informática",
+      "ofertas": 44675,
+      "porcentaje": 3.31
+    },
+    {
+      "familia": "Construcción",
+      "ofertas": 38441,
+      "porcentaje": 2.85
+    },
+    {
+      "familia": "Educación",
+      "ofertas": 33539,
+      "porcentaje": 2.49
+    },
+    {
+      "familia": "Atención al cliente",
+      "ofertas": 24779,
+      "porcentaje": 1.84
+    },
+    {
+      "familia": "Logística y transporte",
+      "ofertas": 22626,
+      "porcentaje": 1.68
+    },
+    {
+      "familia": "Legal",
+      "ofertas": 19316,
+      "porcentaje": 1.43
+    },
+    {
+      "familia": "Marketing y comunicación",
+      "ofertas": 19196,
+      "porcentaje": 1.42
+    },
+    {
+      "familia": "Servicios sociales",
+      "ofertas": 17058,
+      "porcentaje": 1.27
+    },
+    {
+      "familia": "Recursos humanos",
+      "ofertas": 12109,
+      "porcentaje": 0.9
+    },
+    {
+      "familia": "Limpieza y servicios generales",
+      "ofertas": 5905,
+      "porcentaje": 0.44
+    },
+    {
+      "familia": "Seguridad",
+      "ofertas": 4513,
+      "porcentaje": 0.33
+    }
+  ],
+  "habilidades_mas_pedidas": [
+    {
+      "habilidad": "communication",
+      "categoria": "blanda",
+      "porcentaje": 43.03
+    },
+    {
+      "habilidad": "problem solving",
+      "categoria": "blanda",
+      "porcentaje": 24.41
+    },
+    {
+      "habilidad": "customer service",
+      "categoria": "tecnica",
+      "porcentaje": 22.44
+    },
+    {
+      "habilidad": "teamwork",
+      "categoria": "blanda",
+      "porcentaje": 19.48
+    },
+    {
+      "habilidad": "leadership",
+      "categoria": "blanda",
+      "porcentaje": 15.87
+    },
+    {
+      "habilidad": "time management",
+      "categoria": "blanda",
+      "porcentaje": 11.93
+    },
+    {
+      "habilidad": "microsoft office",
+      "categoria": "tecnica",
+      "porcentaje": 11.35
+    },
+    {
+      "habilidad": "attention to detail",
+      "categoria": "blanda",
+      "porcentaje": 10.26
+    },
+    {
+      "habilidad": "project management",
+      "categoria": "tecnica",
+      "porcentaje": 9.45
+    },
+    {
+      "habilidad": "interpersonal skills",
+      "categoria": "blanda",
+      "porcentaje": 7.73
+    },
+    {
+      "habilidad": "patient care",
+      "categoria": "tecnica",
+      "porcentaje": 7.68
+    },
+    {
+      "habilidad": "sales",
+      "categoria": "tecnica",
+      "porcentaje": 7.56
+    },
+    {
+      "habilidad": "collaboration",
+      "categoria": "blanda",
+      "porcentaje": 6.94
+    },
+    {
+      "habilidad": "nursing",
+      "categoria": "tecnica",
+      "porcentaje": 6.79
+    },
+    {
+      "habilidad": "training",
+      "categoria": "tecnica",
+      "porcentaje": 6.4
+    },
+    {
+      "habilidad": "data analysis",
+      "categoria": "tecnica",
+      "porcentaje": 6.25
+    },
+    {
+      "habilidad": "organizational skills",
+      "categoria": "blanda",
+      "porcentaje": 6.22
+    },
+    {
+      "habilidad": "excel",
+      "categoria": "tecnica",
+      "porcentaje": 5.57
+    },
+    {
+      "habilidad": "inventory management",
+      "categoria": "tecnica",
+      "porcentaje": 5.53
+    },
+    {
+      "habilidad": "budgeting",
+      "categoria": "tecnica",
+      "porcentaje": 5.06
+    }
+  ],
+  "denominadores": {
+    "ofertas_por_familia.porcentaje": "total de ofertas del dataset (total_ofertas)",
+    "habilidades_mas_pedidas.porcentaje": "ofertas que tienen al menos una habilidad válida"
+  }
+}

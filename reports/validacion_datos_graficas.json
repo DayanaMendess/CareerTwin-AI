@@ -1,0 +1,19 @@
+{
+  "todo_correcto": true,
+  "controles": {
+    "suma_ofertas_familias_igual_total": true,
+    "pct_familias_suma_100": true,
+    "pct_en_familia_entre_0_y_100": true,
+    "pct_global_entre_0_y_100": true,
+    "ofertas_habilidad_menor_o_igual_ofertas_familia": true,
+    "ofertas_con_habilidades_menor_o_igual_total": true,
+    "lift_coherente": true,
+    "similitud_entre_0_y_1": true,
+    "cobertura_entre_0_y_100": true,
+    "escenario_no_baja_cobertura": true
+  },
+  "notas": {
+    "dos_denominadores": "1,348,454 ofertas en total; 1,294,296 tienen al menos una habilidad válida. Los % de familias usan el total; los % de habilidades usan solo las ofertas con habilidades.",
+    "transiciones_filtradas": "64 de 110 transiciones tienen similitud >= 0.2"
+  }
+}
