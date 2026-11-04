@@ -1,0 +1,301 @@
+﻿habilidad_a,habilidad_b,ofertas_juntas,p_b_dado_a,p_a_dado_b,jaccard,lift,categoria_a,categoria_b
+social work,psychology,6078,0.4493,0.5771,0.338,55.21,tecnica,tecnica
+evaluation,implementation,5368,0.3657,0.5834,0.29,51.442,tecnica,tecnica
+java,javascript,4074,0.2962,0.4347,0.2138,40.901,tecnica,tecnica
+assessment,implementation,4691,0.2836,0.5098,0.2228,39.894,tecnica,tecnica
+assessment,evaluation,7154,0.4325,0.4874,0.2973,38.135,tecnica,tecnica
+java,aws,4968,0.3612,0.396,0.2329,37.255,tecnica,tecnica
+mathematical calculations,driving,3393,0.3016,0.3047,0.1786,35.054,tecnica,tecnica
+counseling,psychology,3949,0.2461,0.375,0.1745,30.246,tecnica,tecnica
+python,java,8202,0.3212,0.5962,0.2638,30.225,tecnica,tecnica
+aws,javascript,2743,0.2186,0.2927,0.143,30.192,tecnica,tecnica
+sanitation,food handling,3018,0.1923,0.3484,0.1414,28.731,tecnica,tecnica
+counseling,social work,4781,0.298,0.3534,0.1928,28.507,tecnica,tecnica
+aws,agile,3073,0.2449,0.2685,0.1469,27.693,tecnica,tecnica
+java,agile,3358,0.2441,0.2934,0.1537,27.601,tecnica,tecnica
+loss prevention,retail sales,1860,0.1835,0.2145,0.1097,27.389,tecnica,tecnica
+food preparation,sanitation,6504,0.33,0.4144,0.2251,27.218,tecnica,tecnica
+electrical engineering,mechanical engineering,5345,0.3208,0.35,0.2011,27.193,tecnica,tecnica
+powerpoint,outlook,4152,0.263,0.3284,0.171,26.928,tecnica,tecnica
+python,machine learning,5099,0.1997,0.5305,0.1697,26.891,tecnica,tecnica
+social work,crisis intervention,2479,0.1832,0.2799,0.1245,26.777,tecnica,tecnica
+quality improvement,evidencebased practice,2807,0.1722,0.3353,0.1284,26.626,tecnica,tecnica
+food preparation,food handling,3467,0.1759,0.4002,0.1392,26.284,tecnica,tecnica
+python,aws,6432,0.2519,0.5126,0.2032,25.986,tecnica,tecnica
+mental health,crisis intervention,1786,0.1777,0.2016,0.1043,25.962,tecnica,tecnica
+procurement,supply chain management,1733,0.179,0.1908,0.1018,25.516,tecnica,tecnica
+sql,java,5875,0.2706,0.4271,0.1985,25.461,tecnica,tecnica
+treatment planning,crisis intervention,1927,0.1726,0.2176,0.1065,25.226,tecnica,tecnica
+inventory control,loss prevention,3103,0.1976,0.3061,0.1364,25.223,tecnica,tecnica
+agile,javascript,2027,0.1771,0.2163,0.1079,24.455,tecnica,tecnica
+python,sql,10145,0.3973,0.4673,0.2735,23.687,tecnica,tecnica
+psychology,mental health,1928,0.1831,0.1918,0.1033,23.569,tecnica,tecnica
+crm,salesforce,1553,0.1651,0.1671,0.0906,22.986,tecnica,tecnica
+counseling,crisis intervention,2510,0.1564,0.2834,0.1121,22.86,tecnica,tecnica
+case management,crisis intervention,3241,0.1553,0.3659,0.1224,22.698,tecnica,tecnica
+microsoft word,outlook,9205,0.2194,0.7281,0.2028,22.462,tecnica,tecnica
+sql,javascript,3482,0.1604,0.3715,0.1262,22.149,tecnica,tecnica
+cleaning,mathematical calculations,3243,0.1881,0.2883,0.1285,21.646,tecnica,tecnica
+sql,aws,4549,0.2095,0.3626,0.1531,21.614,tecnica,tecnica
+psychology,crisis intervention,1545,0.1467,0.1744,0.0866,21.437,tecnica,tecnica
+machine learning,data analytics,1358,0.1413,0.1581,0.0806,21.293,tecnica,tecnica
+accounting,finance,9945,0.2893,0.5649,0.2366,21.27,tecnica,tecnica
+social work,mental health,2179,0.1611,0.2168,0.1018,20.736,tecnica,tecnica
+java,software development,2274,0.1653,0.2193,0.1041,20.631,tecnica,tecnica
+patient safety,evidencebased practice,1120,0.1313,0.1338,0.071,20.297,tecnica,tecnica
+cash handling,mathematical calculations,5524,0.1744,0.4911,0.1477,20.068,tecnica,tecnica
+medication administration,patient assessment,3845,0.1851,0.3221,0.1332,20.063,tecnica,tecnica
+contract management,procurement,1456,0.15,0.1504,0.0812,20.06,tecnica,tecnica
+java,machine learning,2041,0.1484,0.2123,0.0957,19.979,tecnica,tecnica
+account management,customer relationship management,2479,0.1551,0.245,0.105,19.845,tecnica,tecnica
+microsoft word,powerpoint,10140,0.2417,0.6424,0.213,19.819,tecnica,tecnica
+financial analysis,financial reporting,4390,0.2456,0.2729,0.1485,19.765,tecnica,tecnica
+python,javascript,3650,0.143,0.3895,0.1168,19.742,tecnica,tecnica
+aws,machine learning,1810,0.1443,0.1883,0.0889,19.425,tecnica,tecnica
+autocad,civil engineering,4082,0.2324,0.2614,0.1403,19.266,tecnica,tecnica
+food safety,sanitation,7358,0.2318,0.4688,0.1836,19.117,tecnica,tecnica
+counseling,mental health,2379,0.1483,0.2366,0.1003,19.089,tecnica,tecnica
+accounting,financial reporting,8061,0.2345,0.5012,0.1901,18.869,tecnica,tecnica
+food safety,food preparation,8967,0.2825,0.455,0.2111,18.553,tecnica,tecnica
+sql,agile,3535,0.1628,0.3088,0.1193,18.41,tecnica,tecnica
+hiring,recruiting,2349,0.1209,0.2757,0.0917,18.364,tecnica,tecnica
+financial reporting,auditing,2036,0.1266,0.2279,0.0886,18.34,tecnica,tecnica
+sql,machine learning,2950,0.1359,0.3069,0.104,18.296,tecnica,tecnica
+patient education,patient assessment,4398,0.1662,0.3684,0.1293,18.014,tecnica,tecnica
+software development,javascript,1335,0.1287,0.1424,0.0725,17.777,tecnica,tecnica
+financial analysis,forecasting,3897,0.2181,0.2449,0.1304,17.739,tecnica,tecnica
+cleaning,driving,2580,0.1497,0.2317,0.1,17.394,tecnica,tecnica
+food safety,food handling,3684,0.1161,0.4253,0.1003,17.34,tecnica,tecnica
+quality improvement,patient safety,1862,0.1142,0.2183,0.0811,17.333,tecnica,tecnica
+human resources,payroll,1493,0.1275,0.1561,0.0755,17.252,tecnica,tecnica
+treatment planning,psychology,1566,0.1403,0.1487,0.0778,17.24,tecnica,tecnica
+software development,machine learning,1305,0.1258,0.1358,0.0699,16.944,tecnica,tecnica
+accounting,auditing,3978,0.1157,0.4453,0.1011,16.767,tecnica,tecnica
+agile,software development,1529,0.1336,0.1474,0.0754,16.67,tecnica,tecnica
+financial reporting,forecasting,3244,0.2017,0.2039,0.1128,16.407,tecnica,tecnica
+case management,social work,3550,0.1701,0.2624,0.1151,16.276,tecnica,tecnica
+cash handling,driving,4415,0.1394,0.3964,0.115,16.201,tecnica,tecnica
+excel,microsoft word,37759,0.5233,0.9001,0.4946,16.146,tecnica,tecnica
+computer science,software development,1535,0.129,0.148,0.074,16.099,tecnica,tecnica
+social work,treatment planning,1870,0.1382,0.1675,0.0819,16.026,tecnica,tecnica
+civil engineering,construction management,2938,0.1882,0.1923,0.1051,15.939,tecnica,tecnica
+design,testing,1307,0.1215,0.1324,0.0677,15.934,tecnica,tecnica
+aws,software development,1598,0.1274,0.1541,0.075,15.895,tecnica,tecnica
+human resources,recruiting,1218,0.104,0.143,0.0641,15.804,tecnica,tecnica
+business development,account management,4863,0.1937,0.3043,0.1342,15.686,tecnica,tecnica
+excel,powerpoint,13799,0.1913,0.8742,0.1861,15.682,tecnica,tecnica
+customer relationship management,sales management,1035,0.1023,0.121,0.0587,15.481,tecnica,tecnica
+retail management,loss prevention,1678,0.1212,0.1655,0.0752,15.47,tecnica,tecnica
+patient education,discharge planning,2620,0.099,0.3145,0.0814,15.38,tecnica,tecnica
+python,agile,3443,0.1348,0.3008,0.1027,15.247,tecnica,tecnica
+hospitality,restaurant management,1396,0.1053,0.1553,0.0669,15.154,tecnica,tecnica
+merchandising,loss prevention,4389,0.1175,0.4329,0.1018,14.997,tecnica,tecnica
+patient assessment,discharge planning,1145,0.0959,0.1375,0.0599,14.903,tecnica,tecnica
+case management,discharge planning,1987,0.0952,0.2385,0.073,14.796,tecnica,tecnica
+sql,data analytics,2083,0.0959,0.2425,0.0738,14.459,tecnica,tecnica
+patient education,medication administration,6121,0.2313,0.2946,0.1488,14.405,tecnica,tecnica
+merchandising,retail operations,4210,0.1127,0.4141,0.0972,14.345,tecnica,tecnica
+counseling,treatment planning,1970,0.1228,0.1765,0.0781,14.236,tecnica,tecnica
+excel,outlook,10015,0.1388,0.7921,0.1339,14.21,tecnica,tecnica
+business development,client relationship management,2340,0.0932,0.2731,0.0747,14.08,tecnica,tecnica
+business administration,supply chain management,926,0.0981,0.102,0.0526,13.978,tecnica,tecnica
+internal medicine,pediatrics,805,0.0896,0.097,0.0488,13.966,tecnica,tecnica
+inventory control,retail sales,1464,0.0932,0.1689,0.0639,13.915,tecnica,tecnica
+implementation,evidencebased practice,828,0.09,0.0989,0.0494,13.912,tecnica,tecnica
+infection control,patient safety,1303,0.0916,0.1527,0.0607,13.899,tecnica,tecnica
+construction,design,1670,0.1153,0.1553,0.0708,13.871,tecnica,tecnica
+account management,crm,1585,0.0992,0.1685,0.0666,13.646,tecnica,tecnica
+software development,testing,1077,0.1038,0.1091,0.0562,13.617,tecnica,tecnica
+medication administration,infection control,3106,0.1495,0.2184,0.0974,13.603,tecnica,tecnica
+retail sales,sales management,774,0.0893,0.0905,0.0471,13.509,tecnica,tecnica
+treatment planning,mental health,1168,0.1046,0.1162,0.0583,13.471,tecnica,tecnica
+retail operations,loss prevention,1057,0.104,0.1043,0.0549,13.274,tecnica,tecnica
+human resources,recruitment,1383,0.1181,0.1196,0.0632,13.223,tecnica,tecnica
+operations,recruiting,748,0.0863,0.0878,0.0455,13.112,tecnica,tecnica
+evaluation,evidencebased practice,1244,0.0847,0.1486,0.057,13.102,tecnica,tecnica
+food safety,restaurant management,2865,0.0903,0.3187,0.0757,12.993,tecnica,tecnica
+business development,customer relationship management,2540,0.1012,0.2511,0.0777,12.942,tecnica,tecnica
+continuous improvement,root cause analysis,1515,0.0944,0.1591,0.063,12.835,tecnica,tecnica
+python,software development,2617,0.1025,0.2523,0.0786,12.791,tecnica,tecnica
+procurement,vendor management,846,0.0874,0.0954,0.0478,12.756,tecnica,tecnica
+computer science,machine learning,1125,0.0945,0.117,0.0552,12.731,tecnica,tecnica
+construction management,cost control,1364,0.0893,0.1503,0.0593,12.727,tecnica,tecnica
+medication administration,discharge planning,1687,0.0812,0.2025,0.0615,12.615,tecnica,tecnica
+finance,business administration,1620,0.092,0.1716,0.0637,12.615,tecnica,tecnica
+accounting,financial analysis,5972,0.1737,0.3342,0.1291,12.582,tecnica,tecnica
+electrical engineering,computer science,1894,0.1137,0.1592,0.071,12.367,tecnica,tecnica
+patient assessment,evidencebased practice,947,0.0793,0.1131,0.0489,12.264,tecnica,tecnica
+patient education,evidencebased practice,2092,0.079,0.2499,0.0639,12.219,tecnica,tecnica
+construction management,contract management,1400,0.0916,0.1442,0.0594,12.218,tecnica,tecnica
+assessment,evidencebased practice,1305,0.0789,0.1559,0.0553,12.197,tecnica,tecnica
+cash handling,retail operations,3030,0.0957,0.2981,0.0781,12.18,tecnica,tecnica
+research,evidencebased practice,2957,0.0784,0.3532,0.0686,12.12,tecnica,tecnica
+evidencebased practice,discharge planning,652,0.0779,0.0783,0.0406,12.101,tecnica,tecnica
+design,analysis,881,0.0819,0.0998,0.0471,12.007,tecnica,tecnica
+hiring,restaurant management,1612,0.0829,0.1793,0.0601,11.941,tecnica,tecnica
+infection control,patient assessment,1556,0.1094,0.1303,0.0632,11.861,tecnica,tecnica
+agile,machine learning,1003,0.0876,0.1043,0.05,11.799,tecnica,tecnica
+performance management,recruitment,2196,0.1053,0.1899,0.0727,11.786,tecnica,tecnica
+patient education,infection control,3400,0.1285,0.239,0.0912,11.689,tecnica,tecnica
+quality improvement,infection control,2079,0.1276,0.1462,0.0731,11.608,tecnica,tecnica
+payroll,recruiting,729,0.0762,0.0856,0.042,11.578,tecnica,tecnica
+budgeting,forecasting,9294,0.142,0.5842,0.129,11.551,tecnica,tecnica
+contract management,vendor management,766,0.0789,0.0864,0.043,11.517,tecnica,tecnica
+autocad,design,1676,0.0954,0.1558,0.0629,11.484,tecnica,tecnica
+java,windows,1037,0.0754,0.1218,0.0488,11.461,tecnica,tecnica
+retail management,sales management,1045,0.0755,0.1222,0.0489,11.419,tecnica,tecnica
+change management,stakeholder management,1247,0.0805,0.1366,0.0533,11.411,tecnica,tecnica
+account management,salesforce,1306,0.0817,0.1405,0.0545,11.378,tecnica,tecnica
+medical terminology,hipaa,1317,0.081,0.1424,0.0545,11.341,tecnica,tecnica
+engineering,construction management,3782,0.1337,0.2475,0.0951,11.325,tecnica,tecnica
+supply chain management,vendor management,694,0.0764,0.0783,0.0402,11.152,tecnica,tecnica
+case management,treatment planning,1999,0.0958,0.1791,0.0666,11.108,tecnica,tecnica
+financial reporting,payroll,1303,0.081,0.1362,0.0535,10.96,tecnica,tecnica
+account management,client relationship management,1159,0.0725,0.1353,0.0496,10.957,tecnica,tecnica
+contract management,supply chain management,742,0.0764,0.0817,0.0411,10.895,tecnica,tecnica
+cash handling,cleaning,4588,0.1449,0.2662,0.1035,10.877,tecnica,tecnica
+case management,counseling,2811,0.1347,0.1752,0.0824,10.867,tecnica,tecnica
+case management,mental health,1760,0.0843,0.1751,0.0604,10.86,tecnica,tecnica
+design,implementation,827,0.0769,0.0899,0.0432,10.817,tecnica,tecnica
+contract management,cost control,733,0.0755,0.0807,0.0406,10.767,tecnica,tecnica
+performance management,training and development,2551,0.1223,0.1727,0.0771,10.714,tecnica,tecnica
+customer relationship management,crm,787,0.0778,0.0837,0.042,10.703,tecnica,tecnica
+autocad,electrical engineering,2395,0.1364,0.1438,0.0753,10.595,tecnica,tecnica
+patient education,quality improvement,3527,0.1333,0.2164,0.0899,10.582,tecnica,tecnica
+merchandising,cash handling,9648,0.2582,0.3046,0.1625,10.553,tecnica,tecnica
+financial analysis,auditing,1301,0.0728,0.1456,0.051,10.547,tecnica,tecnica
+treatment planning,discharge planning,753,0.0675,0.0904,0.0402,10.481,tecnica,tecnica
+engineering,computer science,2719,0.0961,0.2285,0.0726,10.456,tecnica,tecnica
+python,computer science,2442,0.0956,0.2052,0.0698,10.403,tecnica,tecnica
+event planning,basic math,602,0.0694,0.0697,0.036,10.396,tecnica,tecnica
+python,data analytics,1758,0.0689,0.2047,0.0543,10.377,tecnica,tecnica
+research,teaching,6049,0.1604,0.3021,0.117,10.366,tecnica,tecnica
+patient assessment,treatment planning,1067,0.0894,0.0956,0.0484,10.363,tecnica,tecnica
+autocad,mechanical engineering,2139,0.1218,0.1401,0.0697,10.322,tecnica,tecnica
+quality improvement,evaluation,1888,0.1158,0.1286,0.0649,10.214,tecnica,tecnica
+inventory control,retail management,1712,0.109,0.1236,0.0615,10.188,tecnica,tecnica
+food preparation,restaurant management,1387,0.0704,0.1543,0.0508,10.132,tecnica,tecnica
+case management,psychology,1720,0.0824,0.1633,0.058,10.13,tecnica,tecnica
+merchandising,inventory control,4581,0.1226,0.2917,0.0945,10.104,tecnica,tecnica
+sql,software development,1756,0.0809,0.1693,0.0579,10.094,tecnica,tecnica
+javascript,windows,622,0.0664,0.0731,0.036,10.09,tecnica,tecnica
+risk management,stakeholder management,2150,0.0711,0.2354,0.0578,10.08,tecnica,tecnica
+aws,computer science,1159,0.0924,0.0974,0.0498,10.048,tecnica,tecnica
+training,hiring,12488,0.1509,0.6426,0.1392,10.048,tecnica,tecnica
+civil engineering,mechanical engineering,1844,0.1181,0.1208,0.0635,10.01,tecnica,tecnica
+civil engineering,design,1297,0.0831,0.1206,0.0517,9.997,tecnica,tecnica
+internal medicine,critical care,586,0.0652,0.0693,0.0348,9.984,tecnica,tecnica
+performance management,human resources,1884,0.0903,0.1609,0.0614,9.984,tecnica,tecnica
+quality improvement,discharge planning,1043,0.064,0.1252,0.0442,9.943,tecnica,tecnica
+finance,financial reporting,2174,0.1235,0.1352,0.069,9.937,tecnica,tecnica
+accounting,payroll,2524,0.0734,0.2639,0.0609,9.935,tecnica,tecnica
+sap,supply chain management,962,0.0695,0.1059,0.0438,9.908,tecnica,tecnica
+testing,implementation,695,0.0704,0.0755,0.0378,9.904,tecnica,tecnica
+cost control,restaurant management,622,0.0685,0.0692,0.0357,9.863,tecnica,tecnica
+merchandising,retail management,3926,0.1051,0.2835,0.083,9.821,tecnica,tecnica
+java,computer science,1241,0.0902,0.1043,0.0508,9.813,tecnica,tecnica
+merchandising,mathematical calculations,3178,0.0851,0.2825,0.0699,9.786,tecnica,tecnica
+business development,crm,1785,0.0711,0.1898,0.0545,9.782,tecnica,tecnica
+performance management,sales management,1346,0.0645,0.1574,0.048,9.765,tecnica,tecnica
+human resources,operations,764,0.0652,0.0882,0.039,9.744,tecnica,tecnica
+accounting,business administration,2441,0.071,0.2586,0.059,9.735,tecnica,tecnica
+data management,data analytics,656,0.0643,0.0764,0.0362,9.693,tecnica,tecnica
+customer relationship management,salesforce,704,0.0696,0.0757,0.0376,9.689,tecnica,tecnica
+assessment,discharge planning,1030,0.0623,0.1236,0.0432,9.675,tecnica,tecnica
+merchandising,retail,6157,0.1648,0.279,0.1156,9.665,tecnica,tecnica
+patient safety,discharge planning,527,0.0618,0.0633,0.0323,9.598,tecnica,tecnica
+medical terminology,infection control,1703,0.1048,0.1197,0.0592,9.536,tecnica,tecnica
+python,windows,1600,0.0627,0.1879,0.0493,9.527,tecnica,tecnica
+python,automation,1724,0.0675,0.1876,0.0522,9.51,tecnica,tecnica
+aws,windows,784,0.0625,0.0921,0.0387,9.5,tecnica,tecnica
+safety procedures,food handling,632,0.0635,0.073,0.0352,9.493,tecnica,tecnica
+engineering,design,2216,0.0783,0.206,0.0602,9.428,tecnica,tecnica
+patient assessment,patient safety,739,0.0619,0.0866,0.0375,9.392,tecnica,tecnica
+manufacturing,continuous improvement,1876,0.1162,0.1169,0.0619,9.372,tecnica,tecnica
+civil engineering,construction,1636,0.1048,0.1129,0.0575,9.36,tecnica,tecnica
+financial management,sales management,826,0.0618,0.0966,0.0392,9.357,tecnica,tecnica
+sanitation,restaurant management,1020,0.065,0.1134,0.0431,9.356,tecnica,tecnica
+accounting,forecasting,3953,0.115,0.2485,0.0853,9.355,tecnica,tecnica
+engineering,construction,2942,0.104,0.2031,0.0739,9.291,tecnica,tecnica
+cleaning,sanitation,1941,0.1126,0.1237,0.0626,9.286,tecnica,tecnica
+security,automation,828,0.0658,0.0901,0.0395,9.261,tecnica,tecnica
+testing,analysis,620,0.0628,0.0702,0.0343,9.207,tecnica,tecnica
+retail management,restaurant management,885,0.0639,0.0984,0.0403,9.2,tecnica,tecnica
+human resources,business administration,785,0.067,0.0831,0.0385,9.191,tecnica,tecnica
+merchandising,product knowledge,5643,0.151,0.2651,0.1065,9.182,tecnica,tecnica
+teaching,assessment,2344,0.1171,0.1417,0.0685,9.16,tecnica,tecnica
+patient education,patient safety,1596,0.0603,0.1871,0.0478,9.148,tecnica,tecnica
+recruitment,payroll,781,0.0676,0.0816,0.0384,9.14,tecnica,tecnica
+retail,hospitality,2059,0.0933,0.1553,0.0619,9.107,tecnica,tecnica
+infection control,evidencebased practice,835,0.0587,0.0997,0.0384,9.076,tecnica,tecnica
+financial analysis,finance,2198,0.123,0.1249,0.066,9.042,tecnica,tecnica
+merchandising,driving,2904,0.0777,0.2608,0.0637,9.033,tecnica,tecnica
+radiology,internal medicine,754,0.0626,0.0839,0.0372,9.015,tecnica,tecnica
+evaluation,discharge planning,851,0.058,0.1022,0.0384,9.008,tecnica,tecnica
+assessment,quality improvement,1875,0.1134,0.115,0.0606,9.002,tecnica,tecnica
+food preparation,cleaning,2357,0.1196,0.1367,0.0681,8.98,tecnica,tecnica
+merchandising,retail sales,2242,0.06,0.2586,0.0512,8.958,tecnica,tecnica
+crisis intervention,discharge planning,509,0.0575,0.0611,0.0305,8.929,tecnica,tecnica
+retail,loss prevention,1535,0.0696,0.1514,0.05,8.881,tecnica,tecnica
+infection control,hipaa,899,0.0632,0.0972,0.0398,8.845,tecnica,tecnica
+mechanical engineering,design,1121,0.0734,0.1042,0.045,8.834,tecnica,tecnica
+performance management,hiring,2750,0.1318,0.1415,0.0732,8.78,tecnica,tecnica
+medication administration,patient safety,1202,0.0578,0.1409,0.0428,8.777,tecnica,tecnica
+medication administration,evaluation,2058,0.099,0.1402,0.0616,8.733,tecnica,tecnica
+finance,forecasting,1875,0.1065,0.1179,0.0593,8.664,tecnica,tecnica
+aws,automation,770,0.0614,0.0838,0.0367,8.644,tecnica,tecnica
+product knowledge,retail sales,1232,0.0579,0.1421,0.0429,8.64,tecnica,tecnica
+engineering,manufacturing,3039,0.1074,0.1882,0.0734,8.611,tecnica,tecnica
+restaurant management,food handling,517,0.0575,0.0597,0.0302,8.591,tecnica,tecnica
+risk management,change management,3094,0.1023,0.1998,0.0726,8.552,tecnica,tecnica
+quality improvement,patient assessment,1279,0.0785,0.1071,0.0474,8.508,tecnica,tecnica
+nursing,evidencebased practice,4834,0.055,0.5774,0.0529,8.508,tecnica,tecnica
+machine learning,javascript,592,0.0616,0.0632,0.0322,8.506,tecnica,tecnica
+math,event planning,596,0.0569,0.0687,0.0321,8.494,tecnica,tecnica
+computer science,javascript,727,0.0611,0.0776,0.0354,8.438,tecnica,tecnica
+manufacturing,supply chain management,954,0.0591,0.105,0.0393,8.419,tecnica,tecnica
+budgeting,financial reporting,6839,0.1045,0.4252,0.0915,8.407,tecnica,tecnica
+computer science,agile,873,0.0734,0.0763,0.0388,8.296,tecnica,tecnica
+construction,procurement,897,0.0619,0.0927,0.0385,8.279,tecnica,tecnica
+manufacturing,root cause analysis,983,0.0609,0.1032,0.0398,8.273,tecnica,tecnica
+agile,stakeholder management,667,0.0583,0.073,0.0335,8.259,tecnica,tecnica
+sql,computer science,1638,0.0754,0.1377,0.0512,8.206,tecnica,tecnica
+business development,strategic planning,2519,0.1003,0.1591,0.0656,8.203,tecnica,tecnica
+hiring,recruitment,1408,0.0725,0.1218,0.0476,8.111,tecnica,tecnica
+performance management,recruiting,1111,0.0533,0.1304,0.0393,8.092,tecnica,tecnica
+computer science,testing,733,0.0616,0.0743,0.0348,8.077,tecnica,tecnica
+performance management,financial management,1734,0.0831,0.1298,0.0534,8.054,tecnica,tecnica
+nursing,medication administration,11357,0.1293,0.5466,0.1168,8.054,tecnica,tecnica
+budgeting,financial analysis,7275,0.1111,0.4071,0.0957,8.049,tecnica,tecnica
+critical care,pediatrics,435,0.0514,0.0524,0.0266,8.02,tecnica,tecnica
+documentation,medication administration,6626,0.1286,0.3189,0.1009,8.008,tecnica,tecnica
+procurement,cost control,543,0.0561,0.0598,0.0298,7.999,tecnica,tecnica
+research,quality improvement,3794,0.1006,0.2328,0.0755,7.988,tecnica,tecnica
+infection control,discharge planning,729,0.0513,0.0875,0.0334,7.964,tecnica,tecnica
+patient education,treatment planning,1817,0.0686,0.1628,0.0507,7.959,tecnica,tecnica
+maintenance,cleaning,2107,0.1054,0.1222,0.06,7.917,tecnica,tecnica
+inventory management,retail operations,4436,0.0619,0.4364,0.0573,7.885,tecnica,tecnica
+product knowledge,loss prevention,1308,0.0614,0.129,0.0434,7.844,tecnica,tecnica
+agile,windows,590,0.0515,0.0693,0.0305,7.836,tecnica,tecnica
+cash handling,loss prevention,1932,0.061,0.1906,0.0484,7.788,tecnica,tecnica
+sql,data management,1332,0.0614,0.1306,0.0436,7.785,tecnica,tecnica
+social work,discharge planning,676,0.05,0.0812,0.0319,7.764,tecnica,tecnica
+risk management,contract management,1756,0.0581,0.1809,0.046,7.746,tecnica,tecnica
+implementation,discharge planning,458,0.0498,0.055,0.0268,7.734,tecnica,tecnica
+troubleshooting,maintenance,5180,0.1191,0.2592,0.0889,7.714,tecnica,tecnica
+food safety,hospitality,2503,0.0789,0.1887,0.0589,7.696,tecnica,tecnica
+nursing,critical care,4411,0.0502,0.5217,0.048,7.688,tecnica,tecnica
+retail management,retail sales,711,0.0513,0.082,0.0326,7.665,tecnica,tecnica
+cleaning,food handling,884,0.0513,0.102,0.0353,7.662,tecnica,tecnica
+contract management,stakeholder management,523,0.0539,0.0573,0.0286,7.637,tecnica,tecnica
+account management,sales management,806,0.0504,0.0942,0.034,7.632,tecnica,tecnica
+payroll,auditing,502,0.0525,0.0562,0.0279,7.603,tecnica,tecnica
+process improvement,root cause analysis,856,0.0558,0.0899,0.0357,7.591,tecnica,tecnica
+strategic planning,customer relationship management,937,0.0592,0.0926,0.0375,7.573,tecnica,tecnica
+sales,account management,9148,0.0935,0.5724,0.0874,7.569,tecnica,tecnica
+continuous improvement,supply chain management,850,0.053,0.0936,0.035,7.551,tecnica,tecnica
+scheduling,hiring,7237,0.1133,0.3724,0.0951,7.546,tecnica,tecnica
+performance management,retail management,1683,0.0807,0.1215,0.051,7.541,tecnica,tecnica
+business development,client relations,1488,0.0593,0.1457,0.044,7.511,tecnica,tecnica
+procurement,business administration,530,0.0548,0.0561,0.0285,7.507,tecnica,tecnica
+mathematical calculations,safety procedures,648,0.0576,0.0651,0.0315,7.496,tecnica,tecnica

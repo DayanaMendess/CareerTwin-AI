@@ -1,0 +1,137 @@
+{
+  "criterios": {
+    "min_ofertas_juntas": 200,
+    "min_lift": 1.5
+  },
+  "grafo": {
+    "nodos": 217,
+    "aristas": 6993,
+    "aristas_entre_tecnologias": 3029,
+    "habilidades_mas_conectadas": [
+      [
+        "conflict resolution",
+        139
+      ],
+      [
+        "decision making",
+        132
+      ],
+      [
+        "analytical skills",
+        116
+      ],
+      [
+        "prioritization",
+        114
+      ],
+      [
+        "problem solving",
+        114
+      ],
+      [
+        "reporting",
+        114
+      ],
+      [
+        "planning",
+        112
+      ],
+      [
+        "time management",
+        111
+      ],
+      [
+        "innovation",
+        110
+      ],
+      [
+        "budgeting",
+        109
+      ]
+    ],
+    "conexiones_mas_fuertes": [
+      [
+        "ability to work under pressure",
+        "ability to meet deadlines",
+        60.394,
+        5333
+      ],
+      [
+        "social work",
+        "psychology",
+        55.21,
+        6078
+      ],
+      [
+        "evaluation",
+        "implementation",
+        51.442,
+        5368
+      ],
+      [
+        "ability to work independently",
+        "ability to meet deadlines",
+        41.137,
+        5123
+      ],
+      [
+        "java",
+        "javascript",
+        40.901,
+        4074
+      ],
+      [
+        "assessment",
+        "implementation",
+        39.894,
+        4691
+      ],
+      [
+        "assessment",
+        "evaluation",
+        38.135,
+        7154
+      ],
+      [
+        "java",
+        "aws",
+        37.255,
+        4968
+      ],
+      [
+        "ability to work independently and as part of a team",
+        "ability to meet deadlines",
+        37.115,
+        2879
+      ],
+      [
+        "mathematical calculations",
+        "driving",
+        35.054,
+        3393
+      ]
+    ]
+  },
+  "transiciones": {
+    "familias": 22,
+    "transiciones_guardadas": 110,
+    "ejemplos": {
+      "Restaurantes y alimentos": [
+        "Comercio y tiendas (similitud 0.581) -> aprender: mathematical calculations | loss prevention | retail management | merchandising | inventory control | retail",
+        "Atención al cliente (similitud 0.574) -> aprender: retail operations | retail | data entry | merchandising | sales | computer skills",
+        "Administración y oficina (similitud 0.526) -> aprender: organization | conflict resolution | microsoft word | microsoft office | excel | project management"
+      ],
+      "Datos y análisis": [
+        "Finanzas y contabilidad (similitud 0.39) -> aprender: financial reporting | auditing | marketing | risk management | sales | customer service",
+        "Marketing y comunicación (similitud 0.375) -> aprender: technical writing | writing | autocad | marketing | microsoft word | multitasking",
+        "Tecnología e informática (similitud 0.323) -> aprender: javascript | java | aws | software development | agile | computer science"
+      ],
+      "Enfermería": [
+        "Salud y medicina (similitud 0.418) -> aprender: radiology | internal medicine | treatment planning | medical terminology | confidentiality | research",
+        "Servicios sociales (similitud 0.059) -> aprender: social work | crisis intervention | counseling | psychology | mental health | treatment planning",
+        "Educación (similitud 0.031) -> aprender: teaching | creativity | research | mentoring | supervision | flexibility"
+      ]
+    }
+  },
+  "nota": "Las conexiones y transiciones se calculan con frecuencias del dataset de LinkedIn (enero 2024, 4 países). Muestran patrones observados en las ofertas, no garantizan que un cambio de carrera sea posible ni exitoso."
+}
