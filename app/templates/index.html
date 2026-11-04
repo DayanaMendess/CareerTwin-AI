@@ -4,70 +4,116 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>CareerTwin AI - Perfil Profesional</title>
 
-    <!-- Conexión CSS -->
     <link rel="stylesheet"
           href="{{ url_for('static', filename='style.css') }}">
 
-    <!-- Conexión JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="{{ url_for('static', filename='script.js') }}" defer></script>
 </head>
 
 <body>
-    <main class="container">
+<main class="container">
 
-        <header>
-            <span class="badge">Inteligencia artificial</span>
-            <h1>CareerTwin AI</h1>
-            <p>
-                Descubre nuevas oportunidades profesionales.
-                Registra tu perfil y tus objetivos laborales.
-            </p>
-        </header>
+    <header>
+        <span class="badge">Inteligencia artificial</span>
+        <h1>CareerTwin AI</h1>
+        <p>
+            Descubre nuevas oportunidades profesionales.
+            Registra tu perfil y conoce tus posibilidades laborales.
+        </p>
+    </header>
 
-        <section class="form-section">
-            <h2>Mi perfil profesional</h2>
-            <p>Completa la siguiente información:</p>
+    <section class="form-section">
+        <h2>Mi perfil profesional</h2>
+        <p>Completa la siguiente información:</p>
 
-            <form id="profileForm">
+        <form id="profileForm">
 
-                <label for="nombre">Nombre completo</label>
-                <input type="text" id="nombre" name="nombre"
-                       placeholder="Escribe tu nombre" required>
+            <label for="nombre">Nombre completo</label>
+            <input type="text" id="nombre" name="nombre"
+                   placeholder="Escribe tu nombre" required>
 
-                <label for="perfil">Perfil profesional</label>
-                <textarea id="perfil" name="perfil"
-                          placeholder="Describe tu formación y experiencia"
-                          required></textarea>
+            <label for="perfil">Perfil profesional</label>
+            <textarea id="perfil" name="perfil"
+                      placeholder="Describe tu formación y experiencia"
+                      required></textarea>
 
-                <label for="habilidades">Habilidades</label>
-                <textarea id="habilidades" name="habilidades"
-                          placeholder="Ejemplo: Python, SQL, comunicación"
-                          required></textarea>
+            <label for="habilidades">Habilidades</label>
+            <textarea id="habilidades" name="habilidades"
+                      placeholder="Ejemplo: Python, SQL, comunicación"
+                      required></textarea>
 
-                <label for="objetivo">Objetivo laboral</label>
-                <select id="objetivo" name="objetivo" required>
-                    <option value="">Selecciona tu objetivo</option>
-                    <option value="Conseguir empleo">Conseguir empleo</option>
-                    <option value="Mejorar profesionalmente">Mejorar profesionalmente</option>
-                    <option value="Cambiar de carrera">Cambiar de carrera</option>
-                    <option value="Realizar prácticas">Realizar prácticas</option>
-                </select>
+            <label for="objetivo">Objetivo laboral</label>
+            <select id="objetivo" name="objetivo" required>
+                <option value="">Selecciona tu objetivo</option>
+                <option value="Conseguir empleo">Conseguir empleo</option>
+                <option value="Mejorar profesionalmente">Mejorar profesionalmente</option>
+                <option value="Cambiar de carrera">Cambiar de carrera</option>
+                <option value="Realizar prácticas">Realizar prácticas</option>
+            </select>
 
-                <button type="submit" id="btnAnalizar">
-                    Analizar mi perfil
-                </button>
+            <button type="submit" id="btnAnalizar">
+                Analizar mi perfil
+            </button>
 
-            </form>
+        </form>
 
-            <div id="resultado" hidden aria-live="polite"></div>
+        <div id="resultado" hidden aria-live="polite"></div>
+    </section>
+
+    <section class="dashboard">
+
+        <h2>Resultados profesionales</h2>
+
+        <p class="demo-notice">
+            Datos de demostración: los perfiles y resultados mostrados
+            son ejemplos y no corresponden a usuarios reales.
+        </p>
+
+        <section class="chart-card">
+            <h3>1. Compatibilidad profesional</h3>
+            <label for="perfilDemo">Selecciona un perfil de demostración</label>
+            <select id="perfilDemo"></select>
+
+            <div class="chart-container">
+                <canvas id="compatibilidadChart"></canvas>
+            </div>
+
+            <div id="detalleHabilidades"></div>
         </section>
 
-        <footer>
-            <p>CareerTwin AI | Proyecto académico</p>
-        </footer>
+        <section class="chart-card">
+            <h3>2. Transiciones profesionales</h3>
+            <p>Similitud entre familias profesionales.</p>
 
-    </main>
+            <div class="chart-container">
+                <canvas id="transicionesChart"></canvas>
+            </div>
+        </section>
+
+        <section class="chart-card">
+            <h3>3. Demanda del mercado laboral</h3>
+            <p>Número de ofertas laborales por familia.</p>
+
+            <div class="chart-container">
+                <canvas id="mercadoChart"></canvas>
+            </div>
+
+            <h3>Habilidades más solicitadas</h3>
+            <ol id="habilidadesMercado"></ol>
+        </section>
+
+        <p id="estadoDashboard" aria-live="polite"></p>
+
+    </section>
+
+    <footer>
+        <p>CareerTwin AI | Proyecto académico</p>
+    </footer>
+
+</main>
 </body>
 </html>
