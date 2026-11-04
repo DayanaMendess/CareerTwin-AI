@@ -1,0 +1,9 @@
+{
+  "umbral_seleccionado_en_validacion": 0.2,
+  "registros_test": 7500,
+  "micro_f1": 0.3442897260174313,
+  "macro_f1": 0.1342630143134838,
+  "precision_micro": 0.3342656947505227,
+  "recall_micro": 0.35493354933549337,
+  "precision_at_5": 0.2989866666666667
+}
