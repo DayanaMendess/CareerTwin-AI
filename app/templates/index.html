@@ -1,14 +1,119 @@
-<!doctype html>
+
+<!DOCTYPE html>
 <html lang="es">
-<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<title>CareerTwin AI — Inicio</title>
-<style>
-body { background:#0f172a; color:#e2e8f0; font:16px system-ui,sans-serif; margin:0; padding:4rem 1rem; }
-main { max-width:680px; margin:auto; background:#1e293b; padding:2rem; border-radius:16px; }
-p { line-height:1.65; color:#cbd5e1; } code { color:#a5b4fc; }
-.label { display:inline-block; padding:.3rem .7rem; border-radius:25px; background:#334155; color:#f8fafc; }
-</style></head>
-<body><main><span class="label">Entorno inicial</span>
-<h1>CareerTwin AI</h1><p>La aplicación Flask está funcionando. Aún no hay modelos entrenados ni predicciones reales. Construiremos e integraremos los módulos por etapas.</p>
-<p>Comprueba la salud del servidor en <a style="color:#93c5fd" href="/health"><code>/health</code></a>.</p>
-<p>Equipo: Sofia · Catalina · Sergio</p></main></body></html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>CareerTwin AI - Perfil Profesional</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="{{ url_for('static', filename='script.js') }}" defer></script>
+</head>
+
+<body>
+<main class="container">
+
+    <header>
+        <span class="badge">Inteligencia artificial</span>
+        <h1>CareerTwin AI</h1>
+        <p>
+            Descubre nuevas oportunidades profesionales.
+            Registra tu perfil y conoce tus posibilidades laborales.
+        </p>
+    </header>
+
+    <section class="form-section">
+        <h2>Mi perfil profesional</h2>
+        <p>Completa la siguiente información:</p>
+
+        <form id="profileForm">
+
+            <label for="nombre">Nombre completo</label>
+            <input type="text" id="nombre" name="nombre"
+                   placeholder="Escribe tu nombre" required>
+
+            <label for="perfil">Perfil profesional</label>
+            <textarea id="perfil" name="perfil"
+                      placeholder="Describe tu formación y experiencia"
+                      required></textarea>
+
+            <label for="habilidades">Habilidades</label>
+            <textarea id="habilidades" name="habilidades"
+                      placeholder="Ejemplo: Python, SQL, comunicación"
+                      required></textarea>
+
+            <label for="objetivo">Objetivo laboral</label>
+            <select id="objetivo" name="objetivo" required>
+                <option value="">Selecciona tu objetivo</option>
+                <option value="Conseguir empleo">Conseguir empleo</option>
+                <option value="Mejorar profesionalmente">Mejorar profesionalmente</option>
+                <option value="Cambiar de carrera">Cambiar de carrera</option>
+                <option value="Realizar prácticas">Realizar prácticas</option>
+            </select>
+
+            <button type="submit" id="btnAnalizar">
+                Analizar mi perfil
+            </button>
+
+        </form>
+
+        <div id="resultado" hidden aria-live="polite"></div>
+    </section>
+
+    <section class="dashboard">
+
+        <h2>Resultados profesionales</h2>
+
+        <p class="demo-notice">
+            Datos de demostración: los perfiles y resultados mostrados
+            son ejemplos y no corresponden a usuarios reales.
+        </p>
+
+        <section class="chart-card">
+            <h3>1. Compatibilidad profesional</h3>
+            <label for="perfilDemo">Selecciona un perfil de demostración</label>
+            <select id="perfilDemo"></select>
+
+            <div class="chart-container">
+                <canvas id="compatibilidadChart"></canvas>
+            </div>
+
+            <div id="detalleHabilidades"></div>
+        </section>
+
+        <section class="chart-card">
+            <h3>2. Transiciones profesionales</h3>
+            <p>Similitud entre familias profesionales.</p>
+
+            <div class="chart-container">
+                <canvas id="transicionesChart"></canvas>
+            </div>
+        </section>
+
+        <section class="chart-card">
+            <h3>3. Demanda del mercado laboral</h3>
+            <p>Número de ofertas laborales por familia.</p>
+
+            <div class="chart-container">
+                <canvas id="mercadoChart"></canvas>
+            </div>
+
+            <h3>Habilidades más solicitadas</h3>
+            <ol id="habilidadesMercado"></ol>
+        </section>
+
+        <p id="estadoDashboard" aria-live="polite"></p>
+
+    </section>
+
+    <footer>
+        <p>CareerTwin AI | Proyecto académico</p>
+    </footer>
+
+</main>
+</body>
+</html>
