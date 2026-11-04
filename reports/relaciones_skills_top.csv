@@ -1,0 +1,501 @@
+﻿habilidad_a,habilidad_b,ofertas_juntas,p_b_dado_a,p_a_dado_b,jaccard,lift
+communication,problem solving,257278,0.462,0.8142,0.4179,1.892
+communication,teamwork,200370,0.3598,0.7949,0.3292,1.847
+communication,customer service,195657,0.3513,0.6737,0.3002,1.566
+communication,leadership,151133,0.2714,0.7359,0.2473,1.71
+problem solving,teamwork,142266,0.4502,0.5644,0.3341,2.312
+communication,time management,121529,0.2182,0.7868,0.206,1.829
+problem solving,customer service,120180,0.3803,0.4138,0.2472,1.695
+problem solving,leadership,103526,0.3276,0.5041,0.2478,2.065
+customer service,teamwork,103301,0.3557,0.4098,0.2352,1.826
+communication,attention to detail,100796,0.181,0.7589,0.1711,1.764
+problem solving,time management,94830,0.3001,0.6139,0.2525,2.515
+communication,microsoft office,89188,0.1601,0.607,0.1451,1.411
+problem solving,attention to detail,84347,0.2669,0.635,0.2314,2.601
+teamwork,leadership,73792,0.2927,0.3593,0.1923,1.845
+customer service,leadership,73521,0.2532,0.358,0.1741,1.595
+communication,project management,71702,0.1287,0.5859,0.118,1.362
+teamwork,time management,70456,0.2795,0.4561,0.2096,2.342
+communication,interpersonal skills,70128,0.1259,0.7014,0.1195,1.63
+communication,sales,69377,0.1246,0.7087,0.1185,1.647
+customer service,sales,65316,0.2249,0.6673,0.2022,2.974
+teamwork,attention to detail,65034,0.258,0.4896,0.2033,2.514
+communication,collaboration,64158,0.1152,0.7148,0.1101,1.661
+customer service,time management,61302,0.2111,0.3969,0.1598,1.769
+problem solving,microsoft office,60627,0.1919,0.4126,0.1507,1.69
+communication,organizational skills,57083,0.1025,0.7086,0.0984,1.647
+communication,data analysis,52536,0.0943,0.6491,0.0898,1.509
+customer service,attention to detail,52495,0.1808,0.3952,0.1416,1.761
+communication,decision making,51296,0.0921,0.8071,0.0901,1.876
+time management,attention to detail,50339,0.3259,0.379,0.2124,3.176
+communication,training,50238,0.0902,0.607,0.0852,1.411
+communication,patient care,48356,0.0868,0.4862,0.0795,1.13
+communication,adaptability,47417,0.0851,0.8078,0.0834,1.877
+problem solving,decision making,47299,0.1497,0.7442,0.1424,3.048
+communication,inventory management,46754,0.0839,0.6528,0.0804,1.517
+problem solving,project management,46498,0.1472,0.38,0.1187,1.556
+leadership,time management,45910,0.2235,0.2972,0.1462,1.873
+customer service,inventory management,45180,0.1556,0.6308,0.1426,2.811
+patient care,nursing,44087,0.4433,0.5019,0.3079,6.532
+communication,flexibility,43741,0.0785,0.7724,0.0768,1.795
+communication,critical thinking,42770,0.0768,0.7448,0.0748,1.731
+communication,analytical skills,42669,0.0766,0.7086,0.0743,1.647
+communication,multitasking,42524,0.0764,0.6883,0.0738,1.6
+communication,budgeting,42217,0.0758,0.6449,0.0728,1.499
+customer service,microsoft office,42168,0.1452,0.287,0.1067,1.279
+problem solving,data analysis,41292,0.1307,0.5102,0.1161,2.09
+problem solving,adaptability,40114,0.1269,0.6834,0.1199,2.799
+problem solving,collaboration,40011,0.1266,0.4457,0.1094,1.826
+problem solving,sales,39904,0.1263,0.4076,0.1067,1.67
+communication,scheduling,39569,0.071,0.6195,0.0681,1.44
+problem solving,analytical skills,39466,0.1249,0.6554,0.1172,2.685
+teamwork,microsoft office,38945,0.1545,0.265,0.1082,1.361
+problem solving,interpersonal skills,37868,0.1198,0.3787,0.1002,1.551
+excel,microsoft word,37759,0.5233,0.9001,0.4946,16.146
+communication,excel,37543,0.0674,0.5203,0.0635,1.209
+communication,organization,37423,0.0672,0.798,0.0661,1.855
+communication,nursing,37219,0.0668,0.4237,0.0613,0.985
+customer service,training,37074,0.1277,0.4479,0.1103,1.996
+problem solving,critical thinking,36682,0.1161,0.6388,0.1089,2.617
+leadership,training,36576,0.1781,0.4419,0.1454,2.785
+problem solving,organizational skills,36064,0.1141,0.4477,0.1,1.834
+time management,microsoft office,35615,0.2306,0.2424,0.134,2.031
+written communication,verbal communication,34095,0.7201,0.812,0.6172,22.195
+leadership,project management,33760,0.1644,0.2759,0.1148,1.739
+teamwork,sales,33515,0.133,0.3424,0.1059,1.758
+teamwork,adaptability,33033,0.131,0.5628,0.1189,2.889
+customer service,merchandising,32277,0.1111,0.8639,0.1092,3.85
+time management,organizational skills,32215,0.2086,0.3999,0.1589,3.351
+leadership,microsoft office,32128,0.1564,0.2186,0.1003,1.378
+problem solving,inventory management,31386,0.0993,0.4382,0.0881,1.795
+communication,conflict resolution,31378,0.0563,0.783,0.0555,1.82
+communication,safety,31328,0.0563,0.6874,0.0548,1.598
+problem solving,flexibility,31245,0.0989,0.5517,0.0915,2.26
+communication,documentation,31157,0.0559,0.6045,0.054,1.405
+leadership,attention to detail,30921,0.1506,0.2328,0.1006,1.467
+problem solving,multitasking,30344,0.096,0.4912,0.0873,2.012
+problem solving,training,30215,0.0956,0.365,0.082,1.495
+teamwork,flexibility,29096,0.1154,0.5138,0.1041,2.638
+problem solving,budgeting,29048,0.0919,0.4438,0.0824,1.818
+teamwork,patient care,28774,0.1141,0.2893,0.0891,1.485
+communication,negotiation,28701,0.0515,0.7242,0.0505,1.683
+customer service,cash handling,28370,0.0977,0.8958,0.0966,3.992
+leadership,decision making,28302,0.1378,0.4453,0.1176,2.806
+microsoft office,project management,28176,0.1917,0.2302,0.1168,2.028
+leadership,inventory management,27983,0.1363,0.3907,0.1124,2.462
+teamwork,collaboration,27770,0.1102,0.3094,0.0884,1.588
+microsoft office,attention to detail,27649,0.1882,0.2082,0.1097,1.834
+teamwork,critical thinking,27355,0.1085,0.4764,0.097,2.446
+communication,merchandising,27347,0.0491,0.7319,0.0482,1.701
+customer service,interpersonal skills,27089,0.0933,0.2709,0.0746,1.207
+communication,presentation skills,26726,0.048,0.7136,0.0471,1.658
+problem solving,conflict resolution,26596,0.0842,0.6637,0.0807,2.719
+leadership,collaboration,26024,0.1267,0.2899,0.0967,1.827
+teamwork,decision making,25838,0.1025,0.4066,0.0892,2.087
+customer service,scheduling,25479,0.0877,0.3989,0.0775,1.778
+leadership,budgeting,25364,0.1235,0.3875,0.1033,2.442
+customer service,multitasking,25219,0.0868,0.4082,0.0771,1.819
+customer service,decision making,25032,0.0862,0.3939,0.0761,1.755
+communication,computer skills,24821,0.0446,0.6449,0.0435,1.499
+teamwork,project management,24724,0.0981,0.202,0.0707,1.037
+problem solving,excel,24662,0.078,0.3418,0.0679,1.4
+customer service,flexibility,24638,0.0848,0.4351,0.0764,1.939
+teamwork,interpersonal skills,24354,0.0966,0.2436,0.0743,1.251
+communication,team management,23920,0.0429,0.6844,0.0421,1.59
+problem solving,patient care,23883,0.0756,0.2401,0.061,0.984
+communication,coaching,23781,0.0427,0.6238,0.0416,1.45
+customer service,organizational skills,23740,0.0817,0.2947,0.0684,1.313
+leadership,scheduling,23712,0.1155,0.3712,0.0966,2.34
+communication,reporting,23614,0.0424,0.6515,0.0415,1.514
+teamwork,multitasking,23556,0.0934,0.3813,0.0811,1.958
+customer service,adaptability,23529,0.081,0.4008,0.0723,1.786
+attention to detail,organizational skills,23455,0.1766,0.2912,0.1235,2.837
+problem solving,scheduling,23392,0.074,0.3662,0.0656,1.5
+communication,cash handling,23374,0.042,0.738,0.0414,1.715
+leadership,sales,23082,0.1124,0.2358,0.0824,1.486
+leadership,interpersonal skills,23041,0.1122,0.2304,0.0816,1.452
+teamwork,training,22966,0.0911,0.2775,0.0736,1.425
+problem solving,organization,22762,0.072,0.4854,0.0669,1.988
+communication,supervision,22713,0.0408,0.5853,0.0396,1.36
+teamwork,organizational skills,22694,0.09,0.2817,0.0732,1.447
+teamwork,data analysis,22561,0.0895,0.2788,0.0727,1.431
+project management,budgeting,21894,0.1789,0.3345,0.1319,3.538
+time management,adaptability,21887,0.1417,0.3729,0.1144,3.124
+communication,research,21840,0.0392,0.579,0.0381,1.346
+time management,interpersonal skills,21597,0.1398,0.216,0.0928,1.81
+leadership,data analysis,21585,0.1051,0.2667,0.0815,1.681
+communication,troubleshooting,21544,0.0387,0.4954,0.0372,1.151
+teamwork,inventory management,21389,0.0849,0.2986,0.0708,1.533
+communication,management,21121,0.0379,0.6399,0.0371,1.487
+interpersonal skills,organizational skills,21046,0.2105,0.2613,0.132,3.382
+leadership,team management,20991,0.1022,0.6006,0.0957,3.785
+time management,multitasking,20913,0.1354,0.3385,0.1071,2.837
+communication,quality control,20754,0.0373,0.5503,0.0362,1.279
+communication,microsoft word,20739,0.0372,0.4944,0.0359,1.149
+project management,data analysis,20695,0.1691,0.2557,0.1133,2.704
+teamwork,nursing,20422,0.081,0.2325,0.0639,1.194
+attention to detail,multitasking,20379,0.1534,0.3299,0.117,3.214
+leadership,coaching,20292,0.0988,0.5322,0.0909,3.354
+time management,project management,20217,0.1309,0.1652,0.0788,1.384
+communication,team leadership,20134,0.0362,0.6102,0.0353,1.418
+microsoft office,data analysis,20119,0.1369,0.2486,0.0968,2.19
+leadership,adaptability,20079,0.0978,0.3421,0.0823,2.156
+leadership,conflict resolution,19843,0.0966,0.4952,0.088,3.121
+customer service,food safety,19840,0.0683,0.625,0.0656,2.785
+time management,flexibility,19801,0.1282,0.3496,0.1035,2.93
+time management,sales,19760,0.1279,0.2019,0.085,1.692
+communication,quality assurance,19739,0.0354,0.546,0.0344,1.269
+communication,planning,19574,0.0351,0.6404,0.0345,1.488
+time management,decision making,19542,0.1265,0.3075,0.0985,2.577
+customer service,conflict resolution,19066,0.0656,0.4758,0.0612,2.12
+time management,critical thinking,19016,0.1231,0.3311,0.0986,2.775
+leadership,organizational skills,18979,0.0924,0.2356,0.0711,1.485
+attention to detail,adaptability,18772,0.1413,0.3198,0.1087,3.116
+time management,organization,18771,0.1215,0.4003,0.1028,3.354
+problem solving,safety,18765,0.0594,0.4117,0.0547,1.687
+training,scheduling,18633,0.2251,0.2917,0.1456,4.562
+patient care,critical thinking,18514,0.1861,0.3224,0.1338,4.195
+communication,marketing,18443,0.0331,0.629,0.0325,1.462
+microsoft office,excel,18418,0.1253,0.2553,0.0918,2.249
+problem solving,negotiation,18271,0.0578,0.461,0.0542,1.888
+teamwork,analytical skills,18204,0.0722,0.3023,0.0619,1.552
+communication,professionalism,18185,0.0327,0.719,0.0322,1.671
+training,inventory management,18173,0.2196,0.2537,0.1334,3.968
+communication,motivation,18172,0.0326,0.7857,0.0323,1.826
+microsoft office,sales,18133,0.1234,0.1852,0.08,1.632
+customer service,safety,18107,0.0623,0.3973,0.057,1.771
+problem solving,nursing,18064,0.0572,0.2057,0.0468,0.842
+communication,food safety,18030,0.0324,0.568,0.0316,1.32
+customer service,retail,18014,0.062,0.8163,0.0612,3.638
+communication,risk management,17912,0.0322,0.5925,0.0315,1.377
+attention to detail,project management,17834,0.1343,0.1457,0.0751,1.42
+communication,prioritization,17740,0.0319,0.6743,0.0314,1.567
+time management,conflict resolution,17675,0.1144,0.4411,0.0999,3.696
+teamwork,scheduling,17529,0.0695,0.2744,0.0587,1.409
+adaptability,flexibility,17489,0.2979,0.3088,0.1787,6.809
+communication,compliance,17488,0.0314,0.6227,0.0308,1.447
+attention to detail,flexibility,17397,0.131,0.3072,0.1011,2.993
+leadership,patient care,17357,0.0845,0.1745,0.0604,1.1
+time management,collaboration,17354,0.1124,0.1933,0.0765,1.62
+attention to detail,analytical skills,17280,0.1301,0.287,0.0983,2.796
+leadership,management,17249,0.084,0.5226,0.078,3.293
+leadership,critical thinking,17245,0.084,0.3003,0.0702,1.893
+leadership,analytical skills,17243,0.084,0.2864,0.0694,1.805
+communication,accounting,17150,0.0308,0.4989,0.0299,1.159
+microsoft office,organizational skills,17084,0.1163,0.2121,0.0812,1.868
+customer service,coaching,17061,0.0587,0.4475,0.0548,1.994
+communication,initiative,16967,0.0305,0.7516,0.0302,1.747
+problem solving,troubleshooting,16950,0.0536,0.3897,0.0495,1.596
+attention to detail,interpersonal skills,16914,0.1273,0.1692,0.0783,1.648
+customer service,organization,16859,0.0581,0.3595,0.0526,1.602
+teamwork,organization,16838,0.0668,0.3591,0.0597,1.844
+communication,mentoring,16819,0.0302,0.5582,0.0295,1.297
+leadership,safety,16817,0.0819,0.369,0.0718,2.326
+customer service,budgeting,16804,0.0579,0.2567,0.0496,1.144
+microsoft office,interpersonal skills,16783,0.1142,0.1679,0.0729,1.478
+teamwork,safety,16777,0.0666,0.3681,0.0597,1.89
+leadership,flexibility,16769,0.0817,0.2961,0.0684,1.866
+customer service,product knowledge,16739,0.0576,0.7863,0.0567,3.504
+teamwork,conflict resolution,16636,0.066,0.4152,0.0604,2.132
+problem solving,merchandising,16627,0.0526,0.445,0.0494,1.823
+leadership,nursing,16477,0.0802,0.1876,0.0595,1.182
+communication,retail,16400,0.0294,0.7432,0.0292,1.727
+customer service,team management,16345,0.0563,0.4676,0.0529,2.084
+nursing,critical thinking,16265,0.1852,0.2832,0.1261,4.174
+time management,data analysis,16224,0.105,0.2005,0.074,1.68
+problem solving,documentation,16216,0.0513,0.3146,0.0462,1.289
+problem solving,presentation skills,16204,0.0513,0.4326,0.048,1.772
+microsoft office,budgeting,16136,0.1098,0.2465,0.0822,2.171
+problem solving,team management,16103,0.051,0.4607,0.0481,1.887
+problem solving,coaching,16068,0.0509,0.4215,0.0475,1.726
+inventory management,scheduling,16063,0.2243,0.2515,0.1345,4.545
+project management,analytical skills,15884,0.1298,0.2638,0.0953,2.79
+problem solving,written communication,15849,0.0502,0.3347,0.0456,1.371
+communication,product knowledge,15728,0.0282,0.7388,0.028,1.717
+communication,data entry,15549,0.0279,0.6272,0.0275,1.458
+patient care,documentation,15495,0.1558,0.3006,0.1143,3.912
+problem solving,reporting,15341,0.0486,0.4232,0.0455,1.734
+problem solving,research,15337,0.0485,0.4066,0.0453,1.666
+project management,collaboration,15259,0.1247,0.17,0.0775,1.798
+teamwork,budgeting,15225,0.0604,0.2326,0.0504,1.194
+communication,business development,15132,0.0272,0.6027,0.0267,1.401
+communication,ability to work in a fastpaced environment,15020,0.027,0.8322,0.0268,1.934
+customer service,management,14894,0.0513,0.4513,0.0483,2.011
+teamwork,excel,14811,0.0588,0.2053,0.0479,1.054
+time management,analytical skills,14783,0.0957,0.2455,0.074,2.057
+communication,relationship building,14662,0.0263,0.6781,0.026,1.576
+microsoft office,analytical skills,14646,0.0997,0.2432,0.0761,2.142
+sales,marketing,14591,0.1491,0.4976,0.1296,6.579
+training,coaching,14518,0.1754,0.3808,0.1365,5.955
+problem solving,quality control,14420,0.0456,0.3823,0.0425,1.566
+problem solving,team leadership,14335,0.0454,0.4344,0.0428,1.779
+teamwork,documentation,14240,0.0565,0.2763,0.0492,1.419
+communication,patient education,14173,0.0254,0.5355,0.0249,1.244
+problem solving,verbal communication,14054,0.0445,0.3347,0.0409,1.371
+problem solving,cash handling,14023,0.0444,0.4428,0.042,1.814
+customer service,computer skills,14004,0.0482,0.3639,0.0445,1.622
+customer service,collaboration,13997,0.0482,0.1559,0.0382,0.695
+leadership,supervision,13986,0.0681,0.3604,0.0608,2.271
+time management,training,13964,0.0904,0.1687,0.0625,1.414
+communication,empathy,13962,0.0251,0.8068,0.0249,1.875
+problem solving,quality assurance,13883,0.0439,0.384,0.041,1.573
+communication,confidentiality,13849,0.0249,0.5242,0.0243,1.218
+inventory management,merchandising,13814,0.1929,0.3697,0.1451,6.681
+excel,powerpoint,13799,0.1913,0.8742,0.1861,15.682
+leadership,multitasking,13772,0.0671,0.2229,0.0544,1.405
+problem solving,initiative,13765,0.0436,0.6097,0.0424,2.498
+teamwork,professionalism,13716,0.0544,0.5423,0.052,2.784
+problem solving,computer skills,13700,0.0434,0.356,0.0402,1.458
+interpersonal skills,analytical skills,13673,0.1367,0.2271,0.0933,2.939
+attention to detail,excel,13670,0.1029,0.1895,0.0715,1.846
+time management,budgeting,13659,0.0884,0.2087,0.0662,1.749
+customer service,data analysis,13639,0.047,0.1685,0.0381,0.751
+time management,excel,13602,0.0881,0.1885,0.0639,1.58
+scheduling,budgeting,13594,0.2128,0.2077,0.1175,4.208
+attention to detail,data analysis,13571,0.1022,0.1677,0.0678,1.634
+customer service,marketing,13517,0.0465,0.461,0.0441,2.054
+leadership,organization,13499,0.0657,0.2879,0.0565,1.814
+problem solving,microsoft word,13466,0.0426,0.321,0.0391,1.315
+microsoft office,multitasking,13464,0.0916,0.2179,0.069,1.92
+nursing,documentation,13378,0.1523,0.2596,0.1062,3.825
+leadership,food safety,13362,0.0651,0.4209,0.0597,2.653
+communication,ability to work independently,13347,0.024,0.772,0.0238,1.794
+patient care,collaboration,13277,0.1335,0.1479,0.0755,1.925
+attention to detail,sales,13266,0.0999,0.1355,0.061,1.321
+patient care,patient education,13216,0.1329,0.4993,0.1173,6.497
+customer service,excel,13207,0.0455,0.183,0.0378,0.816
+communication,engineering,13178,0.0237,0.4659,0.023,1.083
+project management,interpersonal skills,13091,0.107,0.1309,0.0626,1.385
+project management,excel,13077,0.1069,0.1812,0.0721,1.917
+time management,patient care,13053,0.0845,0.1312,0.0542,1.1
+leadership,mentoring,13045,0.0635,0.4329,0.0586,2.728
+leadership,motivation,13013,0.0634,0.5627,0.0604,3.546
+data analysis,excel,12936,0.1598,0.1793,0.0923,2.867
+attention to detail,organization,12873,0.0969,0.2745,0.0772,2.675
+attention to detail,decision making,12868,0.0969,0.2025,0.0701,1.973
+problem solving,management,12856,0.0407,0.3895,0.0382,1.595
+time management,inventory management,12839,0.0831,0.1793,0.0602,1.502
+attention to detail,collaboration,12773,0.0962,0.1423,0.0609,1.387
+communication,performance management,12758,0.0229,0.6116,0.0226,1.421
+problem solving,professionalism,12723,0.0403,0.503,0.0387,2.061
+organizational skills,analytical skills,12685,0.1575,0.2107,0.099,3.385
+problem solving,prioritization,12608,0.0399,0.4792,0.0382,1.963
+collaboration,critical thinking,12580,0.1401,0.2191,0.0935,3.159
+customer service,ability to work in a fastpaced environment,12548,0.0432,0.6952,0.0424,3.098
+attention to detail,inventory management,12541,0.0944,0.1751,0.0653,1.706
+collaboration,data analysis,12519,0.1395,0.1547,0.0791,2.23
+project management,scheduling,12514,0.1023,0.1959,0.072,2.072
+training,hiring,12488,0.1509,0.6426,0.1392,10.048
+inventory management,food safety,12447,0.1738,0.3921,0.1369,7.086
+problem solving,ability to work in a fastpaced environment,12445,0.0394,0.6895,0.0387,2.824
+teamwork,food safety,12359,0.049,0.3893,0.0455,1.999
+problem solving,supervision,12321,0.039,0.3175,0.036,1.301
+problem solving,risk management,12287,0.0389,0.4065,0.0368,1.665
+time management,scheduling,12244,0.0793,0.1917,0.0594,1.606
+sales,negotiation,12213,0.1248,0.3081,0.0975,4.074
+leadership,merchandising,12205,0.0594,0.3267,0.0529,2.059
+teamwork,merchandising,12122,0.0481,0.3244,0.0437,1.666
+problem solving,planning,12121,0.0384,0.3966,0.0362,1.624
+sales,merchandising,12119,0.1238,0.3243,0.0984,4.289
+customer service,team leadership,12025,0.0414,0.3644,0.0386,1.624
+customer service,project management,11977,0.0412,0.0979,0.0299,0.436
+communication,hiring,11953,0.0215,0.6151,0.0212,1.429
+nursing,patient education,11918,0.1357,0.4503,0.1164,6.635
+attention to detail,critical thinking,11902,0.0896,0.2073,0.0667,2.02
+customer service,food preparation,11884,0.0409,0.603,0.0398,2.688
+problem solving,compliance,11845,0.0375,0.4218,0.0357,1.728
+sales,training,11799,0.1205,0.1425,0.0699,1.885
+customer service,data entry,11760,0.0405,0.4743,0.0388,2.114
+customer service,motivation,11757,0.0405,0.5083,0.039,2.266
+communication,compassion,11735,0.0211,0.6794,0.0209,1.579
+problem solving,motivation,11727,0.0371,0.507,0.0358,2.077
+leadership,excel,11690,0.0569,0.162,0.044,1.021
+data analysis,reporting,11685,0.1444,0.3224,0.1108,5.155
+problem solving,accounting,11665,0.0369,0.3393,0.0344,1.39
+nursing,healthcare,11656,0.1327,0.3441,0.1059,5.07
+problem solving,ability to work independently,11649,0.0369,0.6738,0.0362,2.76
+leadership,planning,11645,0.0567,0.381,0.0519,2.401
+customer service,written communication,11640,0.0401,0.2458,0.0357,1.096
+microsoft office,collaboration,11636,0.0792,0.1296,0.0517,1.142
+project management,organizational skills,11614,0.0949,0.1442,0.0607,1.525
+teamwork,research,11591,0.046,0.3073,0.0417,1.578
+data analysis,budgeting,11498,0.1421,0.1757,0.0852,2.809
+problem solving,food safety,11490,0.0364,0.362,0.0342,1.483
+teamwork,initiative,11473,0.0455,0.5082,0.0436,2.609
+microsoft office,scheduling,11446,0.0779,0.1792,0.0574,1.578
+customer service,cleaning,11405,0.0393,0.6616,0.0385,2.949
+patient care,healthcare,11379,0.1144,0.3359,0.0933,4.371
+nursing,medication administration,11357,0.1293,0.5466,0.1168,8.054
+customer service,retail management,11357,0.0391,0.8201,0.0388,3.655
+sales,retail,11338,0.1158,0.5138,0.1044,6.794
+project management,engineering,11280,0.0922,0.3988,0.0809,4.218
+microsoft office,decision making,11245,0.0765,0.1769,0.0564,1.558
+patient care,medication administration,11232,0.1129,0.5406,0.103,7.035
+customer service,hiring,11189,0.0385,0.5757,0.0375,2.566
+communication,written communication,11180,0.0201,0.2361,0.0189,0.549
+time management,negotiation,11083,0.0718,0.2796,0.0606,2.343
+project management,risk management,11078,0.0905,0.3665,0.0783,3.876
+decision making,adaptability,11066,0.1741,0.1885,0.0995,3.839
+leadership,research,11054,0.0538,0.2931,0.0476,1.847
+communication,food preparation,11049,0.0198,0.5607,0.0195,1.303
+teamwork,written communication,11029,0.0438,0.2329,0.0382,1.196
+communication,team building,11007,0.0198,0.7358,0.0196,1.71
+communication,financial analysis,10903,0.0196,0.6101,0.0193,1.418
+communication,selfmotivation,10852,0.0195,0.6882,0.0193,1.599
+sales,inventory management,10839,0.1107,0.1513,0.0683,2.001
+communication,integrity,10791,0.0194,0.5839,0.0191,1.357
+training,food safety,10786,0.1303,0.3398,0.104,5.313
+communication,writing,10749,0.0193,0.6422,0.0191,1.492
+teamwork,ability to work in a fastpaced environment,10707,0.0425,0.5932,0.0413,3.046
+leadership,quality control,10680,0.052,0.2832,0.046,1.785
+time management,prioritization,10658,0.069,0.4051,0.0627,3.395
+teamwork,cash handling,10645,0.0422,0.3361,0.039,1.726
+collaboration,nursing,10635,0.1185,0.1211,0.0637,1.746
+microsoft office,negotiation,10618,0.0723,0.2679,0.0603,2.36
+interpersonal skills,written communication,10588,0.1059,0.2236,0.0774,2.895
+problem solving,mentoring,10583,0.0335,0.3512,0.0315,1.439
+communication,ethics,10559,0.019,0.8054,0.0189,1.872
+communication,accuracy,10523,0.0189,0.7201,0.0188,1.673
+sales,adaptability,10520,0.1075,0.1792,0.072,2.37
+communication,team player,10516,0.0189,0.5416,0.0186,1.259
+organizational skills,multitasking,10503,0.1304,0.17,0.0797,2.732
+sales,business development,10491,0.1072,0.4178,0.0932,5.525
+teamwork,computer skills,10490,0.0416,0.2726,0.0375,1.399
+leadership,quality assurance,10455,0.0509,0.2892,0.0452,1.823
+interpersonal skills,collaboration,10446,0.1045,0.1164,0.0583,1.506
+customer service,verbal communication,10438,0.0359,0.2486,0.0324,1.108
+communication,strategic planning,10434,0.0187,0.6591,0.0186,1.532
+time management,nursing,10423,0.0675,0.1187,0.045,0.994
+problem solving,data entry,10327,0.0327,0.4165,0.0313,1.706
+customer service,negotiation,10313,0.0355,0.2602,0.0323,1.16
+sales,product knowledge,10311,0.1053,0.4844,0.0947,6.404
+microsoft office,written communication,10301,0.0701,0.2176,0.056,1.916
+leadership,negotiation,10299,0.0501,0.2599,0.0439,1.638
+communication,verbal communication,10271,0.0184,0.2446,0.0174,0.568
+communication,regulatory compliance,10270,0.0184,0.5733,0.0182,1.332
+attention to detail,budgeting,10265,0.0773,0.1568,0.0546,1.528
+training,supervision,10258,0.1239,0.2643,0.0921,4.134
+data analysis,analytical skills,10219,0.1263,0.1697,0.078,2.714
+project management,presentation skills,10214,0.0835,0.2727,0.0683,2.884
+teamwork,coaching,10207,0.0405,0.2677,0.0365,1.375
+communication,innovation,10207,0.0183,0.6187,0.0181,1.438
+time management,written communication,10199,0.066,0.2154,0.0532,1.805
+communication,account management,10149,0.0182,0.6351,0.018,1.476
+python,sql,10145,0.3973,0.4673,0.2735,23.687
+microsoft word,powerpoint,10140,0.2417,0.6424,0.213,19.819
+communication,medical terminology,10133,0.0182,0.6235,0.018,1.449
+teamwork,retail,10122,0.0402,0.4587,0.0383,2.355
+communication,forecasting,10066,0.0181,0.6327,0.0179,1.47
+problem solving,retail,10060,0.0318,0.4559,0.0307,1.867
+communication,healthcare,10059,0.0181,0.2969,0.0173,0.69
+communication,ability to work under pressure,10058,0.0181,0.8205,0.018,1.907
+communication,medication administration,10020,0.018,0.4822,0.0177,1.121
+excel,outlook,10015,0.1388,0.7921,0.1339,14.21
+microsoft office,organization,10014,0.0681,0.2135,0.0545,1.881
+teamwork,troubleshooting,10007,0.0397,0.2301,0.035,1.181
+teamwork,marketing,9995,0.0397,0.3409,0.0368,1.75
+training,safety,9987,0.1207,0.2191,0.0844,3.427
+microsoft office,training,9949,0.0677,0.1202,0.0453,1.059
+accounting,finance,9945,0.2893,0.5649,0.2366,21.27
+microsoft office,adaptability,9935,0.0676,0.1693,0.0508,1.491
+teamwork,negotiation,9932,0.0394,0.2506,0.0352,1.287
+customer service,troubleshooting,9923,0.0342,0.2282,0.0306,1.017
+customer service,analytical skills,9912,0.0341,0.1646,0.0291,0.734
+customer service,mathematical calculations,9903,0.0341,0.8803,0.0339,3.923
+teamwork,verbal communication,9887,0.0392,0.2355,0.0348,1.209
+attention to detail,training,9874,0.0743,0.1193,0.048,1.162
+microsoft office,presentation skills,9869,0.0672,0.2635,0.0565,2.321
+scheduling,food safety,9853,0.1543,0.3104,0.1149,6.29
+communication,assessment,9774,0.0175,0.5909,0.0173,1.373
+customer service,supervision,9737,0.0335,0.2509,0.0305,1.118
+communication,quality improvement,9720,0.0175,0.5964,0.0172,1.386
+leadership,team building,9714,0.0473,0.6494,0.0461,4.092
+collaboration,adaptability,9709,0.1082,0.1654,0.07,2.385
+teamwork,presentation skills,9704,0.0385,0.2591,0.0347,1.33
+communication,maintenance,9664,0.0174,0.4836,0.017,1.124
+leadership,risk management,9656,0.047,0.3194,0.0427,2.013
+communication,finance,9655,0.0173,0.5484,0.0171,1.275
+merchandising,cash handling,9648,0.2582,0.3046,0.1625,10.553
+collaboration,decision making,9638,0.1074,0.1517,0.0671,2.187
+attention to detail,accuracy,9610,0.0724,0.6576,0.0697,6.408
+excel,accounting,9609,0.1332,0.2795,0.0991,5.015
+microsoft office,microsoft word,9593,0.0653,0.2287,0.0535,2.014
+teamwork,reporting,9571,0.038,0.264,0.0343,1.356
+attention to detail,conflict resolution,9570,0.072,0.2388,0.0586,2.327
+problem solving,marketing,9566,0.0303,0.3262,0.0285,1.336
+attention to detail,ability to work in a fastpaced environment,9541,0.0718,0.5286,0.0675,5.151
+teamwork,food preparation,9528,0.0378,0.4835,0.0363,2.482
+teamwork,quality control,9515,0.0377,0.2523,0.0339,1.295
+communication,sanitation,9475,0.017,0.6037,0.0168,1.403
+communication,detail oriented,9458,0.017,0.6113,0.0168,1.421
+communication,cleaning,9448,0.017,0.5481,0.0167,1.274
+teamwork,supervision,9437,0.0374,0.2432,0.0335,1.249
+customer service,inventory control,9436,0.0325,0.6008,0.0318,2.677
+problem solving,empathy,9431,0.0298,0.545,0.0291,2.232
+project management,decision making,9413,0.0769,0.1481,0.0533,1.567
+problem solving,performance management,9411,0.0298,0.4512,0.0287,1.848
+leadership,reporting,9408,0.0458,0.2595,0.0405,1.636
+customer service,retail operations,9391,0.0323,0.9238,0.0322,4.117
+inventory management,cash handling,9388,0.1311,0.2964,0.1,5.357
+excel,analytical skills,9365,0.1298,0.1555,0.0761,2.79
+leadership,performance management,9354,0.0455,0.4484,0.0431,2.826
+time management,verbal communication,9331,0.0604,0.2222,0.0499,1.862
+budgeting,forecasting,9294,0.142,0.5842,0.129,11.551
+customer service,microsoft word,9284,0.032,0.2213,0.0287,0.986
+communication,teaching,9271,0.0166,0.463,0.0163,1.076
+communication,training and development,9260,0.0166,0.6268,0.0165,1.457
+time management,presentation skills,9241,0.0598,0.2467,0.0506,2.067
+problem solving,product knowledge,9230,0.0292,0.4336,0.0281,1.776
+microsoft word,outlook,9205,0.2194,0.7281,0.2028,22.462
+time management,professionalism,9189,0.0595,0.3633,0.0539,3.044
+communication,case management,9174,0.0165,0.4397,0.0161,1.022
+communication,retail management,9173,0.0165,0.6624,0.0163,1.539
+communication,change management,9168,0.0165,0.5919,0.0163,1.376
+teamwork,prioritization,9166,0.0364,0.3484,0.034,1.789
+sales,account management,9148,0.0935,0.5724,0.0874,7.569
+leadership,presentation skills,9140,0.0445,0.244,0.0391,1.538
+data analysis,decision making,9118,0.1127,0.1435,0.0674,2.294
+problem solving,ability to work under pressure,9073,0.0287,0.7401,0.0284,3.032
+teamwork,management,9072,0.036,0.2749,0.0329,1.411
+microsoft office,verbal communication,9062,0.0617,0.2158,0.0504,1.901
+project management,construction management,9062,0.0741,0.5931,0.0705,6.273
+collaboration,documentation,9056,0.1009,0.1757,0.0685,2.534
+project management,negotiation,9047,0.0739,0.2283,0.0591,2.414
+communication,positive attitude,9016,0.0162,0.6073,0.016,1.411
+teamwork,quality assurance,8999,0.0357,0.2489,0.0322,1.278
+teamwork,motivation,8988,0.0357,0.3886,0.0338,1.995
+training,budgeting,8987,0.1086,0.1373,0.0645,2.147
+customer service,performance management,8984,0.0309,0.4307,0.0297,1.919
+teamwork,ability to work independently,8976,0.0356,0.5192,0.0345,2.666
+problem solving,relationship building,8972,0.0284,0.4149,0.0273,1.7
+food safety,food preparation,8967,0.2825,0.455,0.2111,18.553
+communication,continuous improvement,8942,0.0161,0.5574,0.0159,1.295
+attention to detail,ability to work independently,8928,0.0672,0.5164,0.0632,5.032
+project management,quality control,8916,0.0729,0.2364,0.059,2.5
+communication,stress management,8915,0.016,0.7877,0.0159,1.831
+customer service,compliance,8914,0.0307,0.3174,0.0288,1.415
+communication,networking,8910,0.016,0.5255,0.0158,1.221
+problem solving,confidentiality,8897,0.0282,0.3368,0.0267,1.379
+customer service,hospitality,8864,0.0305,0.6684,0.0301,2.979
+communication,inventory control,8856,0.0159,0.5639,0.0157,1.31
+leadership,hiring,8844,0.0431,0.4551,0.041,2.868
+interpersonal skills,multitasking,8839,0.0884,0.1431,0.0578,1.852
+organizational skills,excel,8833,0.1097,0.1224,0.0614,1.967
+decision making,conflict resolution,8811,0.1386,0.2199,0.0929,4.478
+leadership,compliance,8801,0.0429,0.3134,0.0392,1.975
+organizational skills,written communication,8782,0.109,0.1855,0.0737,2.98
+microsoft office,inventory management,8780,0.0598,0.1226,0.0419,1.08
+time management,documentation,8777,0.0568,0.1703,0.0445,1.427
+training,decision making,8775,0.106,0.1381,0.0638,2.159
+communication,team collaboration,8773,0.0158,0.5814,0.0156,1.351
+customer service,sanitation,8736,0.0301,0.5566,0.0294,2.481
+collaboration,research,8716,0.0971,0.2311,0.0734,3.332
+customer service,loss prevention,8686,0.0299,0.8568,0.0298,3.818
+microsoft office,conflict resolution,8664,0.059,0.2162,0.0486,1.904
+problem solving,business development,8653,0.0274,0.3446,0.026,1.412
+project management,autocad,8652,0.0707,0.4926,0.0659,5.21
+microsoft office,data entry,8637,0.0588,0.3484,0.053,3.069
+leadership,documentation,8622,0.042,0.1673,0.0347,1.054
+project management,civil engineering,8616,0.0704,0.5518,0.0666,5.836
+data analysis,presentation skills,8612,0.1064,0.2299,0.0784,3.677
+multitasking,adaptability,8608,0.1393,0.1466,0.0769,3.072
