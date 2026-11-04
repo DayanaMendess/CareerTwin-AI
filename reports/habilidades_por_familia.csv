@@ -1,0 +1,576 @@
+﻿familia,habilidad,ofertas,ofertas_familia,pct_en_familia,pct_global,lift,categoria,rango
+Administración y oficina,communication,33450,55663,60.09,43.03,1.4,blanda,1
+Administración y oficina,customer service,22385,55663,40.22,22.44,1.79,tecnica,2
+Administración y oficina,problem solving,17648,55663,31.71,24.41,1.3,blanda,3
+Administración y oficina,teamwork,12823,55663,23.04,19.48,1.18,blanda,4
+Administración y oficina,leadership,12541,55663,22.53,15.87,1.42,blanda,5
+Administración y oficina,microsoft office,12377,55663,22.24,11.35,1.96,tecnica,6
+Administración y oficina,time management,12191,55663,21.9,11.93,1.84,blanda,7
+Administración y oficina,attention to detail,10334,55663,18.57,10.26,1.81,blanda,8
+Administración y oficina,organizational skills,8279,55663,14.87,6.22,2.39,blanda,9
+Administración y oficina,interpersonal skills,7856,55663,14.11,7.73,1.83,blanda,10
+Administración y oficina,scheduling,6807,55663,12.23,4.93,2.48,tecnica,11
+Administración y oficina,inventory management,6174,55663,11.09,5.53,2.01,tecnica,12
+Administración y oficina,project management,6005,55663,10.79,9.45,1.14,tecnica,13
+Administración y oficina,multitasking,5847,55663,10.5,4.77,2.2,blanda,14
+Administración y oficina,excel,5773,55663,10.37,5.57,1.86,tecnica,15
+Administración y oficina,organization,5741,55663,10.31,3.62,2.85,blanda,16
+Administración y oficina,training,5663,55663,10.17,6.4,1.59,tecnica,17
+Administración y oficina,flexibility,5337,55663,9.59,4.38,2.19,blanda,18
+Administración y oficina,sales,4673,55663,8.4,7.56,1.11,tecnica,19
+Administración y oficina,conflict resolution,4170,55663,7.49,3.1,2.42,blanda,20
+Administración y oficina,budgeting,4166,55663,7.48,5.06,1.48,tecnica,21
+Administración y oficina,adaptability,4041,55663,7.26,4.54,1.6,blanda,22
+Administración y oficina,microsoft word,3959,55663,7.11,3.24,2.19,tecnica,23
+Administración y oficina,data analysis,3746,55663,6.73,6.25,1.08,tecnica,24
+Administración y oficina,decision making,3703,55663,6.65,4.91,1.35,blanda,25
+Atención al cliente,customer service,21673,24526,88.37,22.44,3.94,tecnica,1
+Atención al cliente,communication,18855,24526,76.88,43.03,1.79,blanda,2
+Atención al cliente,problem solving,14941,24526,60.92,24.41,2.5,blanda,3
+Atención al cliente,teamwork,8579,24526,34.98,19.48,1.8,blanda,4
+Atención al cliente,sales,5859,24526,23.89,7.56,3.16,tecnica,5
+Atención al cliente,microsoft office,4290,24526,17.49,11.35,1.54,tecnica,6
+Atención al cliente,time management,3939,24526,16.06,11.93,1.35,blanda,7
+Atención al cliente,attention to detail,3794,24526,15.47,10.26,1.51,blanda,8
+Atención al cliente,decision making,3414,24526,13.92,4.91,2.84,blanda,9
+Atención al cliente,multitasking,3329,24526,13.57,4.77,2.84,blanda,10
+Atención al cliente,organizational skills,2649,24526,10.8,6.22,1.74,blanda,11
+Atención al cliente,retail operations,2581,24526,10.52,0.79,13.32,tecnica,12
+Atención al cliente,inventory management,2435,24526,9.93,5.53,1.8,tecnica,13
+Atención al cliente,merchandising,2274,24526,9.27,2.89,3.21,tecnica,14
+Atención al cliente,leadership,2268,24526,9.25,15.87,0.58,blanda,15
+Atención al cliente,retail,2204,24526,8.99,1.7,5.29,tecnica,16
+Atención al cliente,interpersonal skills,2087,24526,8.51,7.73,1.1,blanda,17
+Atención al cliente,data entry,2038,24526,8.31,1.92,4.33,tecnica,18
+Atención al cliente,cash handling,1974,24526,8.05,2.45,3.29,tecnica,19
+Atención al cliente,flexibility,1948,24526,7.94,4.38,1.81,blanda,20
+Atención al cliente,organization,1714,24526,6.99,3.62,1.93,blanda,21
+Atención al cliente,adaptability,1611,24526,6.57,4.54,1.45,blanda,22
+Atención al cliente,computer skills,1469,24526,5.99,2.97,2.02,tecnica,23
+Atención al cliente,conflict resolution,1344,24526,5.48,3.1,1.77,blanda,24
+Atención al cliente,excel,1304,24526,5.32,5.57,0.96,tecnica,25
+Comercio y tiendas,customer service,54440,71367,76.28,22.44,3.4,tecnica,1
+Comercio y tiendas,communication,42079,71367,58.96,43.03,1.37,blanda,2
+Comercio y tiendas,problem solving,24524,71367,34.36,24.41,1.41,blanda,3
+Comercio y tiendas,leadership,21488,71367,30.11,15.87,1.9,blanda,4
+Comercio y tiendas,teamwork,19584,71367,27.44,19.48,1.41,blanda,5
+Comercio y tiendas,inventory management,18223,71367,25.53,5.53,4.62,tecnica,6
+Comercio y tiendas,merchandising,17911,71367,25.1,2.89,8.69,tecnica,7
+Comercio y tiendas,sales,17828,71367,24.98,7.56,3.3,tecnica,8
+Comercio y tiendas,cash handling,14952,71367,20.95,2.45,8.55,tecnica,9
+Comercio y tiendas,training,12599,71367,17.65,6.4,2.76,tecnica,10
+Comercio y tiendas,attention to detail,10618,71367,14.88,10.26,1.45,blanda,11
+Comercio y tiendas,time management,10283,71367,14.41,11.93,1.21,blanda,12
+Comercio y tiendas,mathematical calculations,9698,71367,13.59,0.87,15.62,tecnica,13
+Comercio y tiendas,scheduling,9042,71367,12.67,4.93,2.57,tecnica,14
+Comercio y tiendas,food safety,8210,71367,11.5,2.45,4.69,tecnica,15
+Comercio y tiendas,retail management,7792,71367,10.92,1.07,10.21,tecnica,16
+Comercio y tiendas,safety,7574,71367,10.61,3.52,3.01,tecnica,17
+Comercio y tiendas,retail,7567,71367,10.6,1.7,6.24,tecnica,18
+Comercio y tiendas,interpersonal skills,7384,71367,10.35,7.73,1.34,blanda,19
+Comercio y tiendas,loss prevention,6605,71367,9.25,0.78,11.86,tecnica,20
+Comercio y tiendas,adaptability,6212,71367,8.7,4.54,1.92,blanda,21
+Comercio y tiendas,cleaning,6016,71367,8.43,1.33,6.34,tecnica,22
+Comercio y tiendas,inventory control,5823,71367,8.16,1.21,6.74,tecnica,23
+Comercio y tiendas,decision making,5664,71367,7.94,4.91,1.62,blanda,24
+Comercio y tiendas,flexibility,5477,71367,7.67,4.38,1.75,blanda,25
+Construcción,communication,15936,36512,43.65,43.03,1.01,blanda,1
+Construcción,project management,13709,36512,37.55,9.45,3.97,tecnica,2
+Construcción,problem solving,8235,36512,22.55,24.41,0.92,blanda,3
+Construcción,construction management,7573,36512,20.74,1.18,17.58,tecnica,4
+Construcción,leadership,6922,36512,18.96,15.87,1.19,blanda,5
+Construcción,scheduling,6358,36512,17.41,4.93,3.53,tecnica,6
+Construcción,microsoft office,6034,36512,16.53,11.35,1.46,tecnica,7
+Construcción,budgeting,5477,36512,15.0,5.06,2.96,tecnica,8
+Construcción,teamwork,4896,36512,13.41,19.48,0.69,blanda,9
+Construcción,quality control,4811,36512,13.18,2.91,4.53,tecnica,10
+Construcción,construction,4622,36512,12.66,1.12,11.3,tecnica,11
+Construcción,time management,3859,36512,10.57,11.93,0.89,blanda,12
+Construcción,attention to detail,3430,36512,9.39,10.26,0.92,blanda,13
+Construcción,safety,3099,36512,8.49,3.52,2.41,tecnica,14
+Construcción,engineering,2961,36512,8.11,2.19,3.7,tecnica,15
+Construcción,autocad,2932,36512,8.03,1.36,5.9,tecnica,16
+Construcción,excel,2426,36512,6.64,5.57,1.19,tecnica,17
+Construcción,customer service,2414,36512,6.61,22.44,0.29,tecnica,18
+Construcción,interpersonal skills,2232,36512,6.11,7.73,0.79,blanda,19
+Construcción,civil engineering,2178,36512,5.97,1.21,4.93,tecnica,20
+Construcción,organizational skills,2148,36512,5.88,6.22,0.95,blanda,21
+Construcción,collaboration,2107,36512,5.77,6.94,0.83,blanda,22
+Construcción,quality assurance,2026,36512,5.55,2.79,1.99,tecnica,23
+Construcción,microsoft word,1916,36512,5.25,3.24,1.62,tecnica,24
+Construcción,cost control,1821,36512,4.99,0.7,7.13,tecnica,25
+Datos y análisis,communication,18347,45696,40.15,43.03,0.93,blanda,1
+Datos y análisis,data analysis,14100,45696,30.86,6.25,4.94,tecnica,2
+Datos y análisis,problem solving,13192,45696,28.87,24.41,1.18,blanda,3
+Datos y análisis,excel,9115,45696,19.95,5.57,3.58,tecnica,4
+Datos y análisis,project management,9014,45696,19.73,9.45,2.09,tecnica,5
+Datos y análisis,sql,8345,45696,18.26,1.68,10.87,tecnica,6
+Datos y análisis,teamwork,7206,45696,15.77,19.48,0.81,blanda,7
+Datos y análisis,python,7000,45696,15.32,1.97,7.78,tecnica,8
+Datos y análisis,analytical skills,6599,45696,14.44,4.65,3.11,blanda,9
+Datos y análisis,microsoft office,6407,45696,14.02,11.35,1.24,tecnica,10
+Datos y análisis,attention to detail,5767,45696,12.62,10.26,1.23,blanda,11
+Datos y análisis,collaboration,4545,45696,9.95,6.94,1.43,blanda,12
+Datos y análisis,reporting,4178,45696,9.14,2.8,3.26,tecnica,13
+Datos y análisis,time management,4087,45696,8.94,11.93,0.75,blanda,14
+Datos y análisis,leadership,3798,45696,8.31,15.87,0.52,blanda,15
+Datos y análisis,machine learning,3738,45696,8.18,0.74,11.05,tecnica,16
+Datos y análisis,accounting,3647,45696,7.98,2.66,3.0,tecnica,17
+Datos y análisis,presentation skills,3555,45696,7.78,2.89,2.69,blanda,18
+Datos y análisis,financial analysis,3481,45696,7.62,1.38,5.52,tecnica,19
+Datos y análisis,finance,3336,45696,7.3,1.36,5.37,tecnica,20
+Datos y análisis,interpersonal skills,3247,45696,7.11,7.73,0.92,blanda,21
+Datos y análisis,budgeting,3191,45696,6.98,5.06,1.38,tecnica,22
+Datos y análisis,organizational skills,2973,45696,6.51,6.22,1.05,blanda,23
+Datos y análisis,forecasting,2759,45696,6.04,1.23,4.91,tecnica,24
+Datos y análisis,written communication,2700,45696,5.91,3.66,1.61,blanda,25
+Educación,communication,12865,32354,39.76,43.03,0.92,blanda,1
+Educación,teaching,7359,32354,22.75,1.55,14.68,tecnica,2
+Educación,problem solving,5118,32354,15.82,24.41,0.65,blanda,3
+Educación,teamwork,4556,32354,14.08,19.48,0.72,blanda,4
+Educación,collaboration,4339,32354,13.41,6.94,1.93,blanda,5
+Educación,leadership,3847,32354,11.89,15.87,0.75,blanda,6
+Educación,research,3629,32354,11.22,2.91,3.86,tecnica,7
+Educación,interpersonal skills,2687,32354,8.31,7.73,1.08,blanda,8
+Educación,time management,2482,32354,7.67,11.93,0.64,blanda,9
+Educación,customer service,2349,32354,7.26,22.44,0.32,tecnica,10
+Educación,microsoft office,2305,32354,7.12,11.35,0.63,tecnica,11
+Educación,data analysis,1911,32354,5.91,6.25,0.95,tecnica,12
+Educación,assessment,1874,32354,5.79,1.28,4.52,tecnica,13
+Educación,organizational skills,1858,32354,5.74,6.22,0.92,blanda,14
+Educación,mentoring,1685,32354,5.21,2.33,2.24,blanda,15
+Educación,flexibility,1598,32354,4.94,4.38,1.13,blanda,16
+Educación,adaptability,1592,32354,4.92,4.54,1.08,blanda,17
+Educación,critical thinking,1549,32354,4.79,4.44,1.08,blanda,18
+Educación,creativity,1168,32354,3.61,0.9,4.01,blanda,19
+Educación,conflict resolution,1128,32354,3.49,3.1,1.13,blanda,20
+Educación,supervision,1128,32354,3.49,3.0,1.16,tecnica,21
+Educación,training,1066,32354,3.29,6.4,0.51,tecnica,22
+Educación,safety,1027,32354,3.17,3.52,0.9,tecnica,23
+Educación,organization,1011,32354,3.12,3.62,0.86,blanda,24
+Educación,attention to detail,1000,32354,3.09,10.26,0.3,blanda,25
+Enfermería,nursing,79516,166859,47.65,6.79,7.02,tecnica,1
+Enfermería,patient care,58262,166859,34.92,7.68,4.55,tecnica,2
+Enfermería,communication,55062,166859,33.0,43.03,0.77,blanda,3
+Enfermería,teamwork,29746,166859,17.83,19.48,0.92,blanda,4
+Enfermería,problem solving,25733,166859,15.42,24.41,0.63,blanda,5
+Enfermería,critical thinking,24380,166859,14.61,4.44,3.29,blanda,6
+Enfermería,leadership,22328,166859,13.38,15.87,0.84,blanda,7
+Enfermería,documentation,19849,166859,11.9,3.98,2.99,tecnica,8
+Enfermería,patient education,19173,166859,11.49,2.05,5.6,tecnica,9
+Enfermería,medication administration,18108,166859,10.85,1.61,6.74,tecnica,10
+Enfermería,collaboration,15981,166859,9.58,6.94,1.38,blanda,11
+Enfermería,time management,15899,166859,9.53,11.93,0.8,blanda,12
+Enfermería,healthcare,13330,166859,7.99,2.62,3.05,tecnica,13
+Enfermería,travel nursing,10726,166859,6.43,1.01,6.37,tecnica,14
+Enfermería,patient assessment,10064,166859,6.03,0.92,6.55,tecnica,15
+Enfermería,quality improvement,9839,166859,5.9,1.26,4.68,tecnica,16
+Enfermería,assessment,9826,166859,5.89,1.28,4.6,tecnica,17
+Enfermería,infection control,9307,166859,5.58,1.1,5.07,tecnica,18
+Enfermería,interpersonal skills,9075,166859,5.44,7.73,0.7,blanda,19
+Enfermería,evaluation,9015,166859,5.4,1.13,4.78,tecnica,20
+Enfermería,compassion,7656,166859,4.59,1.33,3.45,blanda,21
+Enfermería,planning,7487,166859,4.49,2.36,1.9,blanda,22
+Enfermería,customer service,7413,166859,4.44,22.44,0.2,tecnica,23
+Enfermería,case management,7325,166859,4.39,1.61,2.73,tecnica,24
+Enfermería,decision making,7204,166859,4.32,4.91,0.88,blanda,25
+Finanzas y contabilidad,communication,27287,56255,48.51,43.03,1.13,blanda,1
+Finanzas y contabilidad,accounting,19848,56255,35.28,2.66,13.26,tecnica,2
+Finanzas y contabilidad,problem solving,15610,56255,27.75,24.41,1.14,blanda,3
+Finanzas y contabilidad,teamwork,13289,56255,23.62,19.48,1.21,blanda,4
+Finanzas y contabilidad,customer service,12320,56255,21.9,22.44,0.98,tecnica,5
+Finanzas y contabilidad,excel,11304,56255,20.09,5.57,3.61,tecnica,6
+Finanzas y contabilidad,microsoft office,10495,56255,18.66,11.35,1.64,tecnica,7
+Finanzas y contabilidad,attention to detail,10458,56255,18.59,10.26,1.81,blanda,8
+Finanzas y contabilidad,financial reporting,9873,56255,17.55,1.24,14.15,tecnica,9
+Finanzas y contabilidad,budgeting,8423,56255,14.97,5.06,2.96,tecnica,10
+Finanzas y contabilidad,time management,8366,56255,14.87,11.93,1.25,blanda,11
+Finanzas y contabilidad,analytical skills,7883,56255,14.01,4.65,3.01,blanda,12
+Finanzas y contabilidad,sales,7696,56255,13.68,7.56,1.81,tecnica,13
+Finanzas y contabilidad,leadership,7188,56255,12.78,15.87,0.81,blanda,14
+Finanzas y contabilidad,financial analysis,6514,56255,11.58,1.38,8.39,tecnica,15
+Finanzas y contabilidad,finance,6341,56255,11.27,1.36,8.29,tecnica,16
+Finanzas y contabilidad,collaboration,5860,56255,10.42,6.94,1.5,blanda,17
+Finanzas y contabilidad,data analysis,5404,56255,9.61,6.25,1.54,tecnica,18
+Finanzas y contabilidad,interpersonal skills,5005,56255,8.9,7.73,1.15,blanda,19
+Finanzas y contabilidad,marketing,4889,56255,8.69,2.27,3.83,tecnica,20
+Finanzas y contabilidad,project management,4832,56255,8.59,9.45,0.91,tecnica,21
+Finanzas y contabilidad,organizational skills,4691,56255,8.34,6.22,1.34,blanda,22
+Finanzas y contabilidad,auditing,4597,56255,8.17,0.69,11.84,tecnica,23
+Finanzas y contabilidad,forecasting,4116,56255,7.32,1.23,5.95,tecnica,24
+Finanzas y contabilidad,risk management,3817,56255,6.79,2.34,2.9,tecnica,25
+Gerencia y dirección,communication,72860,131223,55.52,43.03,1.29,blanda,1
+Gerencia y dirección,leadership,48525,131223,36.98,15.87,2.33,blanda,2
+Gerencia y dirección,problem solving,45174,131223,34.43,24.41,1.41,blanda,3
+Gerencia y dirección,customer service,42794,131223,32.61,22.44,1.45,tecnica,4
+Gerencia y dirección,project management,26662,131223,20.32,9.45,2.15,tecnica,5
+Gerencia y dirección,teamwork,25819,131223,19.68,19.48,1.01,blanda,6
+Gerencia y dirección,microsoft office,21218,131223,16.17,11.35,1.42,tecnica,7
+Gerencia y dirección,time management,19518,131223,14.87,11.93,1.25,blanda,8
+Gerencia y dirección,training,19364,131223,14.76,6.4,2.31,tecnica,9
+Gerencia y dirección,inventory management,17025,131223,12.97,5.53,2.35,tecnica,10
+Gerencia y dirección,budgeting,16571,131223,12.63,5.06,2.5,tecnica,11
+Gerencia y dirección,attention to detail,15256,131223,11.63,10.26,1.13,blanda,12
+Gerencia y dirección,interpersonal skills,12461,131223,9.5,7.73,1.23,blanda,13
+Gerencia y dirección,scheduling,12333,131223,9.4,4.93,1.91,tecnica,14
+Gerencia y dirección,decision making,12100,131223,9.22,4.91,1.88,blanda,15
+Gerencia y dirección,team management,11580,131223,8.82,2.7,3.27,tecnica,16
+Gerencia y dirección,data analysis,11426,131223,8.71,6.25,1.39,tecnica,17
+Gerencia y dirección,organizational skills,10799,131223,8.23,6.22,1.32,blanda,18
+Gerencia y dirección,sales,10762,131223,8.2,7.56,1.08,tecnica,19
+Gerencia y dirección,coaching,10302,131223,7.85,2.95,2.66,blanda,20
+Gerencia y dirección,analytical skills,9711,131223,7.4,4.65,1.59,blanda,21
+Gerencia y dirección,excel,9350,131223,7.13,5.57,1.28,tecnica,22
+Gerencia y dirección,collaboration,9145,131223,6.97,6.94,1.0,blanda,23
+Gerencia y dirección,team leadership,8980,131223,6.84,2.55,2.68,blanda,24
+Gerencia y dirección,conflict resolution,8632,131223,6.58,3.1,2.12,blanda,25
+Ingeniería,communication,17985,56388,31.9,43.03,0.74,blanda,1
+Ingeniería,project management,16990,56388,30.13,9.45,3.19,tecnica,2
+Ingeniería,problem solving,12147,56388,21.54,24.41,0.88,blanda,3
+Ingeniería,electrical engineering,9642,56388,17.1,1.29,13.26,tecnica,4
+Ingeniería,mechanical engineering,8490,56388,15.06,1.18,12.76,tecnica,5
+Ingeniería,civil engineering,7714,56388,13.68,1.21,11.31,tecnica,6
+Ingeniería,autocad,7570,56388,13.42,1.36,9.87,tecnica,7
+Ingeniería,microsoft office,7360,56388,13.05,11.35,1.15,tecnica,8
+Ingeniería,teamwork,7263,56388,12.88,19.48,0.66,blanda,9
+Ingeniería,leadership,6835,56388,12.12,15.87,0.76,blanda,10
+Ingeniería,troubleshooting,6339,56388,11.24,3.36,3.35,tecnica,11
+Ingeniería,engineering,5460,56388,9.68,2.19,4.42,tecnica,12
+Ingeniería,python,4814,56388,8.54,1.97,4.34,tecnica,13
+Ingeniería,collaboration,3879,56388,6.88,6.94,0.99,blanda,14
+Ingeniería,attention to detail,3661,56388,6.49,10.26,0.63,blanda,15
+Ingeniería,design,3574,56388,6.34,0.83,7.64,tecnica,16
+Ingeniería,budgeting,3482,56388,6.18,5.06,1.22,tecnica,17
+Ingeniería,analytical skills,3464,56388,6.14,4.65,1.32,blanda,18
+Ingeniería,time management,3178,56388,5.64,11.93,0.47,blanda,19
+Ingeniería,data analysis,3126,56388,5.54,6.25,0.89,tecnica,20
+Ingeniería,mentoring,3125,56388,5.54,2.33,2.38,blanda,21
+Ingeniería,interpersonal skills,3059,56388,5.42,7.73,0.7,blanda,22
+Ingeniería,written communication,2864,56388,5.08,3.66,1.39,blanda,23
+Ingeniería,technical writing,2852,56388,5.06,1.04,4.87,tecnica,24
+Ingeniería,excel,2704,56388,4.8,5.57,0.86,tecnica,25
+Legal,communication,6631,18250,36.33,43.03,0.84,blanda,1
+Legal,problem solving,3241,18250,17.76,24.41,0.73,blanda,2
+Legal,attention to detail,2996,18250,16.42,10.26,1.6,blanda,3
+Legal,teamwork,2958,18250,16.21,19.48,0.83,blanda,4
+Legal,negotiation,2757,18250,15.11,3.06,4.94,blanda,5
+Legal,time management,2603,18250,14.26,11.93,1.2,blanda,6
+Legal,microsoft office,2365,18250,12.96,11.35,1.14,tecnica,7
+Legal,analytical skills,2323,18250,12.73,4.65,2.74,blanda,8
+Legal,case management,2161,18250,11.84,1.61,7.35,tecnica,9
+Legal,interpersonal skills,1789,18250,9.8,7.73,1.27,blanda,10
+Legal,writing,1745,18250,9.56,1.29,7.41,blanda,11
+Legal,organizational skills,1721,18250,9.43,6.22,1.52,blanda,12
+Legal,research,1696,18250,9.29,2.91,3.19,tecnica,13
+Legal,collaboration,1517,18250,8.31,6.94,1.2,blanda,14
+Legal,written communication,1359,18250,7.45,3.66,2.04,blanda,15
+Legal,project management,1334,18250,7.31,9.45,0.77,tecnica,16
+Legal,verbal communication,1081,18250,5.92,3.24,1.83,blanda,17
+Legal,compliance,1069,18250,5.86,2.17,2.7,tecnica,18
+Legal,multitasking,1045,18250,5.73,4.77,1.2,blanda,19
+Legal,organization,1025,18250,5.62,3.62,1.55,blanda,20
+Legal,leadership,984,18250,5.39,15.87,0.34,blanda,21
+Legal,microsoft word,928,18250,5.08,3.24,1.57,tecnica,22
+Legal,regulatory compliance,903,18250,4.95,1.38,3.59,tecnica,23
+Legal,excel,881,18250,4.83,5.57,0.87,tecnica,24
+Legal,risk management,817,18250,4.48,2.34,1.91,tecnica,25
+Limpieza y servicios generales,communication,2914,5767,50.53,43.03,1.17,blanda,1
+Limpieza y servicios generales,cleaning,2448,5767,42.45,1.33,31.92,tecnica,2
+Limpieza y servicios generales,customer service,1710,5767,29.65,22.44,1.32,tecnica,3
+Limpieza y servicios generales,attention to detail,1508,5767,26.15,10.26,2.55,blanda,4
+Limpieza y servicios generales,teamwork,1421,5767,24.64,19.48,1.26,blanda,5
+Limpieza y servicios generales,problem solving,1398,5767,24.24,24.41,0.99,blanda,6
+Limpieza y servicios generales,leadership,1314,5767,22.78,15.87,1.44,blanda,7
+Limpieza y servicios generales,time management,996,5767,17.27,11.93,1.45,blanda,8
+Limpieza y servicios generales,training,933,5767,16.18,6.4,2.53,tecnica,9
+Limpieza y servicios generales,safety,884,5767,15.33,3.52,4.36,tecnica,10
+Limpieza y servicios generales,maintenance,785,5767,13.61,1.54,8.84,tecnica,11
+Limpieza y servicios generales,supervision,698,5767,12.1,3.0,4.03,tecnica,12
+Limpieza y servicios generales,inventory management,571,5767,9.9,5.53,1.79,tecnica,13
+Limpieza y servicios generales,scheduling,542,5767,9.4,4.93,1.91,tecnica,14
+Limpieza y servicios generales,reporting,436,5767,7.56,2.8,2.7,tecnica,15
+Limpieza y servicios generales,budgeting,373,5767,6.47,5.06,1.28,tecnica,16
+Limpieza y servicios generales,sanitation,363,5767,6.29,1.21,5.2,tecnica,17
+Limpieza y servicios generales,basic computer skills,357,5767,6.19,0.76,8.14,tecnica,18
+Limpieza y servicios generales,flexibility,347,5767,6.02,4.38,1.37,blanda,19
+Limpieza y servicios generales,organization,342,5767,5.93,3.62,1.64,blanda,20
+Limpieza y servicios generales,organizational skills,339,5767,5.88,6.22,0.95,blanda,21
+Limpieza y servicios generales,quality control,328,5767,5.69,2.91,1.96,tecnica,22
+Limpieza y servicios generales,infection control,326,5767,5.65,1.1,5.14,tecnica,23
+Limpieza y servicios generales,interpersonal skills,296,5767,5.13,7.73,0.66,blanda,24
+Limpieza y servicios generales,microsoft office,296,5767,5.13,11.35,0.45,tecnica,25
+Logística y transporte,communication,9814,21380,45.9,43.03,1.07,blanda,1
+Logística y transporte,problem solving,5980,21380,27.97,24.41,1.15,blanda,2
+Logística y transporte,customer service,5016,21380,23.46,22.44,1.05,tecnica,3
+Logística y transporte,inventory management,4377,21380,20.47,5.53,3.7,tecnica,4
+Logística y transporte,leadership,3698,21380,17.3,15.87,1.09,blanda,5
+Logística y transporte,microsoft office,3367,21380,15.75,11.35,1.39,tecnica,6
+Logística y transporte,teamwork,3269,21380,15.29,19.48,0.78,blanda,7
+Logística y transporte,attention to detail,2717,21380,12.71,10.26,1.24,blanda,8
+Logística y transporte,time management,2560,21380,11.97,11.93,1.0,blanda,9
+Logística y transporte,project management,2508,21380,11.73,9.45,1.24,tecnica,10
+Logística y transporte,decision making,2316,21380,10.83,4.91,2.21,blanda,11
+Logística y transporte,supply chain management,2295,21380,10.73,0.7,15.33,tecnica,12
+Logística y transporte,excel,1800,21380,8.42,5.57,1.51,tecnica,13
+Logística y transporte,data analysis,1654,21380,7.74,6.25,1.24,tecnica,14
+Logística y transporte,safety,1539,21380,7.2,3.52,2.05,tecnica,15
+Logística y transporte,driving,1526,21380,7.14,0.86,8.3,tecnica,16
+Logística y transporte,inventory control,1514,21380,7.08,1.21,5.85,tecnica,17
+Logística y transporte,organizational skills,1450,21380,6.78,6.22,1.09,blanda,18
+Logística y transporte,analytical skills,1395,21380,6.52,4.65,1.4,blanda,19
+Logística y transporte,interpersonal skills,1315,21380,6.15,7.73,0.8,blanda,20
+Logística y transporte,training,1283,21380,6.0,6.4,0.94,tecnica,21
+Logística y transporte,product knowledge,1224,21380,5.72,1.64,3.49,tecnica,22
+Logística y transporte,scheduling,1205,21380,5.64,4.93,1.14,tecnica,23
+Logística y transporte,multitasking,1140,21380,5.33,4.77,1.12,blanda,24
+Logística y transporte,cash handling,1072,21380,5.01,2.45,2.04,tecnica,25
+Manufactura y mantenimiento,communication,26917,67706,39.76,43.03,0.92,blanda,1
+Manufactura y mantenimiento,problem solving,19788,67706,29.23,24.41,1.2,blanda,2
+Manufactura y mantenimiento,troubleshooting,13137,67706,19.4,3.36,5.77,tecnica,3
+Manufactura y mantenimiento,teamwork,12848,67706,18.98,19.48,0.97,blanda,4
+Manufactura y mantenimiento,customer service,11494,67706,16.98,22.44,0.76,tecnica,5
+Manufactura y mantenimiento,leadership,10011,67706,14.79,15.87,0.93,blanda,6
+Manufactura y mantenimiento,microsoft office,8378,67706,12.37,11.35,1.09,tecnica,7
+Manufactura y mantenimiento,attention to detail,8082,67706,11.94,10.26,1.16,blanda,8
+Manufactura y mantenimiento,quality control,7580,67706,11.2,2.91,3.85,tecnica,9
+Manufactura y mantenimiento,maintenance,6892,67706,10.18,1.54,6.61,tecnica,10
+Manufactura y mantenimiento,project management,6057,67706,8.95,9.45,0.95,tecnica,11
+Manufactura y mantenimiento,time management,5901,67706,8.72,11.93,0.73,blanda,12
+Manufactura y mantenimiento,quality assurance,5812,67706,8.58,2.79,3.08,tecnica,13
+Manufactura y mantenimiento,manufacturing,5698,67706,8.42,1.25,6.74,tecnica,14
+Manufactura y mantenimiento,safety,5196,67706,7.67,3.52,2.18,tecnica,15
+Manufactura y mantenimiento,continuous improvement,4376,67706,6.46,1.24,5.21,tecnica,16
+Manufactura y mantenimiento,training,4364,67706,6.45,6.4,1.01,tecnica,17
+Manufactura y mantenimiento,excel,4361,67706,6.44,5.57,1.16,tecnica,18
+Manufactura y mantenimiento,interpersonal skills,4230,67706,6.25,7.73,0.81,blanda,19
+Manufactura y mantenimiento,data analysis,3878,67706,5.73,6.25,0.92,tecnica,20
+Manufactura y mantenimiento,scheduling,3401,67706,5.02,4.93,1.02,tecnica,21
+Manufactura y mantenimiento,organizational skills,3372,67706,4.98,6.22,0.8,blanda,22
+Manufactura y mantenimiento,engineering,3205,67706,4.73,2.19,2.16,tecnica,23
+Manufactura y mantenimiento,root cause analysis,3168,67706,4.68,0.74,6.32,tecnica,24
+Manufactura y mantenimiento,microsoft word,3159,67706,4.67,3.24,1.44,tecnica,25
+Marketing y comunicación,communication,7754,18368,42.21,43.03,0.98,blanda,1
+Marketing y comunicación,project management,5346,18368,29.1,9.45,3.08,tecnica,2
+Marketing y comunicación,problem solving,4102,18368,22.33,24.41,0.91,blanda,3
+Marketing y comunicación,microsoft office,3847,18368,20.94,11.35,1.84,tecnica,4
+Marketing y comunicación,collaboration,3024,18368,16.46,6.94,2.37,blanda,5
+Marketing y comunicación,teamwork,2993,18368,16.29,19.48,0.84,blanda,6
+Marketing y comunicación,attention to detail,2938,18368,16.0,10.26,1.56,blanda,7
+Marketing y comunicación,time management,2926,18368,15.93,11.93,1.34,blanda,8
+Marketing y comunicación,marketing,2729,18368,14.86,2.27,6.55,tecnica,9
+Marketing y comunicación,data analysis,2364,18368,12.87,6.25,2.06,tecnica,10
+Marketing y comunicación,leadership,2119,18368,11.54,15.87,0.73,blanda,11
+Marketing y comunicación,writing,1765,18368,9.61,1.29,7.45,blanda,12
+Marketing y comunicación,autocad,1687,18368,9.18,1.36,6.75,tecnica,13
+Marketing y comunicación,organizational skills,1630,18368,8.87,6.22,1.43,blanda,14
+Marketing y comunicación,technical writing,1516,18368,8.25,1.04,7.93,tecnica,15
+Marketing y comunicación,presentation skills,1433,18368,7.8,2.89,2.7,blanda,16
+Marketing y comunicación,excel,1427,18368,7.77,5.57,1.39,tecnica,17
+Marketing y comunicación,budgeting,1398,18368,7.61,5.06,1.5,tecnica,18
+Marketing y comunicación,customer service,1369,18368,7.45,22.44,0.33,tecnica,19
+Marketing y comunicación,interpersonal skills,1335,18368,7.27,7.73,0.94,blanda,20
+Marketing y comunicación,multitasking,1253,18368,6.82,4.77,1.43,blanda,21
+Marketing y comunicación,written communication,1190,18368,6.48,3.66,1.77,blanda,22
+Marketing y comunicación,microsoft word,1147,18368,6.24,3.24,1.93,tecnica,23
+Marketing y comunicación,analytical skills,1143,18368,6.22,4.65,1.34,blanda,24
+Marketing y comunicación,adaptability,1136,18368,6.18,4.54,1.36,blanda,25
+Otros,communication,50281,122929,40.9,43.03,0.95,blanda,1
+Otros,customer service,27992,122929,22.77,22.44,1.01,tecnica,2
+Otros,teamwork,26301,122929,21.4,19.48,1.1,blanda,3
+Otros,problem solving,25329,122929,20.6,24.41,0.84,blanda,4
+Otros,time management,14496,122929,11.79,11.93,0.99,blanda,5
+Otros,attention to detail,13636,122929,11.09,10.26,1.08,blanda,6
+Otros,microsoft office,13051,122929,10.62,11.35,0.94,tecnica,7
+Otros,leadership,10151,122929,8.26,15.87,0.52,blanda,8
+Otros,interpersonal skills,8879,122929,7.22,7.73,0.93,blanda,9
+Otros,sales,8842,122929,7.19,7.56,0.95,tecnica,10
+Otros,project management,8626,122929,7.02,9.45,0.74,tecnica,11
+Otros,data analysis,7821,122929,6.36,6.25,1.02,tecnica,12
+Otros,collaboration,7790,122929,6.34,6.94,0.91,blanda,13
+Otros,organizational skills,6933,122929,5.64,6.22,0.91,blanda,14
+Otros,patient care,6741,122929,5.48,7.68,0.71,tecnica,15
+Otros,flexibility,6178,122929,5.03,4.38,1.15,blanda,16
+Otros,excel,5918,122929,4.81,5.57,0.86,tecnica,17
+Otros,adaptability,5618,122929,4.57,4.54,1.01,blanda,18
+Otros,training,5603,122929,4.56,6.4,0.71,tecnica,19
+Otros,analytical skills,4924,122929,4.01,4.65,0.86,blanda,20
+Otros,multitasking,4911,122929,3.99,4.77,0.84,blanda,21
+Otros,inventory management,4765,122929,3.88,5.53,0.7,tecnica,22
+Otros,research,4722,122929,3.84,2.91,1.32,tecnica,23
+Otros,critical thinking,4587,122929,3.73,4.44,0.84,blanda,24
+Otros,organization,4305,122929,3.5,3.62,0.97,blanda,25
+Recursos humanos,communication,5616,11722,47.91,43.03,1.11,blanda,1
+Recursos humanos,problem solving,3204,11722,27.33,24.41,1.12,blanda,2
+Recursos humanos,recruitment,3056,11722,26.07,0.89,29.29,tecnica,3
+Recursos humanos,microsoft office,3050,11722,26.02,11.35,2.29,tecnica,4
+Recursos humanos,human resources,2985,11722,25.46,0.9,28.29,tecnica,5
+Recursos humanos,performance management,2836,11722,24.19,1.61,15.02,tecnica,6
+Recursos humanos,interpersonal skills,1930,11722,16.46,7.73,2.13,blanda,7
+Recursos humanos,time management,1834,11722,15.65,11.93,1.31,blanda,8
+Recursos humanos,leadership,1709,11722,14.58,15.87,0.92,blanda,9
+Recursos humanos,teamwork,1665,11722,14.2,19.48,0.73,blanda,10
+Recursos humanos,recruiting,1635,11722,13.95,0.66,21.14,tecnica,11
+Recursos humanos,project management,1520,11722,12.97,9.45,1.37,tecnica,12
+Recursos humanos,training,1435,11722,12.24,6.4,1.91,tecnica,13
+Recursos humanos,attention to detail,1420,11722,12.11,10.26,1.18,blanda,14
+Recursos humanos,organizational skills,1402,11722,11.96,6.22,1.92,blanda,15
+Recursos humanos,customer service,1366,11722,11.65,22.44,0.52,tecnica,16
+Recursos humanos,data analysis,1263,11722,10.77,6.25,1.72,tecnica,17
+Recursos humanos,conflict resolution,1159,11722,9.89,3.1,3.19,blanda,18
+Recursos humanos,payroll,1092,11722,9.32,0.74,12.59,tecnica,19
+Recursos humanos,collaboration,1069,11722,9.12,6.94,1.31,blanda,20
+Recursos humanos,sales,1040,11722,8.87,7.56,1.17,tecnica,21
+Recursos humanos,confidentiality,1020,11722,8.7,2.04,4.26,blanda,22
+Recursos humanos,excel,1007,11722,8.59,5.57,1.54,tecnica,23
+Recursos humanos,coaching,984,11722,8.39,2.95,2.84,blanda,24
+Recursos humanos,training and development,979,11722,8.35,1.14,7.32,tecnica,25
+Restaurantes y alimentos,communication,28959,53723,53.9,43.03,1.25,blanda,1
+Restaurantes y alimentos,customer service,28044,53723,52.2,22.44,2.33,tecnica,2
+Restaurantes y alimentos,teamwork,22415,53723,41.72,19.48,2.14,blanda,3
+Restaurantes y alimentos,problem solving,15075,53723,28.06,24.41,1.15,blanda,4
+Restaurantes y alimentos,food preparation,14420,53723,26.84,1.52,17.66,tecnica,5
+Restaurantes y alimentos,food safety,13176,53723,24.53,2.45,10.01,tecnica,6
+Restaurantes y alimentos,leadership,11246,53723,20.93,15.87,1.32,blanda,7
+Restaurantes y alimentos,attention to detail,10927,53723,20.34,10.26,1.98,blanda,8
+Restaurantes y alimentos,time management,10874,53723,20.24,11.93,1.7,blanda,9
+Restaurantes y alimentos,sanitation,9322,53723,17.35,1.21,14.34,tecnica,10
+Restaurantes y alimentos,inventory management,6467,53723,12.04,5.53,2.18,tecnica,11
+Restaurantes y alimentos,multitasking,5949,53723,11.07,4.77,2.32,blanda,12
+Restaurantes y alimentos,hospitality,5833,53723,10.86,1.02,10.65,tecnica,13
+Restaurantes y alimentos,flexibility,5404,53723,10.06,4.38,2.3,blanda,14
+Restaurantes y alimentos,training,5251,53723,9.77,6.4,1.53,tecnica,15
+Restaurantes y alimentos,food handling,5137,53723,9.56,0.67,14.27,tecnica,16
+Restaurantes y alimentos,restaurant management,4968,53723,9.25,0.69,13.41,tecnica,17
+Restaurantes y alimentos,scheduling,4334,53723,8.07,4.93,1.64,tecnica,18
+Restaurantes y alimentos,adaptability,4216,53723,7.85,4.54,1.73,blanda,19
+Restaurantes y alimentos,cash handling,3495,53723,6.51,2.45,2.66,tecnica,20
+Restaurantes y alimentos,organizational skills,3250,53723,6.05,6.22,0.97,blanda,21
+Restaurantes y alimentos,cleaning,3183,53723,5.92,1.33,4.45,tecnica,22
+Restaurantes y alimentos,decision making,3044,53723,5.67,4.91,1.15,blanda,23
+Restaurantes y alimentos,interpersonal skills,2978,53723,5.54,7.73,0.72,blanda,24
+Restaurantes y alimentos,budgeting,2883,53723,5.37,5.06,1.06,tecnica,25
+Salud y medicina,communication,47417,176540,26.86,43.03,0.62,blanda,1
+Salud y medicina,patient care,30628,176540,17.35,7.68,2.26,tecnica,2
+Salud y medicina,teamwork,23712,176540,13.43,19.48,0.69,blanda,3
+Salud y medicina,problem solving,22215,176540,12.58,24.41,0.52,blanda,4
+Salud y medicina,customer service,14594,176540,8.27,22.44,0.37,tecnica,5
+Salud y medicina,leadership,13791,176540,7.81,15.87,0.49,blanda,6
+Salud y medicina,interpersonal skills,12511,176540,7.09,7.73,0.92,blanda,7
+Salud y medicina,healthcare,12174,176540,6.9,2.62,2.63,tecnica,8
+Salud y medicina,time management,11745,176540,6.65,11.93,0.56,blanda,9
+Salud y medicina,radiology,10155,176540,5.75,0.93,6.18,tecnica,10
+Salud y medicina,collaboration,10123,176540,5.73,6.94,0.83,blanda,11
+Salud y medicina,microsoft office,9322,176540,5.28,11.35,0.47,tecnica,12
+Salud y medicina,attention to detail,8674,176540,4.91,10.26,0.48,blanda,13
+Salud y medicina,documentation,8602,176540,4.87,3.98,1.22,tecnica,14
+Salud y medicina,critical thinking,7701,176540,4.36,4.44,0.98,blanda,15
+Salud y medicina,research,7601,176540,4.31,2.91,1.48,tecnica,16
+Salud y medicina,organizational skills,7585,176540,4.3,6.22,0.69,blanda,17
+Salud y medicina,confidentiality,7559,176540,4.28,2.04,2.1,blanda,18
+Salud y medicina,medical terminology,6935,176540,3.93,1.26,3.12,tecnica,19
+Salud y medicina,treatment planning,6678,176540,3.78,0.86,4.4,tecnica,20
+Salud y medicina,data analysis,6429,176540,3.64,6.25,0.58,tecnica,21
+Salud y medicina,quality assurance,6269,176540,3.55,2.79,1.27,tecnica,22
+Salud y medicina,internal medicine,6215,176540,3.52,0.69,5.1,tecnica,23
+Salud y medicina,training,5769,176540,3.27,6.4,0.51,tecnica,24
+Salud y medicina,scheduling,5732,176540,3.25,4.93,0.66,tecnica,25
+Seguridad,communication,1698,4351,39.03,43.03,0.91,blanda,1
+Seguridad,problem solving,956,4351,21.97,24.41,0.9,blanda,2
+Seguridad,microsoft office,730,4351,16.78,11.35,1.48,tecnica,3
+Seguridad,leadership,662,4351,15.21,15.87,0.96,blanda,4
+Seguridad,teamwork,660,4351,15.17,19.48,0.78,blanda,5
+Seguridad,security,656,4351,15.08,0.97,15.55,tecnica,6
+Seguridad,customer service,639,4351,14.69,22.44,0.65,tecnica,7
+Seguridad,interpersonal skills,413,4351,9.49,7.73,1.23,blanda,8
+Seguridad,report writing,353,4351,8.11,0.98,8.28,tecnica,9
+Seguridad,attention to detail,336,4351,7.72,10.26,0.75,blanda,10
+Seguridad,project management,331,4351,7.61,9.45,0.81,tecnica,11
+Seguridad,risk assessment,321,4351,7.38,0.91,8.11,tecnica,12
+Seguridad,safety,309,4351,7.1,3.52,2.02,tecnica,13
+Seguridad,decision making,308,4351,7.08,4.91,1.44,blanda,14
+Seguridad,risk management,289,4351,6.64,2.34,2.84,tecnica,15
+Seguridad,training,280,4351,6.44,6.4,1.01,tecnica,16
+Seguridad,time management,275,4351,6.32,11.93,0.53,blanda,17
+Seguridad,conflict resolution,262,4351,6.02,3.1,1.94,blanda,18
+Seguridad,excel,258,4351,5.93,5.57,1.06,tecnica,19
+Seguridad,data analysis,256,4351,5.88,6.25,0.94,tecnica,20
+Seguridad,written communication,244,4351,5.61,3.66,1.53,blanda,21
+Seguridad,organizational skills,241,4351,5.54,6.22,0.89,blanda,22
+Seguridad,computer skills,225,4351,5.17,2.97,1.74,tecnica,23
+Seguridad,microsoft word,218,4351,5.01,3.24,1.55,tecnica,24
+Seguridad,reporting,210,4351,4.83,2.8,1.72,tecnica,25
+Servicios sociales,communication,5998,15826,37.9,43.03,0.88,blanda,1
+Servicios sociales,case management,4146,15826,26.2,1.61,16.27,tecnica,2
+Servicios sociales,social work,3625,15826,22.91,1.05,21.82,tecnica,3
+Servicios sociales,problem solving,3518,15826,22.23,24.41,0.91,blanda,4
+Servicios sociales,counseling,3253,15826,20.55,1.24,16.57,tecnica,5
+Servicios sociales,teamwork,2675,15826,16.9,19.48,0.87,blanda,6
+Servicios sociales,microsoft office,2653,15826,16.76,11.35,1.48,tecnica,7
+Servicios sociales,crisis intervention,2226,15826,14.07,0.68,20.69,tecnica,8
+Servicios sociales,customer service,2219,15826,14.02,22.44,0.62,tecnica,9
+Servicios sociales,time management,1988,15826,12.56,11.93,1.05,blanda,10
+Servicios sociales,documentation,1914,15826,12.09,3.98,3.04,tecnica,11
+Servicios sociales,collaboration,1751,15826,11.06,6.94,1.59,blanda,12
+Servicios sociales,psychology,1717,15826,10.85,0.81,13.4,tecnica,13
+Servicios sociales,interpersonal skills,1668,15826,10.54,7.73,1.36,blanda,14
+Servicios sociales,leadership,1523,15826,9.62,15.87,0.61,blanda,15
+Servicios sociales,mental health,1443,15826,9.12,0.78,11.69,tecnica,16
+Servicios sociales,treatment planning,1208,15826,7.63,0.86,8.87,tecnica,17
+Servicios sociales,supervision,1207,15826,7.63,3.0,2.54,tecnica,18
+Servicios sociales,organizational skills,1177,15826,7.44,6.22,1.2,blanda,19
+Servicios sociales,conflict resolution,1144,15826,7.23,3.1,2.33,blanda,20
+Servicios sociales,training,992,15826,6.27,6.4,0.98,tecnica,21
+Servicios sociales,confidentiality,957,15826,6.05,2.04,2.97,blanda,22
+Servicios sociales,budgeting,948,15826,5.99,5.06,1.18,tecnica,23
+Servicios sociales,attention to detail,898,15826,5.67,10.26,0.55,blanda,24
+Servicios sociales,flexibility,861,15826,5.44,4.38,1.24,blanda,25
+Tecnología e informática,communication,12072,42269,28.56,43.03,0.66,blanda,1
+Tecnología e informática,problem solving,9631,42269,22.79,24.41,0.93,blanda,2
+Tecnología e informática,python,9248,42269,21.88,1.97,11.11,tecnica,3
+Tecnología e informática,java,7859,42269,18.59,1.06,17.54,tecnica,4
+Tecnología e informática,sql,7017,42269,16.6,1.68,9.88,tecnica,5
+Tecnología e informática,aws,6971,42269,16.49,0.97,17.0,tecnica,6
+Tecnología e informática,javascript,6131,42269,14.5,0.72,20.14,tecnica,7
+Tecnología e informática,project management,5264,42269,12.45,9.45,1.32,tecnica,8
+Tecnología e informática,software development,4875,42269,11.53,0.8,14.41,tecnica,9
+Tecnología e informática,troubleshooting,4807,42269,11.37,3.36,3.38,tecnica,10
+Tecnología e informática,agile,4630,42269,10.95,0.88,12.44,tecnica,11
+Tecnología e informática,teamwork,4592,42269,10.86,19.48,0.56,blanda,12
+Tecnología e informática,computer science,4124,42269,9.76,0.92,10.61,tecnica,13
+Tecnología e informática,collaboration,3948,42269,9.34,6.94,1.35,blanda,14
+Tecnología e informática,leadership,3879,42269,9.18,15.87,0.58,blanda,15
+Tecnología e informática,analytical skills,2922,42269,6.91,4.65,1.49,blanda,16
+Tecnología e informática,data analysis,2370,42269,5.61,6.25,0.9,tecnica,17
+Tecnología e informática,interpersonal skills,2268,42269,5.37,7.73,0.69,blanda,18
+Tecnología e informática,networking,2251,42269,5.33,1.31,4.07,blanda,19
+Tecnología e informática,customer service,2250,42269,5.32,22.44,0.24,tecnica,20
+Tecnología e informática,security,2246,42269,5.31,0.97,5.47,tecnica,21
+Tecnología e informática,documentation,2223,42269,5.26,3.98,1.32,tecnica,22
+Tecnología e informática,attention to detail,2170,42269,5.13,10.26,0.5,blanda,23
+Tecnología e informática,time management,2047,42269,4.84,11.93,0.41,blanda,24
+Tecnología e informática,testing,2027,42269,4.8,0.76,6.32,tecnica,25
+Ventas,communication,36131,58622,61.63,43.03,1.43,blanda,1
+Ventas,sales,31004,58622,52.89,7.56,7.0,tecnica,2
+Ventas,customer service,23361,58622,39.85,22.44,1.78,tecnica,3
+Ventas,problem solving,19224,58622,32.79,24.41,1.34,blanda,4
+Ventas,microsoft office,14655,58622,25.0,11.35,2.2,tecnica,5
+Ventas,teamwork,12810,58622,21.85,19.48,1.12,blanda,6
+Ventas,negotiation,12530,58622,21.37,3.06,6.98,blanda,7
+Ventas,time management,12413,58622,21.17,11.93,1.77,blanda,8
+Ventas,account management,11057,58622,18.86,1.23,15.33,tecnica,9
+Ventas,business development,10008,58622,17.07,1.94,8.8,tecnica,10
+Ventas,leadership,8548,58622,14.58,15.87,0.92,blanda,11
+Ventas,presentation skills,8075,58622,13.77,2.89,4.76,blanda,12
+Ventas,relationship building,6428,58622,10.97,1.67,6.57,blanda,13
+Ventas,attention to detail,6341,58622,10.82,10.26,1.05,blanda,14
+Ventas,customer relationship management,6010,58622,10.25,0.78,13.14,tecnica,15
+Ventas,data analysis,5670,58622,9.67,6.25,1.55,tecnica,16
+Ventas,interpersonal skills,5282,58622,9.01,7.73,1.17,blanda,17
+Ventas,marketing,5173,58622,8.82,2.27,3.89,tecnica,18
+Ventas,adaptability,5059,58622,8.63,4.54,1.9,blanda,19
+Ventas,crm,5036,58622,8.59,0.73,11.77,tecnica,20
+Ventas,organizational skills,4982,58622,8.5,6.22,1.37,blanda,21
+Ventas,product knowledge,4797,58622,8.18,1.64,4.99,tecnica,22
+Ventas,project management,4600,58622,7.85,9.45,0.83,tecnica,23
+Ventas,multitasking,4389,58622,7.49,4.77,1.57,blanda,24
+Ventas,excel,4353,58622,7.43,5.57,1.33,tecnica,25

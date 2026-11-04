@@ -22,6 +22,7 @@ Ejecutar desde la carpeta raíz del proyecto:
 | 10 | `04_muestra.py` | Muestra de 50.000 textos únicos (semilla 42), limpieza y duplicados finos | `data/processed/muestra_50k.parquet` |
 | 11 | `04b_verificar_muestra.py` | Verifica los términos técnicos y la consistencia de las etiquetas | `reports/verificacion_muestra.json` |
 | 12 | `05_particiones.py` | Une las habilidades de las copias de cada grupo (con soporte), divide 70/15/15 por grupo y crea la matriz multietiqueta | `data/processed/datos_entrenamiento.parquet`, `reports/particiones_resumen.json`, `reports/verificacion_grupos_manual.csv` |
+| 15 | `07_familias_laborales.py` | Agrupa títulos equivalentes, asigna 22 familias laborales, habilidades top por familia (con lift) y coocurrencia de habilidades | `data/processed/familias_laborales.parquet`, `data/processed/relaciones_skills.parquet`, `reports/familias_resumen.json` |
 
 El script `01d` tarda unos 15 minutos con el dataset completo.
 
