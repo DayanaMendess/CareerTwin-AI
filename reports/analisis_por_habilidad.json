@@ -1,0 +1,228 @@
+{
+  "fuente": "reports/metricas_por_habilidad.csv (Sofia, 7.500 ofertas de prueba, umbral 0,20)",
+  "micro_f1_recalculado": 0.3443,
+  "macro_f1": 0.1343,
+  "habilidades_con_f1_cero": 38,
+  "habilidades_nunca_predichas": [
+    "verbal communication",
+    "computer skills",
+    "quality assurance",
+    "planning",
+    "mentoring",
+    "compliance",
+    "professionalism",
+    "data entry",
+    "initiative",
+    "performance management",
+    "teaching",
+    "maintenance",
+    "team player",
+    "integrity",
+    "regulatory compliance",
+    "empathy",
+    "ability to work independently",
+    "cleaning",
+    "networking",
+    "writing",
+    "innovation",
+    "medical terminology",
+    "manufacturing",
+    "counseling",
+    "continuous improvement"
+  ],
+  "correlacion_spearman_frecuencia_f1": 0.478,
+  "por_rango_de_frecuencia": [
+    {
+      "rango_frecuencia": "menos de 2 %",
+      "habilidades": 35,
+      "f1_promedio": 0.071,
+      "recall_promedio": 0.061,
+      "f1_cero": 21
+    },
+    {
+      "rango_frecuencia": "2 a 4 %",
+      "habilidades": 34,
+      "f1_promedio": 0.083,
+      "recall_promedio": 0.072,
+      "f1_cero": 15
+    },
+    {
+      "rango_frecuencia": "4 a 8 %",
+      "habilidades": 20,
+      "f1_promedio": 0.183,
+      "recall_promedio": 0.192,
+      "f1_cero": 2
+    },
+    {
+      "rango_frecuencia": "más de 8 %",
+      "habilidades": 11,
+      "f1_promedio": 0.402,
+      "recall_promedio": 0.588,
+      "f1_cero": 0
+    }
+  ],
+  "por_categoria": [
+    {
+      "categoria": "blanda",
+      "habilidades": 40,
+      "f1_promedio": 0.105,
+      "f1_cero": 17
+    },
+    {
+      "categoria": "tecnica",
+      "habilidades": 60,
+      "f1_promedio": 0.154,
+      "f1_cero": 21
+    }
+  ],
+  "sobrepredichas_x2_o_mas": [
+    {
+      "habilidad": "microsoft office",
+      "sobreprediccion": 2.5,
+      "precision": 0.2312,
+      "recall": 0.5791
+    },
+    {
+      "habilidad": "teamwork",
+      "sobreprediccion": 2.42,
+      "precision": 0.2678,
+      "recall": 0.6493
+    },
+    {
+      "habilidad": "problem solving",
+      "sobreprediccion": 2.22,
+      "precision": 0.3454,
+      "recall": 0.7663
+    },
+    {
+      "habilidad": "patient education",
+      "sobreprediccion": 2.12,
+      "precision": 0.1984,
+      "recall": 0.4205
+    },
+    {
+      "habilidad": "leadership",
+      "sobreprediccion": 2.09,
+      "precision": 0.3015,
+      "recall": 0.6314
+    },
+    {
+      "habilidad": "communication",
+      "sobreprediccion": 2.02,
+      "precision": 0.4746,
+      "recall": 0.9587
+    }
+  ],
+  "poco_frecuentes_pero_bien": [
+    {
+      "habilidad": "financial reporting",
+      "frecuencia_test_pct": 1.4,
+      "f1": 0.4504
+    },
+    {
+      "habilidad": "merchandising",
+      "frecuencia_test_pct": 1.19,
+      "f1": 0.3086
+    },
+    {
+      "habilidad": "retail",
+      "frecuencia_test_pct": 1.29,
+      "f1": 0.2932
+    },
+    {
+      "habilidad": "financial analysis",
+      "frecuencia_test_pct": 1.87,
+      "f1": 0.2445
+    },
+    {
+      "habilidad": "food preparation",
+      "frecuencia_test_pct": 1.13,
+      "f1": 0.2385
+    },
+    {
+      "habilidad": "food safety",
+      "frecuencia_test_pct": 1.48,
+      "f1": 0.2384
+    }
+  ],
+  "frecuentes_pero_mal": [
+    {
+      "habilidad": "adaptability",
+      "frecuencia_test_pct": 4.91,
+      "f1": 0.0153,
+      "predicciones_positivas": 24
+    },
+    {
+      "habilidad": "written communication",
+      "frecuencia_test_pct": 4.67,
+      "f1": 0.0057,
+      "predicciones_positivas": 2
+    },
+    {
+      "habilidad": "verbal communication",
+      "frecuencia_test_pct": 4.05,
+      "f1": 0.0,
+      "predicciones_positivas": 0
+    },
+    {
+      "habilidad": "organization",
+      "frecuencia_test_pct": 4.01,
+      "f1": 0.0,
+      "predicciones_positivas": 10
+    },
+    {
+      "habilidad": "microsoft word",
+      "frecuencia_test_pct": 3.85,
+      "f1": 0.0,
+      "predicciones_positivas": 7
+    },
+    {
+      "habilidad": "quality assurance",
+      "frecuencia_test_pct": 3.68,
+      "f1": 0.0,
+      "predicciones_positivas": 0
+    },
+    {
+      "habilidad": "research",
+      "frecuencia_test_pct": 3.68,
+      "f1": 0.0,
+      "predicciones_positivas": 1
+    },
+    {
+      "habilidad": "reporting",
+      "frecuencia_test_pct": 3.67,
+      "f1": 0.0,
+      "predicciones_positivas": 1
+    },
+    {
+      "habilidad": "presentation skills",
+      "frecuencia_test_pct": 3.65,
+      "f1": 0.0396,
+      "predicciones_positivas": 29
+    },
+    {
+      "habilidad": "quality control",
+      "frecuencia_test_pct": 3.6,
+      "f1": 0.0,
+      "predicciones_positivas": 10
+    },
+    {
+      "habilidad": "supervision",
+      "frecuencia_test_pct": 3.43,
+      "f1": 0.0073,
+      "predicciones_positivas": 17
+    },
+    {
+      "habilidad": "computer skills",
+      "frecuencia_test_pct": 3.08,
+      "f1": 0.0,
+      "predicciones_positivas": 0
+    },
+    {
+      "habilidad": "safety",
+      "frecuencia_test_pct": 3.04,
+      "f1": 0.0413,
+      "predicciones_positivas": 14
+    }
+  ]
+}
