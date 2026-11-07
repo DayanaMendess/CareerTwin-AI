@@ -73,12 +73,28 @@ def analyze_profile():
             "error": "profile_text debe ser un texto no vacío."
         }), 400
 
-    # Pendiente conectar el modelo real de Sofia.
-    return jsonify({
-        "status": "model_unavailable",
-        "models_loaded": False,
-        "message": "El modelo de IA todavía no está disponible."
-    }), 503
+    
+    # Ejecutar el modelo real y el detector de habilidades.
+    try:
+        from .servicio_ia import analizar_perfil
+
+        resultado = analizar_perfil(profile_text)
+        return jsonify(resultado), 200
+
+    except (FileNotFoundError, ImportError, OSError):
+        app.logger.exception("Servicio de IA no disponible")
+        return jsonify({
+            "status": "model_unavailable",
+            "models_loaded": False,
+            "message": "El modelo de IA no está disponible."
+        }), 503
+
+    except Exception:
+        app.logger.exception("Error al analizar el perfil")
+        return jsonify({
+            "error": "No fue posible analizar el perfil."
+        }), 500
+
 
 
 if __name__ == "__main__":
