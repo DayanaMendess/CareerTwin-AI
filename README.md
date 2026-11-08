@@ -3,7 +3,29 @@
 **Curso:** Inteligencia Artificial · **Equipo:** Sofia, Catalina y Sergio  
 **Proyecto:** NLP + red neuronal multietiqueta + análisis de habilidades + simulación de trayectorias + módulo adicional de detección de ofertas potencialmente fraudulentas.
 
-> Estado: **estructura inicial**, no contiene modelos entrenados ni resultados de evaluación. Los porcentajes y predicciones solo se mostrarán cuando existan modelos validados. El dataset de LinkedIn 2024 no contiene etiquetas de fraude; para ese módulo se necesita otro dataset etiquetado, por ejemplo EMSCAD.
+
+> **Estado del proyecto:** Red neuronal CNN entrenada y evaluada, detector de habilidades integrado y API Flask funcionando con predicciones reales. La visualización personalizada y las pruebas finales de los módulos complementarios siguen en desarrollo.
+
+## Estado de implementación
+
+| Componente | Estado |
+|---|---|
+| Preparación y auditoría de datos | Completado |
+| Modelo CNN de 100 habilidades | Entrenado y evaluado |
+| Detector textual de habilidades | Integrado |
+| API Flask `/api/analyze-profile` | Funcional |
+| Pruebas automatizadas | 20 aprobadas en la última ejecución |
+| Gráficas generales del mercado | Funcionales |
+| Visualización personalizada del perfil | En desarrollo |
+| Skill Gap y matching en la interfaz | Pendientes de integración |
+| Detección de ofertas fraudulentas | Pendiente |
+
+## Guía de instalación y ejecución
+
+Consulta [GUIA_EJECUCION.md](docs/GUIA_EJECUCION.md) para instalar las dependencias, configurar el modelo entrenado, ejecutar Flask y realizar las pruebas.
+
+**Nota:** El archivo `models/career_skills.keras` se distribuye por separado y no está incluido en GitHub.
+
 
 ## Instalar y ejecutar — Windows PowerShell
 
@@ -101,14 +123,35 @@ Los tres CSV se relacionan por `job_link`. Para limpieza y modelado, el equipo v
 - `job_summary_clean`: descripción normalizada (sin borrar términos técnicos importantes).
 - `skills_normalized`: lista de competencias canonicalizadas.
 
-**API planificada** (todavía no implementada):
 
-- `POST /api/analyze-profile`: extrae y clasifica habilidades del texto.
-- `POST /api/match`: busca perfiles laborales similares.
-- `POST /api/simulate`: compara escenarios de nuevas habilidades.
-- `POST /api/fraud-risk`: evalúa señales de fraude desde un modelo separado, con advertencias.
 
-Hasta que estos modelos existan, sus endpoints no deben entregar porcentajes simulados como resultados reales.
+### Estado de la API
+
+**Endpoint implementado:**
+
+- `POST /api/analyze-profile`: analiza un perfil profesional con la CNN y el detector textual.
+
+**Resultados que devuelve:**
+
+- Habilidades identificadas.
+- Fuente: texto, modelo o ambos.
+- Puntuaciones del modelo.
+- Total de habilidades encontradas.
+- Advertencias sobre las limitaciones del análisis.
+
+**Funcionalidades pendientes de integración:**
+
+- Skill Gap personalizado en la interfaz web.
+- Matching semántico laboral en la interfaz web.
+- Simulador de trayectorias profesionales.
+- Detección de ofertas potencialmente fraudulentas.
+
+Los módulos de Skill Gap y matching ya tienen implementaciones
+en Python, pero todavía no están conectados completamente a la
+interfaz web.
+
+Los resultados de la aplicación deben provenir de cálculos reales,
+no de porcentajes inventados.
 
 ## Alcance y evaluación académica
 
