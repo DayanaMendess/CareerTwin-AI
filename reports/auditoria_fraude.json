@@ -1,0 +1,268 @@
+{
+  "dataset": "EMSCAD - fake_job_postings.csv (Kaggle)",
+  "1_clases": {
+    "total": 17880,
+    "reales": 17014,
+    "fraudulentas": 866,
+    "pct_fraudulentas": 4.84,
+    "proporcion": "1 fraudulenta por cada 19.6 reales",
+    "accuracy_de_un_modelo_que_siempre_dice_real": 95.16
+  },
+  "2_nulos": [
+    {
+      "columna": "salary_range",
+      "vacios": 15012,
+      "pct_total": 83.96,
+      "pct_en_reales": 84.45,
+      "pct_en_fraudulentas": 74.25,
+      "diferencia_puntos": -10.2
+    },
+    {
+      "columna": "department",
+      "vacios": 11553,
+      "pct_total": 64.61,
+      "pct_en_reales": 64.78,
+      "pct_en_fraudulentas": 61.32,
+      "diferencia_puntos": -3.46
+    },
+    {
+      "columna": "required_education",
+      "vacios": 8105,
+      "pct_total": 45.33,
+      "pct_en_reales": 44.99,
+      "pct_en_fraudulentas": 52.08,
+      "diferencia_puntos": 7.09
+    },
+    {
+      "columna": "benefits",
+      "vacios": 7216,
+      "pct_total": 40.36,
+      "pct_en_reales": 40.28,
+      "pct_en_fraudulentas": 41.92,
+      "diferencia_puntos": 1.64
+    },
+    {
+      "columna": "required_experience",
+      "vacios": 7050,
+      "pct_total": 39.43,
+      "pct_en_reales": 38.88,
+      "pct_en_fraudulentas": 50.23,
+      "diferencia_puntos": 11.35
+    },
+    {
+      "columna": "function",
+      "vacios": 6455,
+      "pct_total": 36.1,
+      "pct_en_reales": 35.96,
+      "pct_en_fraudulentas": 38.91,
+      "diferencia_puntos": 2.95
+    },
+    {
+      "columna": "industry",
+      "vacios": 4903,
+      "pct_total": 27.42,
+      "pct_en_reales": 27.2,
+      "pct_en_fraudulentas": 31.76,
+      "diferencia_puntos": 4.56
+    },
+    {
+      "columna": "employment_type",
+      "vacios": 3471,
+      "pct_total": 19.41,
+      "pct_en_reales": 18.98,
+      "pct_en_fraudulentas": 27.83,
+      "diferencia_puntos": 8.85
+    },
+    {
+      "columna": "company_profile",
+      "vacios": 3308,
+      "pct_total": 18.5,
+      "pct_en_reales": 15.99,
+      "pct_en_fraudulentas": 67.78,
+      "diferencia_puntos": 51.79
+    },
+    {
+      "columna": "requirements",
+      "vacios": 2697,
+      "pct_total": 15.08,
+      "pct_en_reales": 14.95,
+      "pct_en_fraudulentas": 17.67,
+      "diferencia_puntos": 2.72
+    },
+    {
+      "columna": "location",
+      "vacios": 346,
+      "pct_total": 1.94,
+      "pct_en_reales": 1.92,
+      "pct_en_fraudulentas": 2.19,
+      "diferencia_puntos": 0.27
+    },
+    {
+      "columna": "description",
+      "vacios": 1,
+      "pct_total": 0.01,
+      "pct_en_reales": 0.0,
+      "pct_en_fraudulentas": 0.12,
+      "diferencia_puntos": 0.12
+    },
+    {
+      "columna": "title",
+      "vacios": 0,
+      "pct_total": 0.0,
+      "pct_en_reales": 0.0,
+      "pct_en_fraudulentas": 0.0,
+      "diferencia_puntos": 0.0
+    },
+    {
+      "columna": "has_questions",
+      "vacios": 0,
+      "pct_total": 0.0,
+      "pct_en_reales": 0.0,
+      "pct_en_fraudulentas": 0.0,
+      "diferencia_puntos": 0.0
+    },
+    {
+      "columna": "telecommuting",
+      "vacios": 0,
+      "pct_total": 0.0,
+      "pct_en_reales": 0.0,
+      "pct_en_fraudulentas": 0.0,
+      "diferencia_puntos": 0.0
+    },
+    {
+      "columna": "has_company_logo",
+      "vacios": 0,
+      "pct_total": 0.0,
+      "pct_en_reales": 0.0,
+      "pct_en_fraudulentas": 0.0,
+      "diferencia_puntos": 0.0
+    }
+  ],
+  "3_duplicados": {
+    "filas_identicas_sin_job_id": 281,
+    "ofertas_con_texto_repetido": 3164,
+    "grupos_de_texto_repetido": 849,
+    "textos_unicos": 15565,
+    "repetidas_entre_fraudulentas": 276,
+    "grupos_con_etiquetas_contradictorias": 0,
+    "descripcion_identica_solo_descripcion": 3477
+  },
+  "4_fugas_y_sesgos": {
+    "tasa_fraude_por_decil_de_job_id": [
+      2.13,
+      4.36,
+      4.03,
+      8.5,
+      4.42,
+      2.35,
+      2.63,
+      0.84,
+      0.45,
+      18.74
+    ],
+    "job_id_variacion_max_puntos": 18.29,
+    "marcadores_anonimizados": {
+      "URL": {
+        "pct_en_reales": 31.47,
+        "pct_en_fraudulentas": 30.83
+      },
+      "EMAIL": {
+        "pct_en_reales": 6.82,
+        "pct_en_fraudulentas": 20.09
+      },
+      "PHONE": {
+        "pct_en_reales": 2.63,
+        "pct_en_fraudulentas": 9.12
+      }
+    },
+    "campos_binarios": {
+      "telecommuting": {
+        "tasa_fraude_si_1": 8.34,
+        "tasa_fraude_si_0": 4.69,
+        "pct_ofertas_con_1": 4.29
+      },
+      "has_company_logo": {
+        "tasa_fraude_si_1": 1.99,
+        "tasa_fraude_si_0": 15.93,
+        "pct_ofertas_con_1": 79.53
+      },
+      "has_questions": {
+        "tasa_fraude_si_1": 2.84,
+        "tasa_fraude_si_0": 6.78,
+        "pct_ofertas_con_1": 49.17
+      }
+    },
+    "ciudades_con_mas_fraude": [
+      {
+        "ciudad": "US, TX, Houston",
+        "ofertas": 270,
+        "fraudulentas": 92,
+        "tasa_fraude": 34.07
+      },
+      {
+        "ciudad": "AU, NSW, Sydney",
+        "ofertas": 82,
+        "fraudulentas": 31,
+        "tasa_fraude": 37.8
+      },
+      {
+        "ciudad": "US, CA, Bakersfield",
+        "ofertas": 32,
+        "fraudulentas": 30,
+        "tasa_fraude": 93.75
+      },
+      {
+        "ciudad": "US, , ",
+        "ofertas": 339,
+        "fraudulentas": 28,
+        "tasa_fraude": 8.26
+      },
+      {
+        "ciudad": "US, CA, San Mateo",
+        "ofertas": 49,
+        "fraudulentas": 24,
+        "tasa_fraude": 48.98
+      },
+      {
+        "ciudad": "US, CA, Los Angeles",
+        "ofertas": 194,
+        "fraudulentas": 23,
+        "tasa_fraude": 11.86
+      },
+      {
+        "ciudad": "US, NY, New York",
+        "ofertas": 674,
+        "fraudulentas": 20,
+        "tasa_fraude": 2.97
+      },
+      {
+        "ciudad": "",
+        "ofertas": 346,
+        "fraudulentas": 19,
+        "tasa_fraude": 5.49
+      }
+    ],
+    "pct_del_fraude_en_las_3_ciudades_principales": 17.67,
+    "pct_ofertas_en_us": 59.6
+  },
+  "5_calidad_texto": {
+    "palabras_descripcion_mediana_reales": 147,
+    "palabras_descripcion_mediana_fraudulentas": 113,
+    "descripcion_menos_de_20_palabras": 315,
+    "con_html": 0,
+    "con_mas_de_20pct_no_ascii": 101,
+    "valores_distintos_employment_type": 6,
+    "valores_distintos_required_experience": 8,
+    "valores_distintos_required_education": 14,
+    "valores_distintos_industry": 132,
+    "valores_distintos_function": 38
+  },
+  "6_campos_disponibles_en_la_app": [
+    "title",
+    "location",
+    "description",
+    "requirements",
+    "benefits",
+    "company_profile"
+  ]
+}
