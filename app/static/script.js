@@ -239,7 +239,7 @@ function mostrarErrorAnalisis(data, modeloNoDisponible = false) {
 
     const mensaje = data.message ||
         data.error ||
-        "No fue posible realizar el anÃ¡lisis.";
+        "No fue posible realizar el análisis.";
 
     if (modeloNoDisponible) {
         mostrarEstado("unavailable", mensaje);
@@ -284,7 +284,7 @@ async function cargarDashboard() {
         dibujarTransiciones();
         dibujarMercado();
 
-        estado.textContent = "GrÃ¡ficas cargadas correctamente.";
+        estado.textContent = "Gráficas cargadas correctamente.";
 
     } catch (error) {
         estado.textContent = "No fue posible cargar las gráficas de demostración.";
@@ -294,7 +294,7 @@ async function cargarDashboard() {
 
 
 // ==========================================
-// CARGAR PERFILES DE DEMOSTRACIÃ“N
+// CARGAR PERFILES DE DEMOSTRACIÓN
 // ==========================================
 
 function cargarPerfiles() {
@@ -418,7 +418,7 @@ function dibujarTransiciones() {
 
         data: {
             labels: transiciones.map(
-                item => `${item.origen} â†’ ${item.destino}`
+                item => `${item.origen} →${item.destino}`
             ),
 
             datasets: [{
@@ -477,7 +477,7 @@ function dibujarMercado() {
             labels: ofertas.map(item => item.familia),
 
             datasets: [{
-                label: "NÃºmero de ofertas",
+                label: "Número de ofertas",
                 data: ofertas.map(item => item.ofertas),
                 backgroundColor: "#10b981",
                 borderRadius: 6
@@ -527,7 +527,7 @@ form.addEventListener("submit", async function(event) {
 
     event.preventDefault();
 
-    // El nombre se conserva Ãºnicamente en el frontend
+    // El nombre se conserva únicamente en el frontend
     const nombre = document.getElementById("nombre").value.trim();
 
     const perfil = document.getElementById("perfil").value.trim();
@@ -538,8 +538,7 @@ form.addEventListener("submit", async function(event) {
 
     if (!nombre || !perfil || !habilidades || !objetivo) {
 
-        resultado.hidden = false;
-        resultado.textContent = "Completa todos los campos para continuar.";
+        mostrarErrorAnalisis({ message: "Completa todos los campos para continuar." });
 
         return;
     }
@@ -580,7 +579,7 @@ form.addEventListener("submit", async function(event) {
 
         const data = await response.json();
 
-        // El servidor informa que el modelo todavÃ­a no estÃ¡ disponible
+        // El servidor informa que el modelo todavÃ­a no está disponible
         if (
             response.status === 503 ||
             data.status === "model_unavailable"
@@ -589,7 +588,7 @@ form.addEventListener("submit", async function(event) {
             return;
         }
 
-        // Manejar errores del servidor o del anÃ¡lisis
+        // Manejar errores del servidor o del análisis
         if (!response.ok || data.status === "error") {
             mostrarErrorAnalisis(data, false);
             return;
@@ -601,10 +600,10 @@ form.addEventListener("submit", async function(event) {
     } catch (error) {
 
         mostrarErrorAnalisis({
-            message: "No se pudo conectar con el servidor. Verifica tu conexiÃ³n e intÃ©ntalo nuevamente."
+            message: "No se pudo conectar con el servidor. Verifica tu conexión e inténtalo nuevamente."
         });
 
-        console.error("Error durante el anÃ¡lisis:", error);
+        console.error("Error durante el análisis:", error);
 
     } finally {
 
@@ -619,7 +618,3 @@ form.addEventListener("submit", async function(event) {
 // ==========================================
 
 cargarDashboard();
-
-
-
-

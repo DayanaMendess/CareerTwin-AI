@@ -114,6 +114,6 @@ def test_extras_tecnicos_en_el_catalogo_real():
         pytest.skip("falta reports/clasificacion_habilidades_revisada.csv")
     d = DetectorHabilidades()
     r = {x["habilidad"]: x for x in d.detectar_en_texto(
-        "Backend with C++, C# and ASP.NET Core; front end with NodeJS.")}
+        "Backend with C++, C# and ASP.NET Core; front end with NodeJS, HTML and CSS.")}
     assert set(HABILIDADES_EXTRA) <= set(r)
     assert all(r[h]["solo_detector"] for h in HABILIDADES_EXTRA)   # no son del modelo
