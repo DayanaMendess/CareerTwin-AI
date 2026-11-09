@@ -1,23 +1,55 @@
 {
+  "script": "src/data_pipeline/13_preparar_fraude.py",
   "semilla": 42,
-  "registros_finales": 15825,
-  "duplicados_eliminados": 2054,
-  "textos_conflictivos_excluidos": 0,
+  "registros_originales": 17880,
+  "registros_finales": 15662,
+  "texto": {
+    "campos_usados": [
+      "title",
+      "description",
+      "requirements",
+      "benefits"
+    ],
+    "columnas_excluidas": [
+      "job_id",
+      "has_company_logo",
+      "has_questions",
+      "telecommuting",
+      "location",
+      "department",
+      "salary_range",
+      "company_profile"
+    ],
+    "textos_cortos_excluidos": 1,
+    "marcadores_emscad_restantes": 0,
+    "ofertas_con_marcador": {
+      "URL": 4504,
+      "EMAIL": 1051,
+      "PHONE": 645
+    }
+  },
+  "duplicados": {
+    "ofertas_en_grupos_repetidos": 3007,
+    "copias_quitadas": 2217,
+    "grupos_con_etiquetas_contradictorias": 0,
+    "ofertas_excluidas_por_contradiccion": 0
+  },
   "particiones": {
     "train": {
-      "total": 11077,
-      "reales": 10594,
-      "fraudulentas": 483
+      "total": 10963,
+      "reales": 10484,
+      "fraudulentas": 479
     },
     "val": {
-      "total": 2374,
-      "reales": 2270,
-      "fraudulentas": 104
+      "total": 2349,
+      "reales": 2247,
+      "fraudulentas": 102
     },
     "test": {
-      "total": 2374,
-      "reales": 2271,
+      "total": 2350,
+      "reales": 2247,
       "fraudulentas": 103
     }
-  }
+  },
+  "uso_en_la_app": "from src.data_pipeline.fraude_utils import texto_para_modelo; modelo.predict_proba([texto_para_modelo(job_text)])"
 }
