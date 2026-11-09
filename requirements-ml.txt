@@ -1,4 +1,5 @@
 # Dependencias de entrenamiento e inferencia de los modelos de IA.
+pandas>=2.2,<3
 scikit-learn>=1.5,<2
 joblib>=1.4,<2
 numpy>=1.26,<3
