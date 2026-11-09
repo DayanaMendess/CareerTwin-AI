@@ -1,4 +1,4 @@
-
+﻿
 
 """API de CareerTwin AI."""
 
@@ -30,16 +30,24 @@ def home():
 @app.get("/health")
 @app.get("/api/health")
 def health():
+    try:
+        from src.predict_skills import cargar_recursos
+        cargar_recursos()
+        modelos_cargados = True
+    except Exception:
+        app.logger.exception("No fue posible cargar el modelo")
+        modelos_cargados = False
+
     return jsonify({
         "status": "ok",
         "project": "CareerTwin AI",
-        "models_loaded": False
+        "models_loaded": modelos_cargados
     })
 
 
 @app.get("/api/dashboard-data")
 def dashboard_data():
-    """Entrega los datos necesarios para las gráficas."""
+    """Entrega los datos necesarios para las grÃ¡ficas."""
     try:
         datos = {
             "familias": cargar_json("familias.json"),
@@ -51,7 +59,7 @@ def dashboard_data():
         return jsonify(datos)
 
     except (FileNotFoundError, json.JSONDecodeError, OSError):
-        app.logger.exception("No fue posible cargar los datos de las gráficas.")
+        app.logger.exception("No fue posible cargar los datos de las grÃ¡ficas.")
         return jsonify({
             "error": "No fue posible cargar los datos del dashboard."
         }), 500
@@ -70,7 +78,7 @@ def analyze_profile():
 
     if not isinstance(profile_text, str) or not profile_text.strip():
         return jsonify({
-            "error": "profile_text debe ser un texto no vacío."
+            "error": "profile_text debe ser un texto no vacÃ­o."
         }), 400
 
     
@@ -86,7 +94,7 @@ def analyze_profile():
         return jsonify({
             "status": "model_unavailable",
             "models_loaded": False,
-            "message": "El modelo de IA no está disponible."
+            "message": "El modelo de IA no estÃ¡ disponible."
         }), 503
 
     except Exception:
@@ -99,3 +107,4 @@ def analyze_profile():
 
 if __name__ == "__main__":
     app.run(debug=True)
+

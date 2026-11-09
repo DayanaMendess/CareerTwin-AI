@@ -196,3 +196,138 @@ footer {
         height: 400px;
     }
 }
+        
+/* ==========================================
+   RESULTADOS DEL ANALISIS DE HABILIDADES
+========================================== */
+
+.analysis-results {
+    margin-top: 25px;
+    padding: 25px;
+    background: #1e293b;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.analysis-results h2 {
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.analysis-results h3 {
+    color: #93c5fd;
+    margin: 25px 0 12px;
+}
+
+.analysis-results h4 {
+    color: #cbd5e1;
+    margin: 18px 0 10px;
+}
+
+#habilidadesTexto,
+#habilidadesModelo,
+#habilidadesAmbos,
+#habilidadesPresentes,
+#brechasHabilidades,
+#recomendaciones {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 10px;
+    margin-bottom: 18px;
+}
+
+.skill-tag {
+    display: inline-block;
+    padding: 9px 14px;
+    border-radius: 10px;
+    background: #334155;
+    color: #ffffff;
+    font-weight: bold;
+    overflow-wrap: anywhere;
+}
+
+.skill-text {
+    border-left: 4px solid #38bdf8;
+}
+
+.skill-model {
+    border-left: 4px solid #a78bfa;
+}
+
+.skill-both {
+    border-left: 4px solid #34d399;
+}
+
+.skill-present {
+    border-left: 4px solid #22c55e;
+}
+
+.empty-message {
+    color: #cbd5e1;
+    font-style: italic;
+}
+
+.analysis-results small {
+    display: block;
+    width: 100%;
+    color: #cbd5e1;
+    line-height: 1.6;
+}
+
+.analysis-status {
+    padding: 12px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    line-height: 1.5;
+}
+
+.analysis-status.success {
+    background: #064e3b;
+    color: #d1fae5;
+}
+
+.analysis-warning {
+    margin-top: 20px;
+    padding: 14px;
+    background: #422006;
+    color: #fde68a;
+    border-radius: 8px;
+    line-height: 1.6;
+}
+
+
+/* Separacion entre habilidades y sus detalles */
+.skill-tag {
+    margin-bottom: 6px;
+}
+
+.analysis-results small {
+    margin-top: 4px;
+    margin-bottom: 12px;
+    padding-left: 8px;
+    line-height: 1.8;
+}
+
+
+/* Tarjetas individuales de habilidades */
+.skill-card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    flex: 1 1 220px;
+    min-width: 0;
+    padding: 14px;
+    border: 1px solid #475569;
+    border-radius: 10px;
+    background: #0f172a;
+}
+
+.skill-card small {
+    width: auto;
+    padding-left: 0;
+    margin: 0;
+    overflow-wrap: anywhere;
+}
+
