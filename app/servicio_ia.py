@@ -99,29 +99,18 @@ def analizar_perfil(texto_perfil: str) -> dict:
 
     mejor = mejores_familias[0] if mejores_familias else None
 
-    # Reunir brechas de las tres familias mejor posicionadas.
-    brechas_por_habilidad = {}
+        # Obtener brechas únicamente de la familia mejor posicionada.
+    brechas = []
 
-    for familia in mejores_familias:
-        for item in familia["brechas"]:
-            nombre = item["habilidad"]
-            clave = nombre.strip().lower()
+    if mejor:
+        brechas = sorted(
+            mejor["brechas"],
+            key=lambda x: x.get("pct_en_familia", 0),
+            reverse=True
+        )[:10]
 
-            if clave not in brechas_por_habilidad:
-                brechas_por_habilidad[clave] = {
-                    **item,
-                    "familias_relacionadas": [familia["familia"]]
-                }
-            else:
-                brechas_por_habilidad[clave]["familias_relacionadas"].append(
-                    familia["familia"]
-                )
-
-    brechas = sorted(
-        brechas_por_habilidad.values(),
-        key=lambda x: x.get("pct_en_familia", 0),
-        reverse=True
-    )[:10]
+        for item in brechas:
+            item["familias_relacionadas"] = [mejor["familia"]]
 
     recomendaciones = [
         {
