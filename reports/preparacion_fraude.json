@@ -1,0 +1,23 @@
+{
+  "semilla": 42,
+  "registros_finales": 15825,
+  "duplicados_eliminados": 2054,
+  "textos_conflictivos_excluidos": 0,
+  "particiones": {
+    "train": {
+      "total": 11077,
+      "reales": 10594,
+      "fraudulentas": 483
+    },
+    "val": {
+      "total": 2374,
+      "reales": 2270,
+      "fraudulentas": 104
+    },
+    "test": {
+      "total": 2374,
+      "reales": 2271,
+      "fraudulentas": 103
+    }
+  }
+}
