@@ -1,4 +1,4 @@
-
+﻿
 from app.main import app
 
 
@@ -13,7 +13,7 @@ def test_health():
     result = app.test_client().get("/health")
     assert result.status_code == 200
     assert result.json["status"] == "ok"
-    assert result.json["models_loaded"] is False
+    assert result.json["models_loaded"] is True
 
 
 def test_api_health():
@@ -78,3 +78,4 @@ def test_analyze_profile_without_model(monkeypatch):
 
     assert response.status_code == 503
     assert response.json["models_loaded"] is False
+

@@ -32,6 +32,23 @@ GUIONES_RAROS = "[\u2010-\u2015]"
 # Sinónimos: variante -> forma canónica.
 # Empieza pequeño a propósito; se amplía después de la revisión manual.
 SINONIMOS = {
+    # Equivalencias en espa?ol
+    "comunicacion": "communication",
+    "comunicaci?n": "communication",
+    "comunicacion efectiva": "communication",
+    "comunicaci?n efectiva": "communication",
+    "trabajo en equipo": "teamwork",
+    "resolucion de problemas": "problem solving",
+    "resoluci?n de problemas": "problem solving",
+    "pensamiento critico": "critical thinking",
+    "pensamiento cr?tico": "critical thinking",
+    "atencion al cliente": "customer service",
+    "atenci?n al cliente": "customer service",
+    "gestion de proyectos": "project management",
+    "gesti?n de proyectos": "project management",
+    "adaptabilidad": "adaptability",
+    "organizacion": "organizational skills",
+    "organizaci?n": "organizational skills",
     # Palabras pegadas por el scraper (perdieron el guion)
     "problemsolving": "problem solving",
     "problemsolving skills": "problem solving",
@@ -85,6 +102,17 @@ SINONIMOS = {
     "microsoft office suite": "microsoft office",
     "ms office": "microsoft office",
 }
+
+# Variantes con tildes en espa?ol
+SINONIMOS.update({
+    "comunicaci\u00f3n": "communication",
+    "comunicaci\u00f3n efectiva": "communication",
+    "resoluci\u00f3n de problemas": "problem solving",
+    "atenci\u00f3n al cliente": "customer service",
+    "pensamiento cr\u00edtico": "critical thinking",
+    "organizaci\u00f3n": "organizational skills",
+})
+
 
 
 def separar_habilidades(serie: pd.Series) -> pd.Series:
