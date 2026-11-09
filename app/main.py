@@ -104,6 +104,47 @@ def analyze_profile():
         }), 500
 
 
+@app.post("/api/fraud-risk")
+def fraud_risk():
+    """Analiza señales de posible fraude en una oferta laboral."""
+    data = request.get_json(silent=True)
+
+    if not isinstance(data, dict):
+        return jsonify({
+            "error": "Se requiere un objeto JSON."
+        }), 400
+
+    job_text = data.get("job_text")
+
+    if not isinstance(job_text, str) or not job_text.strip():
+        return jsonify({
+            "error": "job_text debe ser un texto no vacío."
+        }), 400
+
+    if len(job_text.strip()) > 20000:
+        return jsonify({
+            "error": "La oferta supera los 20000 caracteres."
+        }), 400
+
+    try:
+        from .servicio_fraude import analizar_oferta
+
+        resultado = analizar_oferta(job_text)
+        return jsonify(resultado), 200
+
+    except (FileNotFoundError, ImportError, OSError):
+        app.logger.exception("Modelo de fraude no disponible")
+        return jsonify({
+            "status": "model_unavailable",
+            "message": "El detector de fraude no está disponible."
+        }), 503
+
+    except Exception:
+        app.logger.exception("Error al analizar la oferta")
+        return jsonify({
+            "error": "No fue posible analizar la oferta."
+        }), 500
+
 
 if __name__ == "__main__":
     app.run(debug=True)

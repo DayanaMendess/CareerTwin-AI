@@ -67,8 +67,7 @@ No es necesario volver a entrenar el modelo para ejecutar las predicciones.
 Desde la raíz del proyecto:
 
 `.\.venv\Scripts\python.exe -X utf8 -m pytest -q`
-
-Durante la integración se verificaron 20 pruebas automatizadas aprobadas.
+Durante la integración de Fraud Shield se verificaron 25 pruebas automatizadas aprobadas.
 
 El resultado puede cambiar si posteriormente se agregan más pruebas.
 
@@ -124,7 +123,95 @@ El detector textual complementa las predicciones con un catálogo de habilidades
 - Las estadísticas del mercado corresponden a los datos utilizados en el proyecto, no necesariamente al mercado laboral colombiano actual.
 - Los resultados personalizados y los módulos complementarios deben validarse antes de considerarlos completamente terminados.
 
-## 11. Equipo
+
+
+## 11. Fraud Shield — Detección de ofertas fraudulentas
+
+Fraud Shield es un módulo independiente que analiza el texto
+de una oferta laboral y detecta señales de posible fraude.
+
+### Dataset y entrenamiento
+
+Se utiliza EMSCAD, un conjunto de ofertas laborales reales
+y fraudulentas.
+
+Preparar los datos:
+
+`.\.venv\Scripts\python.exe -X utf8 src\preparar_fraude.py`
+
+Entrenar el detector:
+
+`.\.venv\Scripts\python.exe -X utf8 src\entrenar_fraude.py`
+
+El modelo utiliza TF-IDF y regresión logística con
+ponderación de clases.
+
+Se emplean particiones de entrenamiento (70 %),
+validación (15 %) y prueba (15 %), aproximadamente.
+
+### Modelo entrenado
+
+El archivo `models/fraud_detector.joblib` no se incluye en
+GitHub y debe obtenerse directamente del equipo.
+
+Por seguridad, solo deben cargarse archivos de modelo
+generados por fuentes confiables.
+
+### API de fraude
+
+**Endpoint:** `POST /api/fraud-risk`
+
+Ejemplo de solicitud JSON:
+
+```json
+{
+  "job_text": "Remote Python developer position with SQL experience."
+}
+```
+
+La respuesta contiene:
+
+- Clasificación de posible fraude.
+- Indicador de riesgo detectado.
+- Puntuación del modelo.
+- Umbral utilizado.
+- Advertencia sobre las limitaciones del resultado.
+
+### Resultados de evaluación
+
+El umbral 0.60 se seleccionó usando validación.
+
+Resultados en el conjunto de prueba:
+
+| Métrica | Resultado |
+|---|---:|
+| Precision de fraude | 0.8172 |
+| Recall de fraude | 0.7379 |
+| F1 de fraude | 0.7755 |
+| Average precision | 0.8132 |
+| Ofertas de prueba | 2374 |
+| Fraudulentas detectadas | 76 |
+| Fraudulentas no detectadas | 27 |
+
+Reportes:
+
+- `reports/preparacion_fraude.json`
+- `reports/entrenamiento_fraude.json`
+
+### Limitaciones
+
+El detector identifica señales estadísticas de riesgo,
+pero no confirma que exista fraude.
+
+Una oferta no señalada puede seguir siendo fraudulenta.
+Las puntuaciones no son probabilidades calibradas.
+
+La auditoría de calidad de datos y las pruebas con ofertas
+externas siguen siendo necesarias para validar su
+generalización.
+
+
+## 12. Equipo
 
 **Proyecto:** CareerTwin AI
 

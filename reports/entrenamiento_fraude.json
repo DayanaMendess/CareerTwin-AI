@@ -1,0 +1,43 @@
+{
+  "modelo": "TF-IDF + Regresión Logística",
+  "semilla": 42,
+  "registros": {
+    "train": 11077,
+    "val": 2374,
+    "test": 2374
+  },
+  "umbral": 0.6,
+  "validacion": {
+    "precision_fraude": 0.9012,
+    "recall_fraude": 0.7019,
+    "f1_fraude": 0.7892,
+    "average_precision": 0.8301,
+    "matriz_confusion": [
+      [
+        2262,
+        8
+      ],
+      [
+        31,
+        73
+      ]
+    ]
+  },
+  "prueba": {
+    "precision_fraude": 0.8172,
+    "recall_fraude": 0.7379,
+    "f1_fraude": 0.7755,
+    "average_precision": 0.8132,
+    "matriz_confusion": [
+      [
+        2254,
+        17
+      ],
+      [
+        27,
+        76
+      ]
+    ]
+  },
+  "advertencia": "Las puntuaciones no son probabilidades calibradas. El detector identifica señales de riesgo, no fraude confirmado."
+}
