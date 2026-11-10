@@ -99,6 +99,23 @@
         <h3>Recomendaciones profesionales</h3>
         <ul id="recomendaciones"></ul>
     </section>
+    <!-- Fraud Shield: evaluación orientativa de ofertas laborales -->
+    <section class="fraud-section" aria-labelledby="fraudTitle">
+      <h2 id="fraudTitle">Fraud Shield — Detector de posibles ofertas fraudulentas</h2>
+      <p>Pega el texto de una oferta laboral y consulta las señales de riesgo identificadas por nuestro modelo. El resultado no confirma fraude.</p>
+      <form id="fraudForm">
+        <label for="fraudTexto">Texto de la oferta laboral</label>
+        <textarea id="fraudTexto" rows="6" maxlength="20000" placeholder="Pega aquí la descripción de la oferta (sin información personal)" required></textarea>
+        <button id="fraudBoton" type="submit">Analizar posible fraude</button>
+      </form>
+      <div id="fraudResultado" class="fraud-result" hidden aria-live="polite">
+        <h3 id="fraudTituloResultado"></h3>
+        <p id="fraudDetalle"></p>
+        <p id="fraudAdvertencia"></p>
+      </div>
+      <p class="fraud-nota">No ingreses contraseñas ni datos personales. Verifica siempre la oferta con la empresa.</p>
+    </section>
+
     <section class="dashboard">
 
         <h2>Resultados profesionales</h2>
