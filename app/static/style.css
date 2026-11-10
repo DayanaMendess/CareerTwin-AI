@@ -331,3 +331,24 @@ footer {
     overflow-wrap: anywhere;
 }
 
+
+/* Fraud Shield - sección adicional */
+.fraud-section {
+  background: #1e293b;
+  padding: 30px;
+  border-radius: 16px;
+  margin: 35px 0;
+  border: 1px solid #475569;
+}
+.fraud-section h2 { color: #fff; margin-bottom: 14px; }
+.fraud-section > p { color: #cbd5e1; line-height: 1.6; margin-bottom: 16px; }
+.fraud-nota { margin-top: 15px; font-size: 13px; }
+.fraud-result { padding: 18px; margin-top: 20px; background: #334155; border-radius: 9px; border-left: 4px solid #60a5fa; }
+.fraud-result[hidden] { display: none; }
+.fraud-result h3 { margin-bottom: 10px; }
+.fraud-result p { margin-top: 9px; line-height: 1.5; overflow-wrap: anywhere; }
+.fraud-high { background: #442318; border-left-color: #fb923c; }
+.fraud-low { background: #123d36; border-left-color: #34d399; }
+.fraud-error { background: #442026; border-left-color: #f87171; }
+@media(max-width:600px) { .fraud-section { padding:20px; } }
+/* /Fraud Shield */

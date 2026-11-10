@@ -618,3 +618,64 @@ form.addEventListener("submit", async function(event) {
 // ==========================================
 
 cargarDashboard();
+
+
+// FRAUD SHIELD - UI
+const fraudForm = document.getElementById("fraudForm");
+if (fraudForm) {
+  fraudForm.addEventListener("submit", async (event) => {
+    event.preventDefault();
+    const texto = document.getElementById("fraudTexto").value.trim();
+    const boton = document.getElementById("fraudBoton");
+    const resultado = document.getElementById("fraudResultado");
+    const titulo = document.getElementById("fraudTituloResultado");
+    const detalle = document.getElementById("fraudDetalle");
+    const advertencia = document.getElementById("fraudAdvertencia");
+    if (!texto || texto.length > 20000) {
+      resultado.hidden = false;
+      resultado.className = "fraud-result fraud-error";
+      titulo.textContent = "Texto no válido";
+      detalle.textContent = "Ingresa una oferta de entre 1 y 20.000 caracteres.";
+      advertencia.textContent = "";
+      return;
+    }
+    boton.disabled = true;
+    boton.textContent = "Analizando oferta...";
+    resultado.hidden = false;
+    resultado.className = "fraud-result";
+    titulo.textContent = "Procesando oferta...";
+    detalle.textContent = "";
+    advertencia.textContent = "";
+    try {
+      const response = await fetch("/api/fraud-risk", {
+        method: "POST",
+        headers: {"Content-Type": "application/json"},
+        body: JSON.stringify({job_text: texto})
+      });
+      const data = await response.json();
+      if (!response.ok || data.status !== "ok") {
+        throw new Error(data.message || data.error || "No se pudo analizar la oferta.");
+      }
+      const riesgo = data.riesgo_detectado === true;
+      resultado.className = riesgo ? "fraud-result fraud-high" : "fraud-result fraud-low";
+      titulo.textContent = riesgo
+        ? "Atención: posibles señales de fraude"
+        : "Sin indicios suficientes de fraude";
+      const puntuacion = Number(data.puntuacion_modelo);
+      const umbral = Number(data.umbral);
+      detalle.textContent = Number.isFinite(puntuacion) && Number.isFinite(umbral)
+        ? "Puntuación del modelo: " + puntuacion.toFixed(4) + " | Umbral: " + umbral.toFixed(2) + ". No es una probabilidad calibrada."
+        : "Análisis completado.";
+      advertencia.textContent = data.advertencia || "Resultado orientativo: verifica la oferta por otros medios.";
+    } catch (error) {
+      resultado.className = "fraud-result fraud-error";
+      titulo.textContent = "No fue posible analizar la oferta";
+      detalle.textContent = error.message || "Verifica la conexión al servidor.";
+      advertencia.textContent = "";
+    } finally {
+      boton.disabled = false;
+      boton.textContent = "Analizar posible fraude";
+    }
+  });
+}
+// /FRAUD SHIELD - UI
