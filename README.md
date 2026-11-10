@@ -13,12 +13,16 @@
 | Preparación y auditoría de datos | Completado |
 | Modelo CNN de 100 habilidades | Entrenado y evaluado |
 | Detector textual de habilidades | Integrado |
-| API Flask `/api/analyze-profile` | Funcional |
-| Pruebas automatizadas | 20 aprobadas en la última ejecución |
-| Gráficas generales del mercado | Funcionales |
-| Visualización personalizada del perfil | En desarrollo |
-| Skill Gap y matching en la interfaz | Pendientes de integración |
-| Detección de ofertas fraudulentas | Pendiente |
+| API Flask de análisis de perfiles | Funcional |
+| Visualización personalizada del perfil | Funcional |
+| Skill Gap y compatibilidad laboral | Funcionales |
+| Recomendaciones profesionales | Funcionales |
+| Tres gráficas del mercado laboral | Funcionales |
+| Fraud Shield | Reentrenado con datos corregidos |
+| API `/api/fraud-risk` | Funcional |
+| Pruebas automatizadas | 34 aprobadas |
+| Despliegue público | Pendiente |
+| Documentación y entrega académica | En preparación |
 
 ## Guía de instalación y ejecución
 
@@ -124,34 +128,43 @@ Los tres CSV se relacionan por `job_link`. Para limpieza y modelado, el equipo v
 - `skills_normalized`: lista de competencias canonicalizadas.
 
 
-
 ### Estado de la API
 
-**Endpoint implementado:**
+**Endpoints implementados y funcionales:**
 
-- `POST /api/analyze-profile`: analiza un perfil profesional con la CNN y el detector textual.
+- `POST /api/analyze-profile`: analiza perfiles profesionales
+  mediante la CNN y el detector textual de habilidades.
+- `POST /api/fraud-risk`: evalúa señales de posible fraude
+  en ofertas laborales utilizando TF-IDF y regresión logística.
 
-**Resultados que devuelve:**
+**Funcionalidades integradas:**
 
-- Habilidades identificadas.
-- Fuente: texto, modelo o ambos.
-- Puntuaciones del modelo.
-- Total de habilidades encontradas.
-- Advertencias sobre las limitaciones del análisis.
+- Detección de habilidades técnicas y blandas.
+- Identificación de habilidades presentes y por mejorar.
+- Cálculo orientativo de compatibilidad laboral.
+- Recomendaciones profesionales personalizadas.
+- Visualización de tres gráficas del mercado laboral.
+- Clasificación orientativa de ofertas potencialmente fraudulentas.
 
-**Funcionalidades pendientes de integración:**
+**Resultados de validación:**
 
-- Skill Gap personalizado en la interfaz web.
-- Matching semántico laboral en la interfaz web.
-- Simulador de trayectorias profesionales.
-- Detección de ofertas potencialmente fraudulentas.
+- 34 pruebas automatizadas aprobadas.
+- CNN de 100 habilidades entrenada y evaluada.
+- Fraud Shield reentrenado con datos corregidos.
+- Aplicación Flask probada en Ubuntu 24.04.
 
-Los módulos de Skill Gap y matching ya tienen implementaciones
-en Python, pero todavía no están conectados completamente a la
-interfaz web.
+**Limitaciones:**
 
-Los resultados de la aplicación deben provenir de cálculos reales,
-no de porcentajes inventados.
+- Las puntuaciones de los modelos no son probabilidades calibradas.
+- La compatibilidad laboral no garantiza conseguir empleo.
+- Fraud Shield identifica señales de riesgo, no confirma fraude.
+- Las gráficas generales incluyen datos demostrativos del proyecto.
+- El despliegue público sigue pendiente.
+
+Los modelos entrenados se distribuyen por separado y
+no se incluyen en el repositorio de GitHub.
+
+
 
 ## Alcance y evaluación académica
 

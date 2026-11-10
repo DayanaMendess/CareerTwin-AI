@@ -2,40 +2,40 @@
   "modelo": "TF-IDF + Regresión Logística",
   "semilla": 42,
   "registros": {
-    "train": 11077,
-    "val": 2374,
-    "test": 2374
+    "train": 10963,
+    "val": 2349,
+    "test": 2350
   },
   "umbral": 0.6,
   "validacion": {
-    "precision_fraude": 0.9012,
-    "recall_fraude": 0.7019,
-    "f1_fraude": 0.7892,
-    "average_precision": 0.8301,
+    "precision_fraude": 0.8537,
+    "recall_fraude": 0.6863,
+    "f1_fraude": 0.7609,
+    "average_precision": 0.7862,
     "matriz_confusion": [
       [
-        2262,
-        8
+        2235,
+        12
       ],
       [
-        31,
-        73
+        32,
+        70
       ]
     ]
   },
   "prueba": {
-    "precision_fraude": 0.8172,
-    "recall_fraude": 0.7379,
-    "f1_fraude": 0.7755,
-    "average_precision": 0.8132,
+    "precision_fraude": 0.809,
+    "recall_fraude": 0.699,
+    "f1_fraude": 0.75,
+    "average_precision": 0.7958,
     "matriz_confusion": [
       [
-        2254,
+        2230,
         17
       ],
       [
-        27,
-        76
+        31,
+        72
       ]
     ]
   },
