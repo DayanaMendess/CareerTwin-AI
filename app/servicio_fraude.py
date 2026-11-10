@@ -6,6 +6,8 @@ from pathlib import Path
 
 import joblib
 
+from src.data_pipeline.fraude_utils import texto_para_modelo
+
 RAIZ = Path(__file__).resolve().parents[1]
 RUTA_MODELO = RAIZ / "models" / "fraud_detector.joblib"
 
@@ -34,7 +36,9 @@ def analizar_oferta(texto):
     modelo = detector["pipeline"]
     umbral = float(detector["umbral"])
 
-    puntuacion = float(modelo.predict_proba([texto])[0][1])
+    # Mismo procesamiento que se usó para entrenar (fraude_utils.py)
+    texto_limpio = texto_para_modelo(texto)
+    puntuacion = float(modelo.predict_proba([texto_limpio])[0][1])
     riesgo = puntuacion >= umbral
 
     return {
