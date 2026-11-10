@@ -67,7 +67,7 @@ No es necesario volver a entrenar el modelo para ejecutar las predicciones.
 Desde la raíz del proyecto:
 
 `.\.venv\Scripts\python.exe -X utf8 -m pytest -q`
-Durante la integración de Fraud Shield se verificaron 25 pruebas automatizadas aprobadas.
+Durante la integración de Fraud Shield se verificaron 34 pruebas automatizadas aprobadas.
 
 El resultado puede cambiar si posteriormente se agregan más pruebas.
 
@@ -185,13 +185,22 @@ Resultados en el conjunto de prueba:
 
 | Métrica | Resultado |
 |---|---:|
-| Precision de fraude | 0.8172 |
-| Recall de fraude | 0.7379 |
-| F1 de fraude | 0.7755 |
-| Average precision | 0.8132 |
-| Ofertas de prueba | 2374 |
-| Fraudulentas detectadas | 76 |
-| Fraudulentas no detectadas | 27 |
+| Precisión de fraude | 0.8090 |
+| Recall de fraude | 0.6990 |
+| F1 de fraude | 0.7500 |
+| Average Precision | 0.7958 |
+| Ofertas de prueba | 2350 |
+| Fraudulentas detectadas | 72 |
+| Fraudulentas no detectadas | 31 |
+
+Estos resultados corresponden al modelo reentrenado
+después de aplicar las correcciones de la auditoría:
+agrupación de ofertas duplicadas y normalización de
+marcadores de URL, correo electrónico y teléfono.
+
+Las métricas corresponden al conjunto de prueba y
+deben interpretarse como resultados del prototipo,
+no como garantía de detección de fraude en ofertas reales.
 
 Reportes:
 
